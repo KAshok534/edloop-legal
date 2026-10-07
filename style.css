@@ -15,3 +15,4 @@ table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .95re
 th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
 th { color: var(--muted); font-weight: 600; }
 @media (max-width: 520px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: 0; padding: 2px 0; } tr { border-bottom: 1px solid var(--line); padding: 8px 0; } }
+.scroll { overflow-x: auto; }
