@@ -4,48 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delete Account - EdLoop</title>
+    <meta name="description" content="How to delete your EdLoop account and what happens to your data.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="container nav-content">
-            <a href="index.html" class="logo">
-                <span class="logo-ring"></span>
-                EdLoop
-            </a>
-            <a href="index.html" class="btn btn-primary">Back to Home</a>
-        </div>
-    </nav>
 
-    <header class="page-header">
-        <div class="container animate-on-scroll">
-            <a href="index.html" class="breadcrumb">← Home</a>
+    <!-- Ambient Glow Background -->
+    <div class="bg-ambient">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+    </div>
+
+    <!-- Floating Pill Header -->
+    <header class="header-nav">
+        <nav class="nav-pill">
+            <a href="index.html" class="logo-wrapper">
+                <div class="brand-loop-glyph">
+                    <div class="loop-ring"></div>
+                    <div class="loop-dot"></div>
+                </div>
+                <span>EdLoop</span>
+            </a>
+            
+            <a href="index.html" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">
+                &larr; Back to Home
+            </a>
+        </nav>
+    </header>
+
+    <header class="legal-header">
+        <div class="container animate-fade-in">
+            <div class="badge">Account Control</div>
             <h1>Delete your EdLoop account</h1>
             <p class="tagline">EdLoop is a practice app for JEE Main previous year questions. This page explains how to delete your account and what happens to your data.</p>
         </div>
     </header>
 
-    <main class="container legal-content" style="padding-top: 4rem; padding-bottom: 4rem;">
+    <main class="container legal-wrapper">
         
-        <div class="grid grid-2">
-            <div class="card animate-on-scroll delay-1" style="border-top: 4px solid var(--accent-color);">
+        <div class="pillars-grid" style="grid-template-columns: 1fr 1fr; margin-bottom: 2rem;">
+            <div class="legal-card animate-fade-in delay-1" style="border-top: 3px solid var(--accent-sky); margin-bottom: 0;">
                 <h2>If you have the app</h2>
-                <ol>
+                <ol style="padding-left: 1.25rem; margin-top: 1rem; margin-bottom: 1rem;">
                     <li>Open EdLoop and sign in.</li>
                     <li>Go to <strong>Settings</strong> (the gear at the top right of Home).</li>
                     <li>Tap <strong>Delete account</strong> and confirm.</li>
                 </ol>
-                <p>Your account and all the data listed below are deleted at once, on our servers and on your phone. This needs an internet connection.</p>
+                <p style="font-size: 0.95rem; margin-top: 1rem;">Your account and all the data listed below are deleted at once, on our servers and on your phone. This needs an internet connection.</p>
             </div>
 
-            <div class="card animate-on-scroll delay-2">
+            <div class="legal-card animate-fade-in delay-2" style="border-top: 3px solid var(--accent-violet); margin-bottom: 0;">
                 <h2>If you no longer have the app</h2>
-                <p>Email <a href="mailto:ashokkunchala.work@gmail.com">ashokkunchala.work@gmail.com</a> from the Google account you signed in with, with the subject <code>Delete my account</code>.</p>
-                <p>We delete the account and its data within 7 days and reply to confirm. We only act on requests sent from the same email address as the account, so that nobody can delete someone else's account.</p>
+                <p>Email <a href="mailto:ashokkunchala.work@gmail.com" style="color: var(--accent-sky); font-weight: 600;">ashokkunchala.work@gmail.com</a> from the Google account you signed in with, with the subject <code style="background: rgba(255,255,255,0.06); padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.9em;">Delete my account</code>.</p>
+                <p style="margin-top: 1rem; font-size: 0.95rem;">We delete the account and its data within 7 days and reply to confirm. We only act on requests sent from the same email address as the account, so that nobody can delete someone else's account.</p>
             </div>
         </div>
 
-        <div class="card animate-on-scroll delay-1" style="margin-top: 2rem;">
+        <div class="legal-card animate-fade-in delay-1">
             <h2>What is deleted</h2>
             <ul>
                 <li>Your account: name, email address and Google account identifier</li>
@@ -55,29 +75,61 @@
             </ul>
         </div>
 
-        <div class="card animate-on-scroll delay-2">
+        <div class="legal-card animate-fade-in delay-2">
             <h2>What is kept</h2>
             <p>Nothing that identifies you. Combined statistics across all students, such as how many answered a question correctly, may keep counting your past answers without any link to you.</p>
         </div>
 
-        <div class="highlight-box animate-on-scroll delay-3">
-            <h3>Only want a fresh start?</h3>
-            <p>In the app, <strong>Settings → Clear progress</strong> deletes your practice history but keeps your account.</p>
+        <div class="legal-summary-box animate-fade-in delay-3">
+            <strong>Only want a fresh start?</strong>
+            <p style="margin-top: 0.5rem;">In the app, <strong>Settings &rarr; Clear progress</strong> deletes your practice history but keeps your account.</p>
         </div>
 
-        <p class="animate-on-scroll" style="text-align: center; margin-top: 2rem;">
-            See also the <a href="privacy.html">privacy policy</a> · Last updated 8 October 2026
+        <p class="animate-fade-in" style="text-align: center; margin-top: 2rem; color: var(--text-dim); font-size: 0.95rem;">
+            See also the <a href="privacy.html" style="color: var(--accent-sky);">privacy policy</a> &bull; Last updated 8 October 2026
         </p>
 
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 EdLoop. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="delete-account.html">Delete Account</a>
-                <a href="mailto:ashokkunchala.work@gmail.com">Contact</a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-wrapper">
+                        <div class="brand-loop-glyph">
+                            <div class="loop-ring"></div>
+                            <div class="loop-dot"></div>
+                        </div>
+                        <span>EdLoop</span>
+                    </div>
+                    <p>
+                        What comes again, you master. Hyper-focused exam preparation software for engineering aspirants across India.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Ecosystem</h4>
+                    <ul>
+                        <li><a href="index.html#apps">EdLoop JEE (Android)</a></li>
+                        <li><a href="index.html#apps">EdLoop EAPCET (Upcoming)</a></li>
+                        <li><a href="index.html#apps">EdLoop Web &amp; Campus</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal &amp; Trust</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="delete-account.html">Delete Account</a></li>
+                        <li><a href="mailto:ashokkunchala.work@gmail.com">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>&copy; 2026 EdLoop. Developed by Ashok Kumar Kunchala. All rights reserved.</div>
+                <div>EdLoop is an independent product not affiliated with NTA, APSCHE, or TSCHE.</div>
             </div>
         </div>
     </footer>

@@ -3,120 +3,386 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EdLoop | What comes again, you master</title>
-    <meta name="description" content="EdLoop JEE — Practice JEE Main previous year questions chapter by chapter, with answer keys, worked solutions, and pattern intelligence. What comes again, you master.">
+    <title>EdLoop | The Intelligence Layer for Competitive Learning</title>
+    <meta name="description" content="EdLoop is an education technology platform engineered for pattern mastery. Home of EdLoop JEE and next-generation exam preparation apps.">
+    
+    <!-- Open Graph / Meta -->
     <meta property="og:title" content="EdLoop | What comes again, you master">
-    <meta property="og:description" content="Practice JEE Main previous year questions with chapter-wise precision, recurring patterns, and a chapter-by-year heatmap. No ads, no coaching upsell.">
+    <meta property="og:description" content="Education engineered in loops. Discover recurring question patterns, weakness heatmaps, and honest data-first prep across competitive exams.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://edloop.in">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="EdLoop | JEE Main PYQ & Tests">
-    <meta name="twitter:description" content="JEE Main previous year questions by chapter, with recurring patterns, keys and solutions. Free, no ads.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EdLoop | Master Exam Patterns">
+    <meta name="twitter:description" content="Home of EdLoop JEE. Discover recurring patterns, chapter heatmaps, and offline-first practice.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="container nav-content">
-            <a href="index.html" class="logo">
-                <span class="logo-ring"></span>
-                EdLoop
+
+    <!-- Ambient Glowing Orbs -->
+    <div class="bg-ambient">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+        <div class="glow-orb glow-orb-3"></div>
+    </div>
+
+    <!-- Floating Pill Header -->
+    <header class="header-nav">
+        <nav class="nav-pill">
+            <a href="index.html" class="logo-wrapper">
+                <div class="brand-loop-glyph">
+                    <div class="loop-ring"></div>
+                    <div class="loop-dot"></div>
+                </div>
+                <span>EdLoop</span>
             </a>
-            <span class="btn btn-primary">Coming soon on Google Play</span>
-        </div>
-    </nav>
+            
+            <ul class="nav-links">
+                <li><a href="#apps">Ecosystem</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#philosophy">Methodology</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#apps" class="btn btn-primary" style="padding: 0.55rem 1.25rem; font-size: 0.88rem;">
+                Explore Apps
+            </a>
+        </nav>
+    </header>
 
     <main>
-        <section class="hero">
-            <div class="orb orb-1"></div>
-            <div class="orb orb-2"></div>
-            <div class="container hero-content animate-on-scroll">
-                <h1>Master JEE Main Patterns</h1>
-                <p class="tagline">What comes again, you master.</p>
-                <p>Practice JEE Main previous year questions chapter by chapter, learn the patterns that keep coming back, and see which chapters are asked most.</p>
-                <br>
-                <span class="btn btn-primary">Coming soon on Google Play</span>
-            </div>
-        </section>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <div class="badge animate-fade-in">
+                    <span class="badge-dot"></span>
+                    Master Brand &bull; Education Ecosystem
+                </div>
+                
+                <h1 class="hero-title animate-fade-in delay-1">
+                    Education engineered <br>
+                    <span class="text-gradient">in intelligent loops.</span>
+                </h1>
+                
+                <p class="hero-subtitle animate-fade-in delay-2">
+                    We replace brute-force rote memorization with recurring pattern mastery. 
+                    Deep taxonomy, authentic examination frequency, and lightning-fast offline sync. 
+                    Zero ads. Zero coaching sales pitches.
+                </p>
+                
+                <div class="hero-cta-group animate-fade-in delay-3">
+                    <a href="#apps" class="btn btn-primary">
+                        <span>Discover EdLoop JEE</span>
+                        <span>&darr;</span>
+                    </a>
+                    <a href="#architecture" class="btn btn-secondary">
+                        Why We're Different
+                    </a>
+                </div>
 
-        <section class="container">
-            <div class="section-header animate-on-scroll">
-                <h2>Why EdLoop?</h2>
-                <p>Designed for focused, distraction-free preparation.</p>
-            </div>
-            <div class="grid grid-3">
-                <div class="card animate-on-scroll delay-1">
-                    <div class="card-icon">📚</div>
-                    <h3>Chapter-wise PYQs</h3>
-                    <p>Practice JEE Main previous year questions, organised by chapter, topic and concept.</p>
-                </div>
-                <div class="card animate-on-scroll delay-2">
-                    <div class="card-icon">🧠</div>
-                    <h3>Recurring Patterns</h3>
-                    <p>Questions that come back in new forms are grouped into patterns, each with how to recognise it, a step-by-step recipe and the usual pitfalls.</p>
-                </div>
-                <div class="card animate-on-scroll delay-3">
-                    <div class="card-icon">🔥</div>
-                    <h3>Chapter Heatmap</h3>
-                    <p>See how often each chapter is asked, year by year, and tap a cell to see the questions. Your wrong answers are kept for a retry.</p>
-                </div>
-                <div class="card animate-on-scroll delay-1">
-                    <div class="card-icon">⏱️</div>
-                    <h3>Timed Papers</h3>
-                    <p>Take full previous year papers under timed conditions or create custom chapter/topic tests.</p>
-                </div>
-                <div class="card animate-on-scroll delay-2">
-                    <div class="card-icon">⚡</div>
-                    <h3>Made for Patchy Networks</h3>
-                    <p>Your answers are saved on the phone and uploaded when the connection returns, and a timed paper downloads in full when you start it.</p>
-                </div>
-                <div class="card animate-on-scroll delay-3">
-                    <div class="card-icon">🛡️</div>
-                    <h3>No Distractions</h3>
-                    <p>No ads, no coaching upsell. Just you and the questions. Syncs seamlessly via Google Sign-In.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="container">
-            <div class="section-header animate-on-scroll">
-                <h2>How it works</h2>
-                <p>A simple loop to mastery.</p>
-            </div>
-            <div class="grid grid-3">
-                <div class="step-card animate-on-scroll delay-1">
-                    <div class="step-number">1</div>
-                    <h3>Pick Topics</h3>
-                    <p>Select the chapters and concepts you want to focus on.</p>
-                </div>
-                <div class="step-card animate-on-scroll delay-2">
-                    <div class="step-number">2</div>
-                    <h3>Solve Questions</h3>
-                    <p>Practice with real PYQs. Answer keys and worked solutions provided.</p>
-                </div>
-                <div class="step-card animate-on-scroll delay-3">
-                    <div class="step-number">3</div>
-                    <h3>See Patterns</h3>
-                    <p>Review your heatmap and identify exact weaknesses to improve.</p>
+                <!-- Live Metrics Ticker -->
+                <div class="metrics-grid animate-fade-in delay-3">
+                    <div class="metric-item">
+                        <div class="metric-val">~600</div>
+                        <div class="metric-label">Core Question Archetypes</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-val">90%+</div>
+                        <div class="metric-label">Exam Paper Coverage</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-val">100%</div>
+                        <div class="metric-label">Distraction &amp; Ad Free</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-val">0 ms</div>
+                        <div class="metric-label">Network Lag on Practice</div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="container animate-on-scroll">
-            <div class="card" style="text-align: center; max-width: 800px; margin: 0 auto;">
-                <h2>About the Developer</h2>
-                <p>EdLoop is built by Ashok Kumar Kunchala, an independent developer based in India, dedicated to providing high-quality, accessible tools for JEE aspirants.</p>
-                <p>Contact: <a href="mailto:ashokkunchala.work@gmail.com">ashokkunchala.work@gmail.com</a></p>
+        <!-- Ecosystem Section: Our Apps -->
+        <section id="apps">
+            <div class="container">
+                <div class="section-head animate-fade-in">
+                    <div class="badge">Portfolio</div>
+                    <h2>The EdLoop Ecosystem</h2>
+                    <p>
+                        Focused, specialised applications engineered from a single verified intelligence engine.
+                    </p>
+                </div>
+
+                <div class="ecosystem-grid">
+                    <!-- Flagship: EdLoop JEE -->
+                    <div class="product-card flagship animate-fade-in delay-1">
+                        <div class="card-top">
+                            <span class="card-badge active">Flagship &bull; Android App</span>
+                            <h3>EdLoop JEE</h3>
+                            <p>
+                                Complete previous year questions (PYQs) for JEE Main, tagged down to three granular levels: chapter, concept, and recurring archetypes.
+                            </p>
+                            
+                            <ul class="feature-bullets">
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>200+ official papers parsed with verified keys</span>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>Custom topic tests built on your covered syllabus</span>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>Personal weakness heatmap &times; exam frequency</span>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>Full papers download whole — survives dropped connections</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="card-bottom">
+                            <span class="btn btn-primary" style="width: 100%; cursor: default; opacity: 0.95;">
+                                Launching for JEE 2027 &bull; Play Store
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Pipeline: EdLoop EAPCET -->
+                    <div class="product-card animate-fade-in delay-2">
+                        <div class="card-top">
+                            <span class="card-badge pipeline">Next in Pipeline</span>
+                            <h3>EdLoop EAPCET</h3>
+                            <p>
+                                Tailored for Andhra Pradesh &amp; Telangana state engineering aspirants (AP/TS EAPCET).
+                            </p>
+                            
+                            <ul class="feature-bullets">
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>150+ archived official session papers</span>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>Identical 3-level archetype pattern intelligence</span>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>Targeted state-syllabus weightage heatmaps</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card-bottom">
+                            <span class="btn btn-secondary" style="width: 100%; cursor: default;">
+                                Coming Early 2027
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Future: EdLoop Web & Campus -->
+                    <div class="product-card animate-fade-in delay-3">
+                        <div class="card-top">
+                            <span class="card-badge research">Future Vision</span>
+                            <h3>EdLoop Web &amp; Campus</h3>
+                            <p>
+                                Expanding our pattern engine to modern desktop browsers and institutional analytics boxes for junior &amp; intermediate colleges.
+                            </p>
+                            
+                            <ul class="feature-bullets">
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>Web edition: Practice anywhere with full screen UI</span>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>Institutional class-wide weakness diagnostics</span>
+                                </li>
+                                <li>
+                                    <span class="bullet-icon">&check;</span>
+                                    <span>Custom internal test generation from vetted bank</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card-bottom">
+                            <span class="btn btn-secondary" style="width: 100%; cursor: default;">
+                                In Active R&amp;D
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Architecture / Core Pillars -->
+        <section id="architecture">
+            <div class="container">
+                <div class="section-head animate-fade-in">
+                    <div class="badge">Engineering</div>
+                    <h2>The Architecture of Mastery</h2>
+                    <p>
+                        Why traditional prep apps fail students, and how EdLoop's data pipeline solves it.
+                    </p>
+                </div>
+
+                <div class="pillars-grid">
+                    <div class="pillar-card animate-fade-in delay-1">
+                        <div class="pillar-icon-box">&bull;&bull;&bull;</div>
+                        <h3>3-Tier Taxonomy</h3>
+                        <p>
+                            Standard apps categorize questions only by chapter. EdLoop classifies by <strong>Chapter &rarr; Concept &rarr; Archetype</strong>, identifying the exact mathematical structure behind repeating questions.
+                        </p>
+                    </div>
+
+                    <div class="pillar-card animate-fade-in delay-2">
+                        <div class="pillar-icon-box">&prop;</div>
+                        <h3>True Exam Frequency</h3>
+                        <p>
+                            We count distinct exam sessions and conceptual variants, not superficial text duplicates. You see what examiners actually repeat and when.
+                        </p>
+                    </div>
+
+                    <div class="pillar-card animate-fade-in delay-3">
+                        <div class="pillar-icon-box">&loz;</div>
+                        <h3>Resilient Offline Sync</h3>
+                        <p>
+                            Built for real-world connectivity. Timed tests download completely before starting; responses persist locally first, ensuring zero lost answers during exam simulations.
+                        </p>
+                    </div>
+
+                    <div class="pillar-card animate-fade-in delay-1">
+                        <div class="pillar-icon-box">&empty;</div>
+                        <h3>Zero Coaching Agenda</h3>
+                        <p>
+                            We don't exist to sell ₹1,00,000 video packages or push coaching batches. Just clean, respectful, distraction-free intelligence software.
+                        </p>
+                    </div>
+
+                    <div class="pillar-card animate-fade-in delay-2">
+                        <div class="pillar-icon-box">&Delta;</div>
+                        <h3>Weakness &times; Frequency Matrix</h3>
+                        <p>
+                            Our personal heatmap multiplies the exam's highest-probability chapters by your individual blind spots to calculate your exact nightly homework.
+                        </p>
+                    </div>
+
+                    <div class="pillar-card animate-fade-in delay-3">
+                        <div class="pillar-icon-box">&infin;</div>
+                        <h3>Multi-Exam Expansion</h3>
+                        <p>
+                            A modular platform schema built to support JEE Advanced, NEET, and regional engineering entrance benchmarks under one trusted umbrella.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Loop Methodology -->
+        <section id="philosophy">
+            <div class="container">
+                <div class="section-head animate-fade-in">
+                    <div class="badge">The Cycle</div>
+                    <h2>How The Loop Works</h2>
+                    <p>
+                        A continuous feedback engine designed to convert struggle into automatic intuition.
+                    </p>
+                </div>
+
+                <div class="loop-steps">
+                    <div class="step-card animate-fade-in delay-1">
+                        <div class="step-seq">Phase 01</div>
+                        <h3>Isolate Syllabus Covered</h3>
+                        <p>
+                            Instead of feeling overwhelmed by full 2-year syllabus mocks, pick only the topics your college or school has completed so far.
+                        </p>
+                    </div>
+
+                    <div class="step-card animate-fade-in delay-2">
+                        <div class="step-seq">Phase 02</div>
+                        <h3>Solve Real Exam Variants</h3>
+                        <p>
+                            Engage with genuine historical questions on exam timers. Receive instant answer keys and verified step-by-step resolution pathways.
+                        </p>
+                    </div>
+
+                    <div class="step-card animate-fade-in delay-3">
+                        <div class="step-seq">Phase 03</div>
+                        <h3>Re-loop on Weak Archetypes</h3>
+                        <p>
+                            Your mistake bank is indexed by recurring pattern. Review the trap, retry similar variants, and permanently close the conceptual gap.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission & About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="mission-box animate-fade-in">
+                    <div class="badge">Independent Initiative</div>
+                    <h2>Built with craft in India.</h2>
+                    <p>
+                        EdLoop is founded and developed by <strong>Ashok Kumar Kunchala</strong>, an independent developer with a singular vision: to give ambitious students a quiet, scientifically rigorous alternative to the noise of modern edtech.
+                    </p>
+                    <p style="font-size: 1rem; color: var(--text-dim);">
+                        Have questions, partnership inquiries, or early access thoughts?
+                    </p>
+                    <a href="mailto:ashokkunchala.work@gmail.com" class="btn btn-secondary" style="margin-top: 0.5rem;">
+                        ashokkunchala.work@gmail.com
+                    </a>
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 EdLoop. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="delete-account.html">Delete Account</a>
-                <a href="mailto:ashokkunchala.work@gmail.com">Contact</a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-wrapper">
+                        <div class="brand-loop-glyph">
+                            <div class="loop-ring"></div>
+                            <div class="loop-dot"></div>
+                        </div>
+                        <span>EdLoop</span>
+                    </div>
+                    <p>
+                        What comes again, you master. Hyper-focused exam preparation software for engineering aspirants across India.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Ecosystem</h4>
+                    <ul>
+                        <li><a href="#apps">EdLoop JEE (Android)</a></li>
+                        <li><a href="#apps">EdLoop EAPCET (Upcoming)</a></li>
+                        <li><a href="#apps">EdLoop Web &amp; Campus</a></li>
+                        <li><a href="#architecture">Architecture</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal &amp; Trust</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="delete-account.html">Delete Account</a></li>
+                        <li><a href="mailto:ashokkunchala.work@gmail.com">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>&copy; 2026 EdLoop. Developed by Ashok Kumar Kunchala. All rights reserved.</div>
+                <div>EdLoop is an independent product not affiliated with NTA, APSCHE, or TSCHE.</div>
             </div>
         </div>
     </footer>

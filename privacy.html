@@ -4,42 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - EdLoop</title>
+    <meta name="description" content="Privacy Policy for the app EdLoop JEE (Android, package in.edloop.jee).">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="container nav-content">
-            <a href="index.html" class="logo">
-                <span class="logo-ring"></span>
-                EdLoop
-            </a>
-            <a href="index.html" class="btn btn-primary">Back to Home</a>
-        </div>
-    </nav>
 
-    <header class="page-header">
-        <div class="container animate-on-scroll">
-            <a href="index.html" class="breadcrumb">← Home</a>
-            <h1>EdLoop privacy policy</h1>
+    <!-- Ambient Glow Background -->
+    <div class="bg-ambient">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+    </div>
+
+    <!-- Floating Pill Header -->
+    <header class="header-nav">
+        <nav class="nav-pill">
+            <a href="index.html" class="logo-wrapper">
+                <div class="brand-loop-glyph">
+                    <div class="loop-ring"></div>
+                    <div class="loop-dot"></div>
+                </div>
+                <span>EdLoop</span>
+            </a>
+            
+            <a href="index.html" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">
+                &larr; Back to Home
+            </a>
+        </nav>
+    </header>
+
+    <header class="legal-header">
+        <div class="container animate-fade-in">
+            <div class="badge">Legal &bull; Transparency</div>
+            <h1>EdLoop Privacy Policy</h1>
             <p class="tagline">For the app EdLoop JEE (Android, package <code>in.edloop.jee</code>). Last updated 8 October 2026.</p>
         </div>
     </header>
 
-    <main class="container legal-content" style="padding-top: 4rem; padding-bottom: 4rem;">
+    <main class="container legal-wrapper">
         
-        <div class="highlight-box animate-on-scroll">
-            <h3>In short</h3>
-            <p>You sign in with Google. We keep your name, email address and practice history on our servers so your progress follows you to a new phone. We do not show ads, we do not sell or share your data, and you can delete your account and everything in it from inside the app.</p>
+        <div class="legal-summary-box animate-fade-in">
+            <strong>In short.</strong> You sign in with Google. We keep your name, email address and practice history on our servers so your progress follows you to a new phone. We do not show ads, we do not sell or share your data, and you can delete your account and everything in it from inside the app.
         </div>
 
-        <div class="card animate-on-scroll delay-1">
+        <div class="legal-card animate-fade-in delay-1">
             <h2>Who we are</h2>
-            <p>EdLoop is run by Ashok Kumar Kunchala, an individual developer in India. Contact: <a href="mailto:ashokkunchala.work@gmail.com">ashokkunchala.work@gmail.com</a>.</p>
+            <p>EdLoop is run by Ashok Kumar Kunchala, an individual developer in India. Contact: <a href="mailto:ashokkunchala.work@gmail.com" style="color: var(--accent-sky); font-weight: 600;">ashokkunchala.work@gmail.com</a>.</p>
         </div>
 
-        <div class="card animate-on-scroll delay-2">
+        <div class="legal-card animate-fade-in delay-2">
             <h2>What we collect</h2>
-            <div style="overflow-x: auto;">
+            <div class="table-responsive">
                 <table>
                     <thead>
                         <tr>
@@ -50,27 +69,27 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Account details from Google</strong></td>
+                            <td><strong style="color: var(--text-main);">Account details from Google</strong></td>
                             <td>Your name, email address and a Google account identifier</td>
                             <td>To create your account and sign you in</td>
                         </tr>
                         <tr>
-                            <td><strong>Practice activity</strong></td>
+                            <td><strong style="color: var(--text-main);">Practice activity</strong></td>
                             <td>Questions you answered and how, time taken, timed tests and scores, bookmarks, notes</td>
                             <td>To show your progress and restore it on another phone</td>
                         </tr>
                         <tr>
-                            <td><strong>Settings</strong></td>
+                            <td><strong style="color: var(--text-main);">Settings</strong></td>
                             <td>Selected exam, target year, daily goal, optional streak, your own exam date</td>
                             <td>So the app looks the same after you sign in again</td>
                         </tr>
                         <tr>
-                            <td><strong>Daily use counts</strong></td>
+                            <td><strong style="color: var(--text-main);">Daily use counts</strong></td>
                             <td>How many new questions, answer keys and solutions your account opened each day</td>
                             <td>To apply fair-use daily limits and stop automated copying of the question bank</td>
                         </tr>
                         <tr>
-                            <td><strong>Error reports you send</strong></td>
+                            <td><strong style="color: var(--text-main);">Error reports you send</strong></td>
                             <td>The question, the kind of error, and any text you type</td>
                             <td>To correct the question bank</td>
                         </tr>
@@ -80,17 +99,17 @@
             <p style="margin-top: 1rem;">We do not collect your location, contacts, photos, files, phone number or advertising identifier. We do not use analytics, crash-reporting or advertising software.</p>
         </div>
 
-        <div class="card animate-on-scroll delay-1">
+        <div class="legal-card animate-fade-in delay-1">
             <h2>How it is stored</h2>
             <ul>
-                <li>Your data is stored with Supabase, our database provider, which processes it on our behalf in its data centre in Mumbai, India.</li>
+                <li>Your data is stored with <strong>Supabase</strong>, our database provider, which processes it on our behalf in its data centre in <strong>Mumbai, India</strong>.</li>
                 <li>Data is encrypted while it travels between the app and the server.</li>
                 <li>Each account can read and change only its own data.</li>
                 <li>A copy is kept on your phone so the app stays fast and an answer is never lost when the connection drops; it is uploaded when the connection returns. Questions you have not opened for a while are removed from the phone and downloaded again when needed.</li>
             </ul>
         </div>
 
-        <div class="card animate-on-scroll delay-2">
+        <div class="legal-card animate-fade-in delay-2">
             <h2>How it is used and shared</h2>
             <ul>
                 <li>Used only to run the app for you and to improve the accuracy of the question bank.</li>
@@ -101,35 +120,67 @@
             </ul>
         </div>
 
-        <div class="card animate-on-scroll delay-1">
+        <div class="legal-card animate-fade-in delay-1">
             <h2>Your choices</h2>
             <ul>
-                <li><strong>Delete your account:</strong> Settings → Delete account. This removes your account and all of the data above from our servers and from your phone. It cannot be undone.</li>
-                <li><strong>Clear your progress only:</strong> Settings → Clear progress.</li>
-                <li><strong>Sign out:</strong> Settings → Sign out. Your data stays in your account.</li>
-                <li>If you cannot use the app, follow the steps on the account deletion page or write to the address above from the email address of your account, and we will delete it within 7 days.</li>
+                <li><strong>Delete your account:</strong> Settings &rarr; Delete account. This removes your account and all of the data above from our servers and from your phone. It cannot be undone.</li>
+                <li><strong>Clear your progress only:</strong> Settings &rarr; Clear progress.</li>
+                <li><strong>Sign out:</strong> Settings &rarr; Sign out. Your data stays in your account.</li>
+                <li>If you cannot use the app, follow the steps on the <a href="delete-account.html" style="color: var(--accent-sky); font-weight: 600;">account deletion page</a> or write to the address above from the email address of your account, and we will delete it within 7 days.</li>
             </ul>
         </div>
 
-        <div class="card animate-on-scroll delay-2">
+        <div class="legal-card animate-fade-in delay-2">
             <h2>Children</h2>
             <p>EdLoop is meant for students preparing for engineering entrance examinations, typically 16 and older. It is not directed at children under 13. Students under 18 should use it with the knowledge of a parent or guardian.</p>
         </div>
 
-        <div class="card animate-on-scroll delay-3">
+        <div class="legal-card animate-fade-in delay-3">
             <h2>Changes</h2>
             <p>If this policy changes, the new version will be published on this page with a new date. If paid features or advertising are ever added, this policy will be updated before they are released.</p>
         </div>
 
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 EdLoop. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="delete-account.html">Delete Account</a>
-                <a href="mailto:ashokkunchala.work@gmail.com">Contact</a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-wrapper">
+                        <div class="brand-loop-glyph">
+                            <div class="loop-ring"></div>
+                            <div class="loop-dot"></div>
+                        </div>
+                        <span>EdLoop</span>
+                    </div>
+                    <p>
+                        What comes again, you master. Hyper-focused exam preparation software for engineering aspirants across India.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Ecosystem</h4>
+                    <ul>
+                        <li><a href="index.html#apps">EdLoop JEE (Android)</a></li>
+                        <li><a href="index.html#apps">EdLoop EAPCET (Upcoming)</a></li>
+                        <li><a href="index.html#apps">EdLoop Web &amp; Campus</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal &amp; Trust</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="delete-account.html">Delete Account</a></li>
+                        <li><a href="mailto:ashokkunchala.work@gmail.com">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>&copy; 2026 EdLoop. Developed by Ashok Kumar Kunchala. All rights reserved.</div>
+                <div>EdLoop is an independent product not affiliated with NTA, APSCHE, or TSCHE.</div>
             </div>
         </div>
     </footer>
