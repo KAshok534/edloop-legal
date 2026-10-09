@@ -227,12 +227,12 @@ header.header-nav {
   margin-left: 1px;
 }
 
-/* Dynamic Brand Loop Glyph - Signature Spin & Rest */
+/* Dynamic Brand Loop Glyph - Signature Spin in Place & Rest */
 .brand-loop-glyph {
   position: relative;
   width: 34px;
   height: 34px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
@@ -242,15 +242,17 @@ header.header-nav {
   width: 100%;
   height: 100%;
   display: block;
-  transform-origin: 50% 50%;
-  animation: loopOrbitRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-  filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.3));
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
 }
 
-.logo-wrapper:hover .brand-loop-svg {
-  transform: rotate(360deg) scale(1.12);
-  filter: drop-shadow(0 0 14px rgba(56, 189, 248, 0.65));
+.loop-spin-group {
+  transform-origin: 100px 100px;
+  transform-box: view-box;
+  animation: loopOrbitRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.logo-wrapper:hover .loop-spin-group {
+  transform: rotate(360deg);
 }
 
 .nav-links {

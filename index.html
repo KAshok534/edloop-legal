@@ -21,7 +21,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -48,20 +48,23 @@
                         <style>
                             @keyframes navLoopSpinRest {
                                 0% { transform: rotate(0deg); }
-                                22% { transform: rotate(360deg); }
+                                26% { transform: rotate(360deg); }
                                 100% { transform: rotate(360deg); }
                             }
-                            .brand-loop-svg {
+                            .nav-spin-grp {
                                 transform-origin: 100px 100px;
-                                animation: navLoopSpinRest 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+                                transform-box: view-box;
+                                animation: navLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
                             }
                         </style>
-                        <!-- Single Open Ring with Rounded Caps -->
-                        <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#navLoopGrad)" stroke-width="15" stroke-linecap="round" />
-                        <!-- Focal Node in Opening -->
-                        <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
-                        <!-- Center Core -->
-                        <circle cx="100.00" cy="100.00" r="15" fill="url(#navLoopGrad)" />
+                        <g class="nav-spin-grp">
+                            <!-- Single Open Ring with Rounded Caps -->
+                            <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#navLoopGrad)" stroke-width="15" stroke-linecap="round" />
+                            <!-- Focal Node in Opening -->
+                            <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
+                            <!-- Center Core -->
+                            <circle cx="100.00" cy="100.00" r="15" fill="url(#navLoopGrad)" />
+                        </g>
                     </svg>
                 </div>
                 <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
@@ -394,20 +397,23 @@
                                 <style>
                                     @keyframes footerLoopSpinRest {
                                         0% { transform: rotate(0deg); }
-                                        22% { transform: rotate(360deg); }
+                                        26% { transform: rotate(360deg); }
                                         100% { transform: rotate(360deg); }
                                     }
-                                    .footer-brand .brand-loop-svg {
+                                    .footer-spin-grp {
                                         transform-origin: 100px 100px;
-                                        animation: footerLoopSpinRest 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+                                        transform-box: view-box;
+                                        animation: footerLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
                                     }
                                 </style>
-                                <!-- Single Open Ring with Rounded Caps -->
-                                <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#footerLoopGrad)" stroke-width="15" stroke-linecap="round" />
-                                <!-- Focal Node in Opening -->
-                                <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
-                                <!-- Center Core -->
-                                <circle cx="100.00" cy="100.00" r="15" fill="url(#footerLoopGrad)" />
+                                <g class="footer-spin-grp">
+                                    <!-- Single Open Ring with Rounded Caps -->
+                                    <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#footerLoopGrad)" stroke-width="15" stroke-linecap="round" />
+                                    <!-- Focal Node in Opening -->
+                                    <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
+                                    <!-- Center Core -->
+                                    <circle cx="100.00" cy="100.00" r="15" fill="url(#footerLoopGrad)" />
+                                </g>
                             </svg>
                         </div>
                         <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>

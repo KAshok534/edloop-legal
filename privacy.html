@@ -12,7 +12,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -38,17 +38,20 @@
                         <style>
                             @keyframes privNavLoopSpinRest {
                                 0% { transform: rotate(0deg); }
-                                22% { transform: rotate(360deg); }
+                                26% { transform: rotate(360deg); }
                                 100% { transform: rotate(360deg); }
                             }
-                            .brand-loop-svg {
+                            .priv-nav-spin-grp {
                                 transform-origin: 100px 100px;
-                                animation: privNavLoopSpinRest 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+                                transform-box: view-box;
+                                animation: privNavLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
                             }
                         </style>
-                        <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="15" stroke-linecap="round" />
-                        <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
-                        <circle cx="100.00" cy="100.00" r="15" fill="url(#privNavLoopGrad)" />
+                        <g class="priv-nav-spin-grp">
+                            <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="15" stroke-linecap="round" />
+                            <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
+                            <circle cx="100.00" cy="100.00" r="15" fill="url(#privNavLoopGrad)" />
+                        </g>
                     </svg>
                 </div>
                 <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
@@ -183,17 +186,20 @@
                                 <style>
                                     @keyframes privFooterLoopSpinRest {
                                         0% { transform: rotate(0deg); }
-                                        22% { transform: rotate(360deg); }
+                                        26% { transform: rotate(360deg); }
                                         100% { transform: rotate(360deg); }
                                     }
-                                    .footer-brand .brand-loop-svg {
+                                    .priv-footer-spin-grp {
                                         transform-origin: 100px 100px;
-                                        animation: privFooterLoopSpinRest 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+                                        transform-box: view-box;
+                                        animation: privFooterLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
                                     }
                                 </style>
-                                <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="15" stroke-linecap="round" />
-                                <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
-                                <circle cx="100.00" cy="100.00" r="15" fill="url(#privFooterLoopGrad)" />
+                                <g class="priv-footer-spin-grp">
+                                    <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="15" stroke-linecap="round" />
+                                    <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
+                                    <circle cx="100.00" cy="100.00" r="15" fill="url(#privFooterLoopGrad)" />
+                                </g>
                             </svg>
                         </div>
                         <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
