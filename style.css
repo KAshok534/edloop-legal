@@ -207,33 +207,30 @@ header.header-nav {
   letter-spacing: -0.03em;
 }
 
-/* Dynamic Brand Loop Glyph */
+/* Dynamic Brand Loop Glyph - Signature Spin & Rest */
 .brand-loop-glyph {
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
-.loop-ring {
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  border: 3px solid transparent;
-  border-top-color: var(--accent-sky);
-  border-right-color: var(--accent-violet);
-  border-bottom-color: var(--accent-emerald);
-  animation: loopRotate 6s linear infinite;
+.brand-loop-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform-origin: 50% 50%;
+  animation: loopOrbitRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.3));
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
 }
 
-.loop-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--text-main);
-  box-shadow: 0 0 10px var(--accent-sky);
+.logo-wrapper:hover .brand-loop-svg {
+  transform: rotate(360deg) scale(1.12);
+  filter: drop-shadow(0 0 14px rgba(56, 189, 248, 0.65));
 }
 
 .nav-links {
@@ -815,9 +812,21 @@ footer {
 .delay-2 { transition-delay: 0.2s; }
 .delay-3 { transition-delay: 0.3s; }
 
-@keyframes loopRotate {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+/* Signature Spin-and-Rest: Spins smoothly 360°, settles into iconic logo position, rests for ~3 seconds, then repeats */
+@keyframes loopOrbitRest {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  30% {
+    transform: rotate(360deg) scale(1.08);
+  }
+  38% {
+    transform: rotate(360deg) scale(1);
+  }
+  /* Stays completely still as the recognizable logo mark */
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
 }
 
 @keyframes orbFloat {

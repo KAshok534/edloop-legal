@@ -27,8 +27,25 @@
         <nav class="nav-pill">
             <a href="index.html" class="logo-wrapper">
                 <div class="brand-loop-glyph">
-                    <div class="loop-ring"></div>
-                    <div class="loop-dot"></div>
+                    <svg viewBox="0 0 200 200" class="brand-loop-svg" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="privNavLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#38bdf8" />
+                                <stop offset="40%" stop-color="#06b6d4" />
+                                <stop offset="75%" stop-color="#818cf8" />
+                                <stop offset="100%" stop-color="#c084fc" />
+                            </linearGradient>
+                            <linearGradient id="privNavGlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#38bdf8" />
+                                <stop offset="100%" stop-color="#818cf8" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="100" cy="100" r="65" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="14" opacity="0.25" />
+                        <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="16" stroke-linecap="round" />
+                        <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#privNavGlowGrad)" stroke-width="11" stroke-linecap="round" opacity="0.95" />
+                        <circle cx="100" cy="28" r="9" fill="#ffffff" />
+                        <circle cx="100" cy="28" r="4.5" fill="#0284c7" />
+                    </svg>
                 </div>
                 <span>EdLoop</span>
             </a>
@@ -151,8 +168,25 @@
                 <div class="footer-brand">
                     <div class="logo-wrapper">
                         <div class="brand-loop-glyph">
-                            <div class="loop-ring"></div>
-                            <div class="loop-dot"></div>
+                            <svg viewBox="0 0 200 200" class="brand-loop-svg" aria-hidden="true">
+                                <defs>
+                                    <linearGradient id="privFooterLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#38bdf8" />
+                                        <stop offset="40%" stop-color="#06b6d4" />
+                                        <stop offset="75%" stop-color="#818cf8" />
+                                        <stop offset="100%" stop-color="#c084fc" />
+                                    </linearGradient>
+                                    <linearGradient id="privFooterGlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#38bdf8" />
+                                        <stop offset="100%" stop-color="#818cf8" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="100" cy="100" r="65" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="14" opacity="0.25" />
+                                <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="16" stroke-linecap="round" />
+                                <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#privFooterGlowGrad)" stroke-width="11" stroke-linecap="round" opacity="0.95" />
+                                <circle cx="100" cy="28" r="9" fill="#ffffff" />
+                                <circle cx="100" cy="28" r="4.5" fill="#0284c7" />
+                            </svg>
                         </div>
                         <span>EdLoop</span>
                     </div>
