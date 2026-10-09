@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EdLoop Return Ring Variations (Original Nested Arc Style)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-dark: #08090e;
+    --card-dark: rgba(18, 22, 36, 0.75);
+    --border-dark: rgba(255, 255, 255, 0.08);
+    --text-dark: #f8fafc;
+    --text-muted-dark: #94a3b8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    padding: 3rem 1.5rem;
+    min-height: 100vh;
+  }
+
+  .header {
+    text-align: center;
+    max-width: 820px;
+    margin: 0 auto 3rem;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 0.35rem 0.9rem;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: #38bdf8;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 9999px;
+    margin-bottom: 1rem;
+  }
+
+  h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.8rem; }
+  p.subtitle { color: var(--text-muted-dark); font-size: 1.05rem; line-height: 1.6; }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0 2.5rem;
+  }
+
+  .btn-toggle {
+    padding: 0.6rem 1.4rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-dark);
+    color: #fff;
+    border-radius: 9999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  .btn-toggle.active {
+    background: #38bdf8;
+    color: #08090e;
+    border-color: #38bdf8;
+  }
+
+  .concepts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .concept-card {
+    background: var(--card-dark);
+    border: 1px solid var(--border-dark);
+    border-radius: 24px;
+    padding: 2.25rem;
+    backdrop-filter: blur(16px);
+    transition: all 0.3s ease;
+  }
+  .concept-card:hover {
+    border-color: rgba(56, 189, 248, 0.4);
+    box-shadow: 0 12px 36px -8px rgba(56, 189, 248, 0.2);
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .concept-title { font-size: 1.35rem; font-weight: 700; color: #fff; }
+  .concept-tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.65rem;
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 6px;
+    color: #38bdf8;
+  }
+
+  .preview-stage {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .preview-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    position: relative;
+  }
+  .preview-row.dark {
+    background: #090a0f;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .preview-row.light {
+    background: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+  }
+
+  .row-label {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.5;
+  }
+  .dark .row-label { color: #fff; }
+  .light .row-label { color: #000; }
+
+  .brand-lockup {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+  }
+
+  .logo-text {
+    font-size: 1.95rem;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    display: inline-flex;
+    align-items: baseline;
+    line-height: 1;
+  }
+  .dark .logo-ed { color: #f8fafc; }
+  .light .logo-ed { color: #0f172a; }
+
+  .logo-loop-gradient {
+    background: linear-gradient(135deg, #38bdf8 0%, #06b6d4 40%, #818cf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 1px;
+  }
+
+  .icon-box {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .icon-box svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: visible;
+  }
+
+  .concept-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted-dark);
+    line-height: 1.55;
+  }
+
+  /* ======================================================== */
+  /* SPIN-IN-PLACE ANIMATION (Pivots dead-center on 100px 100px) */
+  /* ======================================================== */
+  @keyframes spinAndRestInPlace {
+    0% { transform: rotate(0deg); }
+    26% { transform: rotate(360deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .spin-grp {
+    transform-origin: 100px 100px;
+    transform-box: view-box;
+    animation: spinAndRestInPlace 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  }
+  
+  .spin-pause .spin-grp {
+    animation: none !important;
+    transform: rotate(0deg) !important;
+  }
+
+  .spin-continuous .spin-grp {
+    animation: continuousSpin 3s linear infinite !important;
+  }
+  @keyframes continuousSpin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="badge">Original Nested-Arc Collection</div>
+    <h1>EdLoop "Return Ring" Variations</h1>
+    <p class="subtitle">
+      Based on the <strong>outer sweeping arc + inner returning arc + arrival node</strong> design you loved from the original draft.
+      Each variation spins cleanly <strong>in-place on its exact center axis</strong>, rests for ~3.8s in its iconic pose, and repeats.
+    </p>
+
+    <div class="controls">
+      <button class="btn-toggle active" id="btn-spin-rest" onclick="setMode('normal')">Signature: Spin &amp; Rest</button>
+      <button class="btn-toggle" id="btn-spin-pause" onclick="setMode('pause')">Static Pose (Inspect Geometry)</button>
+      <button class="btn-toggle" id="btn-spin-cont" onclick="setMode('continuous')">Continuous Spin</button>
+    </div>
+  </div>
+
+  <div class="concepts-grid" id="concepts-container">
+
+    <!-- ======================================================== -->
+    <!-- VARIATION 1: THE EXACT ORIGINAL (The one you loved first) -->
+    <!-- ======================================================== -->
+    <div class="concept-card">
+      <div class="card-header">
+        <h2 class="concept-title">Variation 1: The Original Classic</h2>
+        <span class="concept-tag">Your Favorite</span>
+      </div>
+
+      <div class="preview-stage">
+        <!-- Dark Row -->
+        <div class="preview-row dark">
+          <span class="row-label">Dark Theme</span>
+          <div class="brand-lockup">
+            <div class="icon-box">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="v1-dark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#38bdf8" />
+                    <stop offset="45%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#818cf8" />
+                  </linearGradient>
+                  <linearGradient id="v1-dark-inner" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#38bdf8" />
+                    <stop offset="100%" stop-color="#a855f7" />
+                  </linearGradient>
+                </defs>
+                <g class="spin-grp">
+                  <!-- Outer Open Orbit Loop (R=72) -->
+                  <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#v1-dark-grad)" stroke-width="15" stroke-linecap="round" />
+
+                  <!-- Inner Return Arc (R=52) -->
+                  <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#v1-dark-inner)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
+
+                  <!-- Arrival Focal Node at top center -->
+                  <circle cx="100" cy="28" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
+                  <circle cx="100" cy="28" r="4" fill="#38bdf8" />
+                </g>
+              </svg>
+            </div>
+            <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop-gradient">Loop</span></span>
+          </div>
+        </div>
+
+        <!-- Light Row -->
+        <div class="preview-row light">
+          <span class="row-label">Light Theme / Signature</span>
+          <div class="brand-lockup">
+            <div class="icon-box">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="v1-light-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#0284c7" />
+                    <stop offset="45%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#4f46e5" />
+                  </linearGradient>
+                  <linearGradient id="v1-light-inner" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#0284c7" />
+                    <stop offset="100%" stop-color="#7c3aed" />
+                  </linearGradient>
+                </defs>
+                <g class="spin-grp">
+                  <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#v1-light-grad)" stroke-width="15" stroke-linecap="round" />
+                  <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#v1-light-inner)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
+                  <circle cx="100" cy="28" r="9" fill="#ffffff" stroke="#0284c7" stroke-width="3" />
+                  <circle cx="100" cy="28" r="4" fill="#0284c7" />
+                </g>
+              </svg>
+            </div>
+            <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop-gradient">Loop</span></span>
+          </div>
+        </div>
+      </div>
+
+      <p class="concept-desc">
+        The exact mathematical geometry from the original draft: an expansive outer orbit with an inner returning sweep that arrives directly at the focal beacon at the apex.
+      </p>
+    </div>
+
+
+    <!-- ======================================================== -->
+    <!-- VARIATION 2: THE POLISHED CLEARANCE (Harmonic Gap)       -->
+    <!-- ======================================================== -->
+    <div class="concept-card">
+      <div class="card-header">
+        <h2 class="concept-title">Variation 2: Harmonic Clearance</h2>
+        <span class="concept-tag">Slightly Cleaner Spacing</span>
+      </div>
+
+      <div class="preview-stage">
+        <!-- Dark Row -->
+        <div class="preview-row dark">
+          <span class="row-label">Dark Theme</span>
+          <div class="brand-lockup">
+            <div class="icon-box">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="v2-dark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#38bdf8" />
+                    <stop offset="50%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#818cf8" />
+                  </linearGradient>
+                </defs>
+                <g class="spin-grp">
+                  <!-- Outer Arc: R=70, from 100,30 around to 42,126 -->
+                  <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#v2-dark-grad)" stroke-width="14" stroke-linecap="round" />
+
+                  <!-- Inner Arc: R=48, adjusted so there is a clean 16px buffer on the left -->
+                  <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#v2-dark-grad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
+
+                  <!-- Focal Node at top center -->
+                  <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
+                  <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
+                </g>
+              </svg>
+            </div>
+            <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop-gradient">Loop</span></span>
+          </div>
+        </div>
+
+        <!-- Light Row -->
+        <div class="preview-row light">
+          <span class="row-label">Light Theme / Signature</span>
+          <div class="brand-lockup">
+            <div class="icon-box">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="v2-light-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#0284c7" />
+                    <stop offset="50%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#4f46e5" />
+                  </linearGradient>
+                </defs>
+                <g class="spin-grp">
+                  <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#v2-light-grad)" stroke-width="14" stroke-linecap="round" />
+                  <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#v2-light-grad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
+                  <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#0284c7" stroke-width="3" />
+                  <circle cx="100" cy="30" r="4.5" fill="#0284c7" />
+                </g>
+              </svg>
+            </div>
+            <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop-gradient">Loop</span></span>
+          </div>
+        </div>
+      </div>
+
+      <p class="concept-desc">
+        Identical aesthetic as Variation 1, but with a deliberate, clean clearance channel on the left so the outer and inner arcs feel perfectly nested without touching.
+      </p>
+    </div>
+
+
+    <!-- ======================================================== -->
+    <!-- VARIATION 3: DUAL TERMINAL NODES (Start & Arrival Points) -->
+    <!-- ======================================================== -->
+    <div class="concept-card">
+      <div class="card-header">
+        <h2 class="concept-title">Variation 3: Dual Terminal Nodes</h2>
+        <span class="concept-tag">Energy Loop</span>
+      </div>
+
+      <div class="preview-stage">
+        <!-- Dark Row -->
+        <div class="preview-row dark">
+          <span class="row-label">Dark Theme</span>
+          <div class="brand-lockup">
+            <div class="icon-box">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="v3-dark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#38bdf8" />
+                    <stop offset="60%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#818cf8" />
+                  </linearGradient>
+                </defs>
+                <g class="spin-grp">
+                  <!-- Outer Arc -->
+                  <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#v3-dark-grad)" stroke-width="15" stroke-linecap="round" />
+
+                  <!-- Inner Arc -->
+                  <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#v3-dark-grad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
+
+                  <!-- Arrival Node (Top) -->
+                  <circle cx="100" cy="28" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
+                  <circle cx="100" cy="28" r="4" fill="#38bdf8" />
+
+                  <!-- Origin Node (Left tail) -->
+                  <circle cx="32" cy="122" r="7" fill="#818cf8" />
+                </g>
+              </svg>
+            </div>
+            <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop-gradient">Loop</span></span>
+          </div>
+        </div>
+
+        <!-- Light Row -->
+        <div class="preview-row light">
+          <span class="row-label">Light Theme / Signature</span>
+          <div class="brand-lockup">
+            <div class="icon-box">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="v3-light-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#0284c7" />
+                    <stop offset="60%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#4f46e5" />
+                  </linearGradient>
+                </defs>
+                <g class="spin-grp">
+                  <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#v3-light-grad)" stroke-width="15" stroke-linecap="round" />
+                  <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#v3-light-grad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
+                  
+                  <circle cx="100" cy="28" r="9" fill="#ffffff" stroke="#0284c7" stroke-width="3" />
+                  <circle cx="100" cy="28" r="4" fill="#0284c7" />
+
+                  <circle cx="32" cy="122" r="7" fill="#4f46e5" />
+                </g>
+              </svg>
+            </div>
+            <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop-gradient">Loop</span></span>
+          </div>
+        </div>
+      </div>
+
+      <p class="concept-desc">
+        Features the original outer/inner geometry, with an additional satellite node at the origin of the outer orbit, creating a clear "departure &rarr; return" visual narrative.
+      </p>
+    </div>
+
+
+    <!-- ======================================================== -->
+    <!-- VARIATION 4: THE LUMINOUS CORE LOCKUP                    -->
+    <!-- ======================================================== -->
+    <div class="concept-card">
+      <div class="card-header">
+        <h2 class="concept-title">Variation 4: Luminous Core Lockup</h2>
+        <span class="concept-tag">Triple Depth</span>
+      </div>
+
+      <div class="preview-stage">
+        <!-- Dark Row -->
+        <div class="preview-row dark">
+          <span class="row-label">Dark Theme</span>
+          <div class="brand-lockup">
+            <div class="icon-box">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="v4-dark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#38bdf8" />
+                    <stop offset="50%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#818cf8" />
+                  </linearGradient>
+                </defs>
+                <g class="spin-grp">
+                  <!-- Outer Arc -->
+                  <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#v4-dark-grad)" stroke-width="15" stroke-linecap="round" />
+
+                  <!-- Inner Arc -->
+                  <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#v4-dark-grad)" stroke-width="11" stroke-linecap="round" opacity="0.85" />
+
+                  <!-- Apex Arrival Node -->
+                  <circle cx="100" cy="28" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
+                  <circle cx="100" cy="28" r="4" fill="#38bdf8" />
+
+                  <!-- Concentric Center Core Anchor -->
+                  <circle cx="100" cy="100" r="10" fill="url(#v4-dark-grad)" />
+                </g>
+              </svg>
+            </div>
+            <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop-gradient">Loop</span></span>
+          </div>
+        </div>
+
+        <!-- Light Row -->
+        <div class="preview-row light">
+          <span class="row-label">Light Theme / Signature</span>
+          <div class="brand-lockup">
+            <div class="icon-box">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="v4-light-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#0284c7" />
+                    <stop offset="50%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#4f46e5" />
+                  </linearGradient>
+                </defs>
+                <g class="spin-grp">
+                  <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#v4-light-grad)" stroke-width="15" stroke-linecap="round" />
+                  <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#v4-light-grad)" stroke-width="11" stroke-linecap="round" opacity="0.85" />
+                  
+                  <circle cx="100" cy="28" r="9" fill="#ffffff" stroke="#0284c7" stroke-width="3" />
+                  <circle cx="100" cy="28" r="4" fill="#0284c7" />
+
+                  <circle cx="100" cy="100" r="10" fill="url(#v4-light-grad)" />
+                </g>
+              </svg>
+            </div>
+            <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop-gradient">Loop</span></span>
+          </div>
+        </div>
+      </div>
+
+      <p class="concept-desc">
+        The original outer/inner return ring with an anchor core at the exact geometrical center, which acts as a magnetic pivot during the spin-in-place animation.
+      </p>
+    </div>
+
+  </div>
+
+  <script>
+    function setMode(mode) {
+      const container = document.getElementById('concepts-container');
+      const btns = document.querySelectorAll('.btn-toggle');
+      btns.forEach(b => b.classList.remove('active'));
+
+      container.classList.remove('spin-continuous', 'spin-pause');
+
+      if (mode === 'pause') {
+        container.classList.add('spin-pause');
+        document.getElementById('btn-spin-pause').classList.add('active');
+      } else if (mode === 'continuous') {
+        container.classList.add('spin-continuous');
+        document.getElementById('btn-spin-cont').classList.add('active');
+      } else {
+        document.getElementById('btn-spin-rest').classList.add('active');
+      }
+    }
+  </script>
+</body>
+</html>

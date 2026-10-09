@@ -12,7 +12,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
 
@@ -48,9 +48,13 @@
                             }
                         </style>
                         <g class="priv-nav-spin-grp">
-                            <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="15" stroke-linecap="round" />
-                            <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
-                            <circle cx="100.00" cy="100.00" r="15" fill="url(#privNavLoopGrad)" />
+                            <!-- Outer Arc: R=70 -->
+                            <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="14" stroke-linecap="round" />
+                            <!-- Inner Arc: R=48 with clean clearance channel -->
+                            <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
+                            <!-- Focal Node at Apex -->
+                            <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
+                            <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
                         </g>
                     </svg>
                 </div>
@@ -196,9 +200,13 @@
                                     }
                                 </style>
                                 <g class="priv-footer-spin-grp">
-                                    <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="15" stroke-linecap="round" />
-                                    <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
-                                    <circle cx="100.00" cy="100.00" r="15" fill="url(#privFooterLoopGrad)" />
+                                    <!-- Outer Arc: R=70 -->
+                                    <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="14" stroke-linecap="round" />
+                                    <!-- Inner Arc: R=48 with clean clearance channel -->
+                                    <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
+                                    <!-- Focal Node at Apex -->
+                                    <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
+                                    <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
                                 </g>
                             </svg>
                         </div>

@@ -1,23 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
   <defs>
-    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="markV2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="45%" stop-color="#06b6d4" />
-      <stop offset="100%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#818cf8" />
     </linearGradient>
   </defs>
   
-  <!-- The Open Ring with Rounded Caps -->
-  <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" 
-        fill="none" 
-        stroke="url(#markGrad)" 
-        stroke-width="14.96" 
-        stroke-linecap="round" />
+  <!-- Outer Arc: R=70, from 100,30 around to 45,130 -->
+  <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#markV2Grad)" stroke-width="14" stroke-linecap="round" />
 
-  <!-- The Return Node in Opening -->
-  <circle cx="123.54" cy="59.23" r="12.32" fill="#38bdf8" />
+  <!-- Inner Arc: R=48, adjusted with clean 16px parallel clearance channel -->
+  <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#markV2Grad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
 
-  <!-- The Core -->
-  <circle cx="100.00" cy="100.00" r="14.96" fill="url(#markGrad)" />
+  <!-- Focal Arrival Node at Apex -->
+  <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
+  <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
 
 </svg>
