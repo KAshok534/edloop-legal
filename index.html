@@ -21,7 +21,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 
@@ -41,23 +41,30 @@
                         <defs>
                             <linearGradient id="navLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                                 <stop offset="0%" stop-color="#38bdf8" />
-                                <stop offset="40%" stop-color="#06b6d4" />
-                                <stop offset="75%" stop-color="#818cf8" />
-                                <stop offset="100%" stop-color="#c084fc" />
-                            </linearGradient>
-                            <linearGradient id="navGlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" stop-color="#38bdf8" />
+                                <stop offset="45%" stop-color="#06b6d4" />
                                 <stop offset="100%" stop-color="#818cf8" />
                             </linearGradient>
                         </defs>
-                        <circle cx="100" cy="100" r="65" fill="none" stroke="url(#navLoopGrad)" stroke-width="14" opacity="0.25" />
-                        <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#navLoopGrad)" stroke-width="16" stroke-linecap="round" />
-                        <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#navGlowGrad)" stroke-width="11" stroke-linecap="round" opacity="0.95" />
-                        <circle cx="100" cy="28" r="9" fill="#ffffff" />
-                        <circle cx="100" cy="28" r="4.5" fill="#0284c7" />
+                        <style>
+                            @keyframes navLoopSpinRest {
+                                0% { transform: rotate(0deg); }
+                                22% { transform: rotate(360deg); }
+                                100% { transform: rotate(360deg); }
+                            }
+                            .brand-loop-svg {
+                                transform-origin: 100px 100px;
+                                animation: navLoopSpinRest 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+                            }
+                        </style>
+                        <!-- Single Open Ring with Rounded Caps -->
+                        <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#navLoopGrad)" stroke-width="15" stroke-linecap="round" />
+                        <!-- Focal Node in Opening -->
+                        <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
+                        <!-- Center Core -->
+                        <circle cx="100.00" cy="100.00" r="15" fill="url(#navLoopGrad)" />
                     </svg>
                 </div>
-                <span>EdLoop</span>
+                <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
             </a>
             
             <ul class="nav-links">
@@ -380,23 +387,30 @@
                                 <defs>
                                     <linearGradient id="footerLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                                         <stop offset="0%" stop-color="#38bdf8" />
-                                        <stop offset="40%" stop-color="#06b6d4" />
-                                        <stop offset="75%" stop-color="#818cf8" />
-                                        <stop offset="100%" stop-color="#c084fc" />
-                                    </linearGradient>
-                                    <linearGradient id="footerGlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                                        <stop offset="0%" stop-color="#38bdf8" />
+                                        <stop offset="45%" stop-color="#06b6d4" />
                                         <stop offset="100%" stop-color="#818cf8" />
                                     </linearGradient>
                                 </defs>
-                                <circle cx="100" cy="100" r="65" fill="none" stroke="url(#footerLoopGrad)" stroke-width="14" opacity="0.25" />
-                                <path d="M 100,28 A 72,72 0 1,1 32,122" fill="none" stroke="url(#footerLoopGrad)" stroke-width="16" stroke-linecap="round" />
-                                <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" fill="none" stroke="url(#footerGlowGrad)" stroke-width="11" stroke-linecap="round" opacity="0.95" />
-                                <circle cx="100" cy="28" r="9" fill="#ffffff" />
-                                <circle cx="100" cy="28" r="4.5" fill="#0284c7" />
+                                <style>
+                                    @keyframes footerLoopSpinRest {
+                                        0% { transform: rotate(0deg); }
+                                        22% { transform: rotate(360deg); }
+                                        100% { transform: rotate(360deg); }
+                                    }
+                                    .footer-brand .brand-loop-svg {
+                                        transform-origin: 100px 100px;
+                                        animation: footerLoopSpinRest 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+                                    }
+                                </style>
+                                <!-- Single Open Ring with Rounded Caps -->
+                                <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" fill="none" stroke="url(#footerLoopGrad)" stroke-width="15" stroke-linecap="round" />
+                                <!-- Focal Node in Opening -->
+                                <circle cx="123.54" cy="59.23" r="12" fill="#38bdf8" />
+                                <!-- Center Core -->
+                                <circle cx="100.00" cy="100.00" r="15" fill="url(#footerLoopGrad)" />
                             </svg>
                         </div>
-                        <span>EdLoop</span>
+                        <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
                     </div>
                     <p>
                         What comes again, you master. Hyper-focused exam preparation software for engineering aspirants across India.

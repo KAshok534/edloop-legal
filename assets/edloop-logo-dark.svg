@@ -1,44 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="520" height="140">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 140" width="540" height="140">
   <defs>
-    <linearGradient id="darkLoop" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="darkLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="40%" stop-color="#06b6d4" />
-      <stop offset="80%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#c084fc" />
+      <stop offset="45%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#818cf8" />
     </linearGradient>
     <linearGradient id="darkTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
   </defs>
 
-  <g transform="translate(10, 10)">
-    <!-- Symbol -->
-    <g transform="translate(10, 5)">
-      <path d="M 55,16 A 42,42 0 1,1 16,72" 
-            fill="none" 
-            stroke="url(#darkLoop)" 
-            stroke-width="10" 
-            stroke-linecap="round" />
+  <g transform="translate(10, 0)">
+    <!-- Symbol scaled to 110x110 -->
+    <g transform="translate(10, 15) scale(0.55)">
+      
+  <!-- The Open Ring with Rounded Caps -->
+  <path d="M 140.77,76.46 A 47.08,47.08 0 1 1 100.00,52.92" 
+        fill="none" 
+        stroke="url(#darkLoopGrad)" 
+        stroke-width="14.96" 
+        stroke-linecap="round" />
 
-      <path d="M 28,76 A 30,30 0 0,0 84,65 A 30,30 0 0,0 55,27" 
-            fill="none" 
-            stroke="url(#darkLoop)" 
-            stroke-width="7" 
-            stroke-linecap="round" 
-            opacity="0.85" />
+  <!-- The Return Node in Opening -->
+  <circle cx="123.54" cy="59.23" r="12.32" fill="#38bdf8" />
 
-      <circle cx="55" cy="16" r="6" fill="#ffffff" />
-      <circle cx="55" cy="16" r="3" fill="#38bdf8" />
+  <!-- The Core -->
+  <circle cx="100.00" cy="100.00" r="14.96" fill="url(#darkLoopGrad)" />
+
     </g>
 
-    <!-- Wordmark -->
-    <text x="135" y="72" font-family="'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="52" fill="#f8fafc" letter-spacing="-1.5">
-      Ed<tspan fill="url(#darkTextGrad)">Loop</tspan>
+    <!-- Wordmark with differentiated Ed and Loop -->
+    <text x="145" y="76" font-family="'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="54" letter-spacing="-2">
+      <tspan fill="#f8fafc">Ed</tspan><tspan fill="url(#darkTextGrad)">Loop</tspan>
     </text>
 
     <!-- Tagline -->
-    <text x="137" y="100" font-family="'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13.5" fill="#94a3b8" letter-spacing="1.5">
+    <text x="147" y="104" font-family="'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#94a3b8" letter-spacing="1.5">
       EDUCATION INTELLIGENCE &bull; EDLOOP.IN
     </text>
   </g>
