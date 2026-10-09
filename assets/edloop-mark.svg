@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="loopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="35%" stop-color="#06b6d4" />
+      <stop offset="70%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Ambient Glow Behind -->
+  <circle cx="100" cy="100" r="65" fill="none" stroke="url(#loopGrad)" stroke-width="18" opacity="0.25" filter="url(#subtleGlow)" />
+
+  <!-- Outer Open Orbit Loop -->
+  <path d="M 100,28 A 72,72 0 1,1 32,122" 
+        fill="none" 
+        stroke="url(#loopGrad)" 
+        stroke-width="16" 
+        stroke-linecap="round" />
+
+  <!-- Inner Return Arc -->
+  <path d="M 52,130 A 52,52 0 0,0 148,110 A 52,52 0 0,0 100,48" 
+        fill="none" 
+        stroke="url(#glowGrad)" 
+        stroke-width="11" 
+        stroke-linecap="round" 
+        opacity="0.9" />
+
+  <!-- The Return Focal Node -->
+  <circle cx="100" cy="28" r="10" fill="#ffffff" stroke="#0284c7" stroke-width="4" />
+  <circle cx="100" cy="28" r="4" fill="#0284c7" />
+</svg>
