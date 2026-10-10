@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#142444">
   <title>EdLoop — Make every practice count</title>
-  <meta name="description" content="Find patterns in past papers, practise your covered syllabus and return to your mistakes. Meet EdLoop JEE, with EAPCET and Campus on the way.">
+  <meta name="description" content="11,000+ JEE Main previous-year questions from 130 papers (2021–2026), sorted by chapter, with recurring patterns, custom tests and worked solutions. EdLoop JEE for Android.">
   <link rel="canonical" href="https://edloop.in/">
   <meta property="og:title" content="EdLoop — Make every practice count">
-  <meta property="og:description" content="Past questions. Clear priorities. A better way to prepare.">
+  <meta property="og:description" content="11,000+ JEE Main past questions, sorted by chapter. See what comes again and practise it.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EdLoop","url":"https://edloop.in/","logo":"https://edloop.in/favicon.png","email":"support@edloop.in"}</script>
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://edloop.in/">
   <meta property="og:image" content="https://edloop.in/assets/site-redesign/social.png">
@@ -16,9 +17,9 @@
   <link rel="icon" href="assets/site-redesign/mark.svg" type="image/svg+xml">
   <link rel="alternate icon" href="favicon.ico">
   <link rel="preload" href="assets/site-redesign/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="home.css?v=1">
+  <link rel="stylesheet" href="home.css?v=2">
   <script src="site.js?v=1" defer></script>
-  <script src="home.js?v=2" defer></script>
+  <script src="home.js?v=3" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -39,8 +40,9 @@
       <div class="hero-copy">
         <h1 id="hero-title">Make every<br>practice count.</h1>
         <p class="hero-description">Find the patterns in past papers.<br class="desktop-break"> Practise what matters. Know what to work on next.</p>
-        <div class="hero-actions"><a class="button" href="#practice">Explore EdLoop JEE</a><a class="text-link" href="#approach">See how it works <span aria-hidden="true">↗</span></a></div>
-        <p class="availability"><span aria-hidden="true"></span>Android app in development</p>
+        <ul class="hero-proof" aria-label="EdLoop JEE in numbers"><li><strong>11,000+</strong><span>past questions</span></li><li><strong>130</strong><span>JEE Main papers</span></li><li><strong>2021–26</strong><span>sorted by chapter</span></li></ul>
+        <div class="hero-actions"><a class="button" href="#practice">Try a real question</a><a class="text-link" href="#inside">See the app <span aria-hidden="true">↓</span></a></div>
+        <p class="availability"><span aria-hidden="true"></span>In early testing on Android · <a href="mailto:support@edloop.in?subject=Join%20the%20EdLoop%20JEE%20test">Join the test</a></p>
       </div>
       <figure class="hero-visual">
         <svg class="learning-line" viewBox="0 0 600 620" fill="none" aria-hidden="true"><path d="M355 40 C65 4 -63 214 155 277 S668 306 553 486 S71 636 160 402"/></svg>
@@ -58,17 +60,17 @@
       <div class="section-heading"><h2 id="practice-title">Turn past papers into a plan.</h2><p>Less time deciding what to study.<br>More time understanding it.</p></div>
       <div class="practice-layout">
         <div class="practice-demo" aria-label="Interactive sample practice question">
-          <div class="demo-top"><span class="subject-title"><span class="subject-orbit" aria-hidden="true">◎</span> Physics</span><span class="demo-label">Interactive example</span></div>
+          <div class="demo-top"><span class="subject-title"><span class="subject-orbit" aria-hidden="true">◎</span> <span id="demo-subject">Physics</span></span><span class="demo-label">Real JEE Main question</span></div>
           <div class="demo-body">
-            <div class="topic-list" role="group" aria-label="Choose a sample topic"><button type="button" class="topic active" data-topic="0" aria-pressed="true">Kinematics</button><button type="button" class="topic" data-topic="1" aria-pressed="false">Laws of Motion</button><button type="button" class="topic" data-topic="2" aria-pressed="false">Current Electricity</button><p>Choose a topic.<br>Try a question.</p></div>
+            <div class="topic-list" role="group" aria-label="Choose a subject"><button type="button" class="topic active" data-topic="0" aria-pressed="true">Physics</button><button type="button" class="topic" data-topic="1" aria-pressed="false">Chemistry</button><button type="button" class="topic" data-topic="2" aria-pressed="false">Maths</button><p>Choose a subject.<br>Try a question.</p></div>
             <div class="question-area">
-              <p class="question-meta" id="question-topic">Kinematics · Uniform acceleration</p>
-              <p class="question" id="question-text">Starting from rest, a particle accelerates uniformly. It covers 7 m during the fourth second. How far does it travel during the third second?</p>
-              <fieldset class="answers"><legend class="sr-only">Choose your answer</legend><label><input type="radio" name="answer" value="0"><span class="answer-letter">A</span><span data-answer>3 m</span></label><label><input type="radio" name="answer" value="1"><span class="answer-letter">B</span><span data-answer>5 m</span></label><label><input type="radio" name="answer" value="2"><span class="answer-letter">C</span><span data-answer>7 m</span></label><label><input type="radio" name="answer" value="3"><span class="answer-letter">D</span><span data-answer>9 m</span></label></fieldset>
+              <p class="question-meta" id="question-topic">Thermodynamics · JEE Main 2026, 2 Apr Shift 1</p>
+              <p class="question" id="question-text">Heat is supplied to a diatomic gas at constant pressure. Then the ratio of ΔQ : ΔU : ΔW is ________.</p>
+              <fieldset class="answers"><legend class="sr-only">Choose your answer</legend><label><input type="radio" name="answer" value="0"><span class="answer-letter">A</span><span data-answer>2 : 3 : 5</span></label><label><input type="radio" name="answer" value="1"><span class="answer-letter">B</span><span data-answer>5 : 3 : 2</span></label><label><input type="radio" name="answer" value="2"><span class="answer-letter">C</span><span data-answer>2 : 5 : 7</span></label><label><input type="radio" name="answer" value="3"><span class="answer-letter">D</span><span data-answer>7 : 5 : 2</span></label></fieldset>
               <div class="demo-actions"><button class="solution-button" id="show-solution" type="button" aria-expanded="false" aria-controls="solution">View solution <span aria-hidden="true">⌄</span></button><button class="button button-small" id="check-answer" type="button">Check answer</button></div>
               <p class="answer-feedback" id="answer-feedback" role="status"></p>
-              <div class="solution" id="solution" hidden><strong>Distance in the nth second</strong><p>For a start from rest, sₙ = a(n − ½). So 7 = a × 3.5, giving a = 2 m/s². During the third second: 2 × 2.5 = <strong>5 m</strong>.</p></div>
-              <noscript><p class="no-script">Answer: 5 m. Enable JavaScript to try the interactive examples.</p></noscript>
+              <div class="solution" id="solution" hidden><strong>Key idea</strong><p data-key>At constant pressure ΔQ : ΔU : ΔW = Cp : Cv : R. For a diatomic gas Cv = 5R/2 and Cp = 7R/2, so the ratio is 7 : 5 : 2.</p><strong>Common mistake</strong><p data-mistake>Using monatomic values (Cv = 3R/2), which gives 5 : 3 : 2.</p><p class="key-source">Answer: official NTA final key</p></div>
+              <noscript><p class="no-script">Answer: 7 : 5 : 2. Enable JavaScript to try the interactive examples.</p></noscript>
             </div>
           </div>
         </div>
@@ -76,8 +78,16 @@
           <article><span class="step-dot" aria-hidden="true"></span><h3>Spot recurring patterns</h3><p>Explore chapter-wise trends across past papers to see what appears often.</p></article>
           <article><span class="step-dot" aria-hidden="true"></span><h3>Practise your covered syllabus</h3><p>Build custom tests from the chapters you have completed. Start where you are.</p></article>
           <article><span class="step-dot" aria-hidden="true"></span><h3>Return to your mistakes</h3><p>Save difficult questions, revisit the reasoning, and give them another go.</p></article>
-          <p class="launch-note">Preparing for launch on Android.<br><a href="mailto:support@edloop.in?subject=EdLoop%20JEE%20launch%20enquiry">Ask us about EdLoop JEE</a></p>
+          <p class="launch-note">In early testing on Android.<br><a href="mailto:support@edloop.in?subject=Join%20the%20EdLoop%20JEE%20test">Join the test</a></p>
         </div>
+      </div>
+    </section>
+    <section class="inside wrap section-space" id="inside" aria-labelledby="inside-title">
+      <h2 id="inside-title">Inside EdLoop JEE.</h2>
+      <div class="inside-grid">
+        <figure><div class="phone"><div class="phone-camera" aria-hidden="true"></div><img src="assets/site-redesign/pattern.webp" width="540" height="1080" loading="lazy" alt="A recurring pattern in EdLoop JEE: how to recognise it, a step-by-step recipe, and the papers it appeared in"><span class="phone-home" aria-hidden="true"></span></div><figcaption><strong>See what comes again</strong>Question types that keep returning, with how to spot them and a recipe to solve them.</figcaption></figure>
+        <figure><div class="phone"><div class="phone-camera" aria-hidden="true"></div><img src="assets/site-redesign/custom-builder.webp" width="540" height="1080" loading="lazy" alt="The custom test screen: choose chapters you have covered, number of questions and a timer"><span class="phone-home" aria-hidden="true"></span></div><figcaption><strong>Test what you have covered</strong>Pick your chapters. Unsolved questions come first.</figcaption></figure>
+        <figure><div class="phone"><div class="phone-camera" aria-hidden="true"></div><img src="assets/site-redesign/checked.webp" width="540" height="1080" loading="lazy" alt="An answered question showing the official NTA key, the key idea, the common mistake and a worked solution"><span class="phone-home" aria-hidden="true"></span></div><figcaption><strong>Learn from every answer</strong>The official key, the key idea, the usual mistake and a worked solution.</figcaption></figure>
       </div>
     </section>
     <section class="campus" id="campus" aria-labelledby="campus-title">

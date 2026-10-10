@@ -1,8 +1,10 @@
 'use strict';
+// Real questions from NTA's official JEE Main papers, answers from the official final key
+// (IIT-APP content: q-2026-04-02-m-p08, q-2026-04-05-m-c01, q-2026-04-04-m-m04).
 const examples = [
-  { topic: 'Kinematics · Uniform acceleration', question: 'Starting from rest, a particle accelerates uniformly. It covers 7 m during the fourth second. How far does it travel during the third second?', answers: ['3 m', '5 m', '7 m', '9 m'], correct: 1, heading: 'Distance in the nth second', explanation: 'For a start from rest, sₙ = a(n − ½). So 7 = a × 3.5, giving a = 2 m/s². During the third second: 2 × 2.5 = 5 m.' },
-  { topic: 'Laws of Motion · Newton’s second law', question: 'A net force acts on a 2 kg block and gives it an acceleration of 3 m/s². What is the magnitude of the net force?', answers: ['1.5 N', '5 N', '6 N', '9 N'], correct: 2, heading: 'Apply Newton’s second law', explanation: 'Net force equals mass times acceleration: F = ma. Here, F = 2 × 3 = 6 N. Use the net force, which includes all the forces acting on the block.' },
-  { topic: 'Current Electricity · Ohm’s law', question: 'A current of 2 A flows through a resistor of resistance 10 Ω. What is the potential difference across the resistor?', answers: ['5 V', '10 V', '12 V', '20 V'], correct: 3, heading: 'Relate voltage, current and resistance', explanation: 'Ohm’s law gives V = IR. With I = 2 A and R = 10 Ω, the potential difference is 2 × 10 = 20 V.' }
+  { subject: 'Physics', topic: 'Thermodynamics · JEE Main 2026, 2 Apr Shift 1', question: 'Heat is supplied to a diatomic gas at constant pressure. Then the ratio of ΔQ : ΔU : ΔW is ________.', answers: ['2 : 3 : 5', '5 : 3 : 2', '2 : 5 : 7', '7 : 5 : 2'], correct: 3, keyIdea: 'At constant pressure ΔQ : ΔU : ΔW = Cp : Cv : R. For a diatomic gas Cv = 5R/2 and Cp = 7R/2, so the ratio is 7 : 5 : 2.', mistake: 'Using monatomic values (Cv = 3R/2), which gives 5 : 3 : 2.' },
+  { subject: 'Chemistry', topic: 'Mole Concept · JEE Main 2026, 5 Apr Shift 1', question: 'How many grams of residue is obtained by heating 2.76 g of silver carbonate? (Given: molar mass of C, O and Ag are 12, 16 and 108 g mol⁻¹ respectively)', answers: ['1.08 g', '2.16 g', '3.24 g', '4.32 g'], correct: 1, keyIdea: 'Ag₂CO₃ → 2Ag + CO₂ + ½O₂, and the residue is silver metal. 2.76 g is 0.01 mol (M = 276), giving 0.02 mol Ag = 2.16 g.', mistake: 'Stopping at Ag₂O, which gives 2.32 g.' },
+  { subject: 'Maths', topic: 'Sets, Relations & Functions · JEE Main 2026, 4 Apr Shift 1', question: 'The number of functions f : {1, 2, 3, 4} → {a, b, c}, which are not onto, is:', answers: ['48', '45', '51', '35'], correct: 1, keyIdea: 'All functions: 3⁴ = 81. Onto functions: 3⁴ − 3·2⁴ + 3 = 36. Not onto: 81 − 36 = 45.', mistake: 'Subtracting 3·2⁴ without adding back the 3 constant functions.' }
 ];
 let currentExample = 0;
 const feedback = document.querySelector('#answer-feedback');
@@ -14,12 +16,13 @@ document.querySelectorAll('[data-topic]').forEach(button => button.addEventListe
   currentExample = Number(button.dataset.topic);
   const example = examples[currentExample];
   document.querySelectorAll('[data-topic]').forEach(topic => { const active = topic === button; topic.classList.toggle('active', active); topic.setAttribute('aria-pressed', String(active)); });
+  document.querySelector('#demo-subject').textContent = example.subject;
   document.querySelector('#question-topic').textContent = example.topic;
   document.querySelector('#question-text').textContent = example.question;
   document.querySelectorAll('[data-answer]').forEach((answer, index) => { answer.textContent = example.answers[index]; });
   radios.forEach(radio => { radio.checked = false; });
-  solution.querySelector('strong').textContent = example.heading;
-  solution.querySelector('p').textContent = example.explanation;
+  solution.querySelector('[data-key]').textContent = example.keyIdea;
+  solution.querySelector('[data-mistake]').textContent = example.mistake;
   solution.hidden = true;
   solutionButton.setAttribute('aria-expanded', 'false');
   solutionButton.innerHTML = 'View solution <span aria-hidden="true">⌄</span>';
@@ -31,7 +34,7 @@ document.querySelector('#check-answer').addEventListener('click', () => {
   if (!selected) { feedback.textContent = 'Choose an answer first.'; radios[0].focus(); return; }
   const correct = Number(selected.value) === examples[currentExample].correct;
   feedback.className = `answer-feedback ${correct ? 'correct' : 'incorrect'}`;
-  feedback.textContent = correct ? 'That’s right. View the solution to check your reasoning.' : 'Not quite. Try again, or open the solution to see the steps.';
+  feedback.textContent = correct ? 'That’s right: +4 in the exam. View the solution to check your reasoning.' : 'Not quite: −1 in the exam. Try again, or open the solution.';
 });
 solutionButton.addEventListener('click', () => {
   solution.hidden = !solution.hidden;
