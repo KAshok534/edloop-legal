@@ -1,457 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EdLoop | The Intelligence Layer for Competitive Learning</title>
-    <meta name="description" content="EdLoop is an education technology platform engineered for pattern mastery. Home of EdLoop JEE and next-generation exam preparation apps.">
-    
-    <!-- Open Graph / Meta -->
-    <meta property="og:title" content="EdLoop | What comes again, you master">
-    <meta property="og:description" content="Education engineered in loops. Discover recurring question patterns, weakness heatmaps, and honest data-first prep across competitive exams.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://edloop.in">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="EdLoop | Master Exam Patterns">
-    <meta name="twitter:description" content="Home of EdLoop JEE. Discover recurring patterns, chapter heatmaps, and offline-first practice.">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css?v=5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142444">
+  <title>EdLoop — Make every practice count</title>
+  <meta name="description" content="Find patterns in past papers, practise your covered syllabus and return to your mistakes. Meet EdLoop JEE, with EAPCET and Campus on the way.">
+  <link rel="canonical" href="https://edloop.in/">
+  <meta property="og:title" content="EdLoop — Make every practice count">
+  <meta property="og:description" content="Past questions. Clear priorities. A better way to prepare.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://edloop.in/">
+  <meta property="og:image" content="https://edloop.in/assets/site-redesign/social.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/site-redesign/mark.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="preload" href="assets/site-redesign/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="home.css?v=1">
+  <script src="home.js?v=1" defer></script>
 </head>
 <body>
-
-    <!-- Ambient Glowing Orbs -->
-    <div class="bg-ambient">
-        <div class="glow-orb glow-orb-1"></div>
-        <div class="glow-orb glow-orb-2"></div>
-        <div class="glow-orb glow-orb-3"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./" aria-label="EdLoop home">
+        <svg class="brand-mark" viewBox="0 0 112 112" aria-hidden="true"><g class="brand-turn"><path d="M56 14 A42 42 0 1 1 17.935 73.75" class="outer-arc"/><path d="M30.623 67.833 A28 28 0 1 0 56 28" class="inner-arc"/><circle cx="56" cy="14" r="5"/></g></svg>
+        <span>Ed<span class="brand-loop">Loop</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="#practice">For students</a><a href="#campus">For colleges</a><a href="#approach">Our approach</a></nav>
+      <a class="button button-small header-cta" href="#practice">Explore JEE</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" type="button">Menu <span aria-hidden="true">☰</span></button>
     </div>
-
-    <!-- Floating Pill Header -->
-    <header class="header-nav">
-        <nav class="nav-pill">
-            <a href="index.html" class="logo-wrapper">
-                <div class="brand-loop-glyph">
-                    <svg viewBox="0 0 200 200" class="brand-loop-svg" aria-hidden="true">
-                        <defs>
-                            <linearGradient id="navLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" stop-color="#38bdf8" />
-                                <stop offset="45%" stop-color="#06b6d4" />
-                                <stop offset="100%" stop-color="#818cf8" />
-                            </linearGradient>
-                        </defs>
-                        <style>
-                            @keyframes navLoopSpinRest {
-                                0% { transform: rotate(0deg); }
-                                26% { transform: rotate(360deg); }
-                                100% { transform: rotate(360deg); }
-                            }
-                            .nav-spin-grp {
-                                transform-origin: 100px 100px;
-                                transform-box: view-box;
-                                animation: navLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-                            }
-                        </style>
-                        <g class="nav-spin-grp">
-                            <!-- Outer Arc: R=70 -->
-                            <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#navLoopGrad)" stroke-width="14" stroke-linecap="round" />
-                            <!-- Inner Arc: R=48 with clean clearance channel -->
-                            <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#navLoopGrad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
-                            <!-- Focal Node at Apex -->
-                            <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
-                            <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
-                        </g>
-                    </svg>
-                </div>
-                <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
-            </a>
-            
-            <ul class="nav-links">
-                <li><a href="#apps">Ecosystem</a></li>
-                <li><a href="#architecture">Architecture</a></li>
-                <li><a href="#philosophy">Methodology</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-
-            <a href="#apps" class="btn btn-primary" style="padding: 0.55rem 1.25rem; font-size: 0.88rem;">
-                Explore Apps
-            </a>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="container hero-content">
-                <div class="badge animate-fade-in">
-                    <span class="badge-dot"></span>
-                    Master Brand &bull; Education Ecosystem
-                </div>
-                
-                <h1 class="hero-title animate-fade-in delay-1">
-                    Education engineered <br>
-                    <span class="text-gradient">in intelligent loops.</span>
-                </h1>
-                
-                <p class="hero-subtitle animate-fade-in delay-2">
-                    We replace brute-force rote memorization with recurring pattern mastery. 
-                    Deep taxonomy, authentic examination frequency, and lightning-fast offline sync. 
-                    Zero ads. Zero coaching sales pitches.
-                </p>
-                
-                <div class="hero-cta-group animate-fade-in delay-3">
-                    <a href="#apps" class="btn btn-primary">
-                        <span>Discover EdLoop JEE</span>
-                        <span>&darr;</span>
-                    </a>
-                    <a href="#architecture" class="btn btn-secondary">
-                        Why We're Different
-                    </a>
-                </div>
-
-                <!-- Live Metrics Ticker -->
-                <div class="metrics-grid animate-fade-in delay-3">
-                    <div class="metric-item">
-                        <div class="metric-val">~600</div>
-                        <div class="metric-label">Core Question Archetypes</div>
-                    </div>
-                    <div class="metric-item">
-                        <div class="metric-val">90%+</div>
-                        <div class="metric-label">Exam Paper Coverage</div>
-                    </div>
-                    <div class="metric-item">
-                        <div class="metric-val">100%</div>
-                        <div class="metric-label">Distraction &amp; Ad Free</div>
-                    </div>
-                    <div class="metric-item">
-                        <div class="metric-val">0 ms</div>
-                        <div class="metric-label">Network Lag on Practice</div>
-                    </div>
-                </div>
+    <nav class="mobile-nav wrap" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="#practice">For students</a><a href="#campus">For colleges</a><a href="#approach">Our approach</a><a href="#about">About EdLoop</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Make every<br>practice count.</h1>
+        <p class="hero-description">Find the patterns in past papers.<br class="desktop-break"> Practise what matters. Know what to work on next.</p>
+        <div class="hero-actions"><a class="button" href="#practice">Explore EdLoop JEE</a><a class="text-link" href="#approach">See how it works <span aria-hidden="true">↗</span></a></div>
+        <p class="availability"><span aria-hidden="true"></span>Android app in development</p>
+      </div>
+      <figure class="hero-visual">
+        <svg class="learning-line" viewBox="0 0 600 620" fill="none" aria-hidden="true"><path d="M355 40 C65 4 -63 214 155 277 S668 306 553 486 S71 636 160 402"/></svg>
+        <div class="phone"><div class="phone-camera" aria-hidden="true"></div><img src="assets/site-redesign/heatmap.webp" width="648" height="1296" alt="EdLoop JEE app: a Physics heatmap showing how frequently chapters appeared in previous years" fetchpriority="high"><span class="phone-home" aria-hidden="true"></span></div>
+        <figcaption>See where to<br>focus next.<svg viewBox="0 0 75 60" aria-hidden="true"><path d="M68 3Q58 42 8 48m0 0 14-14M8 48l19 3"/></svg></figcaption>
+        <span class="screen-caption">A look inside EdLoop JEE</span>
+      </figure>
+    </section>
+    <nav class="product-nav wrap" aria-label="Explore EdLoop products">
+      <a class="product-item current" href="#practice"><svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="16" rx="14" ry="5" transform="rotate(35 16 16)"/><ellipse cx="16" cy="16" rx="14" ry="5" transform="rotate(-35 16 16)"/><circle cx="16" cy="16" r="2"/></svg><span><strong>JEE Main</strong><small>Meet the app</small></span></a>
+      <a class="product-item" href="#eapcet"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m16 2 12 7v14l-12 7-12-7V9Z"/><path d="m16 9 6 3v8l-6 3-6-3v-8Z"/></svg><span><strong>AP / TS EAPCET</strong><small>Coming next</small></span></a>
+      <a class="product-item" href="#campus"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m2 11 14-8 14 8H2Zm4 3v13m10-13v13m10-13v13M2 29h28"/></svg><span><strong>Campus</strong><small>In development</small></span></a>
+    </nav>
+    <section class="practice wrap section-space" id="practice" aria-labelledby="practice-title">
+      <div class="section-heading"><h2 id="practice-title">Turn past papers into a plan.</h2><p>Less time deciding what to study.<br>More time understanding it.</p></div>
+      <div class="practice-layout">
+        <div class="practice-demo" aria-label="Interactive sample practice question">
+          <div class="demo-top"><span class="subject-title"><span class="subject-orbit" aria-hidden="true">◎</span> Physics</span><span class="demo-label">Interactive example</span></div>
+          <div class="demo-body">
+            <div class="topic-list" role="group" aria-label="Choose a sample topic"><button type="button" class="topic active" data-topic="0" aria-pressed="true">Kinematics</button><button type="button" class="topic" data-topic="1" aria-pressed="false">Laws of Motion</button><button type="button" class="topic" data-topic="2" aria-pressed="false">Current Electricity</button><p>Choose a topic.<br>Try a question.</p></div>
+            <div class="question-area">
+              <p class="question-meta" id="question-topic">Kinematics · Uniform acceleration</p>
+              <p class="question" id="question-text">Starting from rest, a particle accelerates uniformly. It covers 7 m during the fourth second. How far does it travel during the third second?</p>
+              <fieldset class="answers"><legend class="sr-only">Choose your answer</legend><label><input type="radio" name="answer" value="0"><span class="answer-letter">A</span><span data-answer>3 m</span></label><label><input type="radio" name="answer" value="1"><span class="answer-letter">B</span><span data-answer>5 m</span></label><label><input type="radio" name="answer" value="2"><span class="answer-letter">C</span><span data-answer>7 m</span></label><label><input type="radio" name="answer" value="3"><span class="answer-letter">D</span><span data-answer>9 m</span></label></fieldset>
+              <div class="demo-actions"><button class="solution-button" id="show-solution" type="button" aria-expanded="false" aria-controls="solution">View solution <span aria-hidden="true">⌄</span></button><button class="button button-small" id="check-answer" type="button">Check answer</button></div>
+              <p class="answer-feedback" id="answer-feedback" role="status"></p>
+              <div class="solution" id="solution" hidden><strong>Distance in the nth second</strong><p>For a start from rest, sₙ = a(n − ½). So 7 = a × 3.5, giving a = 2 m/s². During the third second: 2 × 2.5 = <strong>5 m</strong>.</p></div>
+              <noscript><p class="no-script">Answer: 5 m. Enable JavaScript to try the interactive examples.</p></noscript>
             </div>
-        </section>
-
-        <!-- Ecosystem Section: Our Apps -->
-        <section id="apps">
-            <div class="container">
-                <div class="section-head animate-fade-in">
-                    <div class="badge">Portfolio</div>
-                    <h2>The EdLoop Ecosystem</h2>
-                    <p>
-                        Focused, specialised applications engineered from a single verified intelligence engine.
-                    </p>
-                </div>
-
-                <div class="ecosystem-grid">
-                    <!-- Flagship: EdLoop JEE -->
-                    <div class="product-card flagship animate-fade-in delay-1">
-                        <div class="card-top">
-                            <span class="card-badge active">Flagship &bull; Android App</span>
-                            <h3>EdLoop JEE</h3>
-                            <p>
-                                Complete previous year questions (PYQs) for JEE Main, tagged down to three granular levels: chapter, concept, and recurring archetypes.
-                            </p>
-                            
-                            <ul class="feature-bullets">
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>200+ official papers parsed with verified keys</span>
-                                </li>
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>Custom topic tests built on your covered syllabus</span>
-                                </li>
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>Personal weakness heatmap &times; exam frequency</span>
-                                </li>
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>Full papers download whole — survives dropped connections</span>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div class="card-bottom">
-                            <span class="btn btn-primary" style="width: 100%; cursor: default; opacity: 0.95;">
-                                Launching for JEE 2027 &bull; Play Store
-                            </span>
-                        </div>
-                    </div>
-
-                    <!-- Pipeline: EdLoop EAPCET -->
-                    <div class="product-card animate-fade-in delay-2">
-                        <div class="card-top">
-                            <span class="card-badge pipeline">Next in Pipeline</span>
-                            <h3>EdLoop EAPCET</h3>
-                            <p>
-                                Tailored for Andhra Pradesh &amp; Telangana state engineering aspirants (AP/TS EAPCET).
-                            </p>
-                            
-                            <ul class="feature-bullets">
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>150+ archived official session papers</span>
-                                </li>
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>Identical 3-level archetype pattern intelligence</span>
-                                </li>
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>Targeted state-syllabus weightage heatmaps</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="card-bottom">
-                            <span class="btn btn-secondary" style="width: 100%; cursor: default;">
-                                Coming Early 2027
-                            </span>
-                        </div>
-                    </div>
-
-                    <!-- Future: EdLoop Web & Campus -->
-                    <div class="product-card animate-fade-in delay-3">
-                        <div class="card-top">
-                            <span class="card-badge research">Future Vision</span>
-                            <h3>EdLoop Web &amp; Campus</h3>
-                            <p>
-                                Expanding our pattern engine to modern desktop browsers and institutional analytics boxes for junior &amp; intermediate colleges.
-                            </p>
-                            
-                            <ul class="feature-bullets">
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>Web edition: Practice anywhere with full screen UI</span>
-                                </li>
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>Institutional class-wide weakness diagnostics</span>
-                                </li>
-                                <li>
-                                    <span class="bullet-icon">&check;</span>
-                                    <span>Custom internal test generation from vetted bank</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="card-bottom">
-                            <span class="btn btn-secondary" style="width: 100%; cursor: default;">
-                                In Active R&amp;D
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Brand Architecture / Core Pillars -->
-        <section id="architecture">
-            <div class="container">
-                <div class="section-head animate-fade-in">
-                    <div class="badge">Engineering</div>
-                    <h2>The Architecture of Mastery</h2>
-                    <p>
-                        Why traditional prep apps fail students, and how EdLoop's data pipeline solves it.
-                    </p>
-                </div>
-
-                <div class="pillars-grid">
-                    <div class="pillar-card animate-fade-in delay-1">
-                        <div class="pillar-icon-box">&bull;&bull;&bull;</div>
-                        <h3>3-Tier Taxonomy</h3>
-                        <p>
-                            Standard apps categorize questions only by chapter. EdLoop classifies by <strong>Chapter &rarr; Concept &rarr; Archetype</strong>, identifying the exact mathematical structure behind repeating questions.
-                        </p>
-                    </div>
-
-                    <div class="pillar-card animate-fade-in delay-2">
-                        <div class="pillar-icon-box">&prop;</div>
-                        <h3>True Exam Frequency</h3>
-                        <p>
-                            We count distinct exam sessions and conceptual variants, not superficial text duplicates. You see what examiners actually repeat and when.
-                        </p>
-                    </div>
-
-                    <div class="pillar-card animate-fade-in delay-3">
-                        <div class="pillar-icon-box">&loz;</div>
-                        <h3>Resilient Offline Sync</h3>
-                        <p>
-                            Built for real-world connectivity. Timed tests download completely before starting; responses persist locally first, ensuring zero lost answers during exam simulations.
-                        </p>
-                    </div>
-
-                    <div class="pillar-card animate-fade-in delay-1">
-                        <div class="pillar-icon-box">&empty;</div>
-                        <h3>Zero Coaching Agenda</h3>
-                        <p>
-                            We don't exist to sell ₹1,00,000 video packages or push coaching batches. Just clean, respectful, distraction-free intelligence software.
-                        </p>
-                    </div>
-
-                    <div class="pillar-card animate-fade-in delay-2">
-                        <div class="pillar-icon-box">&Delta;</div>
-                        <h3>Weakness &times; Frequency Matrix</h3>
-                        <p>
-                            Our personal heatmap multiplies the exam's highest-probability chapters by your individual blind spots to calculate your exact nightly homework.
-                        </p>
-                    </div>
-
-                    <div class="pillar-card animate-fade-in delay-3">
-                        <div class="pillar-icon-box">&infin;</div>
-                        <h3>Multi-Exam Expansion</h3>
-                        <p>
-                            A modular platform schema built to support JEE Advanced, NEET, and regional engineering entrance benchmarks under one trusted umbrella.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- The Loop Methodology -->
-        <section id="philosophy">
-            <div class="container">
-                <div class="section-head animate-fade-in">
-                    <div class="badge">The Cycle</div>
-                    <h2>How The Loop Works</h2>
-                    <p>
-                        A continuous feedback engine designed to convert struggle into automatic intuition.
-                    </p>
-                </div>
-
-                <div class="loop-steps">
-                    <div class="step-card animate-fade-in delay-1">
-                        <div class="step-seq">Phase 01</div>
-                        <h3>Isolate Syllabus Covered</h3>
-                        <p>
-                            Instead of feeling overwhelmed by full 2-year syllabus mocks, pick only the topics your college or school has completed so far.
-                        </p>
-                    </div>
-
-                    <div class="step-card animate-fade-in delay-2">
-                        <div class="step-seq">Phase 02</div>
-                        <h3>Solve Real Exam Variants</h3>
-                        <p>
-                            Engage with genuine historical questions on exam timers. Receive instant answer keys and verified step-by-step resolution pathways.
-                        </p>
-                    </div>
-
-                    <div class="step-card animate-fade-in delay-3">
-                        <div class="step-seq">Phase 03</div>
-                        <h3>Re-loop on Weak Archetypes</h3>
-                        <p>
-                            Your mistake bank is indexed by recurring pattern. Review the trap, retry similar variants, and permanently close the conceptual gap.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Mission & About Section -->
-        <section id="about">
-            <div class="container">
-                <div class="mission-box animate-fade-in">
-                    <div class="badge">Engineering Leadership</div>
-                    <h2>Engineered with enterprise precision.</h2>
-                    <p>
-                        EdLoop is conceived and built by <a href="https://ashokkunchala.com" target="_blank" rel="noopener" style="color: var(--accent-sky); font-weight: 700; text-decoration: underline; text-underline-offset: 4px;">Ashok Kumar Kunchala</a> — a Technology Leader and Enterprise AI Architect with 13+ years of experience architecting production-scale distributed platforms, Agentic AI, and cloud-native systems for clients across the US, India, and Australia.
-                    </p>
-                    <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 680px; margin: 0 auto 1.75rem;">
-                        Bringing the same rigor required by mission-critical enterprise systems to student learning: authentic data verification, zero downtime architecture, and no manipulative dark patterns.
-                    </p>
-                    
-                    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
-                        <a href="https://ashokkunchala.com" target="_blank" rel="noopener" class="btn btn-primary" style="font-size: 0.9rem;">
-                            <span>Visit ashokkunchala.com</span>
-                            <span>&nearr;</span>
-                        </a>
-                        <a href="mailto:ashokkumar.kunchala@edloop.in" class="btn btn-secondary" style="font-size: 0.9rem;">
-                            <span>ashokkumar.kunchala@edloop.in</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="logo-wrapper">
-                        <div class="brand-loop-glyph">
-                            <svg viewBox="0 0 200 200" class="brand-loop-svg" aria-hidden="true">
-                                <defs>
-                                    <linearGradient id="footerLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" stop-color="#38bdf8" />
-                                        <stop offset="45%" stop-color="#06b6d4" />
-                                        <stop offset="100%" stop-color="#818cf8" />
-                                    </linearGradient>
-                                </defs>
-                                <style>
-                                    @keyframes footerLoopSpinRest {
-                                        0% { transform: rotate(0deg); }
-                                        26% { transform: rotate(360deg); }
-                                        100% { transform: rotate(360deg); }
-                                    }
-                                    .footer-spin-grp {
-                                        transform-origin: 100px 100px;
-                                        transform-box: view-box;
-                                        animation: footerLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-                                    }
-                                </style>
-                                <g class="footer-spin-grp">
-                                    <!-- Outer Arc: R=70 -->
-                                    <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#footerLoopGrad)" stroke-width="14" stroke-linecap="round" />
-                                    <!-- Inner Arc: R=48 with clean clearance channel -->
-                                    <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#footerLoopGrad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
-                                    <!-- Focal Node at Apex -->
-                                    <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
-                                    <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
-                                </g>
-                            </svg>
-                        </div>
-                        <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
-                    </div>
-                    <p>
-                        What comes again, you master. Hyper-focused exam preparation software for engineering aspirants across India.
-                    </p>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Ecosystem</h4>
-                    <ul>
-                        <li><a href="#apps">EdLoop JEE (Android)</a></li>
-                        <li><a href="#apps">EdLoop EAPCET (Upcoming)</a></li>
-                        <li><a href="#apps">EdLoop Web &amp; Campus</a></li>
-                        <li><a href="#architecture">Architecture</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Legal &amp; Trust</h4>
-                    <ul>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="delete-account.html">Delete Account</a></li>
-                        <li><a href="mailto:support@edloop.in">Contact Support</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div>&copy; 2026 EdLoop. Developed by <a href="https://ashokkunchala.com" target="_blank" rel="noopener" style="color: var(--accent-sky); font-weight: 600;">Ashok Kumar Kunchala</a>. All rights reserved.</div>
-                <div>EdLoop is an independent product not affiliated with NTA, APSCHE, or TSCHE.</div>
-            </div>
+          </div>
         </div>
-    </footer>
-
-    <script src="script.js"></script>
+        <div class="practice-benefits" id="approach">
+          <article><span class="step-dot" aria-hidden="true"></span><h3>Spot recurring patterns</h3><p>Explore chapter-wise trends across past papers to see what appears often.</p></article>
+          <article><span class="step-dot" aria-hidden="true"></span><h3>Practise your covered syllabus</h3><p>Build custom tests from the chapters you have completed. Start where you are.</p></article>
+          <article><span class="step-dot" aria-hidden="true"></span><h3>Return to your mistakes</h3><p>Save difficult questions, revisit the reasoning, and give them another go.</p></article>
+          <p class="launch-note">Preparing for launch on Android.<br><a href="mailto:support@edloop.in?subject=EdLoop%20JEE%20launch%20enquiry">Ask us about EdLoop JEE</a></p>
+        </div>
+      </div>
+    </section>
+    <section class="campus" id="campus" aria-labelledby="campus-title">
+      <div class="wrap campus-layout">
+        <div class="campus-copy"><p class="campus-status">EdLoop Campus · In development</p><h2 id="campus-title">A clearer picture<br>for every classroom.</h2><p>We’re building tools to connect practice, assessments and student progress. One place for students to learn and teachers to see where help is needed.</p><a class="button button-outline" href="mailto:ashokkumar.kunchala@edloop.in?subject=EdLoop%20Campus%20enquiry">Talk about your college</a></div>
+        <figure class="campus-preview"><figcaption><strong>Campus concept</strong><span>Illustrative view</span></figcaption><div class="heatmap-scroll"><table class="campus-table"><caption class="sr-only">Illustrative practice activity across four classes and three subjects; these are sample values, not student data.</caption><thead><tr><th scope="col">Class</th><th scope="col">Physics</th><th scope="col">Chemistry</th><th scope="col">Maths</th></tr></thead><tbody>
+          <tr><th scope="row">Class 11 · A</th><td><span class="heat h2">Moderate</span><span class="heat h1">Low</span><span class="heat h3">High</span><span class="heat h4">Very high</span></td><td><span class="heat h1">Low</span><span class="heat h3">High</span><span class="heat h2">Moderate</span><span class="heat h1">Low</span></td><td><span class="heat h4">Very high</span><span class="heat h3">High</span><span class="heat h2">Moderate</span><span class="heat h1">Low</span></td></tr>
+          <tr><th scope="row">Class 11 · B</th><td><span class="heat h1">Low</span><span class="heat h3">High</span><span class="heat h2">Moderate</span><span class="heat h3">High</span></td><td><span class="heat h2">Moderate</span><span class="heat h4">Very high</span><span class="heat h1">Low</span><span class="heat h2">Moderate</span></td><td><span class="heat h2">Moderate</span><span class="heat h4">Very high</span><span class="heat h3">High</span><span class="heat h1">Low</span></td></tr>
+          <tr><th scope="row">Class 12 · A</th><td><span class="heat h4">Very high</span><span class="heat h2">Moderate</span><span class="heat h1">Low</span><span class="heat h2">Moderate</span></td><td><span class="heat h1">Low</span><span class="heat h2">Moderate</span><span class="heat h3">High</span><span class="heat h4">Very high</span></td><td><span class="heat h1">Low</span><span class="heat h3">High</span><span class="heat h4">Very high</span><span class="heat h3">High</span></td></tr>
+          <tr><th scope="row">Class 12 · B</th><td><span class="heat h2">Moderate</span><span class="heat h1">Low</span><span class="heat h3">High</span><span class="heat h4">Very high</span></td><td><span class="heat h4">Very high</span><span class="heat h3">High</span><span class="heat h1">Low</span><span class="heat h2">Moderate</span></td><td><span class="heat h2">Moderate</span><span class="heat h1">Low</span><span class="heat h3">High</span><span class="heat h4">Very high</span></td></tr>
+        </tbody></table></div><div class="heatmap-legend"><span>Less practice</span><i class="h1"></i><i class="h2"></i><i class="h3"></i><i class="h4"></i><span>More practice</span></div></figure>
+      </div>
+    </section>
+    <section class="principles wrap section-space" aria-labelledby="principles-title"><h2 id="principles-title">Built around how students learn.</h2><div class="principles-grid">
+      <article><span class="principle-icon" aria-hidden="true">◎</span><div><h3>Focused practice</h3><p>Work on the right questions for your current level.</p></div></article>
+      <article><svg class="principle-icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M10 28V20m10 8V12m10 16V6"/></svg><div><h3>Useful feedback</h3><p>See what you know and what to work on next.</p></div></article>
+      <article><svg class="principle-icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 11Q12 5 5 9v23q7-4 15 2m0-23q8-6 15-2v23q-7-4-15 2V11Z"/></svg><div><h3>Room to grow</h3><p>Build consistency, one chapter at a time.</p></div></article>
+    </div></section>
+    <section class="next-chapter wrap" id="eapcet"><div><p class="quiet-label">Coming next</p><h2>The next chapter: EAPCET.</h2></div><p>The same thoughtful approach to practice, shaped for engineering aspirants in Andhra Pradesh and Telangana. <a href="mailto:support@edloop.in?subject=EdLoop%20EAPCET%20enquiry">Get in touch</a></p></section>
+    <section class="about wrap" id="about"><h2>Made with care.<br>Built for the long run.</h2><div><p>EdLoop is an independent education product built by <a href="https://ashokkunchala.com" target="_blank" rel="noopener noreferrer">Ashok Kumar Kunchala</a>. It starts with a simple belief: good software should make learning clearer.</p><p>We’re starting with JEE practice and building towards a connected home for learning, from individual students to entire colleges.</p></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap"><div class="footer-top"><a class="brand" href="./" aria-label="EdLoop home"><img src="assets/site-redesign/mark.svg" width="36" height="36" alt=""><span>Ed<span class="brand-loop">Loop</span></span></a><p>What comes again, you master.</p><nav aria-label="Footer"><a href="privacy.html">Privacy</a><a href="delete-account.html">Delete account</a><a href="mailto:support@edloop.in">Contact</a><a href="#about">About</a></nav></div><div class="footer-bottom"><span>© 2026 EdLoop</span><span>Independent of NTA, APSCHE and TSCHE.</span><button id="motion-toggle" type="button" aria-pressed="false">Pause logo motion</button></div></div></footer>
 </body>
 </html>
