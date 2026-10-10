@@ -1,102 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delete Account - EdLoop</title>
-    <meta name="description" content="How to delete your EdLoop account and what happens to your data.">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css?v=5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142444">
+  <title>Delete Account - EdLoop</title>
+  <meta name="description" content="How to delete your EdLoop account and what happens to your data.">
+  <link rel="canonical" href="https://edloop.in/delete-account.html">
+  <link rel="icon" href="assets/site-redesign/mark.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="preload" href="assets/site-redesign/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="home.css?v=1">
+  <link rel="stylesheet" href="legal.css?v=1">
+  <script src="site.js?v=1" defer></script>
 </head>
-<body>
-
-    <!-- Ambient Glow Background -->
-    <div class="bg-ambient">
-        <div class="glow-orb glow-orb-1"></div>
-        <div class="glow-orb glow-orb-2"></div>
+<body class="legal-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./" aria-label="EdLoop home">
+        <svg class="brand-mark" viewBox="0 0 112 112" aria-hidden="true"><g class="brand-turn"><path d="M56 14 A42 42 0 1 1 17.935 73.75" class="outer-arc"/><path d="M30.623 67.833 A28 28 0 1 0 56 28" class="inner-arc"/><circle cx="56" cy="14" r="5"/></g></svg>
+        <span>Ed<span class="brand-loop">Loop</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html#practice">For students</a><a href="index.html#campus">For colleges</a><a href="index.html#approach">Our approach</a></nav>
+      <a class="button button-small header-cta" href="index.html#practice">Explore JEE</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" type="button">Menu <span aria-hidden="true">☰</span></button>
     </div>
-
-    <!-- Floating Pill Header -->
-    <header class="header-nav">
-        <nav class="nav-pill">
-            <a href="index.html" class="logo-wrapper">
-                <div class="brand-loop-glyph">
-                    <svg viewBox="0 0 200 200" class="brand-loop-svg" aria-hidden="true">
-                        <defs>
-                            <linearGradient id="delNavLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" stop-color="#38bdf8" />
-                                <stop offset="45%" stop-color="#06b6d4" />
-                                <stop offset="100%" stop-color="#818cf8" />
-                            </linearGradient>
-                        </defs>
-                        <style>
-                            @keyframes delNavLoopSpinRest {
-                                0% { transform: rotate(0deg); }
-                                26% { transform: rotate(360deg); }
-                                100% { transform: rotate(360deg); }
-                            }
-                            .del-nav-spin-grp {
-                                transform-origin: 100px 100px;
-                                transform-box: view-box;
-                                animation: delNavLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-                            }
-                        </style>
-                        <g class="del-nav-spin-grp">
-                            <!-- Outer Arc: R=70 -->
-                            <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#delNavLoopGrad)" stroke-width="14" stroke-linecap="round" />
-                            <!-- Inner Arc: R=48 with clean clearance channel -->
-                            <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#delNavLoopGrad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
-                            <!-- Focal Node at Apex -->
-                            <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
-                            <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
-                        </g>
-                    </svg>
-                </div>
-                <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
-            </a>
-            
-            <a href="index.html" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">
-                &larr; Back to Home
-            </a>
-        </nav>
-    </header>
-
-    <header class="legal-header">
-        <div class="container animate-fade-in">
-            <div class="badge">Account Control</div>
-            <h1>Delete your EdLoop account</h1>
-            <p class="tagline">EdLoop is a practice app for JEE Main previous year questions. This page explains how to delete your account and what happens to your data.</p>
-        </div>
-    </header>
-
-    <main class="container legal-wrapper">
+    <nav class="mobile-nav wrap" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="index.html#practice">For students</a><a href="index.html#campus">For colleges</a><a href="index.html#approach">Our approach</a><a href="index.html#about">About EdLoop</a></nav>
+  </header>
+  <main id="main" class="legal-main wrap">
+    <header class="legal-intro"><p class="legal-eyebrow">Your account</p><h1>Delete your EdLoop account</h1><p class="tagline">EdLoop is a practice app for JEE Main previous year questions. This page explains how to delete your account and what happens to your data.</p></header>
+    <div class="legal-layout">
+      <aside class="legal-sidebar"><nav aria-label="On this page"><p>On this page</p><a href="#if-you-have-the-app">If you have the app</a><a href="#if-you-no-longer-have-the-app">If you no longer have the app</a><a href="#what-is-deleted">What is deleted</a><a href="#what-is-kept">What is kept</a></nav><a class="legal-back" href="index.html">← Back to EdLoop</a></aside>
+      <article class="legal-content" aria-label="Delete Account - EdLoop">
         
-        <div class="pillars-grid" style="grid-template-columns: 1fr 1fr; margin-bottom: 2rem;">
-            <div class="legal-card animate-fade-in delay-1" style="border-top: 3px solid var(--accent-sky); margin-bottom: 0;">
-                <h2>If you have the app</h2>
-                <ol style="padding-left: 1.25rem; margin-top: 1rem; margin-bottom: 1rem;">
+        <div class="deletion-methods">
+            <div class="legal-section">
+                <h2 id="if-you-have-the-app">If you have the app</h2>
+                <ol>
                     <li>Open EdLoop and sign in.</li>
                     <li>Go to <strong>Settings</strong> (the gear at the top right of Home).</li>
                     <li>Tap <strong>Delete account</strong>, type <strong>DELETE</strong> when asked, and confirm.</li>
                 </ol>
-                <p style="font-size: 0.95rem; margin-top: 1rem;">Your account and all the data listed below are deleted at once, on our servers and on your phone. This needs an internet connection.</p>
+                <p>Your account and all the data listed below are deleted at once, on our servers and on your phone. This needs an internet connection.</p>
             </div>
 
-            <div class="legal-card animate-fade-in delay-2" style="border-top: 3px solid var(--accent-violet); margin-bottom: 0;">
-                <h2>If you no longer have the app</h2>
-                <p>Email <a href="mailto:support@edloop.in" style="color: var(--accent-sky); font-weight: 600;">support@edloop.in</a> from the Google account you signed in with, with the subject <code style="background: rgba(255,255,255,0.06); padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.9em;">Delete my account</code>.</p>
-                <p style="margin-top: 1rem; font-size: 0.95rem;">We delete the account and its data within 7 days and reply to confirm. We only act on requests sent from the same email address as the account, so that nobody can delete someone else's account.</p>
+            <div class="legal-section">
+                <h2 id="if-you-no-longer-have-the-app">If you no longer have the app</h2>
+                <p>Email <a href="mailto:support@edloop.in">support@edloop.in</a> from the Google account you signed in with, with the subject <code>Delete my account</code>.</p>
+                <p>We delete the account and its data within 7 days and reply to confirm. We only act on requests sent from the same email address as the account, so that nobody can delete someone else's account.</p>
             </div>
         </div>
 
-        <div class="legal-card animate-fade-in delay-1">
-            <h2>What is deleted</h2>
+        <div class="legal-section">
+            <h2 id="what-is-deleted">What is deleted</h2>
             <ul>
                 <li>Your account: name, email address and Google account identifier</li>
                 <li>Your practice history: answers, timed tests and scores, bookmarks and notes</li>
@@ -105,93 +62,23 @@
             </ul>
         </div>
 
-        <div class="legal-card animate-fade-in delay-2">
-            <h2>What is kept</h2>
+        <div class="legal-section">
+            <h2 id="what-is-kept">What is kept</h2>
             <p>Nothing that identifies you. Combined statistics across all students, such as how many answered a question correctly, may keep counting your past answers without any link to you.</p>
         </div>
 
-        <div class="legal-summary-box animate-fade-in delay-3">
+        <div class="legal-summary">
             <strong>Only want a fresh start?</strong>
-            <p style="margin-top: 0.5rem;">In the app, <strong>Settings &rarr; Clear progress</strong> deletes your practice history but keeps your account.</p>
+            <p>In the app, <strong>Settings &rarr; Clear progress</strong> deletes your practice history but keeps your account.</p>
         </div>
 
-        <p class="animate-fade-in" style="text-align: center; margin-top: 2rem; color: var(--text-dim); font-size: 0.95rem;">
-            See also the <a href="privacy.html" style="color: var(--accent-sky);">privacy policy</a> &bull; Last updated 8 October 2026
+        <p class="policy-date">
+            See also the <a href="privacy.html">privacy policy</a> &bull; Last updated 8 October 2026
         </p>
 
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="logo-wrapper">
-                        <div class="brand-loop-glyph">
-                            <svg viewBox="0 0 200 200" class="brand-loop-svg" aria-hidden="true">
-                                <defs>
-                                    <linearGradient id="delFooterLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" stop-color="#38bdf8" />
-                                        <stop offset="45%" stop-color="#06b6d4" />
-                                        <stop offset="100%" stop-color="#818cf8" />
-                                    </linearGradient>
-                                </defs>
-                                <style>
-                                    @keyframes delFooterLoopSpinRest {
-                                        0% { transform: rotate(0deg); }
-                                        26% { transform: rotate(360deg); }
-                                        100% { transform: rotate(360deg); }
-                                    }
-                                    .del-footer-spin-grp {
-                                        transform-origin: 100px 100px;
-                                        transform-box: view-box;
-                                        animation: delFooterLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-                                    }
-                                </style>
-                                <g class="del-footer-spin-grp">
-                                    <!-- Outer Arc: R=70 -->
-                                    <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#delFooterLoopGrad)" stroke-width="14" stroke-linecap="round" />
-                                    <!-- Inner Arc: R=48 with clean clearance channel -->
-                                    <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#delFooterLoopGrad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
-                                    <!-- Focal Node at Apex -->
-                                    <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
-                                    <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
-                                </g>
-                            </svg>
-                        </div>
-                        <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
-                    </div>
-                    <p>
-                        What comes again, you master. Hyper-focused exam preparation software for engineering aspirants across India.
-                    </p>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Ecosystem</h4>
-                    <ul>
-                        <li><a href="index.html#apps">EdLoop JEE (Android)</a></li>
-                        <li><a href="index.html#apps">EdLoop EAPCET (Upcoming)</a></li>
-                        <li><a href="index.html#apps">EdLoop Web &amp; Campus</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Legal &amp; Trust</h4>
-                    <ul>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="delete-account.html">Delete Account</a></li>
-                        <li><a href="mailto:support@edloop.in">Contact Support</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div>&copy; 2026 EdLoop. Developed by <a href="https://ashokkunchala.com" target="_blank" rel="noopener" style="color: var(--accent-sky); font-weight: 600;">Ashok Kumar Kunchala</a>. All rights reserved.</div>
-                <div>EdLoop is an independent product not affiliated with NTA, APSCHE, or TSCHE.</div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    </article>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap"><div class="footer-top"><a class="brand" href="./" aria-label="EdLoop home"><img src="assets/site-redesign/mark.svg" width="36" height="36" alt=""><span>Ed<span class="brand-loop">Loop</span></span></a><p>What comes again, you master.</p><nav aria-label="Footer"><a href="privacy.html">Privacy</a><a href="delete-account.html" aria-current="page">Delete account</a><a href="mailto:support@edloop.in">Contact</a><a href="index.html#about">About</a></nav></div><div class="footer-bottom"><span>© 2026 EdLoop</span><span>Independent of NTA, APSCHE and TSCHE.</span><button id="motion-toggle" type="button" aria-pressed="false">Pause logo motion</button></div></div></footer>
 </body>
 </html>

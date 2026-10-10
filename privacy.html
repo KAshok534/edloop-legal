@@ -1,136 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - EdLoop</title>
-    <meta name="description" content="Privacy Policy for the app EdLoop JEE (Android, package in.edloop.jee).">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css?v=5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142444">
+  <title>Privacy Policy - EdLoop</title>
+  <meta name="description" content="Privacy Policy for the app EdLoop JEE (Android, package in.edloop.jee).">
+  <link rel="canonical" href="https://edloop.in/privacy.html">
+  <link rel="icon" href="assets/site-redesign/mark.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="preload" href="assets/site-redesign/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="home.css?v=1">
+  <link rel="stylesheet" href="legal.css?v=1">
+  <script src="site.js?v=1" defer></script>
 </head>
-<body>
-
-    <!-- Ambient Glow Background -->
-    <div class="bg-ambient">
-        <div class="glow-orb glow-orb-1"></div>
-        <div class="glow-orb glow-orb-2"></div>
+<body class="legal-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./" aria-label="EdLoop home">
+        <svg class="brand-mark" viewBox="0 0 112 112" aria-hidden="true"><g class="brand-turn"><path d="M56 14 A42 42 0 1 1 17.935 73.75" class="outer-arc"/><path d="M30.623 67.833 A28 28 0 1 0 56 28" class="inner-arc"/><circle cx="56" cy="14" r="5"/></g></svg>
+        <span>Ed<span class="brand-loop">Loop</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html#practice">For students</a><a href="index.html#campus">For colleges</a><a href="index.html#approach">Our approach</a></nav>
+      <a class="button button-small header-cta" href="index.html#practice">Explore JEE</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" type="button">Menu <span aria-hidden="true">☰</span></button>
     </div>
-
-    <!-- Floating Pill Header -->
-    <header class="header-nav">
-        <nav class="nav-pill">
-            <a href="index.html" class="logo-wrapper">
-                <div class="brand-loop-glyph">
-                    <svg viewBox="0 0 200 200" class="brand-loop-svg" aria-hidden="true">
-                        <defs>
-                            <linearGradient id="privNavLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" stop-color="#38bdf8" />
-                                <stop offset="45%" stop-color="#06b6d4" />
-                                <stop offset="100%" stop-color="#818cf8" />
-                            </linearGradient>
-                        </defs>
-                        <style>
-                            @keyframes privNavLoopSpinRest {
-                                0% { transform: rotate(0deg); }
-                                26% { transform: rotate(360deg); }
-                                100% { transform: rotate(360deg); }
-                            }
-                            .priv-nav-spin-grp {
-                                transform-origin: 100px 100px;
-                                transform-box: view-box;
-                                animation: privNavLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-                            }
-                        </style>
-                        <g class="priv-nav-spin-grp">
-                            <!-- Outer Arc: R=70 -->
-                            <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="14" stroke-linecap="round" />
-                            <!-- Inner Arc: R=48 with clean clearance channel -->
-                            <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#privNavLoopGrad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
-                            <!-- Focal Node at Apex -->
-                            <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
-                            <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
-                        </g>
-                    </svg>
-                </div>
-                <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
-            </a>
-            
-            <a href="index.html" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">
-                &larr; Back to Home
-            </a>
-        </nav>
-    </header>
-
-    <header class="legal-header">
-        <div class="container animate-fade-in">
-            <div class="badge">Legal &bull; Transparency</div>
-            <h1>EdLoop Privacy Policy</h1>
-            <p class="tagline">For the app EdLoop JEE (Android, package <code>in.edloop.jee</code>). Last updated 8 October 2026.</p>
-        </div>
-    </header>
-
-    <main class="container legal-wrapper">
+    <nav class="mobile-nav wrap" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="index.html#practice">For students</a><a href="index.html#campus">For colleges</a><a href="index.html#approach">Our approach</a><a href="index.html#about">About EdLoop</a></nav>
+  </header>
+  <main id="main" class="legal-main wrap">
+    <header class="legal-intro"><p class="legal-eyebrow">Privacy &amp; trust</p><h1>EdLoop Privacy Policy</h1><p class="tagline">For the app EdLoop JEE (Android, package <code>in.edloop.jee</code>). Last updated 8 October 2026.</p></header>
+    <div class="legal-layout">
+      <aside class="legal-sidebar"><nav aria-label="On this page"><p>On this page</p><a href="#who-we-are">Who we are</a><a href="#what-we-collect">What we collect</a><a href="#how-it-is-stored">How it is stored</a><a href="#how-it-is-used-and-shared">How it is used and shared</a><a href="#your-choices">Your choices</a><a href="#children">Children</a><a href="#changes">Changes</a></nav><a class="legal-back" href="index.html">← Back to EdLoop</a></aside>
+      <article class="legal-content" aria-label="Privacy Policy - EdLoop">
         
-        <div class="legal-summary-box animate-fade-in">
+        <div class="legal-summary">
             <strong>In short.</strong> You sign in with Google. We keep your name, email address and practice history on our servers so your progress follows you to a new phone. We do not show ads, we do not sell or share your data, and you can delete your account and everything in it from inside the app.
         </div>
 
-        <div class="legal-card animate-fade-in delay-1">
-            <h2>Who we are</h2>
-            <p>EdLoop is run by <a href="https://ashokkunchala.com" target="_blank" rel="noopener" style="color: var(--accent-sky); font-weight: 700; text-decoration: underline; text-underline-offset: 4px;">Ashok Kumar Kunchala</a>, an individual developer in India. Contact: <a href="mailto:ashokkumar.kunchala@edloop.in" style="color: var(--accent-sky); font-weight: 600;">ashokkumar.kunchala@edloop.in</a>.</p>
+        <div class="legal-section">
+            <h2 id="who-we-are">Who we are</h2>
+            <p>EdLoop is run by <a href="https://ashokkunchala.com" target="_blank" rel="noopener">Ashok Kumar Kunchala</a>, an individual developer in India. Contact: <a href="mailto:ashokkumar.kunchala@edloop.in">ashokkumar.kunchala@edloop.in</a>.</p>
         </div>
 
-        <div class="legal-card animate-fade-in delay-2">
-            <h2>What we collect</h2>
+        <div class="legal-section">
+            <h2 id="what-we-collect">What we collect</h2>
             <div class="table-responsive">
-                <table>
+                <table aria-label="Data we collect and why">
                     <thead>
                         <tr>
-                            <th>Data</th>
-                            <th>Examples</th>
-                            <th>Why</th>
+                            <th scope="col">Data</th>
+                            <th scope="col">Examples</th>
+                            <th scope="col">Why</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong style="color: var(--text-main);">Account details from Google</strong></td>
-                            <td>Your name, email address and a Google account identifier</td>
-                            <td>To create your account and sign you in</td>
+                            <td data-label="Data"><strong>Account details from Google</strong></td>
+                            <td data-label="Examples">Your name, email address and a Google account identifier</td>
+                            <td data-label="Why">To create your account and sign you in</td>
                         </tr>
                         <tr>
-                            <td><strong style="color: var(--text-main);">Practice activity</strong></td>
-                            <td>Questions you answered and how, time taken, timed tests and scores, bookmarks, notes</td>
-                            <td>To show your progress and restore it on another phone</td>
+                            <td data-label="Data"><strong>Practice activity</strong></td>
+                            <td data-label="Examples">Questions you answered and how, time taken, timed tests and scores, bookmarks, notes</td>
+                            <td data-label="Why">To show your progress and restore it on another phone</td>
                         </tr>
                         <tr>
-                            <td><strong style="color: var(--text-main);">Settings</strong></td>
-                            <td>Selected exam, target year, daily goal, optional streak, your own exam date</td>
-                            <td>So the app looks the same after you sign in again</td>
+                            <td data-label="Data"><strong>Settings</strong></td>
+                            <td data-label="Examples">Selected exam, target year, daily goal, optional streak, your own exam date</td>
+                            <td data-label="Why">So the app looks the same after you sign in again</td>
                         </tr>
                         <tr>
-                            <td><strong style="color: var(--text-main);">Daily use counts</strong></td>
-                            <td>How many new questions, answer keys and solutions your account opened each day</td>
-                            <td>To apply fair-use daily limits and stop automated copying of the question bank</td>
+                            <td data-label="Data"><strong>Daily use counts</strong></td>
+                            <td data-label="Examples">How many new questions, answer keys and solutions your account opened each day</td>
+                            <td data-label="Why">To apply fair-use daily limits and stop automated copying of the question bank</td>
                         </tr>
                         <tr>
-                            <td><strong style="color: var(--text-main);">Error reports you send</strong></td>
-                            <td>The question, the kind of error, and any text you type</td>
-                            <td>To correct the question bank</td>
+                            <td data-label="Data"><strong>Error reports you send</strong></td>
+                            <td data-label="Examples">The question, the kind of error, and any text you type</td>
+                            <td data-label="Why">To correct the question bank</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <p style="margin-top: 1rem;">We do not collect your location, contacts, photos, files, phone number or advertising identifier. We do not use analytics, crash-reporting or advertising software.</p>
+            <p>We do not collect your location, contacts, photos, files, phone number or advertising identifier. We do not use analytics, crash-reporting or advertising software.</p>
         </div>
 
-        <div class="legal-card animate-fade-in delay-1">
-            <h2>How it is stored</h2>
+        <div class="legal-section">
+            <h2 id="how-it-is-stored">How it is stored</h2>
             <ul>
                 <li>Your data is stored with <strong>Supabase</strong>, our database provider, which processes it on our behalf in its data centre in <strong>Mumbai, India</strong>.</li>
                 <li>Data is encrypted while it travels between the app and the server.</li>
@@ -139,8 +96,8 @@
             </ul>
         </div>
 
-        <div class="legal-card animate-fade-in delay-2">
-            <h2>How it is used and shared</h2>
+        <div class="legal-section">
+            <h2 id="how-it-is-used-and-shared">How it is used and shared</h2>
             <ul>
                 <li>Used only to run the app for you and to improve the accuracy of the question bank.</li>
                 <li>We may compute combined statistics across all students, such as how many answered a question correctly. These never identify a student.</li>
@@ -150,99 +107,29 @@
             </ul>
         </div>
 
-        <div class="legal-card animate-fade-in delay-1">
-            <h2>Your choices</h2>
+        <div class="legal-section">
+            <h2 id="your-choices">Your choices</h2>
             <ul>
                 <li><strong>Delete your account:</strong> Settings &rarr; Delete account. This removes your account and all of the data above from our servers and from your phone. It cannot be undone.</li>
                 <li><strong>Clear your progress only:</strong> Settings &rarr; Clear progress.</li>
                 <li><strong>Sign out:</strong> Settings &rarr; Sign out. Your data stays in your account.</li>
-                <li>If you cannot use the app, follow the steps on the <a href="delete-account.html" style="color: var(--accent-sky); font-weight: 600;">account deletion page</a> or write to the address above from the email address of your account, and we will delete it within 7 days.</li>
+                <li>If you cannot use the app, follow the steps on the <a href="delete-account.html">account deletion page</a> or write to the address above from the email address of your account, and we will delete it within 7 days.</li>
             </ul>
         </div>
 
-        <div class="legal-card animate-fade-in delay-2">
-            <h2>Children</h2>
+        <div class="legal-section">
+            <h2 id="children">Children</h2>
             <p>EdLoop is meant for students preparing for engineering entrance examinations, typically 16 and older. It is not directed at children under 13. Students under 18 should use it with the knowledge of a parent or guardian.</p>
         </div>
 
-        <div class="legal-card animate-fade-in delay-3">
-            <h2>Changes</h2>
+        <div class="legal-section">
+            <h2 id="changes">Changes</h2>
             <p>If this policy changes, the new version will be published on this page with a new date. If paid features or advertising are ever added, this policy will be updated before they are released.</p>
         </div>
 
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="logo-wrapper">
-                        <div class="brand-loop-glyph">
-                            <svg viewBox="0 0 200 200" class="brand-loop-svg" aria-hidden="true">
-                                <defs>
-                                    <linearGradient id="privFooterLoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" stop-color="#38bdf8" />
-                                        <stop offset="45%" stop-color="#06b6d4" />
-                                        <stop offset="100%" stop-color="#818cf8" />
-                                    </linearGradient>
-                                </defs>
-                                <style>
-                                    @keyframes privFooterLoopSpinRest {
-                                        0% { transform: rotate(0deg); }
-                                        26% { transform: rotate(360deg); }
-                                        100% { transform: rotate(360deg); }
-                                    }
-                                    .priv-footer-spin-grp {
-                                        transform-origin: 100px 100px;
-                                        transform-box: view-box;
-                                        animation: privFooterLoopSpinRest 5.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-                                    }
-                                </style>
-                                <g class="priv-footer-spin-grp">
-                                    <!-- Outer Arc: R=70 -->
-                                    <path d="M 100,30 A 70,70 0 1,1 45,130" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="14" stroke-linecap="round" />
-                                    <!-- Inner Arc: R=48 with clean clearance channel -->
-                                    <path d="M 68,136 A 48,48 0 0,0 148,100 A 48,48 0 0,0 100,52" fill="none" stroke="url(#privFooterLoopGrad)" stroke-width="11" stroke-linecap="round" opacity="0.9" />
-                                    <!-- Focal Node at Apex -->
-                                    <circle cx="100" cy="30" r="9" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
-                                    <circle cx="100" cy="30" r="4.5" fill="#38bdf8" />
-                                </g>
-                            </svg>
-                        </div>
-                        <span class="logo-text"><span class="logo-ed">Ed</span><span class="logo-loop">Loop</span></span>
-                    </div>
-                    <p>
-                        What comes again, you master. Hyper-focused exam preparation software for engineering aspirants across India.
-                    </p>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Ecosystem</h4>
-                    <ul>
-                        <li><a href="index.html#apps">EdLoop JEE (Android)</a></li>
-                        <li><a href="index.html#apps">EdLoop EAPCET (Upcoming)</a></li>
-                        <li><a href="index.html#apps">EdLoop Web &amp; Campus</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Legal &amp; Trust</h4>
-                    <ul>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="delete-account.html">Delete Account</a></li>
-                        <li><a href="mailto:support@edloop.in">Contact Support</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div>&copy; 2026 EdLoop. Developed by <a href="https://ashokkunchala.com" target="_blank" rel="noopener" style="color: var(--accent-sky); font-weight: 600;">Ashok Kumar Kunchala</a>. All rights reserved.</div>
-                <div>EdLoop is an independent product not affiliated with NTA, APSCHE, or TSCHE.</div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    </article>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap"><div class="footer-top"><a class="brand" href="./" aria-label="EdLoop home"><img src="assets/site-redesign/mark.svg" width="36" height="36" alt=""><span>Ed<span class="brand-loop">Loop</span></span></a><p>What comes again, you master.</p><nav aria-label="Footer"><a href="privacy.html" aria-current="page">Privacy</a><a href="delete-account.html">Delete account</a><a href="mailto:support@edloop.in">Contact</a><a href="index.html#about">About</a></nav></div><div class="footer-bottom"><span>© 2026 EdLoop</span><span>Independent of NTA, APSCHE and TSCHE.</span><button id="motion-toggle" type="button" aria-pressed="false">Pause logo motion</button></div></div></footer>
 </body>
 </html>
