@@ -14,3 +14,34 @@
 .inside h2{margin-bottom:38px}.inside-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}.inside-grid figure{margin:0;display:flex;flex-direction:column;align-items:center;text-align:center}.inside-grid .phone{width:220px;transform:none}.inside-grid figcaption{margin-top:20px;font-size:14px;line-height:1.65;color:var(--muted);max-width:260px}.inside-grid figcaption strong{display:block;color:var(--ink);font-size:17px;margin-bottom:5px}
 @media(max-width:820px){.inside-grid{grid-template-columns:1fr;gap:44px}.hero-proof{gap:20px}}
 @media(max-width:370px){.hero-proof strong{font-size:19px}.hero-proof{gap:14px}}
+
+/* eo logo animation: the e (bar, bowl) then the loop; "Ed" with the e, "Loop" with the loop */
+.eo-mark .s{stroke-dasharray:1 2;stroke-dashoffset:0}
+.brand-mark-sm{width:54px;height:32px}
+.brand-word,.eo-ed,.eo-loop{display:inline-block}
+@keyframes eo-draw{from{stroke-dashoffset:1.02}to{stroke-dashoffset:0}}
+@keyframes eo-rise{from{opacity:0;transform:translateY(.35em)}to{opacity:1;transform:none}}
+.eo-anim .s1{animation:eo-draw .25s cubic-bezier(.4,0,.6,1) .05s both}
+.eo-anim .s2{animation:eo-draw .55s cubic-bezier(.33,0,.2,1) .3s both}
+.eo-anim .s3{animation:eo-draw .2s linear .95s both}
+.eo-anim .s4{animation:eo-draw .62s cubic-bezier(.33,0,.2,1) 1.15s both}
+.eo-anim .sx{animation:eo-draw .25s linear 1.52s both}
+.eo-anim .eo-ed{animation:eo-rise .35s cubic-bezier(.2,.7,.2,1) .7s both}
+.eo-anim .eo-loop{animation:eo-rise .35s cubic-bezier(.2,.7,.2,1) 1.55s both}
+.js .eo-wait .s{stroke-dashoffset:1.02}
+.js .eo-wait .eo-ed,.js .eo-wait .eo-loop{opacity:0}
+/* intro loader: first visit in a session only; removed by site.js, or by CSS at 3.6s if the script never runs */
+.eo-intro{display:none}
+html.eo-first .eo-intro{display:flex;position:fixed;inset:0;z-index:1000;background:#f6f8fc;align-items:center;justify-content:center;transition:opacity .35s ease,visibility .35s ease;animation:eo-gone .35s ease 3.6s forwards;cursor:pointer}
+html.eo-first.eo-done .eo-intro{opacity:0;visibility:hidden}
+@keyframes eo-gone{to{opacity:0;visibility:hidden}}
+.eo-intro-inner{display:flex;flex-direction:column;align-items:center;gap:22px}
+.eo-intro-mark{width:min(52vw,260px);height:auto;aspect-ratio:208/124;overflow:visible}
+.eo-intro-word{font-family:var(--font);font-weight:800;font-size:clamp(44px,10vw,68px);letter-spacing:-2px;line-height:1;color:var(--ink)}
+.eo-intro-word .eo-loop{color:#2f6af6}
+@media (prefers-reduced-motion:reduce){
+  .eo-anim .s,.eo-anim .eo-ed,.eo-anim .eo-loop{animation:none!important}
+  .js .eo-wait .s{stroke-dashoffset:0}
+  .js .eo-wait .eo-ed,.js .eo-wait .eo-loop{opacity:1}
+  html.eo-first .eo-intro{display:none}
+}
