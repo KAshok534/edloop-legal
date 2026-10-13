@@ -30,18 +30,8 @@
 .eo-anim .eo-loop{animation:eo-rise .35s cubic-bezier(.2,.7,.2,1) 1.55s both}
 .js .eo-wait .s{stroke-dashoffset:1.02}
 .js .eo-wait .eo-ed,.js .eo-wait .eo-loop{opacity:0}
-/* intro loader: first visit in a session only; removed by site.js, or by CSS at 3.6s if the script never runs */
-.eo-intro{display:none}
-html.eo-first .eo-intro{display:flex;position:fixed;inset:0;z-index:1000;background:#f6f8fc;align-items:center;justify-content:center;transition:opacity .35s ease,visibility .35s ease;animation:eo-gone .35s ease 3.6s forwards;cursor:pointer}
-html.eo-first.eo-done .eo-intro{opacity:0;visibility:hidden}
-@keyframes eo-gone{to{opacity:0;visibility:hidden}}
-.eo-intro-inner{display:flex;flex-direction:column;align-items:center;gap:22px}
-.eo-intro-mark{width:min(52vw,260px);height:auto;aspect-ratio:208/124;overflow:visible}
-.eo-intro-word{font-family:var(--font);font-weight:800;font-size:clamp(44px,10vw,68px);letter-spacing:-2px;line-height:1;color:var(--ink)}
-.eo-intro-word .eo-loop{color:#2f6af6}
 @media (prefers-reduced-motion:reduce){
   .eo-anim .s,.eo-anim .eo-ed,.eo-anim .eo-loop{animation:none!important}
   .js .eo-wait .s{stroke-dashoffset:0}
   .js .eo-wait .eo-ed,.js .eo-wait .eo-loop{opacity:1}
-  html.eo-first .eo-intro{display:none}
 }
