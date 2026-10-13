@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142444">
+  <meta name="robots" content="noindex">
+  <title>EdLoop</title>
+  <meta name="description" content="Join a live EdLoop test room with your friends.">
+  <link rel="icon" href="/assets/brand/mark-small.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/brand/icon-512.png">
+  <link rel="alternate icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/home.css?v=3">
+  <link rel="stylesheet" href="/legal.css?v=2">
+  <style>
+    .room-card { max-width: 520px; margin: 32px auto 64px; text-align: center; }
+    .room-code { font: 700 44px/1.1 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; letter-spacing: 8px; margin: 10px 0 4px; }
+    .room-actions { display: grid; gap: 12px; margin: 24px 0 12px; }
+    .room-actions .button { justify-content: center; }
+    .room-actions .room-play { background: #fff; color: var(--indigo); }
+    .room-actions .room-play:hover { background: #f3f1ff; }
+    .room-steps { text-align: left; margin: 24px auto 0; max-width: 420px; }
+    .room-note { font-size: 14px; opacity: .75; }
+  </style>
+</head>
+<body class="legal-page">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="EdLoop home">
+        <img class="brand-mark" src="/assets/brand/mark.svg" width="62" height="37" alt="">
+        <span>Ed<span class="brand-loop">Loop</span></span>
+      </a>
+    </div>
+  </header>
+  <main id="main" class="legal-main wrap">
+    <!-- A room link (edloop.in/r/<CODE>) opens the EdLoop app directly when it is installed (Android
+         App Links, /.well-known/assetlinks.json). Everyone else lands here: GitHub Pages serves this
+         page for any path it does not have, and the script below reads the code from the address. -->
+    <section id="room" class="room-card" hidden>
+      <p class="legal-eyebrow">Live test room</p>
+      <h1>You're invited to race!</h1>
+      <p class="tagline">Your friend is waiting in an EdLoop room. Everyone writes the same JEE questions at the same time, and the podium shows up the moment it ends.</p>
+      <p class="room-note">Room code</p>
+      <div class="room-code" id="room-code"></div>
+      <div class="room-actions">
+        <a class="button" id="open-app" href="#">Open in EdLoop</a>
+        <a class="button room-play" id="get-app" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dshare%26utm_content%3Droom">Get EdLoop on Google Play</a>
+      </div>
+      <ol class="room-steps">
+        <li>Install EdLoop from Google Play and sign in.</li>
+        <li>On Home, tap <strong>Test with friends</strong>.</li>
+        <li>Enter the code <strong id="room-code-2"></strong> and tap <strong>Join</strong>.</li>
+      </ol>
+      <p class="room-note">Rooms can be joined until the host starts the race.</p>
+    </section>
+    <section id="missing" class="room-card" hidden>
+      <p class="legal-eyebrow">Not found</p>
+      <h1>This page does not exist</h1>
+      <p class="tagline"><a href="/">Go to the EdLoop home page</a></p>
+    </section>
+  </main>
+  <script>
+    (function () {
+      var m = location.pathname.match(/^\/r\/([A-Za-z0-9]{6})\/?$/);
+      if (!m) { document.getElementById('missing').hidden = false; return; }
+      var code = m[1].toUpperCase();
+      document.title = 'Join room ' + code + ' - EdLoop';
+      document.getElementById('room-code').textContent = code;
+      document.getElementById('room-code-2').textContent = code;
+      var play = document.getElementById('get-app').href;
+      // in an in-app browser (WhatsApp, Instagram) the link may not hand over to the app by itself
+      document.getElementById('open-app').href = 'intent://edloop.in/r/' + code +
+        '#Intent;scheme=https;package=in.edloop.jee;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
+      document.getElementById('room').hidden = false;
+    })();
+  </script>
+</body>
+</html>

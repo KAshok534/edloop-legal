@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "in.edloop.jee",
+      "sha256_cert_fingerprints": [
+        "D4:D2:99:F4:02:E0:28:D5:91:F7:37:55:1E:76:B8:B2:E5:3F:D9:80:79:11:43:E2:E0:6A:85:16:6D:E9:20:72",
+        "26:AB:CC:A4:B3:46:39:78:CC:3E:EE:63:BC:03:20:DD:C3:17:16:A7:E7:CF:E5:9E:73:DC:07:BA:C4:29:D8:19"
+      ]
+    }
+  }
+]
