@@ -35,3 +35,25 @@
   .js .eo-wait .s{stroke-dashoffset:0}
   .js .eo-wait .eo-ed,.js .eo-wait .eo-loop{opacity:1}
 }
+
+/* about page */
+.about-page{padding-bottom:30px}
+.ab-hero{padding-top:70px;padding-bottom:36px}.ab-hero>*{max-width:820px}
+.ab-hero h1{font-size:clamp(38px,4.4vw,58px);line-height:1.08;letter-spacing:-.05em;margin-bottom:22px}
+.ab-lede{font-size:18px;line-height:1.7;max-width:720px}.ab-lede strong{color:var(--ink)}
+.ab-company{display:grid;grid-template-columns:1fr 1.25fr;gap:56px;padding-block:34px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ab-facts{margin:0;display:grid;gap:14px}.ab-facts div{display:grid;grid-template-columns:120px 1fr;gap:16px;font-size:14px}
+.ab-facts dt{color:var(--muted)}.ab-facts dd{margin:0;font-weight:700;color:var(--ink)}.ab-facts a{color:var(--indigo)}
+.ab-products h3{font-size:17px;margin-bottom:14px}.ab-products ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.ab-products li{display:grid;gap:3px;padding-left:16px;border-left:3px solid #dfe4ff}.ab-products li strong{font-size:15px}.ab-products li span{font-size:13.5px;color:var(--muted);line-height:1.65}
+.ab-values h2{margin-bottom:30px}.ab-values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
+.ab-values-grid h3{font-size:17px;margin-bottom:8px}.ab-values-grid p{font-size:14px;line-height:1.75}
+.ab-founder{padding-bottom:50px}.ab-founder-card{display:grid;grid-template-columns:112px 1fr;gap:34px;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:34px}
+.ab-avatar{width:112px;height:112px;border-radius:50%;display:grid;place-items:center;font-size:34px;font-weight:800;color:#fff;background:linear-gradient(135deg,#4a63f5,#22d3ee);letter-spacing:-.03em}
+.ab-founder h2{font-size:30px}.ab-role{font-weight:700;color:var(--ink);margin:4px 0 14px;font-size:14px}
+.ab-founder p:not(.quiet-label):not(.ab-role){font-size:14.5px;line-height:1.8;max-width:680px}.ab-founder p+p{margin-top:10px}
+.ab-links a{color:var(--indigo);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.desktop-nav a[aria-current=page]{color:var(--indigo)}
+@media(max-width:820px){.ab-company{grid-template-columns:1fr;gap:30px}.ab-values-grid{grid-template-columns:1fr;gap:22px}}
+@media(max-width:620px){.ab-hero{padding-top:40px;padding-bottom:26px}.ab-lede{font-size:16px}.ab-facts div{grid-template-columns:96px 1fr;font-size:13px}
+.ab-founder-card{grid-template-columns:1fr;gap:18px;padding:24px}.ab-avatar{width:84px;height:84px;font-size:26px}.ab-founder h2{font-size:25px}}
