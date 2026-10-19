@@ -42,6 +42,7 @@
       <p class="tagline">Your friend is waiting in an EdLoop room. Everyone writes the same JEE questions at the same time, and the podium shows up the moment it ends.</p>
       <p class="room-note">Room code</p>
       <div class="room-code" id="room-code"></div>
+      <p class="room-note" id="opening" hidden>Opening Google Play…</p>
       <div class="room-actions">
         <a class="button" id="open-app" href="#">Open in EdLoop</a>
         <a class="button room-play" id="get-app" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dapp_share%26utm_content%3Droom_page">Get EdLoop on Google Play</a>
@@ -75,6 +76,14 @@
       document.getElementById('open-app').href = 'intent://edloop.in/r/' + code +
         '#Intent;scheme=https;package=in.edloop.jee;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
       document.getElementById('room').hidden = false;
+      // Android without the app (founder 2026-10-20): straight on to Google Play, once per tab; Back brings
+      // this page with the code. iPhones and computers stay here (EdLoop is Android only).
+      var key = 'edloop-play-' + code, sent = true;
+      try { sent = sessionStorage.getItem(key) === '1'; sessionStorage.setItem(key, '1'); } catch (e) { sent = true; }
+      if (/Android/i.test(navigator.userAgent) && !sent) {
+        document.getElementById('opening').hidden = false;
+        setTimeout(function () { location.href = play; }, 300);
+      }
     })();
   </script>
 </body>
