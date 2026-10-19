@@ -57,3 +57,6 @@
 @media(max-width:820px){.ab-company{grid-template-columns:1fr;gap:30px}.ab-values-grid{grid-template-columns:1fr;gap:22px}}
 @media(max-width:620px){.ab-hero{padding-top:40px;padding-bottom:26px}.ab-lede{font-size:16px}.ab-facts div{grid-template-columns:96px 1fr;font-size:13px}
 .ab-founder-card{grid-template-columns:1fr;gap:18px;padding:24px}.ab-avatar{width:96px;height:96px}.ab-founder h2{font-size:25px}}
+.inside-cta{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:44px;flex-wrap:wrap}.inside-cta span{font-size:13px;color:var(--muted)}
+.ab-products li span a{color:var(--indigo);text-decoration:underline;text-underline-offset:3px}
+
