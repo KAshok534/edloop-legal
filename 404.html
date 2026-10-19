@@ -47,9 +47,8 @@
         <a class="button room-play" id="get-app" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dshare%26utm_content%3Droom">Get EdLoop on Google Play</a>
       </div>
       <ol class="room-steps">
-        <li>Install EdLoop from Google Play and sign in.</li>
-        <li>On Home, tap <strong>Test with friends</strong>.</li>
-        <li>Enter the code <strong id="room-code-2"></strong> and tap <strong>Join</strong>.</li>
+        <li>Install EdLoop from Google Play and sign in: the room opens by itself.</li>
+        <li>If it does not, tap <strong>Test with friends</strong> on Home, enter the code <strong id="room-code-2"></strong> and tap <strong>Join</strong>.</li>
       </ol>
       <p class="room-note">Rooms can be joined until the host starts the race.</p>
     </section>
@@ -67,7 +66,11 @@
       document.title = 'Join room ' + code + ' - EdLoop';
       document.getElementById('room-code').textContent = code;
       document.getElementById('room-code-2').textContent = code;
-      var play = document.getElementById('get-app').href;
+      // the room travels in Google Play's install referrer: after installing, the app opens it by itself
+      // (app: lib/core/install_referrer.dart)
+      var getApp = document.getElementById('get-app');
+      var play = getApp.href + '%26room%3D' + code;
+      getApp.href = play;
       // in an in-app browser (WhatsApp, Instagram) the link may not hand over to the app by itself
       document.getElementById('open-app').href = 'intent://edloop.in/r/' + code +
         '#Intent;scheme=https;package=in.edloop.jee;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
