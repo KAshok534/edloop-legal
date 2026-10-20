@@ -1,0 +1,36 @@
+<!doctype html>
+<!--
+  Link-preview image for the share pages (/r/<CODE>, /f/<ID>, /c/<CODE>, /q/<id> and /get/), 1200x630.
+  One static card: GitHub Pages serves 404.html for every share path, so the preview cannot know the code.
+  Render (same as make_social.html):
+    "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless=new --disable-gpu --no-first-run
+      --user-data-dir=<temp dir> --hide-scrollbars --force-device-scale-factor=1
+      --screenshot=<site>\assets\brand\invite.png --window-size=1200,630 file:///<site>/assets/brand/make_invite.html
+  or: python assets/brand/render_cards.py (Playwright, Edge).
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EdLoop invite image</title>
+<style>
+  @font-face{font-family:Manrope;src:url('../site-redesign/manrope-latin.woff2') format('woff2');font-weight:200 800}
+  html,body{margin:0;padding:0}
+  body{width:1200px;height:630px;overflow:hidden;position:relative;background:#142444;font-family:Manrope,sans-serif;color:#fff}
+  .wm{position:absolute;left:742px;top:364px;width:503px;opacity:.14}
+  .logo{position:absolute;left:72px;top:56px;width:243px}
+  h1{position:absolute;left:72px;top:192px;margin:0;font-size:96px;line-height:100px;font-weight:800;letter-spacing:-.054em}
+  h1 span{color:#6f9bff}
+  .sub{position:absolute;left:74px;top:440px;margin:0;font-size:30px;line-height:40px;font-weight:500;color:#c5d0e3;letter-spacing:-.005em;max-width:760px}
+  .url{position:absolute;left:74px;top:540px;margin:0;font-size:27.4px;font-weight:800;color:#6f9bff}
+  .pill{position:absolute;right:72px;top:64px;padding:12px 22px;border:2px solid #3b5484;border-radius:999px;font-size:22px;font-weight:700;color:#c5d0e3}
+</style>
+</head>
+<body>
+  <img class="wm" src="mark.svg" alt="">
+  <img class="logo" src="lockup-white.svg" alt="EdLoop">
+  <span class="pill">Free · No ads</span>
+  <h1>You're invited<br>to <span>EdLoop.</span></h1>
+  <p class="sub">Race your friends on real JEE Main questions, live. 17,500+ past questions, official keys.</p>
+  <p class="url">edloop.in · Free on Google Play</p>
+</body>
+</html>

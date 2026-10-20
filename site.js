@@ -28,3 +28,16 @@ window.matchMedia('(min-width: 621px)').addEventListener('change', event => { if
     io.observe(footer);
   }
 })();
+
+// Google Play does not list the app until Google approves the production release (config.js playLive).
+// Until then every Play link on the site goes through /get/, carrying its install-referrer parameters.
+(function () {
+  const cfg = window.EDLOOP;
+  if (!cfg || cfg.playLive) return;
+  document.querySelectorAll('a[href^="https://play.google.com/store/apps/details?id=in.edloop.jee"]').forEach(a => {
+    const m = a.getAttribute('href').match(/[?&]referrer=([^&]*)/);
+    const q = m ? decodeURIComponent(m[1]) : '';
+    a.href = '/get/' + (q ? '?' + q : '');
+    a.removeAttribute('target');
+  });
+})();
