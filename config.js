@@ -4,7 +4,7 @@
 // While false, every Google Play link on the site is sent through /get/ instead of to a Play page that
 // does not exist yet; the install-referrer parameters (utm_*, room, friend, challenge, question) travel with it.
 window.EDLOOP = {
-  playLive: false,
+  playLive: true,
   play: 'https://play.google.com/store/apps/details?id=in.edloop.jee',
   telegram: 'https://t.me/edloop_in'
 };
