@@ -96,10 +96,30 @@
     section.querySelectorAll('.yr-cells i').forEach(c => { const i = Number(c.dataset.i); (byIndex[i] = byIndex[i] || []).push(c); });
     const notes = [[2002, 'AIEEE: one paper a year.'], [2013, 'JEE Main replaces AIEEE.'], [2019, 'Online, in two sessions with many shifts.']];
     const cumulative = data.papers.reduce((acc, p, i) => { acc.push((acc[i - 1] || 0) + p); return acc; }, []);
-    document.documentElement.classList.add('motion');
+    // Pin only when the whole section fits the window (short landscape tablets, small laptops): otherwise it stays a
+    // normal section showing the full grid, so nothing is ever cut off.
+    const layout = section.querySelector('.years-layout');
+    function fits() {
+      document.documentElement.classList.add('motion');
+      const pin = section.querySelector('.years-pin');
+      const cs = getComputedStyle(pin);
+      const need = layout.getBoundingClientRect().height + parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
+      const ok = need <= window.innerHeight;
+      if (!ok) {
+        document.documentElement.classList.remove('motion');
+        num.textContent = data.years[data.years.length - 1];
+        exam.textContent = 'JEE Main';
+        say.textContent = data.total + ' papers in all, sorted by chapter.';
+        byIndex.forEach(cells => cells.forEach(c => c.classList.remove('off')));
+        if (bar) bar.style.setProperty('--p', '1');
+      }
+      return ok;
+    }
+    let pinned = fits();
     let shown = -1, ticking = false;
     function render() {
       ticking = false;
+      if (!pinned) return;
       const rect = section.getBoundingClientRect();
       const run = section.offsetHeight - window.innerHeight;
       const p = run > 0 ? Math.min(1, Math.max(0, -rect.top / run)) : 1;
@@ -119,7 +139,7 @@
     }
     const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(render); } };
     window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll);
+    window.addEventListener('resize', () => { pinned = fits(); shown = -1; onScroll(); });
     render();
   })();
 
