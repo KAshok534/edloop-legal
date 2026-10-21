@@ -52,16 +52,64 @@
       <p class="tagline">Your friend is waiting in an EdLoop room. Everyone writes the same JEE questions at the same time, and the podium shows up the moment it ends.</p>
       <p class="room-note">Room code</p>
       <div class="room-code" id="room-code"></div>
+      <p class="room-note" id="room-opening" hidden>Opening Google Play…</p>
       <div class="room-actions">
-        <a class="button" id="open-app" href="#">Open in EdLoop</a>
-        <a class="button room-play" id="get-app" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dshare%26utm_content%3Droom">Get EdLoop on Google Play</a>
+        <a class="button" id="room-open" href="#">Open in EdLoop</a>
+        <a class="button room-play" id="room-get" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dapp_share%26utm_content%3Droom_page">Get EdLoop on Google Play</a>
       </div>
       <ol class="room-steps">
-        <li>Install EdLoop from Google Play and sign in.</li>
-        <li>On Home, tap <strong>Test with friends</strong>.</li>
-        <li>Enter the code <strong id="room-code-2"></strong> and tap <strong>Join</strong>.</li>
+        <li>Install EdLoop from Google Play and sign in: the room opens by itself.</li>
+        <li>If it does not, tap <strong>Test with friends</strong> on Home, enter the code <strong id="room-code-2"></strong> and tap <strong>Join</strong>.</li>
       </ol>
       <p class="room-note">Rooms can be joined until the host starts the race.</p>
+    </section>
+    <section id="friend" class="room-card" hidden>
+      <p class="legal-eyebrow">Friends on EdLoop</p>
+      <h1>A friend wants to add you!</h1>
+      <p class="tagline">Add each other on EdLoop and race in live JEE test rooms. Friends see only a first name and an avatar.</p>
+      <p class="room-note">Their EdLoop ID</p>
+      <div class="room-code" id="friend-code"></div>
+      <p class="room-note" id="friend-opening" hidden>Opening Google Play…</p>
+      <div class="room-actions">
+        <a class="button" id="friend-open" href="#">Open in EdLoop</a>
+        <a class="button room-play" id="friend-get" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dapp_share%26utm_content%3Dfriend_page">Get EdLoop on Google Play</a>
+      </div>
+      <ol class="room-steps">
+        <li>Install EdLoop from Google Play and sign in: it asks you to add your friend.</li>
+        <li>If it does not, open <strong>Friends</strong> on Home and add the ID <strong id="friend-code-2"></strong>.</li>
+      </ol>
+    </section>
+    <section id="challenge" class="room-card" hidden>
+      <p class="legal-eyebrow">Challenge</p>
+      <h1>Can you beat your friend's score?</h1>
+      <p class="tagline">Same JEE questions, same timer, one go. Take it on in EdLoop any time this week, and see where you rank.</p>
+      <p class="room-note">Challenge code</p>
+      <div class="room-code" id="challenge-code"></div>
+      <p class="room-note" id="challenge-opening" hidden>Opening Google Play…</p>
+      <div class="room-actions">
+        <a class="button" id="challenge-open" href="#">Open in EdLoop</a>
+        <a class="button room-play" id="challenge-get" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dapp_share%26utm_content%3Dchallenge_page">Get EdLoop on Google Play</a>
+      </div>
+      <ol class="room-steps">
+        <li>Install EdLoop from Google Play and sign in: the challenge opens by itself.</li>
+        <li>If it does not, open this link again on your phone (code <strong id="challenge-code-2"></strong>).</li>
+      </ol>
+    </section>
+    <section id="question" class="room-card" hidden>
+      <p class="legal-eyebrow">Question of the day</p>
+      <h1>Solve it in EdLoop</h1>
+      <p class="tagline">A real JEE Main previous-year question, with the answer key and solution once you have tried it. Free on Google Play.</p>
+      <p class="room-note">Question</p>
+      <div class="room-code" id="question-code" style="font-size:20px;letter-spacing:1px"></div>
+      <p class="room-note" id="question-opening" hidden>Opening Google Play…</p>
+      <div class="room-actions">
+        <a class="button" id="question-open" href="#">Open in EdLoop</a>
+        <a class="button room-play" id="question-get" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dtelegram%26utm_content%3Dquestion_page">Get EdLoop on Google Play</a>
+      </div>
+      <ol class="room-steps">
+        <li>Install EdLoop from Google Play and sign in: the question opens by itself.</li>
+        <li>If it does not, open this link again on your phone (<strong id="question-code-2"></strong>).</li>
+      </ol>
     </section>
     <section id="missing" class="room-card" hidden>
       <p class="legal-eyebrow">Not found</p>
@@ -71,21 +119,62 @@
   </main>
   <script>
     (function () {
+      // A link opens the EdLoop app directly when it is installed (Android App Links); everyone else lands here.
+      // On Android the page goes straight on to Google Play by itself (once per tab: Back shows this page);
+      // iPhones and computers stay here (EdLoop is Android only). What the link is for travels in Play's install
+      // referrer, so after installing the app opens it by itself (app: lib/core/install_referrer.dart).
+      function show(section, prefix, param, code, shown, appPath) {
+        document.getElementById(prefix + 'code').textContent = shown;
+        document.getElementById(prefix + 'code-2').textContent = shown;
+        var get = document.getElementById(prefix + 'get');
+        var play = get.href + '%26' + param + '%3D' + code;
+        var live = !!(window.EDLOOP && window.EDLOOP.playLive);
+        if (!live) { // Google Play does not list the app yet (config.js): /get/ explains and keeps the referrer
+          var ref = decodeURIComponent((play.match(/[?&]referrer=([^&]*)/) || [])[1] || '');
+          play = location.origin + '/get/?' + ref;
+        }
+        get.href = play;
+        // in an in-app browser (WhatsApp, Instagram) the link may not hand over to the app by itself
+        document.getElementById(prefix + 'open').href = 'intent://edloop.in/' + appPath + '/' + code +
+          '#Intent;scheme=https;package=in.edloop.jee;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
+        document.getElementById(section).hidden = false;
+        var key = 'edloop-play-' + appPath + '-' + code, sent = true;
+        try { sent = sessionStorage.getItem(key) === '1'; sessionStorage.setItem(key, '1'); } catch (e) { sent = true; }
+        if (live && /Android/i.test(navigator.userAgent) && !sent) {
+          document.getElementById(prefix + 'opening').hidden = false;
+          setTimeout(function () { location.href = play; }, 300);
+        }
+      }
+      var f = location.pathname.match(/^\/f\/([A-Za-z0-9]{8})\/?$/);
+      if (f) {
+        var id = f[1].toUpperCase();
+        document.title = 'Add a friend on EdLoop';
+        show('friend', 'friend-', 'friend', id, 'EL-' + id.slice(0, 4) + '-' + id.slice(4), 'f');
+        return;
+      }
+      var qm = location.pathname.match(/^\/q\/(q-[a-z0-9][a-z0-9-]{2,79})\/?$/);
+      if (qm) {
+        var qid = qm[1];
+        // ?src=… names where the link was posted (Telegram by default) for Play's acquisition report
+        var src = (new URLSearchParams(location.search).get('src') || 'telegram').replace(/[^a-z0-9_]/gi, '').slice(0, 20) || 'telegram';
+        var get = document.getElementById('question-get');
+        get.href = get.href.replace('utm_source%3Dtelegram', 'utm_source%3D' + src);
+        document.title = 'Question of the day - EdLoop';
+        show('question', 'question-', 'question', qid, qid, 'q');
+        return;
+      }
+      var ch = location.pathname.match(/^\/c\/([A-Za-z0-9]{6})\/?$/);
+      if (ch) {
+        var cc = ch[1].toUpperCase();
+        document.title = 'Challenge ' + cc + ' - EdLoop';
+        show('challenge', 'challenge-', 'challenge', cc, cc, 'c');
+        return;
+      }
       var m = location.pathname.match(/^\/r\/([A-Za-z0-9]{6})\/?$/);
       if (!m) { document.getElementById('missing').hidden = false; return; }
       var code = m[1].toUpperCase();
       document.title = 'Join room ' + code + ' - EdLoop';
-      document.getElementById('room-code').textContent = code;
-      document.getElementById('room-code-2').textContent = code;
-      var play = document.getElementById('get-app').href;
-      if (!(window.EDLOOP && window.EDLOOP.playLive)) { // Play does not list the app yet: /get/ explains and keeps the referrer
-        play = location.origin + '/get/?utm_source=share&utm_content=room&room=' + code;
-        document.getElementById('get-app').href = play;
-      }
-      // in an in-app browser (WhatsApp, Instagram) the link may not hand over to the app by itself
-      document.getElementById('open-app').href = 'intent://edloop.in/r/' + code +
-        '#Intent;scheme=https;package=in.edloop.jee;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
-      document.getElementById('room').hidden = false;
+      show('room', 'room-', 'room', code, code, 'r');
     })();
   </script>
 </body>
