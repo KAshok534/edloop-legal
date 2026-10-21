@@ -41,3 +41,16 @@ solutionButton.addEventListener('click', () => {
   solutionButton.setAttribute('aria-expanded', String(!solution.hidden));
   solutionButton.innerHTML = `${solution.hidden ? 'View' : 'Hide'} solution <span aria-hidden="true">${solution.hidden ? '⌄' : '⌃'}</span>`;
 });
+
+// Sticky install bar (phones): show it once the hero's own button has scrolled out of view.
+(function () {
+  const bar = document.querySelector('.install-bar');
+  const anchor = document.querySelector('.hero-actions');
+  if (!bar || !anchor || !('IntersectionObserver' in window)) return;
+  const io = new IntersectionObserver(entries => {
+    const hidden = entries.some(e => !e.isIntersecting && e.boundingClientRect.top < 0);
+    bar.classList.toggle('show', hidden);
+    document.body.classList.toggle('has-install-bar', hidden);
+  }, { threshold: 0 });
+  io.observe(anchor);
+})();
