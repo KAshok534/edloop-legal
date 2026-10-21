@@ -22,10 +22,16 @@
     const video = frame.querySelector('video');
     const playBtn = frame.querySelector('[data-film-play]');
     const soundBtn = frame.querySelector('[data-film-sound]');
+    // Phones get the vertical cut, wider screens the landscape one. Retina, 4K and other large screens (frame wider
+    // than about 2200 real pixels) get 1440p; slow connections (2G/3G) get the smaller files.
     const FILES = {
-      wide: { src: 'assets/video/edloop-together-1080.mp4', poster: 'assets/video/poster-wide.jpg' },
-      tall: { src: 'assets/video/edloop-together-vertical-720.mp4', poster: 'assets/video/poster-tall.jpg' }
+      wide: { src: 'assets/video/edloop-together-1080.mp4', poster: 'assets/video/poster-wide.jpg' },          // 3.6 MB
+      wideHD: { src: 'assets/video/edloop-together-1440.mp4', poster: 'assets/video/poster-wide.jpg' },        // 6.4 MB
+      tall: { src: 'assets/video/edloop-together-vertical-720.mp4', poster: 'assets/video/poster-tall.jpg' },  // 2.0 MB
+      tallHD: { src: 'assets/video/edloop-together-vertical-1080.mp4', poster: 'assets/video/poster-tall-1080.jpg' } // 4.5 MB
     };
+    const conn = navigator.connection || {};
+    const slow = /2g|3g/.test(conn.effectiveType || '');
     const narrow = window.matchMedia('(max-width: 700px)');
     const saver = !!(navigator.connection && navigator.connection.saveData);
     let userPaused = reduce || saver;
@@ -46,7 +52,8 @@
       soundBtn.setAttribute('aria-pressed', String(on));
     }
     function choose() {
-      const mode = narrow.matches ? 'tall' : 'wide';
+      const real = frame.clientWidth * (window.devicePixelRatio || 1);
+      const mode = narrow.matches ? (slow ? 'tall' : 'tallHD') : (!slow && real > 2200 ? 'wideHD' : 'wide');
       if (video.dataset.mode === mode) return;
       video.dataset.mode = mode;
       video.poster = FILES[mode].poster;
