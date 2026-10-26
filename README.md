@@ -65,8 +65,8 @@ rendered with `assets/brand/render_cards.py`; EdLoop EAPCET's card is its Play f
 ## Rules
 
 - Nothing private goes into this repository: no plans, keys, personal data or exam source files.
-- The questions on the home page are real past questions with the official final key; never copy a coaching
-  institute's material.
+- The questions on the app pages are real past questions with the exam body's key (NTA's final key for JEE Main, the
+  councils' keys for EAPCET); never copy a coaching institute's material.
 - No loaders or delays to show the logo; no tracking scripts without an update to the privacy policy first.
 
 © 2026 EDLOOP TECHNOLOGIES. The site's text, design and code belong to EDLOOP TECHNOLOGIES; past exam questions belong to
