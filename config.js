@@ -6,5 +6,9 @@
 window.EDLOOP = {
   playLive: true,
   play: 'https://play.google.com/store/apps/details?id=in.edloop.jee',
+  // EdLoop EAPCET: set eapcetLive to true (on the founder's "publish the site") the day Google approves it and
+  // https://play.google.com/store/apps/details?id=in.edloop.eapcet answers 200. While false, the site says it is in review and shows no Play link.
+  eapcetLive: false,
+  playEapcet: 'https://play.google.com/store/apps/details?id=in.edloop.eapcet',
   telegram: 'https://t.me/edloop_in'
 };

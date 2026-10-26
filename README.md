@@ -67,4 +67,4 @@ When the question bank grows, update the meta description, the og:description, t
 - No loaders or delays to show the logo; no tracking scripts without an update to the privacy policy first.
 
 © 2026 EDLOOP TECHNOLOGIES. The site's text, design and code belong to EDLOOP TECHNOLOGIES; past exam questions belong to
-the bodies that set them. EdLoop is independent of NTA, APSCHE and TSCHE.
+the bodies that set them. EdLoop is independent of NTA, APSCHE, TGCHE and JNTU.

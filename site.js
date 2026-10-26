@@ -29,6 +29,13 @@ window.matchMedia('(min-width: 621px)').addEventListener('change', event => { if
   }
 })();
 
+// EdLoop EAPCET's Play link shows only once Google lists it (config.js eapcetLive); until then the 'in review' line does.
+(function () {
+  const live = !!(window.EDLOOP && window.EDLOOP.eapcetLive);
+  document.querySelectorAll('[data-eapcet-play]').forEach(el => { el.hidden = !live; });
+  document.querySelectorAll('[data-eapcet-wait]').forEach(el => { el.hidden = live; });
+})();
+
 // Google Play does not list the app until Google approves the production release (config.js playLive).
 // Until then every Play link on the site goes through /get/, carrying its install-referrer parameters.
 (function () {

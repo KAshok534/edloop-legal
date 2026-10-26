@@ -10,5 +10,17 @@
         "26:AB:CC:A4:B3:46:39:78:CC:3E:EE:63:BC:03:20:DD:C3:17:16:A7:E7:CF:E5:9E:73:DC:07:BA:C4:29:D8:19"
       ]
     }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "in.edloop.eapcet",
+      "sha256_cert_fingerprints": [
+        "DE:E9:9B:80:96:3F:B9:F9:E7:72:CB:5D:A4:9A:8E:65:2F:F0:34:59:F4:3B:E2:67:3B:DD:C3:4B:AB:E1:51:07",
+        "D4:D2:99:F4:02:E0:28:D5:91:F7:37:55:1E:76:B8:B2:E5:3F:D9:80:79:11:43:E2:E0:6A:85:16:6D:E9:20:72",
+        "26:AB:CC:A4:B3:46:39:78:CC:3E:EE:63:BC:03:20:DD:C3:17:16:A7:E7:CF:E5:9E:73:DC:07:BA:C4:29:D8:19"
+      ]
+    }
   }
 ]
