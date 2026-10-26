@@ -24,11 +24,12 @@
     const soundBtn = frame.querySelector('[data-film-sound]');
     // Phones get the vertical cut, wider screens the landscape one. Retina, 4K and other large screens (frame wider
     // than about 2200 real pixels) get 1440p; slow connections (2G/3G) get the smaller files.
+    const base = document.documentElement.dataset.base || '';
     const FILES = {
-      wide: { src: 'assets/video/edloop-together-1080.mp4', poster: 'assets/video/poster-wide.jpg' },          // 3.6 MB
-      wideHD: { src: 'assets/video/edloop-together-1440.mp4', poster: 'assets/video/poster-wide.jpg' },        // 6.4 MB
-      tall: { src: 'assets/video/edloop-together-vertical-720.mp4', poster: 'assets/video/poster-tall.jpg' },  // 2.0 MB
-      tallHD: { src: 'assets/video/edloop-together-vertical-1080.mp4', poster: 'assets/video/poster-tall-1080.jpg' } // 4.5 MB
+      wide: { src: base + 'assets/video/edloop-together-1080.mp4', poster: base + 'assets/video/poster-wide.jpg' },          // 3.6 MB
+      wideHD: { src: base + 'assets/video/edloop-together-1440.mp4', poster: base + 'assets/video/poster-wide.jpg' },        // 6.4 MB
+      tall: { src: base + 'assets/video/edloop-together-vertical-720.mp4', poster: base + 'assets/video/poster-tall.jpg' },  // 2.0 MB
+      tallHD: { src: base + 'assets/video/edloop-together-vertical-1080.mp4', poster: base + 'assets/video/poster-tall-1080.jpg' } // 4.5 MB
     };
     const conn = navigator.connection || {};
     const slow = /2g|3g/.test(conn.effectiveType || '');
@@ -101,7 +102,10 @@
     const bar = section.querySelector('.yr-bar');
     const byIndex = [];
     section.querySelectorAll('.yr-cells i').forEach(c => { const i = Number(c.dataset.i); (byIndex[i] = byIndex[i] || []).push(c); });
-    const notes = [[2002, 'AIEEE: one paper a year.'], [2013, 'JEE Main replaces AIEEE.'], [2019, 'Online, in two sessions with many shifts.']];
+    // the exam's name by year and a note per era; JEE's unless the page's years-data says otherwise
+    const notes = data.notes || [[2002, 'AIEEE: one paper a year.'], [2013, 'JEE Main replaces AIEEE.'], [2019, 'Online, in two sessions with many shifts.']];
+    const exams = data.exams || [[2002, 'AIEEE'], [2013, 'JEE Main']];
+    const examOf = y => (exams.filter(e => e[0] <= y).pop() || exams[0])[1];
     const cumulative = data.papers.reduce((acc, p, i) => { acc.push((acc[i - 1] || 0) + p); return acc; }, []);
     // Pin only when the whole section fits the window (short landscape tablets, small laptops): otherwise it stays a
     // normal section showing the full grid, so nothing is ever cut off.
@@ -115,7 +119,7 @@
       if (!ok) {
         document.documentElement.classList.remove('motion');
         num.textContent = data.years[data.years.length - 1];
-        exam.textContent = 'JEE Main';
+        exam.textContent = examOf(data.years[data.years.length - 1]);
         say.textContent = data.total + ' papers in all, sorted by chapter.';
         byIndex.forEach(cells => cells.forEach(c => c.classList.remove('off')));
         if (bar) bar.style.setProperty('--p', '1');
@@ -136,7 +140,7 @@
       shown = idx;
       const year = data.years[idx];
       num.textContent = year;
-      exam.textContent = year <= 2012 ? 'AIEEE' : 'JEE Main';
+      exam.textContent = examOf(year);
       const papers = data.papers[idx];
       const note = notes.filter(n => n[0] <= year).pop();
       const last = idx === data.years.length - 1;
