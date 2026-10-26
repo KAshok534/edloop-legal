@@ -15,7 +15,7 @@ step, no framework, no analytics and no cookies. **Pushing `main` publishes the 
 | `/about.html` | `about.html` | The company and the founder |
 | `/privacy.html`, `/terms.html`, `/delete-account.html` | same | Privacy policy, terms of service, how to delete an account (linked from Google Play) |
 | `/get/` | `get/index.html` | One install link for bios, QR codes and flyers. Forwards to Google Play, carrying `utm_*` and the app's install-referrer keys (`room`, `friend`, `challenge`, `question`) |
-| `/r/<code>`, `/f/<id>`, `/c/<code>`, `/q/<question id>` | `404.html` | Share pages. GitHub Pages serves `404.html` for any unknown path; its script reads the path and shows the room, friend, challenge or question page. On Android it goes on to Google Play once per tab; when the app is installed, Android opens the link in the app instead (`.well-known/assetlinks.json`) |
+| `/r/<code>`, `/f/<id>`, `/c/<code>`, `/q/<question id>` | `404.html` | Share pages. GitHub Pages serves `404.html` for any unknown path; its script reads the path and shows the room, friend, challenge or question page. On Android it goes on to Google Play once per tab; when the app is installed, Android opens the link in the app instead (`.well-known/assetlinks.json`) Two apps share these links: EdLoop EAPCET adds `?app=eapcet` to the room, friend and challenge links it shares, and its question ids start `q-apeapcet-` or `q-tseapcet-`; those pages name EAPCET and open or install EdLoop EAPCET. Links without the tag belong to EdLoop JEE. |
 
 ## Files
 
@@ -26,7 +26,7 @@ step, no framework, no analytics and no cookies. **Pushing `main` publishes the 
 | `premium.js` | Header state on every page; on the home page the film player, the year sequence, the sticky phone and the gallery |
 | `site.js` | Mobile menu, logo replay, and the Play-link routing used while `playLive` is false |
 | `home.js` | The home page's interactive question and the phone install bar |
-| `config.js` | Site switches: `playLive` (Google Play buttons go straight to the listing when true) |
+| `config.js` | Site switches: `playLive` (EdLoop JEE's Google Play buttons go straight to the listing when true) and `eapcetLive` (EdLoop EAPCET's Play link shows, and its share pages forward to its listing, when true; false shows "in Google's final review") |
 | `tools/make_years.py` | Rebuilds the year grid in `index.html` from the content database (between the `years:start`/`years:end` comments) |
 | `tools/encode_film.py` | Makes the web copies of the film and its posters from the full-resolution masters |
 | `assets/` | Brand files, app screens (`site-redesign/`), the film (`video/`), the founder photo (`team/`) |
