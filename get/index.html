@@ -6,12 +6,12 @@
   <meta name="theme-color" content="#142444">
   <meta name="robots" content="noindex">
   <title>Get EdLoop JEE – free on Google Play</title>
-  <meta name="description" content="EdLoop JEE for Android: 17,500+ JEE Main &amp; AIEEE past questions from 200 papers (2002–2026), sorted by chapter, with official keys and worked solutions. Free, no ads.">
+  <meta name="description" content="EdLoop JEE for Android: 17,500+ JEE Main &amp; AIEEE past questions from 200 papers (2002–2026), sorted by chapter, with answer keys and worked solutions. Free, no ads.">
   <link rel="canonical" href="https://edloop.in/get/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EdLoop">
   <meta property="og:title" content="Get EdLoop JEE – free on Google Play">
-  <meta property="og:description" content="17,500+ JEE Main &amp; AIEEE past questions, sorted by chapter, with official keys. Race your friends in live test rooms. Free, no ads.">
+  <meta property="og:description" content="17,500+ JEE Main &amp; AIEEE past questions, sorted by chapter, with answer keys. Race your friends in live test rooms. Free, no ads.">
   <meta property="og:url" content="https://edloop.in/get/">
   <meta property="og:image" content="https://edloop.in/assets/brand/social.png?v=4">
   <meta property="og:image:width" content="1200">
@@ -36,28 +36,30 @@
   <main id="main" class="share-main wrap">
     <!-- edloop.in/get is the one install link for bios, QR codes, flyers, posts and share cards. It passes
          utm_* and the app's install-referrer keys (room, friend, challenge, question) on to Google Play.
+         ?app=eapcet: EdLoop EAPCET's listing (config.js eapcetLive); anything else is EdLoop JEE.
+         In Instagram's / Facebook's own browser on Android it opens the Play Store app with an intent:// link.
          config.js playLive=false: Play does not list the app yet, so the page says so and offers Telegram.
          config.js playLive=true: the page forwards to Google Play at once. ?preview=live shows that state. -->
     <section id="waiting" class="get-card" hidden>
-      <p class="legal-eyebrow">EdLoop JEE · Free on Android</p>
+      <p class="legal-eyebrow" data-app-name>EdLoop JEE · Free on Android</p>
       <h1>Almost on Google Play.</h1>
-      <p class="tagline">EdLoop JEE is in Google's final review. The moment it is live, this link opens the Play Store. Until then, two things you can do:</p>
+      <p class="tagline"><span data-app-short>EdLoop JEE</span> is in Google's final review. The moment it is live, this link opens the Play Store. Until then, two things you can do:</p>
       <div class="get-actions">
         <a class="button" id="telegram-link" href="https://t.me/edloop_in" target="_blank" rel="noopener">Join the Telegram channel</a>
         <a class="button button-outline" href="/#practice">Try a real question now</a>
       </div>
-      <p class="get-note">One real JEE Main question every morning on Telegram, with the solution the next day. The Play link goes there first.</p>
-      <p class="get-proof">17,500+ past questions · 200 papers · 2002–26 · No ads</p>
+      <p class="get-note" data-app-note>One real JEE Main question every morning on Telegram, with the solution the next day. The Play link goes there first.</p>
+      <p class="get-proof" data-app-proof>17,500+ past questions · 200 papers · 2002–26 · No ads</p>
     </section>
     <section id="live" class="get-card" hidden>
-      <p class="legal-eyebrow">EdLoop JEE · Free on Android</p>
+      <p class="legal-eyebrow" data-app-name>EdLoop JEE · Free on Android</p>
       <h1>Opening Google Play…</h1>
-      <p class="tagline">If nothing happens, tap the button. EdLoop JEE is an Android app.</p>
+      <p class="tagline">If nothing happens, tap the button. <span data-app-short>EdLoop JEE</span> is an Android app.</p>
       <div class="get-actions">
         <a class="button" id="play-link" href="https://play.google.com/store/apps/details?id=in.edloop.jee&amp;referrer=utm_source%3Dwebsite%26utm_content%3Dget">Get EdLoop on Google Play</a>
         <a class="button button-outline" href="/">About EdLoop</a>
       </div>
-      <p class="get-proof">17,500+ past questions · 200 papers · 2002–26 · No ads</p>
+      <p class="get-proof" data-app-proof>17,500+ past questions · 200 papers · 2002–26 · No ads</p>
     </section>
     <noscript>
       <section class="get-card">
@@ -70,7 +72,23 @@
     (function () {
       var cfg = window.EDLOOP || {};
       var qs = new URLSearchParams(location.search);
-      var live = !!cfg.playLive || qs.get('preview') === 'live';
+      // ?app=eapcet: EdLoop EAPCET's listing (config.js eapcetLive / playEapcet); anything else is EdLoop JEE
+      var eapcet = qs.get('app') === 'eapcet';
+      var app = eapcet
+        ? { pkg: 'in.edloop.eapcet', play: cfg.playEapcet || 'https://play.google.com/store/apps/details?id=in.edloop.eapcet',
+            live: !!cfg.eapcetLive, name: 'EdLoop EAPCET', telegram: 'https://t.me/edloop_eapcet',
+            proof: '12,000+ AP & TS EAPCET past questions · 77 papers · 2022–26 · No ads',
+            note: 'One real AP or TS EAPCET question every morning on Telegram, with the solution the next day.' }
+        : { pkg: 'in.edloop.jee', play: cfg.play || 'https://play.google.com/store/apps/details?id=in.edloop.jee',
+            live: !!cfg.playLive, name: 'EdLoop JEE', telegram: cfg.telegram || 'https://t.me/edloop_in' };
+      var live = app.live || qs.get('preview') === 'live';
+      if (eapcet) {
+        document.title = document.title.replace('EdLoop JEE', app.name);
+        [].forEach.call(document.querySelectorAll('[data-app-name]'), function (el) { el.textContent = app.name + ' · Free on Android'; });
+        [].forEach.call(document.querySelectorAll('[data-app-short]'), function (el) { el.textContent = app.name; });
+        [].forEach.call(document.querySelectorAll('[data-app-proof]'), function (el) { el.textContent = app.proof; });
+        [].forEach.call(document.querySelectorAll('[data-app-note]'), function (el) { el.textContent = app.note; });
+      }
       // Only these keys reach Google Play's install referrer; values are reduced to safe characters.
       var keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'room', 'friend', 'challenge', 'question'];
       var parts = [];
@@ -82,12 +100,22 @@
       });
       if (!parts.some(function (p) { return p.indexOf('utm_source=') === 0; })) parts.unshift('utm_source=website');
       if (!parts.some(function (p) { return p.indexOf('utm_content=') === 0; })) parts.push('utm_content=get');
-      var play = (cfg.play || 'https://play.google.com/store/apps/details?id=in.edloop.jee') + '&referrer=' + encodeURIComponent(parts.join('&'));
-      document.getElementById('play-link').href = play;
-      if (cfg.telegram) document.getElementById('telegram-link').href = cfg.telegram;
+      var referrer = encodeURIComponent(parts.join('&'));
+      var play = app.play + '&referrer=' + referrer;
+      // Instagram, Facebook, Messenger and Threads open links in their own browser, which does not hand a
+      // play.google.com page over to the Play Store app: there an intent:// link opens the Play Store app itself
+      // (same referrer), falling back to the Play web page.
+      var ua = navigator.userAgent || '';
+      var inApp = /Android/i.test(ua) && /Instagram|FBAN|FBAV|FB_IAB|FBIOS|Messenger|Barcelona/i.test(ua);
+      var go = inApp
+        ? 'intent://details?id=' + app.pkg + '&referrer=' + referrer +
+          '#Intent;scheme=market;package=com.android.vending;S.browser_fallback_url=' + encodeURIComponent(play) + ';end'
+        : play;
+      document.getElementById('play-link').href = go;
+      document.getElementById('telegram-link').href = app.telegram;
       if (live) {
         document.getElementById('live').hidden = false;
-        setTimeout(function () { location.replace(play); }, 300);
+        setTimeout(function () { location.replace(go); }, 300);
       } else {
         document.getElementById('waiting').hidden = false;
       }
