@@ -253,9 +253,10 @@ def main():
     ap.add_argument('db')
     ap.add_argument('--out', default=os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
     ap.add_argument('--lastmod', default=None)
-    ap.add_argument('--figures', choices=['nta-only', 'all'], default='nta-only',
-                    help="nta-only (default): questions with a printed figure image get a page only when the paper is NTA's own "
-                         "(source is not memory_based); memory-based crops carry a coaching institute's footer advert. 'all' publishes every figure page.")
+    ap.add_argument('--figures', choices=['nta-only', 'all'], default='all',
+                    help="all (default since 2026-11-18): every figure question gets a page; the content build cuts MathonGo's "
+                         "footer advert out of memory-based crops (IIT-APP content/figures/advert_cuts.tsv, Prod load 2026-11-17). "
+                         "nta-only: only NTA's own papers' figure questions (for a content file built before that cut).")
     a = ap.parse_args()
     root = os.path.abspath(a.out)
     db = sqlite3.connect('file:%s?mode=ro' % os.path.abspath(a.db).replace('\\', '/'), uri=True)
