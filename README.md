@@ -45,6 +45,21 @@ Four copies, chosen in `premium.js` by screen: 1080×1920 for phones (720×1280 
 It plays muted and looping only while visible; Pause and Sound are real buttons. Reduced motion and Data Saver get the
 poster until Play is pressed. The masters are not in this repository; only these web copies are.
 
+## Motion layer
+
+`motion.css` (linked after `premium.css`) is the motion layer, switched on by `class="motion"` on `<body>`: `/`, `/jee/`
+and `/eapcet/`. Every rule is scoped under `body.motion`; colours are CSS variables (`--mj-*`), blue by default and teal
+under `body.app-eapcet`.
+- Hero: a `.mj-bg` block (drifting glows, the eo loop with two runners, twinkling dots) as the first child of `.hero`;
+  beside the text from 1000px up, faint and lower on phones. Reduced motion: no runners, nothing moves.
+- Scroll: headings, cards and the app-screen gallery rise or flatten with CSS scroll timelines (`animation-timeline: view()`),
+  only inside `@supports` and `prefers-reduced-motion: no-preference`; elsewhere everything is still and fully visible.
+- Film: a `.film-frame` with `data-lazy` requests no mp4 until it scrolls into view or a button is pressed (`premium.js`);
+  Data Saver and reduced motion keep the poster until Play.
+- Final band: `.mj-cta` > `.mj-floorwrap` (grid floor + horizon) inside `section.final`, confined below the lede.
+- Off for a page: remove `motion` from `<body>` (the markup blocks are then inert); delete the `.mj-bg` / `.mj-cta` blocks to tidy.
+- Change `motion.css`: bump `?v=` on every page that links it.
+
 ## Numbers
 
 Every number on the site (questions, papers, years, the year grid) comes from the content database, never from memory.

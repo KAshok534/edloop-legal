@@ -1,33 +1,47 @@
-/* Motion layer for /jee/ only. Every rule is scoped under body.jee-motion, so / and /eapcet/ (which share premium.css)
+/* Motion layer for /jee/ only. Every rule is scoped under body.motion, so / and /eapcet/ (which share premium.css)
    are untouched. Scroll effects use the browser's own scroll timelines (no script) and only inside @supports and
    prefers-reduced-motion: no-preference; where unsupported, or with reduced motion, everything sits still and fully visible. */
 
+
+/* colours: --mj-1..3 the loop's track, --mj-r the runners' start (they end white), the rest glows, dots, floor */
+.motion{--mj-1:#4a63f5;--mj-2:#2f8af7;--mj-3:#22d3ee;--mj-r:#22d3ee;--mj-ga:#4a63f5;--mj-gb:#22d3ee55;--mj-gc:#2f8af766;--mj-dot:#9ad8ff;--mj-glow1:#22d3ee;--mj-glow2:#2f8af7;--mj-grid1:#2f8af7aa;--mj-grid2:#2f8af766;--mj-hz:#2f8af733;--mj-shadow:#081028}
+.motion.app-eapcet{--mj-1:#0f766e;--mj-2:#14b8a6;--mj-3:#5eead4;--mj-r:#5eead4;--mj-ga:#14b8a6;--mj-gb:#5eead455;--mj-gc:#0f766e88;--mj-dot:#99f6e4;--mj-glow1:#2dd4bf;--mj-glow2:#14b8a6;--mj-grid1:#14b8a6aa;--mj-grid2:#14b8a666;--mj-hz:#14b8a633;--mj-shadow:#04201e}
+.motion #mjTrack stop:nth-child(1){stop-color:var(--mj-1)}.motion #mjTrack stop:nth-child(2){stop-color:var(--mj-2)}.motion #mjTrack stop:nth-child(3){stop-color:var(--mj-3)}
+.motion #mjRun stop:nth-child(1){stop-color:var(--mj-r)}
+
 /* ---- hero: the eo loop, runners, drifting glows, twinkling dots ---- */
-.jee-motion .hero{isolation:isolate}
-.jee-motion .hero>.wrap{position:relative;z-index:2}
-.jee-motion .mj-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
-.jee-motion .mj-glow{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5}
-.jee-motion .mj-g1{width:46vw;height:46vw;left:-12vw;top:-10vw;background:#4a63f5}
-.jee-motion .mj-g2{width:38vw;height:38vw;right:-10vw;top:4vw;background:#22d3ee55}
-.jee-motion .mj-g3{width:30vw;height:30vw;left:35vw;top:18vw;background:#2f8af766}
-.jee-motion .mj-bg svg{position:absolute;left:50%;top:76%;width:min(1100px,150vw);height:auto;transform:translate(-50%,-50%);overflow:visible}
-.jee-motion .mj-track{fill:none;stroke:url(#mjTrack);stroke-width:10;stroke-linecap:round;opacity:.14}
-.jee-motion .mj-runner{fill:none;stroke:url(#mjRun);stroke-width:5;stroke-linecap:round;stroke-dasharray:.07 .93;stroke-dashoffset:1;opacity:.9;filter:drop-shadow(0 0 6px #22d3ee) drop-shadow(0 0 18px #2f8af7)}
-.jee-motion .mj-runner.r2{opacity:.9}
-.jee-motion .mj-dots circle{fill:#9ad8ff;opacity:.7}
+.motion .hero{isolation:isolate}
+.motion .hero>.wrap{position:relative;z-index:2}
+.motion .mj-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.motion .mj-glow{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5}
+.motion .mj-g1{width:46vw;height:46vw;left:-12vw;top:-10vw;background:var(--mj-ga)}
+.motion .mj-g2{width:38vw;height:38vw;right:-10vw;top:4vw;background:var(--mj-gb)}
+.motion .mj-g3{width:30vw;height:30vw;left:35vw;top:18vw;background:var(--mj-gc)}
+.motion .mj-bg svg{position:absolute;left:50%;top:76%;width:min(1100px,150vw);height:auto;transform:translate(-50%,-50%);overflow:visible}
+.motion .mj-track{fill:none;stroke:url(#mjTrack);stroke-width:10;stroke-linecap:round;opacity:.14}
+.motion .mj-runner{fill:none;stroke:url(#mjRun);stroke-width:5;stroke-linecap:round;stroke-dasharray:.07 .93;stroke-dashoffset:1;opacity:.9;filter:drop-shadow(0 0 6px var(--mj-glow1)) drop-shadow(0 0 18px var(--mj-glow2))}
+.motion .mj-runner.r2{opacity:.9}
+.motion .mj-dots circle{fill:var(--mj-dot);opacity:.7}
 /* wide screens: the mark sits in the empty right half, beside the text, so no runner crosses the headline */
-@media(min-width:1000px){.jee-motion .mj-bg svg{left:77%;top:50%;width:min(760px,54vw)}}
-/* keep the headline, lede and buttons clearly readable over the mark */
-.jee-motion .hero .h1,.jee-motion .hero .lede,.jee-motion .hero-for,.jee-motion .hero-facts{text-shadow:0 1px 18px #081028}
-@media(prefers-reduced-motion:no-preference){
-  .jee-motion .mj-g1{animation:mj-da 18s ease-in-out infinite alternate}
-  .jee-motion .mj-g2{animation:mj-db 22s ease-in-out infinite alternate}
-  .jee-motion .mj-g3{animation:mj-dc 26s ease-in-out infinite alternate}
-  .jee-motion .mj-runner{fill:none;stroke:url(#mjRun);stroke-width:5;stroke-linecap:round;stroke-dasharray:.07 .93;stroke-dashoffset:1;opacity:.9;filter:drop-shadow(0 0 6px #22d3ee) drop-shadow(0 0 18px #2f8af7)}
-  .jee-motion .mj-runner.r2{animation-delay:-2.75s}
-  .jee-motion .mj-dots circle{animation:mj-twinkle 4s ease-in-out infinite}
+@media(min-width:1000px){.motion .mj-bg svg{left:77%;top:50%;width:min(760px,54vw)}}
+/* taller heroes (home: the phone pair; EAPCET: the screens row): keep the mark beside the text / behind the pictures */
+.motion.app-eapcet .mj-bg svg{top:66%}
+.motion .home-hero .mj-bg svg{top:72%}
+@media(min-width:1000px){
+  .motion.app-eapcet .mj-bg svg{left:84%;top:440px;width:min(440px,36vw)}
+  .motion .home-hero .mj-bg svg{left:75%;top:50%;width:min(820px,60vw)}
 }
-@media(prefers-reduced-motion:reduce){.jee-motion .mj-runner{fill:none;stroke:url(#mjRun);stroke-width:5;stroke-linecap:round;stroke-dasharray:.07 .93;stroke-dashoffset:1;opacity:.9;filter:drop-shadow(0 0 6px #22d3ee) drop-shadow(0 0 18px #2f8af7)}}
+/* keep the headline, lede and buttons clearly readable over the mark */
+.motion .hero .h1,.motion .hero .lede,.motion .hero-for,.motion .hero-facts{text-shadow:0 1px 18px var(--mj-shadow)}
+@media(prefers-reduced-motion:no-preference){
+  .motion .mj-g1{animation:mj-da 18s ease-in-out infinite alternate}
+  .motion .mj-g2{animation:mj-db 22s ease-in-out infinite alternate}
+  .motion .mj-g3{animation:mj-dc 26s ease-in-out infinite alternate}
+  .motion .mj-runner{animation:mj-run 5.5s linear infinite}
+  .motion .mj-runner.r2{animation-delay:-2.75s}
+  .motion .mj-dots circle{animation:mj-twinkle 4s ease-in-out infinite}
+}
+@media(prefers-reduced-motion:reduce){.motion .mj-runner{display:none}}
 @keyframes mj-da{to{transform:translate(14%,10%) scale(1.12)}}
 @keyframes mj-db{to{transform:translate(-18%,8%) scale(.9)}}
 @keyframes mj-dc{to{transform:translate(-20%,-14%) scale(1.15)}}
@@ -35,46 +49,64 @@
 @keyframes mj-twinkle{50%{opacity:.15}}
 
 /* ---- final band: a grid floor moving toward you, subtle ---- */
-.jee-motion .final>.wrap{position:relative;z-index:2}
-.jee-motion .mj-cta{isolation:isolate}
-.jee-motion .mj-cta{position:relative}
-.jee-motion .mj-floorwrap{position:absolute;left:50%;width:100vw;transform:translateX(-50%);top:58%;bottom:-40px;z-index:-1;pointer-events:none;overflow:hidden;opacity:.75;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 68%,transparent 96%);mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 68%,transparent 96%)}
-.jee-motion .mj-horizon{position:absolute;left:0;right:0;bottom:78%;height:2px;background:linear-gradient(90deg,transparent,#22d3ee,#4a63f5,transparent);box-shadow:0 0 30px 6px #2f8af733;opacity:.7}
-.jee-motion .mj-floor{position:absolute;left:-50%;right:-50%;bottom:0;height:78%;perspective:340px;perspective-origin:50% 0}
-.jee-motion .mj-plane{position:absolute;inset:0;transform-origin:50% 0;transform:rotateX(64deg);
-  background-image:linear-gradient(#2f8af7aa 1.5px,transparent 1.5px),linear-gradient(90deg,#2f8af766 1.5px,transparent 1.5px);
+.motion .final>.wrap{position:relative;z-index:2}
+.motion .mj-cta{isolation:isolate}
+.motion .mj-cta{position:relative}
+.motion .mj-floorwrap{position:absolute;left:50%;width:100vw;transform:translateX(-50%);top:58%;bottom:-40px;z-index:-1;pointer-events:none;overflow:hidden;opacity:.75;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 68%,transparent 96%);mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 68%,transparent 96%)}
+.motion .mj-horizon{position:absolute;left:0;right:0;bottom:78%;height:2px;background:linear-gradient(90deg,transparent,var(--mj-3),var(--mj-ga),transparent);box-shadow:0 0 30px 6px var(--mj-hz);opacity:.7}
+.motion .mj-floor{position:absolute;left:-50%;right:-50%;bottom:0;height:78%;perspective:340px;perspective-origin:50% 0}
+.motion .mj-plane{position:absolute;inset:0;transform-origin:50% 0;transform:rotateX(64deg);
+  background-image:linear-gradient(var(--mj-grid1) 1.5px,transparent 1.5px),linear-gradient(90deg,var(--mj-grid2) 1.5px,transparent 1.5px);
   background-size:64px 64px;
   -webkit-mask-image:linear-gradient(to bottom,transparent,#000 24%,#000);mask-image:linear-gradient(to bottom,transparent,#000 24%,#000)}
-@media(prefers-reduced-motion:no-preference){.jee-motion .mj-plane{animation:mj-floor 1.6s linear infinite}}
+@media(prefers-reduced-motion:no-preference){.motion .mj-plane{animation:mj-floor 1.6s linear infinite}}
 @keyframes mj-floor{to{background-position:0 64px}}
 
 /* ---- scroll motion (browser scroll timelines only) ---- */
 @supports (animation-timeline:view()){
   @media(prefers-reduced-motion:no-preference){
-    .jee-motion .film{overflow-x:clip}
+    .motion .film{overflow-x:clip}
     /* the film frame settles flat as it arrives (replaces the shared clip-path "open" on this page only) */
-    .jee-motion .film-frame{transform-origin:50% 0;animation:mj-flat linear both;animation-timeline:view();animation-range:entry 0% cover 45%}
+    .motion .film-frame{transform-origin:50% 0;animation:mj-flat linear both;animation-timeline:view();animation-range:entry 0% cover 45%}
     /* headings, ledes and cards rise in; the pinned year sequence and the sticky phone stage are left alone */
-    .jee-motion .band .h2,.jee-motion .band .lede,.jee-motion .sources article,.jee-motion .final .h1,.jee-motion .final .lede,.jee-motion .final .hero-actions,.jee-motion .numbers li{
+    .motion .band .h2,.motion .band .lede,.motion .sources article,.motion .final .h1,.motion .final .lede,.motion .final .hero-actions,.motion .numbers li{
       animation:mj-rise linear both;animation-timeline:view();animation-range:entry 0% cover 28%}
-    .jee-motion .sources article:nth-child(2){animation-range:entry 6% cover 32%}
-    .jee-motion .sources article:nth-child(3){animation-range:entry 12% cover 36%}
-    .jee-motion .numbers li:nth-child(2){animation-range:entry 6% cover 32%}
-    .jee-motion .numbers li:nth-child(3){animation-range:entry 12% cover 36%}
+    .motion .sources article:nth-child(2){animation-range:entry 6% cover 32%}
+    .motion .sources article:nth-child(3){animation-range:entry 12% cover 36%}
+    .motion .numbers li:nth-child(2){animation-range:entry 6% cover 32%}
+    .motion .numbers li:nth-child(3){animation-range:entry 12% cover 36%}
   }
 }
 /* the app-screen gallery scrolls sideways, so its images follow the whole gallery's position on the page instead */
 @supports (animation-timeline:view()) and (timeline-scope:--mj-gal){
   @media(prefers-reduced-motion:no-preference){
-    .jee-motion #inside{timeline-scope:--mj-gal}
-    .jee-motion #inside .track{view-timeline:--mj-gal block}
-    .jee-motion #inside .track .shot{animation:mj-flat linear both;animation-timeline:--mj-gal;animation-range:entry 0% cover 45%;transform-origin:50% 100%}
-    .jee-motion #inside .track figure:nth-child(2) .shot{animation-range:entry 6% cover 50%}
-    .jee-motion #inside .track figure:nth-child(3) .shot{animation-range:entry 12% cover 55%}
-    .jee-motion #inside .track figure:nth-child(4) .shot{animation-range:entry 18% cover 60%}
-    .jee-motion #inside .track figure:nth-child(5) .shot{animation-range:entry 24% cover 65%}
-    .jee-motion #inside .track figure:nth-child(6) .shot{animation-range:entry 30% cover 70%}
+    .motion #inside{timeline-scope:--mj-gal}
+    .motion #inside .track{view-timeline:--mj-gal block}
+    .motion #inside .track .shot{animation:mj-flat linear both;animation-timeline:--mj-gal;animation-range:entry 0% cover 45%;transform-origin:50% 100%}
+    .motion #inside .track figure:nth-child(2) .shot{animation-range:entry 6% cover 50%}
+    .motion #inside .track figure:nth-child(3) .shot{animation-range:entry 12% cover 55%}
+    .motion #inside .track figure:nth-child(4) .shot{animation-range:entry 18% cover 60%}
+    .motion #inside .track figure:nth-child(5) .shot{animation-range:entry 24% cover 65%}
+    .motion #inside .track figure:nth-child(6) .shot{animation-range:entry 30% cover 70%}
   }
 }
 @keyframes mj-rise{from{opacity:.3;transform:translateY(48px)}to{opacity:1;transform:none}}
 @keyframes mj-flat{from{transform:perspective(1400px) rotateX(24deg) translateY(60px) scale(.92);opacity:.4}to{transform:none;opacity:1}}
+
+/* home (Pick your exam cards, account) and EAPCET (pattern cards): the cards settle flat as they arrive */
+@supports (animation-timeline:view()){
+  @media(prefers-reduced-motion:no-preference){
+    .motion .app-card,.motion .pattern-grid article,.motion .account-split>div,.motion .also{
+      transform-origin:50% 100%;animation:mj-card linear both;animation-timeline:view();animation-range:entry 0% cover 32%}
+    .motion .app-card:nth-child(2),.motion .pattern-grid article:nth-child(2){animation-range:entry 8% cover 38%}
+    .motion .app-card:nth-child(3),.motion .pattern-grid article:nth-child(3){animation-range:entry 16% cover 44%}
+    .motion .account-split>div:nth-child(2){animation-range:entry 8% cover 38%}
+  }
+}
+@supports (animation-timeline:view()) and (timeline-scope:--mj-gal){
+  @media(prefers-reduced-motion:no-preference){
+    .motion #inside .track figure:nth-child(7) .shot{animation-range:entry 36% cover 75%}
+    .motion #inside .track figure:nth-child(8) .shot{animation-range:entry 42% cover 80%}
+  }
+}
+@keyframes mj-card{from{opacity:.35;transform:perspective(1200px) rotateX(10deg) translateY(44px) scale(.96)}to{opacity:1;transform:none}}

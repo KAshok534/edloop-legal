@@ -19,12 +19,13 @@
   <link rel="alternate icon" href="favicon.ico">
   <link rel="preload" href="assets/site-redesign/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="premium.css?v=15">
+  <link rel="stylesheet" href="motion.css?v=2">
   <script src="config.js?v=4"></script>
   <script src="site.js?v=6" defer></script>
   <script src="premium.js?v=13" defer></script>
   <script>document.documentElement.classList.add('js')</script>
 </head>
-<body>
+<body class="motion">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
@@ -40,6 +41,23 @@
   </header>
   <main id="main">
     <section class="hero dark home-hero" aria-labelledby="hero-title">
+      <div class="mj-bg" aria-hidden="true">
+        <div class="mj-glow mj-g1"></div><div class="mj-glow mj-g2"></div><div class="mj-glow mj-g3"></div>
+        <svg viewBox="0 0 240 140" focusable="false">
+          <defs>
+            <linearGradient id="mjTrack" gradientUnits="userSpaceOnUse" x1="21" y1="120" x2="219" y2="20"><stop offset="0" stop-color="#4a63f5"/><stop offset=".5" stop-color="#2f8af7"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+            <linearGradient id="mjRun" gradientUnits="userSpaceOnUse" x1="21" y1="120" x2="219" y2="20"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+          </defs>
+          <g transform="matrix(1 0 0 -1 0 140)">
+            <path class="mj-track" d="M66 70 L108 70 C122 70 134 84 146.5 95.5"/>
+            <path class="mj-track" d="M78 116 A46 46 0 1 1 107.6 34.8"/>
+            <path class="mj-track" d="M146.5 95.5 A36 36 0 1 0 146.5 44.5 C128 62 106 116 78 116"/>
+            <path class="mj-runner" pathLength="1" d="M78 116 A46 46 0 1 1 107.6 34.8"/>
+            <path class="mj-runner r2" pathLength="1" d="M146.5 95.5 A36 36 0 1 0 146.5 44.5 C128 62 106 116 78 116"/>
+          </g>
+          <g class="mj-dots"><circle cx="30" cy="20" r=".6"/><circle cx="210" cy="16" r=".5" style="animation-delay:-1s"/><circle cx="196" cy="118" r=".6" style="animation-delay:-2s"/><circle cx="44" cy="122" r=".5" style="animation-delay:-3s"/><circle cx="120" cy="8" r=".4" style="animation-delay:-1.5s"/></g>
+        </svg>
+      </div>
       <div class="wrap">
         <div>
           <p class="hero-for hero-in d1">EdLoop, for Android</p>
@@ -103,9 +121,10 @@
     </section>
     <section class="final dark" aria-labelledby="final-title">
       <div class="wrap">
+        <div class="mj-cta"><div class="mj-floorwrap" aria-hidden="true"><div class="mj-floor"><div class="mj-plane"></div></div><div class="mj-horizon"></div></div>
         <h2 class="h1" id="final-title">Study together.</h2>
         <p class="lede">Free on Android. No ads, and no course to sell.</p>
-        <div class="hero-actions"><a class="btn btn-solid" href="jee/">EdLoop JEE</a><a class="btn btn-line" href="eapcet/">EdLoop EAPCET</a></div>
+        <div class="hero-actions"><a class="btn btn-solid" href="jee/">EdLoop JEE</a><a class="btn btn-line" href="eapcet/">EdLoop EAPCET</a></div></div>
         <div class="company"><p>EdLoop is made by EDLOOP TECHNOLOGIES, an MSME registered in India.</p><p>We started with JEE Main and AP and TS EAPCET, and we are building towards a connected home for learning, from one student to a whole college. <a href="about.html">About the company and the founder</a></p></div>
       </div>
     </section>
