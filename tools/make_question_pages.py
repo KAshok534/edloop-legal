@@ -253,6 +253,9 @@ def main():
     ap.add_argument('db')
     ap.add_argument('--out', default=os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
     ap.add_argument('--lastmod', default=None)
+    ap.add_argument('--figures', choices=['nta-only', 'all'], default='nta-only',
+                    help="nta-only (default): questions with a printed figure image get a page only when the paper is NTA's own "
+                         "(source is not memory_based); memory-based crops carry a coaching institute's footer advert. 'all' publishes every figure page.")
     a = ap.parse_args()
     root = os.path.abspath(a.out)
     db = sqlite3.connect('file:%s?mode=ro' % os.path.abspath(a.db).replace('\\', '/'), uri=True)
@@ -282,6 +285,19 @@ def main():
     assets = {r['question_id']: r for r in db.execute(
         "SELECT a.question_id, a.id, a.width, a.height, d.data_base64 FROM asset a JOIN asset_data d ON d.asset_id = a.id "
         "WHERE a.kind = 'question_image'")}
+
+    skipped_fig = collections.Counter()
+    if a.figures == 'nta-only':
+        keep = []
+        for r in rows:
+            if r['id'] in assets and r['source'] == 'memory_based':
+                skipped_fig[r['year']] += 1
+            else:
+                keep.append(r)
+        rows = keep
+        print('figure questions left out (memory-based paper, image carries a coaching advert):', sum(skipped_fig.values()))
+        print('  by year:', dict(sorted(skipped_fig.items())))
+    print('questions to publish:', len(rows))
 
     # ---- clean previously generated files
     for d in ('q', 'jee/pyq'):
