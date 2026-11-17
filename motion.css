@@ -38,7 +38,7 @@
 .jee-motion .final>.wrap{position:relative;z-index:2}
 .jee-motion .mj-cta{isolation:isolate}
 .jee-motion .mj-cta{position:relative}
-.jee-motion .mj-floorwrap{position:absolute;left:50%;width:100vw;transform:translateX(-50%);top:30%;bottom:-40px;z-index:-1;pointer-events:none;overflow:hidden;opacity:.75;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 68%,transparent 96%);mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 68%,transparent 96%)}
+.jee-motion .mj-floorwrap{position:absolute;left:50%;width:100vw;transform:translateX(-50%);top:58%;bottom:-40px;z-index:-1;pointer-events:none;overflow:hidden;opacity:.75;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 68%,transparent 96%);mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 68%,transparent 96%)}
 .jee-motion .mj-horizon{position:absolute;left:0;right:0;bottom:78%;height:2px;background:linear-gradient(90deg,transparent,#22d3ee,#4a63f5,transparent);box-shadow:0 0 30px 6px #2f8af733;opacity:.7}
 .jee-motion .mj-floor{position:absolute;left:-50%;right:-50%;bottom:0;height:78%;perspective:340px;perspective-origin:50% 0}
 .jee-motion .mj-plane{position:absolute;inset:0;transform-origin:50% 0;transform:rotateX(64deg);
