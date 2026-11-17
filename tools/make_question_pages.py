@@ -90,7 +90,7 @@ def render_md(src):
         return '\x00%d\x00' % (len(maths) - 1)
     t = MATH_RE.sub(stash, src.replace('[FIGURE]', '\x01'))
     t = E(t, quote=False)
-    t = t.replace('\x01', '<span class="q-fignote">(see the figure below)</span>')
+    t = t.replace('\x01', '<span class="q-fignote">(see the figure above)</span>')
     t = re.sub(r'\\\$', '<span class="nomath">$</span>', t)
     lines = t.split('\n')
     out, i = [], 0
@@ -209,7 +209,7 @@ HEAD_COMMON = '''  <meta charset="utf-8">
   <link rel="preload" href="/assets/site-redesign/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/premium.css?v=15">
   <link rel="stylesheet" href="/pages.css?v=1">
-  <link rel="stylesheet" href="/qpages.css?v=2">
+  <link rel="stylesheet" href="/qpages.css?v=3">
 {extra}  <script src="/config.js?v=4"></script>
   <script src="/site.js?v=6" defer></script>
   <script src="/premium.js?v=13" defer></script>
@@ -364,11 +364,23 @@ def main():
             if len(desc) < 70:
                 desc = '%s %s PYQ. %s' % (desc, paper_short(r), subj + ': ' + cname + '.')
             opts = json.loads(r['options_json']) if r['options_json'] else []
-            body_html = render_md(r['body'])
+            figdesc = []  # figure descriptions: screen readers and the image alt only, never visible
+
+            def figonly(text, label):
+                """'[FIGURE] <description>': show just 'see figure'; keep the description visually hidden."""
+                t = (text or '').strip()
+                if not t.startswith('[FIGURE]'):
+                    return None
+                rest = t[len('[FIGURE]'):].strip()
+                if rest:
+                    figdesc.append('%s: %s' % (label, plain(rest)))
+                return '<p><span class="q-fignote">see figure</span>%s</p>' % (
+                    '<span class="sr-only"> %s</span>' % render_md(rest).replace('<p>', '').replace('</p>', '') if rest else '')
+            stem = figonly(r['body'], 'Question')
+            body_html = stem if stem else render_md(r['body'])
             if opts:
                 lis = ''.join('<li><span class="q-optn">(%d)</span><div class="q-opt">%s</div></li>' % (
-                    k + 1, render_md(o).replace('<p>', '<p>', 1) if o.strip() != '[FIGURE]' else '<p><span class="q-fignote">(see the figure below)</span></p>')
-                    for k, o in enumerate(opts))
+                    k + 1, figonly(o, 'Option %d' % (k + 1)) or render_md(o)) for k, o in enumerate(opts))
                 opts_html = '<ol class="q-opts" aria-label="Options">%s</ol>' % lis
             else:
                 opts_html = '<p class="q-num">Numerical-value question: the answer is a number.</p>'
@@ -382,8 +394,9 @@ def main():
                 sizes['img'] += len(data)
                 n_img += 1
                 fig_html = ('<figure class="q-figure"><img src="/q/img/%s.webp" width="%s" height="%s" loading="lazy" decoding="async" '
-                            'alt="The question and its figure as printed in %s"><figcaption>The question as printed in the paper.</figcaption></figure>'
-                            % (qid, ar['width'] or '', ar['height'] or '', E(paper_short(r))))
+                            'alt="%s"><figcaption>The question as printed in the paper.</figcaption></figure>'
+                            % (qid, ar['width'] or '', ar['height'] or '',
+                               E(clip('The question and its figure as printed in %s. %s' % (paper_short(r), ' '.join(figdesc)), 700))))
             qtype = 'Numerical value' if r['qtype'] == 'numerical' else 'Multiple choice, one correct option'
             badge = ('<span class="q-badge" title="Reconstructed by coaching institutes from memory; wording may differ slightly from the exam paper">Memory based</span>'
                      if memory else '<span class="q-badge q-badge-official">NTA paper</span>')
@@ -425,7 +438,7 @@ def main():
       <p class="q-back"><a href="%s">All JEE Main %s PYQs (%d questions)</a></p>
     </div>
   </main>
-''' % (crumbs_html(crumbs), E(h1), E(qtype), badge, E(cname), qid, body_html, opts_html, ans_html, fig_html, E(cname), play_href(qid),
+''' % (crumbs_html(crumbs), E(h1), E(qtype), badge, E(cname), qid, body_html, fig_html, opts_html, ans_html, E(cname), play_href(qid),
        E(subj), E(cname), E(pname), E(r['exam'] == 'AIEEE' and 'AIEEE, now called JEE Main' or 'JEE Main exam'),
        'Memory-based papers are reconstructed from candidates\' memory by coaching institutes.' if memory else 'This is the paper as NTA held it.',
        E(cname), prev_l, next_l, cu, E(cname), len(qs))
