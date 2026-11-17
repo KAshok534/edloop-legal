@@ -1,0 +1,76 @@
+/* Motion layer for /jee/ only. Every rule is scoped under body.jee-motion, so / and /eapcet/ (which share premium.css)
+   are untouched. Scroll effects use the browser's own scroll timelines (no script) and only inside @supports and
+   prefers-reduced-motion: no-preference; where unsupported, or with reduced motion, everything sits still and fully visible. */
+
+/* ---- hero: the eo loop, runners, drifting glows, twinkling dots ---- */
+.jee-motion .hero{isolation:isolate}
+.jee-motion .hero>.wrap{position:relative;z-index:2}
+.jee-motion .mj-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.jee-motion .mj-glow{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5}
+.jee-motion .mj-g1{width:46vw;height:46vw;left:-12vw;top:-10vw;background:#4a63f5}
+.jee-motion .mj-g2{width:38vw;height:38vw;right:-10vw;top:4vw;background:#22d3ee55}
+.jee-motion .mj-g3{width:30vw;height:30vw;left:35vw;top:18vw;background:#2f8af766}
+.jee-motion .mj-bg svg{position:absolute;left:50%;top:52%;width:min(1100px,150vw);height:auto;transform:translate(-50%,-50%);overflow:visible}
+.jee-motion .mj-track{fill:none;stroke:url(#mjTrack);stroke-width:10;stroke-linecap:round;opacity:.13}
+.jee-motion .mj-runner{fill:none;stroke:url(#mjRun);stroke-width:12;stroke-linecap:round;stroke-dasharray:.12 .88;stroke-dashoffset:1;opacity:.4;filter:drop-shadow(0 0 10px #22d3ee) drop-shadow(0 0 24px #2f8af7)}
+.jee-motion .mj-runner.r2{opacity:.3}
+.jee-motion .mj-dots circle{fill:#9ad8ff;opacity:.7}
+/* keep the headline, lede and buttons clearly readable over the mark */
+.jee-motion .hero .h1,.jee-motion .hero .lede,.jee-motion .hero-for,.jee-motion .hero-facts{text-shadow:0 1px 18px #081028}
+@media(prefers-reduced-motion:no-preference){
+  .jee-motion .mj-g1{animation:mj-da 18s ease-in-out infinite alternate}
+  .jee-motion .mj-g2{animation:mj-db 22s ease-in-out infinite alternate}
+  .jee-motion .mj-g3{animation:mj-dc 26s ease-in-out infinite alternate}
+  .jee-motion .mj-runner{animation:mj-run 5.5s linear infinite}
+  .jee-motion .mj-runner.r2{animation-delay:-2.75s}
+  .jee-motion .mj-dots circle{animation:mj-twinkle 4s ease-in-out infinite}
+}
+@media(prefers-reduced-motion:reduce){.jee-motion .mj-runner{display:none}}
+@keyframes mj-da{to{transform:translate(14%,10%) scale(1.12)}}
+@keyframes mj-db{to{transform:translate(-18%,8%) scale(.9)}}
+@keyframes mj-dc{to{transform:translate(-20%,-14%) scale(1.15)}}
+@keyframes mj-run{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes mj-twinkle{50%{opacity:.15}}
+
+/* ---- final band: a grid floor moving toward you, subtle ---- */
+.jee-motion .final>.wrap{position:relative;z-index:2}
+.jee-motion .mj-floorwrap{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden;opacity:.4}
+.jee-motion .mj-horizon{position:absolute;left:0;right:0;bottom:40%;height:2px;background:linear-gradient(90deg,transparent,#22d3ee,#4a63f5,transparent);box-shadow:0 0 30px 6px #2f8af733;opacity:.7}
+.jee-motion .mj-floor{position:absolute;left:-50%;right:-50%;bottom:-6%;height:48%;perspective:340px;perspective-origin:50% 0}
+.jee-motion .mj-plane{position:absolute;inset:0;transform-origin:50% 0;transform:rotateX(64deg);
+  background-image:linear-gradient(#2f8af7aa 1.5px,transparent 1.5px),linear-gradient(90deg,#2f8af766 1.5px,transparent 1.5px);
+  background-size:64px 64px;
+  -webkit-mask-image:linear-gradient(to bottom,transparent,#000 24%,#000);mask-image:linear-gradient(to bottom,transparent,#000 24%,#000)}
+@media(prefers-reduced-motion:no-preference){.jee-motion .mj-plane{animation:mj-floor 1.6s linear infinite}}
+@keyframes mj-floor{to{background-position:0 64px}}
+
+/* ---- scroll motion (browser scroll timelines only) ---- */
+@supports (animation-timeline:view()){
+  @media(prefers-reduced-motion:no-preference){
+    .jee-motion .film{overflow-x:clip}
+    /* the film frame settles flat as it arrives (replaces the shared clip-path "open" on this page only) */
+    .jee-motion .film-frame{transform-origin:50% 0;animation:mj-flat linear both;animation-timeline:view();animation-range:entry 0% cover 45%}
+    /* headings, ledes and cards rise in; the pinned year sequence and the sticky phone stage are left alone */
+    .jee-motion .band .h2,.jee-motion .band .lede,.jee-motion .sources article,.jee-motion .final .h1,.jee-motion .final .lede,.jee-motion .final .hero-actions,.jee-motion .numbers li{
+      animation:mj-rise linear both;animation-timeline:view();animation-range:entry 0% cover 28%}
+    .jee-motion .sources article:nth-child(2){animation-range:entry 6% cover 32%}
+    .jee-motion .sources article:nth-child(3){animation-range:entry 12% cover 36%}
+    .jee-motion .numbers li:nth-child(2){animation-range:entry 6% cover 32%}
+    .jee-motion .numbers li:nth-child(3){animation-range:entry 12% cover 36%}
+  }
+}
+/* the app-screen gallery scrolls sideways, so its images follow the whole gallery's position on the page instead */
+@supports (animation-timeline:view()) and (timeline-scope:--mj-gal){
+  @media(prefers-reduced-motion:no-preference){
+    .jee-motion #inside{timeline-scope:--mj-gal}
+    .jee-motion #inside .track{view-timeline:--mj-gal block}
+    .jee-motion #inside .track .shot{animation:mj-flat linear both;animation-timeline:--mj-gal;animation-range:entry 0% cover 45%;transform-origin:50% 100%}
+    .jee-motion #inside .track figure:nth-child(2) .shot{animation-range:entry 6% cover 50%}
+    .jee-motion #inside .track figure:nth-child(3) .shot{animation-range:entry 12% cover 55%}
+    .jee-motion #inside .track figure:nth-child(4) .shot{animation-range:entry 18% cover 60%}
+    .jee-motion #inside .track figure:nth-child(5) .shot{animation-range:entry 24% cover 65%}
+    .jee-motion #inside .track figure:nth-child(6) .shot{animation-range:entry 30% cover 70%}
+  }
+}
+@keyframes mj-rise{from{opacity:.3;transform:translateY(48px)}to{opacity:1;transform:none}}
+@keyframes mj-flat{from{transform:perspective(1400px) rotateX(24deg) translateY(60px) scale(.92);opacity:.4}to{transform:none;opacity:1}}

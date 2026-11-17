@@ -20,16 +20,17 @@
   <link rel="alternate icon" href="../favicon.ico">
   <link rel="preload" href="../assets/site-redesign/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../premium.css?v=15">
+  <link rel="stylesheet" href="../motion.css?v=1">
   <script src="../config.js?v=4"></script>
   <script src="../site.js?v=6" defer></script>
   <script src="../home.js?v=5" defer></script>
-  <script src="../premium.js?v=13" defer></script>
+  <script src="../premium.js?v=14" defer></script>
   <script>document.documentElement.classList.add('js')</script>
   <style>.faq-item{border-bottom:1px solid rgba(127,127,127,.25);padding:16px 0}.faq-item summary{cursor:pointer;font-weight:600;font-size:1.05rem}.faq-item p{margin:10px 0 0;line-height:1.6;opacity:.85}</style>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "EdLoop JEE", "alternateName": "EdLoop JEE: JEE Mains PYQ & Mock", "operatingSystem": "Android", "applicationCategory": "EducationalApplication", "url": "https://edloop.in/jee/", "downloadUrl": "https://play.google.com/store/apps/details?id=in.edloop.jee", "installUrl": "https://play.google.com/store/apps/details?id=in.edloop.jee", "description": "JEE Main previous year questions (PYQs) app: 17,500+ questions from 200 papers (2002–2026), chapter-wise with answer keys and solutions, mock tests from real papers, live tests with friends. Free on Google Play, no ads.", "inLanguage": "en-IN", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"}, "publisher": {"@type": "Organization", "name": "EDLOOP TECHNOLOGIES", "url": "https://edloop.in/"}}</script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which app has JEE Main PYQs chapter-wise?", "acceptedAnswer": {"@type": "Answer", "text": "EdLoop JEE has 17,500+ JEE Main and AIEEE previous year questions from 200 papers (2002–2026), sorted by chapter and topic, each with its answer key and a worked solution. It is free on Google Play for Android, with no ads."}}, {"@type": "Question", "name": "Can I take JEE Main previous year papers as mock tests?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Any JEE Main paper in EdLoop JEE can be taken as a full timed mock test with the real sections, marking and question palette, or you can build a custom test from the chapters you have finished."}}, {"@type": "Question", "name": "Where do the questions and answer keys come from?", "acceptedAnswer": {"@type": "Answer", "text": "2026 questions are NTA's own papers and final answer keys. 2002 to 2025 come from widely used memory-based compilations and are marked \"Memory based\" in the app; their answer keys were re-checked and corrected where the printed key was wrong."}}, {"@type": "Question", "name": "Is EdLoop JEE free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. EdLoop JEE is free on Google Play, has no ads and sells no course. Sign in with Google and your progress follows you to any phone."}}, {"@type": "Question", "name": "Can I practise with friends?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Live test rooms let friends solve the same JEE questions at the same time and see the podium at the end, and you can send a \"beat my score\" challenge link from any result."}}]}</script>
 </head>
-<body>
+<body class="jee-motion">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
@@ -45,6 +46,23 @@
   </header>
   <main id="main">
         <section class="hero dark" aria-labelledby="hero-title">
+      <div class="mj-bg" aria-hidden="true">
+        <div class="mj-glow mj-g1"></div><div class="mj-glow mj-g2"></div><div class="mj-glow mj-g3"></div>
+        <svg viewBox="0 0 240 140" focusable="false">
+          <defs>
+            <linearGradient id="mjTrack" gradientUnits="userSpaceOnUse" x1="21" y1="120" x2="219" y2="20"><stop offset="0" stop-color="#4a63f5"/><stop offset=".5" stop-color="#2f8af7"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+            <linearGradient id="mjRun" gradientUnits="userSpaceOnUse" x1="21" y1="120" x2="219" y2="20"><stop offset="0" stop-color="#9ad8ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+          </defs>
+          <g transform="matrix(1 0 0 -1 0 140)">
+            <path class="mj-track" d="M66 70 L108 70 C122 70 134 84 146.5 95.5"/>
+            <path class="mj-track" d="M78 116 A46 46 0 1 1 107.6 34.8"/>
+            <path class="mj-track" d="M146.5 95.5 A36 36 0 1 0 146.5 44.5 C128 62 106 116 78 116"/>
+            <path class="mj-runner" pathLength="1" d="M78 116 A46 46 0 1 1 107.6 34.8"/>
+            <path class="mj-runner r2" pathLength="1" d="M146.5 95.5 A36 36 0 1 0 146.5 44.5 C128 62 106 116 78 116"/>
+          </g>
+          <g class="mj-dots"><circle cx="30" cy="20" r=".6"/><circle cx="210" cy="16" r=".5" style="animation-delay:-1s"/><circle cx="196" cy="118" r=".6" style="animation-delay:-2s"/><circle cx="44" cy="122" r=".5" style="animation-delay:-3s"/><circle cx="120" cy="8" r=".4" style="animation-delay:-1.5s"/></g>
+        </svg>
+      </div>
       <div class="wrap">
         <p class="hero-for hero-in d1">EdLoop JEE, for Android</p>
         <h1 class="h1 hero-in d2" id="hero-title">Every JEE Main question since 2002.</h1>
@@ -54,7 +72,7 @@
       </div>
     </section>
     <section class="film" aria-label="The 30-second film">
-      <div class="film-frame" id="watch">
+      <div class="film-frame" id="watch" data-lazy>
         <video muted loop playsinline preload="none" controls poster="../assets/video/poster-wide.jpg" src="../assets/video/edloop-together-1080.mp4" aria-label="EdLoop JEE in 30 seconds: race your friends in live rooms, challenge a friend, climb the week."></video>
         <div class="film-ui"><div class="film-controls"><button type="button" class="film-ctl" data-film-play hidden aria-pressed="false">Pause</button><button type="button" class="film-ctl" data-film-sound hidden aria-pressed="false">Sound off</button></div></div>
       </div>
@@ -155,6 +173,7 @@
       </div>
     </section>
     <section class="final dark" aria-labelledby="final-title">
+      <div class="mj-floorwrap" aria-hidden="true"><div class="mj-floor"><div class="mj-plane"></div></div><div class="mj-horizon"></div></div>
       <div class="wrap">
         <h2 class="h1" id="final-title">Study together.</h2>
         <p class="lede">Free on Android. No ads, and no course to sell.</p>

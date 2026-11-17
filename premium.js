@@ -37,6 +37,11 @@
     const saver = !!(navigator.connection && navigator.connection.saveData);
     let userPaused = reduce || saver;
     let visible = false;
+    // data-lazy (the JEE page): the film's file is requested only once the frame first scrolls into view, or when a button
+    // is pressed; the poster still loads with the page.
+    const lazy = frame.hasAttribute('data-lazy');
+    let armed = !lazy;
+    let applied = '';
     const icon = {
       play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z" fill="currentColor" stroke="none"/></svg>',
       pause: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg>',
@@ -55,23 +60,26 @@
     function choose() {
       const real = frame.clientWidth * (window.devicePixelRatio || 1);
       const mode = narrow.matches ? (slow ? 'tall' : 'tallHD') : (!slow && real > 2200 ? 'wideHD' : 'wide');
-      if (video.dataset.mode === mode) return;
       video.dataset.mode = mode;
       video.poster = FILES[mode].poster;
+      if (!armed || applied === mode) return;
+      applied = mode;
       video.preload = userPaused ? 'none' : 'auto';
       video.src = FILES[mode].src;
       if (!userPaused && visible) start();
     }
+    function arm() { if (!armed) { armed = true; choose(); } }
     video.removeAttribute('controls');
+    if (lazy) { video.removeAttribute('src'); video.load(); } // no request for the file (or the wrong cut) before it is chosen and armed
     video.muted = true;
     playBtn.hidden = false;
     soundBtn.hidden = false;
     playBtn.addEventListener('click', () => {
-      if (video.paused || video.ended) { userPaused = false; video.preload = 'auto'; start(); } else { userPaused = true; video.pause(); }
+      if (video.paused || video.ended) { userPaused = false; arm(); video.preload = 'auto'; start(); } else { userPaused = true; video.pause(); }
     });
     soundBtn.addEventListener('click', () => {
       video.muted = !video.muted;
-      if (!video.muted && video.paused) { userPaused = false; start(); }
+      if (!video.muted && video.paused) { userPaused = false; arm(); start(); }
       label();
     });
     video.addEventListener('play', label);
@@ -81,9 +89,10 @@
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(entries => {
         visible = entries.some(e => e.isIntersecting);
+        if (visible && !userPaused) arm();
         if (!visible) video.pause(); else if (!userPaused) start();
       }, { threshold: 0.2 }).observe(frame);
-    } else { visible = true; }
+    } else { visible = true; arm(); }
     choose();
     label();
   })();
