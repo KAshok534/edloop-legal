@@ -1,67 +1,67 @@
+# Differentiation: JEE Main Guide
+
+Differentiation provides the operative techniques needed across calculus in JEE Main. Between 2019 and 2026, this chapter contributed 73 questions across 162 papers, representing 1.6 percent of all mathematics questions and occupying rank 26 among the 29 chapters in the subject. It appeared in 65 of those papers and has been featured every year since 2019. In the recent 2024 to 2026 examination cycle, it supplied 18 questions across 58 papers, averaging 0.3 questions per paper with a 1.2 percent subject share. Comparing the 2002 to 2018 window share of 2.6 percent to the 2024 to 2026 share shows that its long-term presence is down, whereas comparing 2019 to 2026 against 2024 to 2026 shows it is about the same. Across all 200 papers from 2002 to 2026, 107 questions were asked in 90 test sessions. Among the questions from 2019 to 2026, 13 were numerical answer questions.
+
+```
+Differentiation in JEE Main (2019-2026)
+Total questions: 73 | Rank: 26 of 29 chapters
+Average per paper: 0.5 | Subject share: 1.6%
+Paper appearance: 65 of 162 papers (every year since 2019)
+```
+
 ## How often it comes up
 
-Differentiation is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **73 questions in 162 papers**, about **0.5 questions per paper**, and it appeared in 65 of those 162 papers. That places it **26th of 29 Mathematics chapters** by share of questions in that period, with 1.6% of all Mathematics questions.
+Direct differentiation questions appear in approximately one out of every two examination papers. In the 2019 to 2026 period, 65 of the 162 papers included dedicated differentiation questions. The annual figures across 2024, 2025, and 2026 were 13, 1, and 4 questions respectively.
 
-The share has fallen since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 2.6% of Mathematics; in the last three exam years (2024 to 2026) it declined to 1.2%, with 18 questions in 58 papers. The busiest year in our set was 2020, with 17 questions across 16 papers. Since 2019 there has been no year without it, appearing in 65 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 7: Limit, Continuity and Differentiability.
+While rank 26 indicates a comparatively modest standalone presence, differentiation is a vital computational engine for applications of derivatives, differential equations, and definite integrals. Examiners often nest differentiation within functional equations or inverse function evaluations rather than asking for straightforward derivatives.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Questions in this chapter concentrate in three specific areas:
 
-- **Higher Order Derivatives**: 29 questions.
-- **Methods of Differentiation**: 27 questions.
-- **Mean Value Theorems**: 17 questions.
+1. **Higher Order Derivatives (29 questions, 2019-2026; 39 total, last asked 2026)**
+The most common question type involves evaluating second or third derivatives of implicit functions, parametric representations, or polynomials satisfying specific boundary equations. Several questions involve establishing recurrence relations or differential relations between successive derivatives.
 
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+2. **Methods of Differentiation (27 questions, 2019-2026; 41 total, last asked 2026)**
+Covers logarithmic differentiation of complicated products or variable bases, differentiation of inverse trigonometric functions, and derivatives of inverse functions. Examiners test algebraic simplification prior to differentiating to avoid excessive computation.
+
+3. **Mean Value Theorems (17 questions, 2019-2026; 27 total, last asked 2024)**
+Focuses on Rolle's theorem and Lagrange's Mean Value Theorem. Problems test existence of roots for derived functions, establishing intervals where derivatives vanish, or bounding differences using mean value inequalities. Note that Rolle's and Lagrange's theorems were trimmed from the most recent NTA syllabus.
 
 ## What the questions look like
 
-Questions in Differentiation test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Standalone differentiation problems in recent sessions showcase distinct styles:
 
-In **Higher Order Derivatives**, questions focus on standard exam setups. Recent problems include: Cubic whose coefficients are f'(1), f''(2), f'''(3): find f'(5); Polynomial with f = f'f'' and f(0) = 0: evaluate a derivative-and-integral expression. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Methods of Differentiation**, questions focus on standard exam setups. Recent problems include: Derivative of a sum of two inverse-tangent expressions at x = 3/2; f′(0) for a product containing tan x and many other factors. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Mean Value Theorems**, questions focus on standard exam setups. Recent problems include: f(x) = ½[g(x) + g(2 − x)] with g′(1/2) = g′(3/2): where f″ must vanish; Minimum number of zeros of 3f′f″ + ff‴ given f at x = 0, 1, 2, 3, 4. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 13 of the 73 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Polynomial Coefficient Matching**: A polynomial function has coefficients defined in terms of its own successive derivatives evaluated at small integer inputs. Differentiating repeatedly allows you to set up and solve a small linear system for the unknown coefficients.
+- **Inverse Trigonometric Simplification**: A composite expression involving sums of inverse tangents or inverse sines simplifies to a clean linear or algebraic form via trigonometric substitutions before differentiation.
+- **Derivative of an Inverse Function**: Given an invertible function defined implicitly or exponentially, you evaluate the derivative of its inverse without finding the explicit inverse formula, relying on the reciprocal relation of derivatives.
+- **Parametric Second Derivative**: Two variables are expressed in terms of an auxiliary parameter. Calculating the second derivative requires applying the chain rule correctly to the derivative of the parameter with respect to the independent variable.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Test your grasp of computational differentiation with these problems from recent test sessions:
 
-- [Cubic whose coefficients are f'(1), f''(2), f'''(3): find f'(5)](/q/q-2026-01-21-e-m06) (JEE Main 2026 21 Jan Shift 2)
-- [Derivative of a sum of two inverse-tangent expressions at x = 3/2](/q/q-2026-04-04-m-m16) (B Tech 4th Apr 2026 Shift 1)
-- [f(x) = ½[g(x) + g(2 − x)] with g′(1/2) = g′(3/2): where f″ must vanish](/q/q-2024-01-30-m-m13) (JEE Main 2024 30 Jan Shift 1)
-- [Polynomial with f = f'f'' and f(0) = 0: evaluate a derivative-and-integral ex...](/q/q-2026-04-04-m-m17) (B Tech 4th Apr 2026 Shift 1)
-- [f'' = g'' with given values: find f(25) - g(25)](/q/q-2026-04-05-e-m20) (B Tech 5th Apr 2026 Shift 2)
+- Polynomial with derivative coefficients: [JEE Main 2026 21 Jan Shift 2](/q/q-2026-01-21-e-m06)
+- Inverse trigonometric derivative evaluation: [B Tech 4th Apr 2026 Shift 1](/q/q-2026-04-04-m-m16)
+- Vanishing second derivative through symmetry: [JEE Main 2024 30 Jan Shift 1](/q/q-2024-01-30-m-m13)
+- Polynomial functional equation with derivatives: [B Tech 4th Apr 2026 Shift 1](/q/q-2026-04-04-m-m17)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Differentiation.
+Efficient differentiation balances algebraic foresight with systematic execution:
 
-Next, work through past JEE Main questions topic by topic. Start with Higher Order Derivatives, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+- **Simplify before applying rules**: Never rush into quotient or product rules if the expression can be rewritten. Factoring, decomposing via logarithms, or applying trigonometric identities can turn an unwieldy expression into basic power terms.
+- **Handle parametric second derivatives methodically**: When computing the second derivative of y with respect to x from parametric expressions, differentiate the first derivative with respect to the parameter, then multiply by the reciprocal of dx over dt. Omitting this final factor is one of the most frequent traps.
+- **Apply logarithmic differentiation for exponents**: When both base and exponent vary with the independent variable, take natural logarithms on both sides before executing the derivative. Differentiating directly while treating one component as constant is an invalid shortcut.
+- **Use reciprocal properties for inverse functions**: When evaluating the derivative of the inverse function g at a point, identify the input that maps to that point under the original function f, then compute the reciprocal of f prime at that input.
 
 ## Frequently asked questions
 
-### Is Differentiation important for JEE Main 2027?
+### Are Rolle's and Lagrange's Mean Value Theorems still in the syllabus?
+Both Rolle's theorem and the Mean Value Theorem were removed from the updated NTA mathematics syllabus for JEE Main starting with the 2024 examination. While direct questions on these theorems have stopped appearing in recent sessions, understanding how roots of a derivative separate the roots of a smooth function remains valuable for polynomial graphing.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 73 questions across 162 papers, about 0.5 questions per paper. It ranks 26th of 29 Mathematics chapters by question volume.
+### How do I avoid calculation errors in higher order implicit differentiation?
+Keep expressions grouped and substitute evaluated numerical values as early as possible. If a problem asks for the second derivative at a specific coordinate pair, evaluate the first derivative numerically first, then substitute both the original coordinates and the first derivative value directly into the second derivative equation instead of carrying forward symbolic formulas.
 
-### Which topic in Differentiation has the most questions?
-
-Higher Order Derivatives is the most-asked topic, with 29 questions from 2019 to 2026 in our collection.
-
-### Are questions in Differentiation multiple choice or numerical?
-
-Both formats appear. Of the 73 questions from 2019 to 2026 in our set, 13 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Why is this chapter's direct question count relatively low?
+Differentiation is considered a computational tool rather than an isolated concept in advanced testing. Most derivative calculations appear inside questions formally categorised under tangent equations, extrema, monotonicity, or differential equations. Step-by-step solutions for each one are in the EdLoop app.

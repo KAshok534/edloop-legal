@@ -1,67 +1,67 @@
+# Limits, Continuity & Differentiability: JEE Main Guide
+
+Limits, Continuity & Differentiability forms the foundational bedrock of differential calculus in JEE Main. Between 2019 and 2026, this chapter contributed 220 questions across 162 papers, representing 4.8 percent of all mathematics questions and securing rank 7 among the 29 chapters in the subject. It appeared in 148 of those 162 papers and has been tested every single year since 2019. In the recent three-year window from 2024 to 2026, it maintained an identical subject share of 4.8 percent, delivering 75 questions across 58 papers at a steady rate of 1.3 questions per paper. Historical comparison reveals that both the shift from the 2002 to 2018 share of 5.0 percent to 2024 to 2026 and the comparison between 2019 to 2026 and 2024 to 2026 are about the same. Across the entire 2002 to 2026 span of 200 papers, 285 questions were asked across 186 shifts, with 59 numerical answer questions appearing between 2019 and 2026.
+
+```
+Limits, Continuity & Differentiability in JEE Main (2019-2026)
+Total questions: 220 | Rank: 7 of 29 chapters
+Average per paper: 1.4 | Subject share: 4.8%
+Paper appearance: 148 of 162 papers (every year since 2019)
+```
+
 ## How often it comes up
 
-Limits, Continuity & Differentiability is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **220 questions in 162 papers**, about **1.4 questions per paper**, and it appeared in 148 of those 162 papers. That places it **7th of 29 Mathematics chapters** by share of questions in that period, with 4.8% of all Mathematics questions.
+Calculus questions on limits and local behaviour appear in almost every test sitting. Across the 162 test shifts from 2019 to 2026, 148 shifts included at least one problem from this unit, frequently delivering two. The annual totals during 2024, 2025, and 2026 were 33, 22, and 20 questions respectively.
 
-The share has stayed about the same across two decades. In the AIEEE and early JEE Main years (2002 to 2018) it was 5.0% of Mathematics; in the last three exam years (2024 to 2026) it is 4.8%, with 75 questions in 58 papers. The busiest year in our set was 2021, with 47 questions across 26 papers. Since 2019 there has been no year without it, appearing in 148 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 7: Limit, Continuity and Differentiability.
+Because testing whether a function is continuous or differentiable requires evaluating one-sided limits, examiner problems frequently blend all three concepts into a unified piecewise problem. Furthermore, many questions appear in the numerical section, requiring exact parameter determination without relying on multiple-choice elimination.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Questions distribute across three central subtopics:
 
-- **Limits**: 108 questions.
-- **Continuity**: 58 questions.
-- **Differentiability**: 54 questions.
+1. **Limits (108 questions, 2019-2026; 138 total, last asked 2026)**
+The primary core of the chapter focuses on indeterminate forms such as zero over zero, infinity over infinity, and one raised to infinity. Problems test algebraic factorisation, rationalisation, standard trigonometric and exponential limit expansions, Taylor series expansions, and L'Hopital's rule.
 
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+2. **Continuity (58 questions, 2019-2026; 74 total, last asked 2026)**
+Involves identifying points where a given expression fails to be continuous, analysing greatest integer functions, fractional part functions, and composite functions. A common format requires finding unknown coefficients that force a piecewise function to remain continuous across partition boundaries.
+
+3. **Differentiability (54 questions, 2019-2026; 73 total, last asked 2026)**
+Examines corner points, cusps, and differentiability criteria using left-hand and right-hand derivative definitions. Questions frequently feature absolute values, maxima and minima of function families, or products of smooth functions with non-differentiable factors.
 
 ## What the questions look like
 
-Questions in Limits, Continuity & Differentiability test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners repeatedly use several dependable question architectures:
 
-In **Limits**, questions focus on standard exam setups. Recent problems include: Limit with f(3) = 18, f'(3) = 0, f''(3) = 4 and exponent 18/(x - 1)^2; Limit with e^(a-1)x, 2 bx and (c - 2)e^-x equal to 2: find a² + b² + c². Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Continuity**, questions focus on standard exam setups. Recent problems include: Discontinuities of mod(x)[x^2] on (−2, 2), then Σ2x, x^2 over them; Rational f continuous at −3/2; solve f(f(x)) = 75. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Differentiability**, questions focus on standard exam setups. Recent problems include: Piecewise f (quadratic for x < 1, linear for x ≥ 1) differentiable everywhere: 34(α + β). Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 59 of the 220 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Indeterminate Limits with Parameter Determination**: You are given that an expression tending to an indeterminate form approaches a finite nonzero value. By comparing coefficients in Taylor series expansions or repeatedly differentiating, you solve for multiple unknown constants.
+- **Piecewise Differentiability at Junctions**: A function is defined by two different polynomial or trigonometric branches on either side of a boundary point. Enforcing continuity and equality of left-hand and right-hand derivatives provides simultaneous equations for unknown parameters.
+- **Greatest Integer and Absolute Value Jump Analysis**: Functions involving floor brackets or moduli over a given closed interval require counting the exact number of points where continuity breaks or where the graph develops sharp corners.
+- **Exponential Indeterminate Form**: Expressions where the base tends to unity while the exponent grows without bound are resolved using exponential conversion and standard asymptotic limits.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Begin your revision with these recent examination problems:
 
-- [Limit with f(3) = 18, f'(3) = 0, f''(3) = 4 and exponent 18/(x - 1)^2](/q/q-2026-01-21-m-m03) (JEE Main 2026 21 Jan Shift 1)
-- [Discontinuities of mod(x)[x^2] on (−2, 2), then Σ2x, x^2 over them](/q/q-2026-01-22-e-m04) (JEE Main 2026 22 Jan Shift 2)
-- [Piecewise f (quadratic for x < 1, linear for x ≥ 1) differentiable everywhere...](/q/q-2026-01-24-m-m12) (JEE Main 2026 24 Jan Shift 1)
-- [Limit with e^(a-1)x, 2 bx and (c - 2)e^-x equal to 2: find a² + b² + c²](/q/q-2026-01-22-e-m17) (JEE Main 2026 22 Jan Shift 2)
-- [Rational f continuous at −3/2; solve f(f(x)) = 75](/q/q-2026-01-23-m-m05) (JEE Main 2026 23 Jan Shift 1)
+- Higher-order Taylor expansion limit: [JEE Main 2026 21 Jan Shift 1](/q/q-2026-01-21-m-m03)
+- Discontinuities in step-function compositions: [JEE Main 2026 22 Jan Shift 2](/q/q-2026-01-22-e-m04)
+- Piecewise differentiability parameter problem: [JEE Main 2026 24 Jan Shift 1](/q/q-2026-01-24-m-m12)
+- Exponential limit with multiple unknown parameters: [JEE Main 2026 22 Jan Shift 2](/q/q-2026-01-22-e-m17)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Limits, Continuity & Differentiability.
+Building consistency in limits and differentiability depends on choosing the cleanest analytical route:
 
-Next, work through past JEE Main questions topic by topic. Start with Limits, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+- **Master Maclaurin expansions**: For limits involving sine, cosine, tangent, exponential, and logarithm functions as x approaches zero, series expansions almost always outpace multiple rounds of differentiation. Retain terms up to the lowest power present in the denominator.
+- **Differentiate definitions carefully**: When testing differentiability for functions involving absolute values or floor brackets, avoid applying standard derivative formulas blindly. Always return to the fundamental difference quotient definition to evaluate one-sided limits at critical points.
+- **Check continuity before differentiability**: Remember that a function cannot be differentiable at a point where it is discontinuous. Always confirm that the left-hand limit, right-hand limit, and functional value coincide before examining derivative slopes.
+- **Handle floor functions at integer inputs**: Remember that greatest integer expressions can create jump discontinuities wherever the internal argument assumes integer values, unless multiplying factors vanish sufficiently to absorb the jump.
 
 ## Frequently asked questions
 
-### Is Limits, Continuity & Differentiability important for JEE Main 2027?
+### When should I use series expansions instead of L'Hopital's rule?
+When an expression contains nested products of trigonometric, logarithmic, or exponential functions, differentiating the numerator and denominator multiple times quickly produces cumbersome algebra and increases the risk of sign errors. In such cases, replacing each transcendental component with its series expansion up to the relevant degree isolates the leading non-vanishing coefficient cleanly in a single algebraic step.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 220 questions across 162 papers, about 1.4 questions per paper. It ranks 7th of 29 Mathematics chapters by question volume.
+### How do I check differentiability of expressions involving absolute values?
+Split the domain into distinct intervals according to the signs of the expressions within the absolute value brackets. Within each open interval, the function is smooth. At the boundary points where the argument vanishes, apply the first-principles limit of the difference quotient from the left and right sides to verify whether the directional derivatives match.
 
-### Which topic in Limits, Continuity & Differentiability has the most questions?
-
-Limits is the most-asked topic, with 108 questions from 2019 to 2026 in our collection.
-
-### Are questions in Limits, Continuity & Differentiability multiple choice or numerical?
-
-Both formats appear. Of the 220 questions from 2019 to 2026 in our set, 59 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Can a function be differentiable if its derivative is discontinuous?
+Yes, a function can possess a derivative everywhere even if that derivative itself fails to be continuous at isolated points. However, for typical functions tested in JEE Main, verifying that the function is continuous and that the limits of the derivative from both sides agree at the junction point is usually sufficient. Step-by-step solutions for each one are in the EdLoop app.

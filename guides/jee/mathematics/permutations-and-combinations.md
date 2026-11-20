@@ -1,68 +1,55 @@
+# JEE Main Permutations & Combinations: PYQ Trends & Preparation Guide
+
+Permutations & Combinations develops systematic discrete counting techniques required across probability and discrete mathematics. Core themes cover fundamental counting principles (multiplication and addition rules), linear and circular arrangements with identical objects, restricted selections, distribution of identical and distinct objects (stars and bars method), derangements, Legendre's formula for prime exponents in factorials, and dictionary rank permutations.
+
 ## How often it comes up
 
-Permutations & Combinations is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **193 questions in 162 papers**, about **1.2 questions per paper**, and it appeared in 141 of those 162 papers. That places it **10th of 29 Mathematics chapters** by share of questions in that period, with 4.2% of all Mathematics questions.
+During the 2019 to 2026 testing cycle, Permutations & Combinations accounted for 193 questions across 162 exam papers, making up 4.2% of the mathematics section and capturing rank 10 of 29 chapters. In the earlier 2002 to 2018 testing span, it registered 46 questions across 38 papers with a 3.5% share. Across recent 2024 to 2026 sessions, it yielded 68 questions across 58 papers, accounting for a 4.4% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
 
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 3.5% of Mathematics; in the last three exam years (2024 to 2026) it rose to 4.4%, with 68 questions in 58 papers. The busiest year in our set was 2023, with 46 questions across 24 papers. Since 2019 there has been no year without it, appearing in 141 of the 162 papers we hold.
-
-It is a Class 11 chapter, part of NTA's Unit 4: Permutations and Combinations.
+The chapter has appeared every year from 2019 to 2026. Across 2019 to 2026, students faced an average of 1.2 questions per paper, consistent with the 1.2 questions per paper recorded in the 2024 to 2026 timeframe. The chapter is an extraordinary source of numerical value questions: exactly 100 numerical answer questions were set between 2019 and 2026.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 4 topics:
+The syllabus organizes across four major counting areas:
 
-- **Permutations**: 59 questions.
-- **Combinations**: 56 questions.
-- **Distributions & Advanced Counting**: 42 questions.
-- **Counting Principles**: 36 questions.
-
-All 4 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- Permutations: The leading topic with 75 total questions (59 in 2019 to 2026), evaluated continuously through 2026. Covers arrangement of words with repeated letters, dictionary ranking of words with and without duplicates, gap method and tie (bundle) method for conditional arrangements, and digit permutations under divisibility constraints.
+- Combinations: Contributed 68 total questions (56 in 2019 to 2026), tested through 2026. Explores selecting teams or committees under gender or group restrictions, geometric counts (lines, triangles, and pentagons formed from points on intersecting lines), and subsets satisfying parity or divisibility properties.
+- Distributions & Advanced Counting: Generated 48 total questions (42 in 2019 to 2026), active through 2026. Focuses on distributing identical objects into distinct bins using stars and bars ((n + r - 1)C(r - 1)), distributing distinct objects, non-negative integer solutions to linear equations, and derangements.
+- Counting Principles: Produced 48 total questions (36 in 2019 to 2026), active through 2026. Examines multiplication rules, Legendre's formula finding the highest power of a prime p dividing n! via floor summations, and modular arithmetic selections.
 
 ## What the questions look like
 
-Questions in Permutations & Combinations test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners present intricate word problems requiring case-by-case categorization. A prominent pattern asks candidates to form four-digit or five-digit numbers using a restricted set of digits such that the resulting number is divisible by three, four, or six, demanding careful modular residue grouping.
 
-In **Permutations**, questions focus on standard exam setups. Recent problems include: 4-letter words from P, P, P, Q, Q, R, R, S, T, U, V; Dictionary rank of UDAYPUR. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Combinations**, questions focus on standard exam setups. Recent problems include: Subsets of 1, …, 11 with at least 2 elements and an even product; Pentagons with vertices among 4, 5 and 4 points on the sides of a triangle. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Distributions & Advanced Counting**, questions focus on standard exam setups. Recent problems include: 16 identical oranges among 4 children, each getting at least one: number of ways. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 100 of the 193 questions since 2019 had no options, requiring exact computation and proper handling of units.
+Another major question style involves word formation from collections containing repeated letters (like P, P, P, Q, Q, R, R), where students must partition cases by selection types (all different, two alike and two different, two pairs alike, or three alike) before applying multinomial arrangement formulas.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Solve these representative recent exam questions to sharpen your combinatorial logic:
 
-- [Largest n with 7^n dividing 101!](/q/q-2026-01-21-e-m18) (JEE Main 2026 21 Jan Shift 2)
-- [Subsets of 1, …, 11 with at least 2 elements and an even product](/q/q-2026-01-22-e-m22) (JEE Main 2026 22 Jan Shift 2, numerical answer)
-- [16 identical oranges among 4 children, each getting at least one: number of ways](/q/q-2026-01-23-e-m20) (JEE Main 2026 23 Jan Shift 2)
-- [4-letter words from P, P, P, Q, Q, R, R, S, T, U, V](/q/q-2026-01-23-m-m22) (JEE Main 2026 23 Jan Shift 1, numerical answer)
-- [Product of sums of reciprocals of ¹⁵Cᵣ written with ¹⁴Cᵣ: find α](/q/q-2026-01-21-e-m22) (JEE Main 2026 21 Jan Shift 2, numerical answer)
+- [Prime exponent in factorials](/q/q-2026-01-21-e-m18): Finding the largest integer exponent such that a prime power divides a given large factorial using Legendre's formula.
+- [Subset selection with parity constraints](/q/q-2026-01-22-e-m22): Counting subsets of an integer set that contain at least two elements and yield an even product.
+- [Identical object partition distribution](/q/q-2026-01-23-e-m20): Calculating total ways to distribute identical objects among distinct recipients with positive minimum allocations.
+- [Multinomial letter word permutations](/q/q-2026-01-23-m-m22): Forming four-letter words from a multi-set containing repeated and distinct letters.
+- [Dictionary rank of words](/q/q-2026-01-24-e-m07): Finding the alphabetical dictionary rank of a specified multi-letter word.
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Permutations & Combinations.
+Prepare for permutations and combinations through systematic case branching and algebraic identities:
 
-Next, work through past JEE Main questions topic by topic. Start with Permutations, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+1. Classify multi-set selections systematically: When choosing r items from a set with repetitions, branch into distinct cases based on multiplicity patterns before arranging.
+2. Master identical object distribution: The number of non-negative integer solutions to x1 + x2 + ... + xr = n is (n + r - 1)C(r - 1). For strictly positive integers, substitute yi = xi - 1 to get (n - 1)C(r - 1).
+3. Apply Legendre's formula accurately: The highest power of prime p dividing n! equals the sum of floor(n / p^k) for k >= 1. For composite bases like 40 = 2^3 * 5, evaluate prime factors separately and take the bottleneck minimum.
+4. Distinguish gap method from tie method: When items must never be adjacent, seat the unrestricted items first and place the constrained items into the available gaps; when items must remain together, tie them into a single super-element.
+5. Practise modular residue grouping: When counting numbers divisible by 3, classify available digits into sets of remainder 0, remainder 1, and remainder 2 mod 3 before selecting valid combinations.
 
 ## Frequently asked questions
 
-### Is Permutations & Combinations important for JEE Main 2027?
+### Why are there so many numerical answer questions in this chapter?
+Permutations and Combinations naturally produces exact non-negative integer counts, making it ideal for numerical answer questions where 100 problems appeared between 2019 and 2026.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 193 questions across 162 papers, about 1.2 questions per paper. It ranks 10th of 29 Mathematics chapters by question volume.
+### How does the gap method work for non-adjacent arrangements?
+First arrange the elements that have no restrictions. If there are m such elements in a row, they create m + 1 distinct gaps (including the two ends). Then choose from these gaps to place the elements that cannot be adjacent.
 
-### Which topic in Permutations & Combinations has the most questions?
-
-Permutations is the most-asked topic, with 59 questions from 2019 to 2026 in our collection.
-
-### Are questions in Permutations & Combinations multiple choice or numerical?
-
-Both formats appear. Of the 193 questions from 2019 to 2026 in our set, 100 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### How do I find the dictionary rank of a word with repeated letters?
+Alphabetize the letters. Fix preceding letters at the first position and divide the factorial of remaining positions by the factorials of each repeated letter's frequency, summing these counts until reaching the target word. Step-by-step solutions for each one are in the EdLoop app.
