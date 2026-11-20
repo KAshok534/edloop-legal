@@ -1,70 +1,57 @@
+# JEE Main p-Block Elements: PYQ Trends & Preparation Guide
+
+The p-block spans groups 13 through 18, representing the largest single unit of inorganic chemistry in JEE Main. Coverage includes inert pair effect, allotropy, catenation, oxoacids of phosphorus, sulfur, and halogens, interhalogen compounds, and noble gas fluorides.
+
 ## How often it comes up
 
-p-Block Elements is one of the important chapters in JEE Main Chemistry. Across the papers we hold from 2019 to 2026, it gave **220 questions in 162 papers**, about **1.4 questions per paper**, and it appeared in 147 of those 162 papers. That places it **4th of 31 Chemistry chapters** by share of questions in that period, with 4.8% of all Chemistry questions.
+Across 2019 to 2026, p-Block Elements contributed 220 questions across 162 exam papers, making up 4.8% of the chemistry questions and securing rank 4 of 31 chapters. During the 2002 to 2018 period, it accounted for 71 questions across 38 papers with a 5.3% share. In the recent 2024 to 2026 window, the chapter delivered 77 questions across 58 papers, capturing a 5.0% share. Comparing both earlier windows against 2024 to 2026, its testing share has remained about the same.
 
-The share has stayed about the same across two decades. In the AIEEE and early JEE Main years (2002 to 2018) it was 5.3% of Chemistry; in the last three exam years (2024 to 2026) it is 5.0%, with 77 questions in 58 papers. The busiest year in our set was 2022, with 36 questions across 22 papers. Since 2019 there has been no year without it, appearing in 147 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 10: p-Block Elements.
+The chapter has appeared every year from 2019 to 2026. Across 2019 to 2026, candidates faced an average of 1.4 questions per paper, and 1.3 questions per paper between 2024 and 2026. While largely descriptive, examiners included 25 numerical answer questions between 2019 and 2026, primarily concerning oxidation states, lone pairs, or bond atomicity.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 6 topics:
+Questions distribute across all six p-block families:
 
-- **Group 15 (Nitrogen Family)**: 68 questions.
-- **Group 13 (Boron Family)**: 50 questions.
-- **Group 17 (Halogens)**: 31 questions.
-- **Group 14 (Carbon Family)**: 30 questions.
-- **Group 16 (Oxygen Family)**: 28 questions.
-- **Group 18 (Noble Gases)**: 13 questions.
-
-All 6 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- Group 15 (Nitrogen Family): The leading area with 84 total questions (68 in 2019 to 2026), examined continuously through 2026. Focus points include ammonia synthesis, oxides of nitrogen, allotropes of phosphorus, and structures and reducing powers of phosphorus oxoacids.
+- Group 13 (Boron Family): Produced 58 total questions (50 in 2019 to 2026), tested through 2026. Major areas involve diborane structure (three-center two-electron bridge bonding), boric acid, borax bead test, and comparative Lewis acidity of boron trihalides.
+- Group 17 (Halogens): Generated 45 total questions (31 in 2019 to 2026), evaluated through 2026. Core concepts test bond dissociation energy orders (chlorine exceeding fluorine), oxidizing strengths, interhalogens, and halogen oxoacids.
+- Group 14 (Carbon Family): Accounted for 43 total questions (30 in 2019 to 2026), asked up through 2026. Questions explore inert pair stability (such as lead divalent state versus tin tetravalent state), allotropes of carbon (diamond, graphite, and fullerenes), and silicate structures.
+- Group 16 (Oxygen Family): Contributed 35 total questions (28 in 2019 to 2026), active through 2026. Areas include allotropes of sulfur, contact process for sulfuric acid, oxoacids of sulfur (peroxodisulfuric acid, thiosulfuric acid), and anomalous properties of oxygen.
+- Group 18 (Noble Gases): Provided 26 total questions (13 in 2019 to 2026), tested through 2026. Focus centers entirely on xenon fluorides and oxofluorides (XeF₂, XeF₄, XeF₆, XeOF₄, XeO₂F₂), their molecular shapes, hybridization, and hydrolysis reactions.
 
 ## What the questions look like
 
-Questions in p-Block Elements test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners regularly evaluate structure-property correlations. Many questions test phosphorus oxoacids, where candidates must deduce the number of P–H bonds to explain reducing action or count P–OH groups to determine basicity.
 
-In **Group 15 (Nitrogen Family)**, questions focus on standard exam setups. Recent problems include: Oxides of the most and least electronegative group 15 elements; hydrolysis of BCl₃; Element E whose EH₃ gives a precipitate with Nessler's reagent: its first IE. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Group 13 (Boron Family)**, questions focus on standard exam setups. Recent problems include: Correct statements on ionic radii, electronegativity, IE and halides of group 13. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Group 17 (Halogens)**, questions focus on standard exam setups. Recent problems include: Bond dissociation enthalpies of halogens; covalent character of Sn, Pb and U halides; Halogen with the longest H–X bond; group 15 hydride with the lowest boiling point. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 25 of the 220 questions since 2019 had no options, requiring exact computation and proper handling of units.
+In Group 13 and Group 14, the inert pair effect features prominently in questions asking whether higher or lower oxidation states are more stable down the column. In noble gas chemistry, questions demand counting lone pairs and drawing molecular geometries for xenon compounds according to VSEPR theory.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Work through these representative recent problems:
 
-- [Bond dissociation enthalpies of halogens; covalent character of Sn, Pb and U ...](/q/q-2026-01-21-e-c08) (JEE Main 2026 21 Jan Shift 2)
-- [Pairs of group 14 oxides that are both amphoteric; properties of BF3](/q/q-2026-01-21-m-c14) (JEE Main 2026 21 Jan Shift 1)
-- [Oxides of the most and least electronegative group 15 elements; hydrolysis of...](/q/q-2026-01-22-e-c10) (JEE Main 2026 22 Jan Shift 2)
-- [Correct statements on ionic radii, electronegativity, IE and halides of group 13](/q/q-2026-01-23-m-c01) (JEE Main 2026 23 Jan Shift 1)
-- [Statements that are not true about XeO₂F₂](/q/q-2026-01-23-e-c10) (JEE Main 2026 23 Jan Shift 2)
+- [Halogen bond energies and halide covalency](/q/q-2026-01-21-e-c08): Analyzing halogen bond dissociation enthalpy sequences alongside covalent characteristics of heavy metal halides.
+- [Carbon family amphoteric oxides](/q/q-2026-01-21-m-c14): Identifying pairs of amphoteric oxides within group 14 and assessing boron trihalide properties.
+- [Nitrogen family oxides and boron trichloride hydrolysis](/q/q-2026-01-22-e-c10): Assessing oxide acidity across group 15 elements alongside hydrolysis mechanisms of group 13 halides.
+- [Boron family periodic trends](/q/q-2026-01-23-m-c01): Evaluating electronegativity, ionisation energy anomalies, and halide behaviors across group 13 elements.
+- [Xenon oxofluoride molecular structure](/q/q-2026-01-23-e-c10): Identifying structural and geometric attributes that do not hold true for XeO₂F₂.
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for p-Block Elements.
+Due to the breadth of factual details, organize revision methodically:
 
-Next, work through past JEE Main questions topic by topic. Start with Group 15 (Nitrogen Family), which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+1. Draw oxoacid structures regularly: Master oxoacids of phosphorus (hypophosphorous, phosphorous, and phosphoric acids) and sulfur (Caro's and Marshall's acids) to instantly deduce oxidation states and P–H bond counts.
+2. Memorize xenon fluoride reactions: Know complete and partial hydrolysis products of XeF₂, XeF₄, and XeF₆ along with their VSEPR shapes.
+3. Understand inert pair effect: Recognize why Tl⁺ is more stable than Tl³⁺ and Pb²⁺ is more stable than Pb⁴⁺.
+4. Note anomalous second-row properties: Remember that fluorine bond dissociation enthalpy is unusually low due to intense lone pair repulsions.
+5. Practise identifying reducing versus non-reducing oxoacids: Any oxoacid bearing a direct P–H bond functions as a strong reducing agent.
 
 ## Frequently asked questions
 
-### Is p-Block Elements important for JEE Main 2027?
+### Which p-block groups carry the highest weight in JEE Main?
+Group 15 and Group 13 historically yield the highest question volumes, though questions regularly span all six families.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 220 questions across 162 papers, about 1.4 questions per paper. It ranks 4th of 31 Chemistry chapters by question volume.
+### How do I remember all the phosphorus oxoacid structures?
+Start by anchoring the central phosphorus atom with one P=O double bond and at least one P–OH single bond. Distribute remaining oxygen and hydrogen atoms as either P–OH or direct P–H bonds based on stoichiometry.
 
-### Which topic in p-Block Elements has the most questions?
-
-Group 15 (Nitrogen Family) is the most-asked topic, with 68 questions from 2019 to 2026 in our collection.
-
-### Are questions in p-Block Elements multiple choice or numerical?
-
-Both formats appear. Of the 220 questions from 2019 to 2026 in our set, 25 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Why is diborane structure asked so frequently?
+Diborane represents the prototypical electron-deficient molecule, featuring two bridging hydrogen atoms involved in three-center two-electron bonds. Step-by-step solutions for each one are in the EdLoop app.

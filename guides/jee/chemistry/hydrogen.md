@@ -1,55 +1,50 @@
+# JEE Main Hydrogen: PYQ Trends & Preparation Guide
+
+Hydrogen covers the chemistry of dihydrogen, isotopes (protium, deuterium, and tritium), hydrides, water, heavy water, and hydrogen peroxide. Following curriculum updates by the National Testing Agency, this chapter was officially removed from the syllabus in 2024.
+
 ## How often it comes up
 
-NTA removed Hydrogen from the JEE Main syllabus in 2024. Across all papers we hold from 2003 to 2023, it contributed **95 questions across 200 papers**, appearing in 87 of those papers. From 2019 to 2026, it gave 83 questions in 162 papers, about 0.5 questions per paper.
+In the 2019 to 2026 examination span, Hydrogen accounted for 83 questions across 162 papers, representing 1.8% of the chemistry section and occupying rank 28 of 31 chapters. Prior to 2019, from 2002 to 2018, it contributed 12 questions across 38 papers with a 0.9% share. Across the recent 2024 to 2026 exam seasons, it recorded 0 questions across 58 papers, registering a 0.0% share. Its testing trajectory has trended down across recent sessions.
 
-Before its removal, the chapter was asked regularly. In the AIEEE and early JEE Main years (2002 to 2018) it gave 12 questions in 38 papers, making up 0.9% of Chemistry questions. In our set it was last asked in 2023.
-
-It was historically taught as a Class 11 chapter under Hydrogen (removed 2024).
+The chapter was not asked in 2024, 2025, or 2026 following its curriculum removal. Between 2019 and 2026, it averaged 0.5 questions per paper, including 5 numerical answer questions.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 1 topics:
+Historical test questions fall under a single broad topic:
 
-- **Hydrogen & Its Compounds**: 83 questions.
-
-These topics made up the syllabus when the chapter was part of JEE Main.
+- Hydrogen & Its Compounds: Encompassed 95 total questions (83 in the 2019 to 2026 window), last examined in 2023. Key themes included the preparation and reducing properties of hydrogen peroxide, volume strength calculations, industrial synthesis of syngas, classification of hydrides into ionic, covalent, and metallic types, and water softening procedures.
 
 ## What the questions look like
 
-Questions in Hydrogen test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Past questions centered largely on factual reactions and straightforward concentration metrics. Problems on hydrogen peroxide frequently required converting volume strength into molarity, normality, or grams per litre. Other questions tested the dual nature of hydrogen peroxide as both an oxidizing and reducing agent in varied acid-base media.
 
-In **Hydrogen & Its Compounds**, questions focus on standard exam setups. Recent problems include: Reaction in which hydrogen peroxide acts as a reducing agent; Meaning of "25 volume" hydrogen peroxide in grams per litre. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 5 of the 83 questions since 2019 had no options, requiring exact computation and proper handling of units.
+Descriptive items tested the structural properties of ice, the existence of interstitial hydrides, and industrial catalysts used in the water gas shift reaction.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Students reviewing historical collections or preparing for other assessments can examine these past questions:
 
-- [Reaction in which hydrogen peroxide acts as a reducing agent](/q/q-2023-01-24-e-c08) (JEE Main 2023 24 Jan Shift 2)
-- [Meaning of "25 volume" hydrogen peroxide in grams per litre](/q/q-2023-01-25-m-c05) (JEE Main 2023 25 Jan Shift 1)
-- [Match cobalt and nickel catalysts, syngas and brine with industrial processes](/q/q-2023-01-25-e-c06) (JEE Main 2023 25 Jan Shift 2)
-- [Compound used to improve hydrogen storage](/q/q-2023-01-29-m-c08) (JEE Main 2023 29 Jan Shift 1)
-- [Nickel as a catalyst for syn gas and fats; nature of silicon hydrides](/q/q-2023-01-29-e-c09) (JEE Main 2023 29 Jan Shift 2)
+- [Hydrogen peroxide redox actions](/q/q-2023-01-24-e-c08): Identifying specific chemical equations where hydrogen peroxide functions as a reducing agent.
+- [Volume strength conversion](/q/q-2023-01-25-m-c05): Computing the strength of a hydrogen peroxide solution in grams per litre from its volume designation.
+- [Industrial synthesis and catalysts](/q/q-2023-01-25-e-c06): Connecting transition metal catalysts with syngas production and hydrogenation processes.
+- [High-volume hydrogen peroxide concentration](/q/q-2023-01-30-e-c06): Determining the concentration in grams per litre for concentrated hydrogen peroxide.
+- [Hydrogen bond geometry in solid ice](/q/q-2023-04-06-e-c05): Counting coordinate hydrogen bonding contacts around water molecules in crystalline ice.
 
 ## How to practise it
 
-Because NTA removed Hydrogen from the JEE Main syllabus, students preparing for JEE Main 2027 can safely skip this chapter unless their state board examinations, school syllabus, or other competitive entrance tests still cover it.
+Given that Hydrogen is excluded from the current syllabus, structure your preparation accordingly:
 
-If your curriculum requires this material, study the standard textbook theory and definitions first. Practise basic derivations and simple formula applications before attempting historical past questions.
-
-Reviewing the questions below helps students who need to cover this topic for foundational knowledge or other examinations.
+1. Prioritize active inorganic units: Direct your core study hours toward Coordination Compounds, p-Block Elements, and d- and f-Block Elements.
+2. Maintain basic redox familiarity: Reactions where hydrogen peroxide acts as a titrant or oxidant occasionally surface in practical chemistry questions.
+3. Review volume strength formulas: Remember the basic conversion relating volume strength to molarity and normality if required for allied entrance tests.
 
 ## Frequently asked questions
 
-### Is Hydrogen in the JEE Main 2027 syllabus?
+### Is Hydrogen included in the current JEE Main syllabus?
+No, the chapter was dropped during the syllabus reduction in 2024, and no questions have been set on it across the 2024, 2025, and 2026 sessions.
 
-No. NTA removed it from the JEE Main syllabus, so questions from Hydrogen will not appear in JEE Main 2027. Students focusing exclusively on JEE Main can skip it.
+### Can hydrogen peroxide questions still appear under practical chemistry?
+Basic redox titrations involving potassium permanganate and hydrogen peroxide remain part of qualitative volumetric analysis, so basic stoichiometric reactions remain relevant.
 
-### When was Hydrogen last asked in JEE Main?
-
-In the papers we hold, questions from Hydrogen were last asked in 2023. Across all years in our collection, it contributed 95 questions.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Where can I find complete solutions to past Hydrogen questions?
+Historical question explanations are useful for broad competitive foundation. Step-by-step solutions for each one are in the EdLoop app.

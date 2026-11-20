@@ -1,64 +1,53 @@
+# JEE Main Periodic Table & Periodicity: PYQ Trends & Preparation Guide
+
+Periodic Table & Periodicity establishes the structural framework for all inorganic chemistry in JEE Main. Testing focuses on electron configurations, atomic and ionic radii, successive ionisation enthalpies, electron gain enthalpies, electronegativity scales, and oxide acidity trends across periods and groups.
+
 ## How often it comes up
 
-Periodic Table & Periodicity is one of the important chapters in JEE Main Chemistry. Across the papers we hold from 2019 to 2026, it gave **145 questions in 162 papers**, about **0.9 questions per paper**, and it appeared in 125 of those 162 papers. That places it **16th of 31 Chemistry chapters** by share of questions in that period, with 3.2% of all Chemistry questions.
+Between 2019 and 2026, Periodic Table & Periodicity yielded 145 questions across 162 exam papers, corresponding to a 3.2% share of the chemistry section and holding rank 16 of 31 chapters. In the earlier testing phase from 2002 to 2018, the chapter accounted for 37 questions across 38 papers, delivering a 2.8% share. Recent sessions from 2024 to 2026 saw 59 questions across 58 papers, representing a 3.8% share. The chapter's testing trend has moved up across recent exam sessions.
 
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 2.8% of Chemistry; in the last three exam years (2024 to 2026) it rose to 3.8%, with 59 questions in 58 papers. The busiest year in our set was 2024, with 21 questions across 20 papers. Since 2019 there has been no year without it, appearing in 125 of the 162 papers we hold.
-
-It is a Class 11 chapter, part of NTA's Unit 9: Classification of Elements and Periodicity in Properties.
+Questions have appeared every year from 2019 to 2026. Across the 2019 to 2026 span, it averaged 0.9 questions per paper, rising to 1.0 question per paper in the 2024 to 2026 interval. Because the subject matter is primarily qualitative, numerical answer questions are uncommon here, with only 8 recorded from 2019 to 2026.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 2 topics:
+The syllabus divides into two main topics:
 
-- **Periodic Trends**: 123 questions.
-- **Periodic Table**: 22 questions.
-
-All 2 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- Periodic Trends: Represents the overwhelming majority with 157 total questions (123 during 2019 to 2026), evaluated consistently through 2026. Subtopics feature first and successive ionisation enthalpy irregularities, isoelectronic species sizing, electron gain enthalpy anomalies, and acidic versus basic oxide characteristics.
+- Periodic Table: Accounted for 25 total questions (22 during 2019 to 2026), last tested in 2025. Coverage involves atomic number assignments, IUPAC nomenclature for super-heavy elements, electronic subshell assignments, and classifying elements into s, p, d, and f blocks.
 
 ## What the questions look like
 
-Questions in Periodic Table & Periodicity test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Test items frequently present four elements or ions and ask candidates to arrange them in order of an atomic property or identify the single incorrect sequence. Isoelectronic series (such as oxide, fluoride, sodium, and magnesium ions) appear regularly, where students determine size orders by comparing nuclear charge.
 
-In **Periodic Trends**, questions focus on standard exam setups. Recent problems include: Correct orders of ionisation energy, electron affinity, metallic and basic character; Radii of Al, Mg and their ions; electron gain enthalpies of Cl, Br, S, O. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Periodic Table**, questions focus on standard exam setups. Recent problems include: Which of Ir, Pt, Os and Pd lies in a different period. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 8 of the 145 questions since 2019 had no options, requiring exact computation and proper handling of units.
+Another staple pattern involves successive ionisation energies, where a dramatic jump between consecutive removal steps signals valence shell emptying. Questions also evaluate anomalous electron affinity values in the second period compared to the third period, caused by interelectronic repulsions in compact valence shells.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Begin your practice with these authentic recent exam questions:
 
-- [Correct orders of ionisation energy, electron affinity, metallic and basic ch...](/q/q-2026-01-21-m-c05) (JEE Main 2026 21 Jan Shift 1)
-- [Which of Ir, Pt, Os and Pd lies in a different period](/q/q-2025-01-23-m-c04) (JEE Main 2025 23 Jan Shift 1)
-- [Radii of Al, Mg and their ions; electron gain enthalpies of Cl, Br, S, O](/q/q-2026-01-21-e-c18) (JEE Main 2026 21 Jan Shift 2)
-- [IE order of C, O, N, F; electron gain enthalpy order of group 16](/q/q-2026-01-22-e-c19) (JEE Main 2026 22 Jan Shift 2)
-- [First ionisation enthalpies of Al, Si, P, S and Cl in order](/q/q-2026-01-23-m-c03) (JEE Main 2026 23 Jan Shift 1)
+- [Combined periodic trends comparison](/q/q-2026-01-21-m-c05): Assessing relative arrangements of elements by ionisation energy, electron affinity, and basic oxide behavior.
+- [Ionic radii and electron gain enthalpy](/q/q-2026-01-21-e-c18): Comparing atomic and cationic dimensions alongside halogen and chalcogen electron affinity sequences.
+- [Successive ionisation energy anomalous orders](/q/q-2026-01-23-m-c03): Ordering period-3 elements according to their first ionisation enthalpies while accounting for electronic configuration stabilities.
+- [Isoelectronic ionic size and second ionisation](/q/q-2026-01-23-e-c20): Analyzing second ionisation values between alkali and alkaline earth metals alongside oxide and fluoride radii.
+- [Oxide classification across the periodic chart](/q/q-2026-04-02-e-c08): Selecting a group containing acidic, basic, amphoteric, and neutral oxide examples.
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Periodic Table & Periodicity.
+Mastering periodicity requires memorizing both the regular baseline trends and their notable exceptions:
 
-Next, work through past JEE Main questions topic by topic. Start with Periodic Trends, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+1. Learn electronic configurations thoroughly: Exceptional trends in ionisation enthalpy (such as nitrogen exceeding oxygen, or beryllium exceeding boron) stem directly from stable half-filled or completely filled subshells.
+2. Master isoelectronic radii: For ions with identical electron counts, radius decreases strictly with increasing atomic number because the higher positive nuclear charge pulls the electron cloud closer.
+3. Understand second-period electron affinity anomalies: Fluorine and oxygen possess lower electron gain enthalpies than chlorine and sulfur due to intense repulsions inside their compact valence shells.
+4. Categorize oxides systematically: Memorize standard amphoteric oxides (such as those of zinc, aluminum, beryllium, and tin) and neutral oxides (carbon monoxide, nitric oxide, nitrous oxide).
+5. Practise multi-statement matching problems: Modern papers often combine four separate periodic properties into one question.
 
 ## Frequently asked questions
 
-### Is Periodic Table & Periodicity important for JEE Main 2027?
+### Why does nitrogen have a higher first ionisation enthalpy than oxygen?
+Nitrogen possesses a stable half-filled 2p subshell, requiring significantly higher energy to remove an electron compared to oxygen, where removing one electron leaves a stable half-filled configuration.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 145 questions across 162 papers, about 0.9 questions per paper. It ranks 16th of 31 Chemistry chapters by question volume.
+### How do I identify the group and period of an element from its atomic number?
+Determine the nearest preceding noble gas core. Subtract its atomic number to find the remaining valence electrons, then distribute them into orbitals using the Aufbau principle to identify the highest principal quantum number for period and valence electrons for group.
 
-### Which topic in Periodic Table & Periodicity has the most questions?
-
-Periodic Trends is the most-asked topic, with 123 questions from 2019 to 2026 in our collection.
-
-### Are questions in Periodic Table & Periodicity multiple choice or numerical?
-
-Both formats appear. Of the 145 questions from 2019 to 2026 in our set, 8 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Are questions from this chapter mostly memory-based or conceptual?
+While foundational values need to be memorized, JEE Main tests the underlying concepts such as effective nuclear charge, shielding, and electronic configuration stability. Step-by-step solutions for each one are in the EdLoop app.
