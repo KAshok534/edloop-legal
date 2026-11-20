@@ -1,68 +1,70 @@
+# Vector Algebra: JEE Main Guide
+
+Vector Algebra provides the algebraic tools for geometric problem solving and spatial physics in JEE Main. Across the 162 examination papers administered between 2019 and 2026, this chapter contributed 223 questions, capturing 4.9 percent of all mathematics questions and securing rank 6 among the 29 chapters in the subject. It appeared in 153 of those 162 papers and has been featured every year since 2019. Over the recent 2024 to 2026 examination cycles, it delivered 84 questions across 58 papers, averaging 1.4 questions per paper with an increased subject share of 5.4 percent. Comparing the earlier 2002 to 2018 share of 4.8 percent against the 2024 to 2026 level shows that its long-term share is up, and comparing 2019 to 2026 with 2024 to 2026 also shows it is up. Over the full 2002 to 2026 archive spanning 200 papers, 286 questions appeared in 189 papers, with 54 questions featured in the numerical answer format between 2019 and 2026.
+
+```
+Vector Algebra in JEE Main (2019-2026)
+Total questions: 223 | Rank: 6 of 29 chapters
+Average per paper: 1.4 | Subject share: 4.9%
+Testing footprint: asked in 153 of 162 papers
+```
+
 ## How often it comes up
 
-Vector Algebra is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **223 questions in 162 papers**, about **1.4 questions per paper**, and it appeared in 153 of those 162 papers. That places it **6th of 29 Mathematics chapters** by share of questions in that period, with 4.9% of all Mathematics questions.
+Students can expect one to two vector questions in nearly every examination shift. Between 2019 and 2026, 153 out of 162 papers included vector problems. In the 2024, 2025, and 2026 testing sessions, the question numbers were 39, 22, and 23 questions respectively.
 
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 4.8% of Mathematics; in the last three exam years (2024 to 2026) it rose to 5.4%, with 84 questions in 58 papers. The busiest year in our set was 2023, with 46 questions across 24 papers. Since 2019 there has been no year without it, appearing in 153 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 12: Vector Algebra.
+Vector algebra works in close partnership with three-dimensional geometry. While spatial lines are categorized under coordinate geometry, vector equations, vector projections, and vector triple products provide the underlying algebraic mechanics used to resolve these spatial relationships.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 4 topics:
+Questions in this chapter organize across four well-defined subtopics:
 
-- **Cross Product**: 73 questions.
-- **Triple Products**: 72 questions.
-- **Dot Product**: 54 questions.
-- **Basics**: 24 questions.
+1. **Cross Product (73 questions, 2019-2026; 85 total, last asked 2026)**
+The most frequent single topic. Involves cross-product equations such as a cross c equals b, finding unit vectors perpendicular to two given directions, triangle and parallelogram areas, and resolving vector equations using dot constraints.
 
-All 4 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+2. **Triple Products (72 questions, 2019-2026; 94 total, last asked 2026)**
+Encompasses scalar triple products representing parallelepiped volumes and coplanarity criteria, alongside vector triple products expanded using the standard BAC minus CAB expansion rule. Note that while formal vector triple products were de-emphasised in recent NTA syllabi, basic triple product manipulations still appear.
+
+3. **Dot Product (54 questions, 2019-2026; 72 total, last asked 2026)**
+Covers scalar products, lengths of vector projections, angles between vectors, work-like energy identities, orthogonality conditions, and expanding squared magnitudes of vector sums and differences.
+
+4. **Basics (24 questions, 2019-2026; 35 total, last asked 2026)**
+Deals with collinearity, linear independence, section formulas, unit vectors, position vectors of triangle centres, and angle bisector vector formulations.
 
 ## What the questions look like
 
-Questions in Vector Algebra test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Vector questions set in recent examination shifts showcase distinct analytical patterns:
 
-In **Cross Product**, questions focus on standard exam setups. Recent problems include: Triangle side vectors p, q, r: value of a cross-product expression; a× b = 2 a× c, lengths and angle given: mod( a· c). Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Triple Products**, questions focus on standard exam setups. Recent problems include: a× c = b with a dot condition on c: find mod( a + c)^2; d = ( a× b)× a: value of ( a - b)· d. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Dot Product**, questions focus on standard exam setups. Recent problems include: Unit projection on a parallelogram diagonal fixes λ, then roots of a quadratic; Cross product of fixed length fixes λ; maximum of (c · d)² for d in the yz-plane. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 54 of the 223 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Vector Equation with Cross Product and Dot Constraint**: You are given a vector equation of the form a cross c equals b, where a and b are known vectors, together with a scalar condition such as a dot c equals a known constant. Candidates solve for c or compute the magnitude squared of a plus c.
+- **Vector Triple Product Expansion**: An expression involves a vector crossed with the cross product of two other vectors. Applying the standard expansion identity turns the expression into a linear combination of the inner vectors.
+- **Projection on a Vector or Line**: Finding the orthogonal projection of a vector v onto another vector u, and using the resulting scalar length to solve for an unknown coordinate parameter.
+- **Coplanar Vectors and Parallelepiped Volume**: Enforcing that three vectors are coplanar by setting their scalar triple product determinant to zero, or calculating the volume of a parallelepiped formed by coterminous edges.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Test your command of vector algebra with these recent problems:
 
-- [a× c = b with a dot condition on c: find mod( a + c)^2](/q/q-2026-01-21-m-m09) (JEE Main 2026 21 Jan Shift 1)
-- [Triangle side vectors p, q, r: value of a cross-product expression](/q/q-2026-01-21-e-m19) (JEE Main 2026 21 Jan Shift 2)
-- [Unit projection on a parallelogram diagonal fixes λ, then roots of a quadratic](/q/q-2026-01-22-m-m14) (JEE Main 2026 22 Jan Shift 1)
-- [S on QR equidistant from PQ and PR, mod(PR) = 9, PS given: 3a − 4b](/q/q-2026-01-28-m-m25) (JEE Main 2026 28 Jan Shift 1, numerical answer)
-- [Cross product of fixed length fixes λ; maximum of (c · d)² for d in the yz-plane](/q/q-2026-01-22-e-m15) (JEE Main 2026 22 Jan Shift 2)
+- Vector cross product equation with dot constraint: [JEE Main 2026 21 Jan Shift 1](/q/q-2026-01-21-m-m09)
+- Triangle side cross-product evaluation: [JEE Main 2026 21 Jan Shift 2](/q/q-2026-01-21-e-m19)
+- Parallelogram diagonal projection: [JEE Main 2026 22 Jan Shift 1](/q/q-2026-01-22-m-m14)
+- Internal angle bisector position vector: [JEE Main 2026 28 Jan Shift 1](/q/q-2026-01-28-m-m25)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Vector Algebra.
+Mastering vectors requires switching between coordinate components and vector identities:
 
-Next, work through past JEE Main questions topic by topic. Start with Cross Product, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+- **Solve cross-product equations methodically**: When given a cross c equals b, take the cross product of both sides with a. Expanding the left side via the vector triple product converts the cross product into scalar multiples of a and c, enabling you to isolate c directly using the given value of a dot c.
+- **Remember the projection formula**: The scalar projection of vector a on vector b is the dot product of a and b divided by the magnitude of b. The vector projection multiplies this scalar by the unit vector in the direction of b.
+- **Use the BAC-CAB identity**: Memorise that a cross (b cross c) equals b multiplied by (a dot c) minus c multiplied by (a dot b). Keep the order strictly intact to avoid inadvertent sign errors.
+- **Square vector equations**: If a problem involves magnitudes of vector sums such as the magnitude of a plus b plus c, square the entire expression to expand it into individual magnitude squares plus pairwise dot products.
 
 ## Frequently asked questions
 
-### Is Vector Algebra important for JEE Main 2027?
+### Are scalar and vector triple products still in the syllabus?
+The 2024 revised NTA syllabus removed the explicit mention of scalar and vector triple products from the topic list. However, because a scalar triple product is simply the determinant of three vectors and can be computed via standard dot and cross products, problems requiring volume evaluations and coplanarity checks continue to be tested under basic operations.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 223 questions across 162 papers, about 1.4 questions per paper. It ranks 6th of 29 Mathematics chapters by question volume.
+### How do I find the angle bisector vector between two non-parallel vectors?
+The vector along the internal bisector of the angle between two non-zero vectors a and b is obtained by adding their unit vectors: a divided by its magnitude plus b divided by its magnitude. Any positive scalar multiple of this sum gives a valid vector along the internal bisector.
 
-### Which topic in Vector Algebra has the most questions?
-
-Cross Product is the most-asked topic, with 73 questions from 2019 to 2026 in our collection.
-
-### Are questions in Vector Algebra multiple choice or numerical?
-
-Both formats appear. Of the 223 questions from 2019 to 2026 in our set, 54 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### What is the geometric interpretation of Lagrange's identity?
+Lagrange's identity states that the magnitude of a cross b squared equals the product of their individual squared magnitudes minus the square of their dot product. Geometrically, this asserts that the square of the area of the parallelogram formed by the vectors plus the square of their dot product equals the product of their squared lengths. Step-by-step solutions for each one are in the EdLoop app.

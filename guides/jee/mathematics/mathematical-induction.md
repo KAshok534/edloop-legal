@@ -1,54 +1,61 @@
+# Mathematical Induction: JEE Main Guide
+
+> [!WARNING]
+> Mathematical Induction was officially removed from the JEE Main syllabus in 2024. It was asked 1 time between 2019 and 2026 and does not appear in current exams.
+
+Mathematical Induction was historically a minor theoretical chapter in JEE Main mathematics. Between 2019 and 2026, the examination included only 1 question from this chapter across 162 papers, representing 0.0 percent of all mathematics questions and placing it at rank 28 among the 29 chapters in the subject. It appeared in 1 of those 162 papers and was not asked in 2020, 2021, 2022, 2023, 2024, 2025, or 2026. In the 2024 to 2026 period following its formal excision, 0 questions appeared across 58 papers, averaging 0.0 questions per paper with a 0.0 percent subject share. Comparing the earlier 2002 to 2018 share of 0.2 percent to 2024 to 2026 shows that its share is about the same, and comparing 2019 to 2026 with 2024 to 2026 also shows it is about the same. Across the entire 2002 to 2019 historical record of 200 papers, 4 questions appeared across 4 papers, with 0 numerical answer questions between 2019 and 2026.
+
+```
+Mathematical Induction in JEE Main (2019-2026)
+Total questions: 1 | Rank: 28 of 29 chapters
+Average per paper: 0.0 | Subject share: 0.0%
+Current status: Removed from syllabus in 2024
+```
+
 ## How often it comes up
 
-NTA removed Mathematical Induction from the JEE Main syllabus in 2024. Across all papers we hold from 2002 to 2019, it contributed **4 questions across 200 papers**, appearing in 4 of those papers. From 2019 to 2026, it gave 1 questions in 162 papers, about 0.0 questions per paper.
+Even prior to its formal deletion from the NTA curriculum in 2024, mathematical induction rarely appeared in the exam. Across the 162 papers conducted between 2019 and 2026, it was featured in only a single shift in January 2019. Zero questions appeared in any subsequent year, confirming that candidates preparing for the modern examination cycle should bypass this unit entirely.
 
-Before its removal, the chapter was asked regularly. In the AIEEE and early JEE Main years (2002 to 2018) it gave 3 questions in 38 papers, making up 0.2% of Mathematics questions. In our set it was last asked in 2019.
-
-It was historically taught as a Class 11 chapter under Mathematical Induction (removed 2024).
+Because multiple-choice questions allow options to be tested directly by substituting small integer values like one, two, or three, formal inductive proofs have never been suitable for objective testing.
 
 ## Most-asked topics
 
-Across all years in our collection, the questions split across 1 topics:
+Every historical problem in this chapter falls under a single classification:
 
-- **Principle of Mathematical Induction**: 4 questions.
-
-These topics made up the syllabus when the chapter was part of the examination.
+1. **Principle of Mathematical Induction (1 question, 2019-2026; 4 total, last asked 2019)**
+Historical problems tested whether given statements about prime values, inequalities, or finite summation identities hold true for specific integer substitutions, or probed the logic of the inductive step from k to k plus one.
 
 ## What the questions look like
 
-Questions in Mathematical Induction test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+The rare problems asked under mathematical induction followed simple testing formats:
 
-In **Principle of Mathematical Induction**, questions focus on standard exam setups. Recent problems include: Truth of P(n): n^2 - n + 41 is prime, for n = 3 and n = 5; Sum of 1/sqrt(k) versus sqrt(n), and sqrt(n(n+1)) versus n + 1: two statements. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-Most questions are multiple choice with four options, though working out the steps systematically prevents calculation errors.
+- **Verification of Inductive Hypotheses**: Given a polynomial expression asserted to yield prime numbers, evaluating the proposition directly for small prime or integer inputs.
+- **Statement Truth Analysis**: Assessing two propositions involving square root inequalities to identify which statement is valid.
+- **Logical Fallacies in Induction**: Identifying the false step in an erroneous inductive argument claiming a false summation identity.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Review the historical style with these archived questions:
 
-- [Truth of P(n): n^2 - n + 41 is prime, for n = 3 and n = 5](/q/q-2019-01-10-m-m14) (JEE Main 2019 10 Jan Shift 1)
-- [Sum of 1/sqrt(k) versus sqrt(n), and sqrt(n(n+1)) versus n + 1: two statements](/q/q-aieee-2008-m01) (AIEEE 2008)
-- [Induction on a false formula for the sum of odd numbers: which claim is true](/q/q-aieee-2004-m13) (AIEEE 2004)
-- [Upper bound for a nested radical an = sqrt(7 + sqrt(7 + ...)) by induction](/q/q-aieee-2002-m19) (AIEEE 2002)
+- Polynomial prime value verification: [JEE Main 2019 10 Jan Shift 1](/q/q-2019-01-10-m-m14)
+- Inequality verification statements: [AIEEE 2008](/q/q-aieee-2008-m01)
+- Fallacy in inductive logic: [AIEEE 2004](/q/q-aieee-2004-m13)
+- Upper bound for nested radicals: [AIEEE 2002](/q/q-aieee-2002-m19)
 
 ## How to practise it
 
-Because NTA removed Mathematical Induction from the JEE Main syllabus, students preparing for JEE Main 2027 can safely skip this chapter unless their state board examinations, school syllabus, or other competitive entrance tests still cover it.
+Because this chapter has been removed from the syllabus and was asked only once since 2019, students should spend zero revision time on it:
 
-If your curriculum requires this material, study the standard textbook theory and definitions first. Practise basic derivations and simple formula applications before attempting historical past questions.
-
-Reviewing the questions below helps students who need to cover this topic for foundational knowledge or other examinations.
+- **Do not practice standalone induction proofs**: Objective multiple-choice testing does not evaluate multi-step inductive write-ups.
+- **Use small value testing in active chapters**: When working on sequences or binomial identities in active chapters, substituting small integers remains a useful check.
 
 ## Frequently asked questions
 
-### Is Mathematical Induction in the JEE Main 2027 syllabus?
+### Should I study this chapter for the upcoming JEE Main?
+No. Mathematical induction was formally deleted from the NTA syllabus in 2024 and contributed zero questions across 2020 through 2026. Devote your preparation time to high-yield algebra topics such as sequences and series or matrices.
 
-No. NTA removed it from the JEE Main syllabus, so questions from Mathematical Induction will not appear in JEE Main 2027. Students focusing exclusively on JEE Main can skip it.
+### How were induction questions solved when they did appear?
+In objective formats, questions were almost invariably solved by direct numerical substitution of n equals one, two, or three, avoiding full inductive derivations.
 
-### When was Mathematical Induction last asked in JEE Main?
-
-In the papers we hold, questions from Mathematical Induction were last asked in 2019. Across all years in our collection, it contributed 4 questions.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Does inductive reasoning still help in other mathematics chapters?
+While formal induction is removed, understanding recursive base cases and step transitions remains conceptually helpful when studying recurrence relations in sequences and inductive properties of matrix powers. Step-by-step solutions for each one are in the EdLoop app.

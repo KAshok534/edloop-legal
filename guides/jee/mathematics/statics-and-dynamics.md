@@ -1,58 +1,65 @@
+# Statics & Dynamics: JEE Main Guide
+
+> [!WARNING]
+> Statics & Dynamics belonged to the old AIEEE mathematics syllabus and was discontinued after 2007. It is not part of the modern JEE Main mathematics curriculum.
+
+Statics & Dynamics is a legacy chapter that appeared exclusively in early AIEEE mathematics papers. Between 2019 and 2026, zero questions were asked from this chapter across 162 papers, representing 0.0 percent of all mathematics questions and placing it at rank 29 among the 29 chapters in the subject. It appeared in 0 of those 162 papers and was not asked in 2019, 2020, 2021, 2022, 2023, 2024, 2025, or 2026. In the 2024 to 2026 testing sessions, 0 questions appeared across 58 papers, averaging 0.0 questions per paper with a 0.0 percent subject share. Comparing the earlier 2002 to 2018 share of 1.3 percent to the 2024 to 2026 share shows that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2007 spanning 200 papers, 17 questions appeared across 6 papers, with 0 numerical answer questions between 2019 and 2026.
+
+```
+Statics & Dynamics in JEE Main (2019-2026)
+Total questions: 0 | Rank: 29 of 29 chapters
+Average per paper: 0.0 | Subject share: 0.0%
+Current status: Legacy AIEEE topic; not in JEE Main
+```
+
 ## How often it comes up
 
-It is no longer in the JEE Main syllabus. Across all papers we hold from 2002 to 2007, it contributed **17 questions across 200 papers**, appearing in 6 of those papers.
+This chapter has not appeared in any modern JEE Main sitting. It was completely dropped from the engineering entrance mathematics syllabus after 2007, when AIEEE streamlined mechanics into the physics paper. Zero questions were asked between 2008 and 2026.
 
-Before its removal, the chapter was asked regularly. In the AIEEE and early JEE Main years (2002 to 2018) it gave 17 questions in 38 papers, making up 1.3% of Mathematics questions. In our set it was last asked in 2007.
-
-It was historically taught as a Class 12 chapter under Statics and Dynamics (old AIEEE mathematics syllabus; not in JEE Main).
+Modern engineering aspirants should devote zero revision time to this chapter under mathematics. All relevant mechanics principles, including equilibrium of concurrent forces and kinematics, are now tested exclusively within the Physics section.
 
 ## Most-asked topics
 
-Across all years in our collection, the questions split across 2 topics:
+Historical questions in old AIEEE papers fell under two categories:
 
-- **Statics**: 10 questions.
-- **Dynamics**: 7 questions.
+1. **Statics (0 questions, 2019-2026; 10 total, last asked 2007)**
+Covered equilibrium of coplanar concurrent forces, Lami's theorem, triangle law of forces, moments of forces about a pivot, and finding unknown resultant magnitudes when one component force is reversed.
 
-These topics made up the syllabus when the chapter was part of the examination.
+2. **Dynamics (0 questions, 2019-2026; 7 total, last asked 2006)**
+Involved relative velocity, resolution of velocity vectors along perpendicular axes, uniform acceleration trajectories, pursuit problems, and work done by constant forces.
 
 ## What the questions look like
 
-Questions in Statics & Dynamics test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Historical mechanics problems set in mathematics papers followed distinctive physics-style formulations:
 
-In **Statics**, questions focus on standard exam setups. Recent problems include: Unknown force from the resultants of two forces before and after reversing one; Resultant of forces 1/AB and 1/AC along the legs of a right triangle at A. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Dynamics**, questions focus on standard exam setups. Recent problems include: Angle between two equal velocities if halving one makes the new resultant bisect an angle; Lizard starting from rest chasing a uniformly crawling insect: time to catch it. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-Most questions are multiple choice with four options, though working out the steps systematically prevents calculation errors.
+- **Resultant of Reversed Forces**: Two forces act at an angle. If one force is reversed in direction, the resultant changes magnitude, requiring students to solve for one force in terms of the other.
+- **Equilibrium under Concurrent Forces**: Three coplanar forces directed from triangle centres such as the incentre keep a point in equilibrium, requiring candidates to find their relative ratios using trigonometric sine rules.
+- **Relative Pursuit Kinematics**: Calculating the time taken for an accelerating pursuer to catch a uniformly moving target along a straight line.
+- **Resultant Direction Bisecting an Angle**: Evaluating the angle between velocity vectors such that altering one magnitude causes the new resultant to bisect the original angle.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Inspect how mechanics problems were historically presented with these archive questions:
 
-- [Unknown force from the resultants of two forces before and after reversing one](/q/q-aieee-2007-m31) (AIEEE 2007)
-- [Angle between two equal velocities if halving one makes the new resultant bis...](/q/q-aieee-2006-m36) (AIEEE 2006)
-- [Resultant of forces 1/AB and 1/AC along the legs of a right triangle at A](/q/q-aieee-2006-m34) (AIEEE 2006)
-- [Lizard starting from rest chasing a uniformly crawling insect: time to catch it](/q/q-aieee-2005-m28) (AIEEE 2005)
-- [Three concurrent forces along IA, IB, IC from the incentre in equilibrium: th...](/q/q-aieee-2005-m29) (AIEEE 2005)
+- Resultant of reversed forces: [AIEEE 2007](/q/q-aieee-2007-m31)
+- Angle between velocity vectors: [AIEEE 2006](/q/q-aieee-2006-m36)
+- Concurrent forces along triangle legs: [AIEEE 2006](/q/q-aieee-2006-m34)
+- Pursuit kinematics problem: [AIEEE 2005](/q/q-aieee-2005-m28)
 
 ## How to practise it
 
-Because NTA removed Statics & Dynamics from the JEE Main syllabus, students preparing for JEE Main 2027 can safely skip this chapter unless their state board examinations, school syllabus, or other competitive entrance tests still cover it.
+Because this chapter does not exist in the current JEE Main mathematics syllabus, students should not practice it as mathematics:
 
-If your curriculum requires this material, study the standard textbook theory and definitions first. Practise basic derivations and simple formula applications before attempting historical past questions.
-
-Reviewing the questions below helps students who need to cover this topic for foundational knowledge or other examinations.
+- **Study mechanics in Physics**: Practice vector equilibrium, Newton's laws, and kinematics under the Physics syllabus where they are actively tested.
+- **Omit old AIEEE mechanics problems in mathematics**: When practicing past mathematics papers from 2002 to 2007, skip problems labeled Statics or Dynamics.
 
 ## Frequently asked questions
 
-### Is Statics & Dynamics in the JEE Main 2027 syllabus?
+### Is Statics & Dynamics part of the JEE Main mathematics syllabus?
+No. Statics and Dynamics was retired from the entrance examination mathematics curriculum after 2007. It is completely absent from the official NTA syllabus.
 
-No. NTA removed it from the JEE Main syllabus, so questions from Statics & Dynamics will not appear in JEE Main 2027. Students focusing exclusively on JEE Main can skip it.
+### Where did these topics go?
+The mechanical principles previously examined in this chapter were consolidated into the Physics syllabus under Kinematics, Laws of Motion, and Work, Energy and Power.
 
-### When was Statics & Dynamics last asked in JEE Main?
-
-In the papers we hold, questions from Statics & Dynamics were last asked in 2007. Across all years in our collection, it contributed 17 questions.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Why do some old question banks still include this chapter?
+Comprehensive archives that preserve early AIEEE papers from 2002 to 2007 retain these questions for historical completeness. Modern aspirants can safely skip them. Step-by-step solutions for each one are in the EdLoop app.

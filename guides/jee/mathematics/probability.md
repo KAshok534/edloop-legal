@@ -1,67 +1,67 @@
+# Probability: JEE Main Guide
+
+Probability is a cornerstone topic in JEE Main mathematics, requiring logical modelling alongside combinatorial counting. Across the 162 papers conducted between 2019 and 2026, this chapter supplied 189 questions, accounting for 4.1 percent of all mathematics questions and securing rank 11 among the 29 chapters in the subject. It appeared in 154 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 examination cycles, it contributed 66 questions across 58 papers, averaging 1.1 questions per paper with a 4.3 percent subject share. Comparing the earlier 2002 to 2018 share of 4.3 percent against 2024 to 2026 shows that its long-term share is about the same, while comparing 2019 to 2026 with 2024 to 2026 also shows it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 245 questions were asked in 191 papers, including 34 numerical answer questions between 2019 and 2026.
+
+```
+Probability in JEE Main (2019-2026)
+Total questions: 189 | Rank: 11 of 29 chapters
+Average per paper: 1.2 | Subject share: 4.1%
+Shift occurrence: asked in 154 of 162 papers
+```
+
 ## How often it comes up
 
-Probability is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **189 questions in 162 papers**, about **1.2 questions per paper**, and it appeared in 154 of those 162 papers. That places it **11th of 29 Mathematics chapters** by share of questions in that period, with 4.1% of all Mathematics questions.
+Students can expect at least one probability problem in almost every examination sitting, with numerous shifts featuring two problems. Across the 162 papers from 2019 to 2026, 154 included questions from this chapter. In the 2024, 2025, and 2026 examination periods, the question tallies were 26, 22, and 18 questions respectively.
 
-The share has stayed about the same across two decades. In the AIEEE and early JEE Main years (2002 to 2018) it was 4.3% of Mathematics; in the last three exam years (2024 to 2026) it is 4.3%, with 66 questions in 58 papers. The busiest year in our set was 2021, with 31 questions across 26 papers. Since 2019 there has been no year without it, appearing in 154 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 13: Statistics and Probability.
+Probability problems frequently serve as the ultimate test of combinatorial enumeration. Because modern questions integrate conditional updating and discrete random variable distributions, methodical case listing and probability tree analysis are essential.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Questions in this chapter organize across three primary subtopics:
 
-- **Random Variables & Distributions**: 68 questions.
-- **Basic Probability**: 67 questions.
-- **Conditional Probability**: 54 questions.
+1. **Random Variables & Distributions (68 questions, 2019-2026; 84 total, last asked 2026)**
+The most frequent subtopic in recent testing. Covers discrete probability distributions, calculating the mean expectation and variance, probability mass functions defined in terms of an unknown parameter k, and binomial distributions involving repeated independent trials. Note that Bernoulli trials and binomial distributions were formally removed from the updated syllabus, yet general discrete random variables remain active.
 
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+2. **Basic Probability (67 questions, 2019-2026; 89 total, last asked 2026)**
+Involves classical probability definitions using permutations and combinations, dice and card problems, divisibility conditions on randomly chosen integer subsets, geometry-based geometric probability, and mutually exclusive events.
+
+3. **Conditional Probability (54 questions, 2019-2026; 72 total, last asked 2026)**
+Covers conditional probability definitions, the multiplication rule for independent events, the theorem of total probability, and Bayes' theorem. Recurring formats include drawing items sequentially from two or more urns with transfer steps between them.
 
 ## What the questions look like
 
-Questions in Probability test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners repeatedly use well-defined probabilistic architectures:
 
-In **Random Variables & Distributions**, questions focus on standard exam setups. Recent problems include: Distribution on 0–3 with parameters a, b and σ^2 + μ^2 = 2: ratio a/b; Distribution with probabilities in k and k²: find P(3 < x 6). Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Basic Probability**, questions focus on standard exam setups. Recent problems include: Two distinct numbers from 1–50: probability that their product is divisible by 3; Ordered pair from 1–100 without replacement: probability that a − b ≥ 10. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Conditional Probability**, questions focus on standard exam setups. Recent problems include: Ball moved from bag B (6W, 4B) to bag A (9W, 8B), then one drawn from A: P(white); Bag with k red of 10 (k = 0 to 10 equally likely), three black drawn: P(k = 1). Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 34 of the 189 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Urn Transfer and Bayes' Inversion**: A ball of unknown color is transferred from bag B to bag A, followed by drawing a ball from bag A. Problems ask for the total probability of drawing a specific color or the reverse conditional probability that the transferred ball was white.
+- **Discrete Distribution with Parameter Constraints**: A discrete random variable X takes small non-negative integer values with probabilities proportional to powers of k. Normalising the total probability to unity fixes k, after which the mean or variance is evaluated.
+- **Divisibility Constraints on Subset Products**: Selecting two or three distinct numbers from an initial integer sequence, followed by finding the probability that their product or sum satisfies divisibility requirements.
+- **Independent Experiment Stopping Rules**: A game where two players toss dice alternately until a specific sum appears, asking for the probability that a particular participant wins.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Strengthen your probabilistic reasoning with these recent questions:
 
-- [Distribution on 0–3 with parameters a, b and σ^2 + μ^2 = 2: ratio a/b](/q/q-2026-01-21-e-m16) (JEE Main 2026 21 Jan Shift 2)
-- [Two distinct numbers from 1–50: probability that their product is divisible by 3](/q/q-2026-01-22-m-m01) (JEE Main 2026 22 Jan Shift 1)
-- [Ball moved from bag B (6W, 4B) to bag A (9W, 8B), then one drawn from A: P(wh...](/q/q-2026-01-23-e-m09) (JEE Main 2026 23 Jan Shift 2)
-- [Distribution with probabilities in k and k²: find P(3 < x 6)](/q/q-2026-01-22-m-m02) (JEE Main 2026 22 Jan Shift 1)
-- [Ordered pair from 1–100 without replacement: probability that a − b ≥ 10](/q/q-2026-01-23-m-m24) (JEE Main 2026 23 Jan Shift 1, numerical answer)
+- Discrete distribution expectation and variance relation: [JEE Main 2026 21 Jan Shift 2](/q/q-2026-01-21-e-m16)
+- Divisibility in random pairs: [JEE Main 2026 22 Jan Shift 1](/q/q-2026-01-22-m-m01)
+- Two-bag transfer conditional probability: [JEE Main 2026 23 Jan Shift 2](/q/q-2026-01-23-e-m09)
+- Parameterized discrete distribution probability: [JEE Main 2026 22 Jan Shift 1](/q/q-2026-01-22-m-m02)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Probability.
+Accurate probability calculation balances systematic counting with conditional discipline:
 
-Next, work through past JEE Main questions topic by topic. Start with Random Variables & Distributions, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+- **Normalise probability distributions first**: In any discrete distribution problem, immediately sum all probability entries and set the total equal to unity. This determines unknown scalars like k before embarking on expectation or variance computations.
+- **Map out two-stage experiments with probability trees**: For problems involving sequential draws or transfers between urns, draw a clear tree diagram showing intermediate transfer branches. Multiply probabilities along each path and sum over mutually exclusive branches.
+- **Use complementary probability for at least one scenarios**: When computing the probability that an event occurs at least once across several independent trials, compute one minus the probability that the event never occurs.
+- **Check independence criteria strictly**: Do not assume events are independent without verifying that the probability of their intersection equals the product of their individual probabilities.
 
 ## Frequently asked questions
 
-### Is Probability important for JEE Main 2027?
+### Is the binomial distribution still in the syllabus?
+Bernoulli trials and the binomial distribution were officially removed from the NTA mathematics syllabus for JEE Main starting in 2024. While questions explicitly demanding the binomial distribution formula have subsided, general discrete probability distribution tables and expectation calculations remain core components of the syllabus.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 189 questions across 162 papers, about 1.2 questions per paper. It ranks 11th of 29 Mathematics chapters by question volume.
+### How do I recognize when Bayes' theorem is required?
+Bayes' theorem is needed whenever a problem asks for the probability of a prior cause given that an observed outcome has already occurred. If you know the probability of drawing a white ball given that bag one was chosen, but the question asks for the probability that bag one was chosen given that the drawn ball is white, apply Bayes' inversion formula.
 
-### Which topic in Probability has the most questions?
-
-Random Variables & Distributions is the most-asked topic, with 68 questions from 2019 to 2026 in our collection.
-
-### Are questions in Probability multiple choice or numerical?
-
-Both formats appear. Of the 189 questions from 2019 to 2026 in our set, 34 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Why do divisibility problems appear so often in probability?
+Divisibility questions combine number theory classification with combinatorial selection. Partitioning the sample space into residue classes modulo the divisor allows favorable pairs or triples to be counted systematically. Step-by-step solutions for each one are in the EdLoop app.

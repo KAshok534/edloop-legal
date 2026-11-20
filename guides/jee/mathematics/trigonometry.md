@@ -1,68 +1,70 @@
+# Trigonometry: JEE Main Guide
+
+Trigonometry serves both as an independent chapter and as the computational alphabet for algebra and calculus in JEE Main. Between 2019 and 2026, the examination presented 166 questions from this chapter across 162 papers, representing 3.6 percent of all mathematics questions and placing it at rank 15 among the 29 chapters in the subject. It appeared in 128 of those 162 papers and has been asked every single year since 2019. Over the recent 2024 to 2026 testing sessions, it contributed 51 questions across 58 papers, averaging 0.9 questions per paper with a 3.3 percent subject share. Comparing the earlier 2002 to 2018 share of 4.7 percent against 2024 to 2026 shows that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 indicates that it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 228 questions were asked in 162 papers, including 31 numerical answer questions between 2019 and 2026.
+
+```
+Trigonometry in JEE Main (2019-2026)
+Total questions: 166 | Rank: 15 of 29 chapters
+Average per paper: 1.0 | Subject share: 3.6%
+Shift coverage: appeared in 128 of 162 papers
+```
+
 ## How often it comes up
 
-Trigonometry is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **166 questions in 162 papers**, about **1.0 questions per paper**, and it appeared in 128 of those 162 papers. That places it **15th of 29 Mathematics chapters** by share of questions in that period, with 3.6% of all Mathematics questions.
+Candidates will encounter direct trigonometry questions in roughly eight out of ten examination shifts. Between 2019 and 2026, 128 examination sessions included standalone problems from this chapter. The annual question tallies for 2024, 2025, and 2026 were 18, 12, and 21 questions respectively, demonstrating sustained examination value.
 
-The share has fallen since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 4.7% of Mathematics; in the last three exam years (2024 to 2026) it declined to 3.3%, with 51 questions in 58 papers. The busiest year in our set was 2021, with 34 questions across 26 papers. Since 2019 there has been no year without it, appearing in 128 of the 162 papers we hold.
-
-It is a Class 11 chapter, part of NTA's Unit 14: Trigonometry.
+The scope of this chapter has been refined in modern test cycles. Formal syllabus updates removed Heights & Distances and Properties of Triangles from the active list. Consequently, recent examination sessions focus squarely on compound angle identities, multiple angle transformations, trigonometric series summations, and solving trigonometric equations on bounded intervals.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 4 topics:
+Questions in this chapter organize across four distinct topics:
 
-- **Ratios & Identities**: 72 questions.
-- **Trigonometric Equations**: 55 questions.
-- **Heights & Distances**: 26 questions.
-- **Properties of Triangles**: 13 questions.
+1. **Ratios & Identities (72 questions, 2019-2026; 93 total, last asked 2026)**
+The largest subtopic in the chapter. Covers compound angle additions, transformation of products into sums and differences, double and triple angle identities, trigonometric polynomial evaluations at specific numerical angle fractions, and telescoping trigonometric products.
 
-All 4 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+2. **Trigonometric Equations (55 questions, 2019-2026; 68 total, last asked 2026)**
+Involves finding general and principal solutions, counting the number of distinct roots satisfying simultaneous trigonometric constraints on bounded intervals, and resolving quadratic or polynomial forms in sine and cosine.
+
+3. **Heights & Distances (26 questions, 2019-2026; 42 total, last asked 2023)**
+Dealt with classical two-dimensional and three-dimensional surveying problems, angles of elevation and depression, and tower heights. This topic was explicitly excised in recent syllabus updates, which is why it was last asked in 2023.
+
+4. **Properties of Triangles (13 questions, 2019-2026; 25 total, last asked 2024)**
+Encompassed sine rules, cosine rules, projection formulas, half-angle area formulas, incircle and circumcircle radii relations. This topic was also removed from the current official syllabus.
 
 ## What the questions look like
 
-Questions in Trigonometry test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners repeatedly use several dependable trigonometric problem templates:
 
-In **Ratios & Identities**, questions focus on standard exam setups. Recent problems include: Value of cosec10^° - 310^°; From cos(α + β) and sin(α − β), tan 2α in a given surd form: r + s. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Trigonometric Equations**, questions focus on standard exam setups. Recent problems include: Solutions of 32θ + 8θ + 33 = 0 in [-3π, 2π]; Solutions in [0°, 180°] of tan(x + 100°) = tan(x + 50°) tan x tan(x − 50°). Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Heights & Distances**, questions focus on standard exam setups. Recent problems include: Area of BCPQ from depressions of 15° and 60° to a tower seen from a 30 m wall. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 31 of the 166 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Numerical Angle Value Evaluation**: Expressions combining non-standard angle ratios such as differences or quotients of sines and cosines at multiples of ten degrees or twelve degrees. Converting everything to a common denominator and factoring using product-to-sum identities collapses the expression into a clean integer or simple surd.
+- **Root Counting on Bounded Intervals**: A non-linear trigonometric equation involving mixed frequencies is given on a specified closed interval. Candidates factor the equation and count the exact number of distinct real solutions.
+- **Maximum and Minimum Values**: Expressions of the form a cos theta plus b sin theta, or homogeneous quadratic forms in sine and cosine, evaluated for global extrema using square-completion or auxiliary angle substitutions.
+- **Compound Angle Parameter Extraction**: Given values for cosine of alpha plus beta and sine of alpha minus beta, candidates determine tangent of two alpha by expressing two alpha as the sum of alpha plus beta and alpha minus beta.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Test your trigonometric speed with these problems from recent test sessions:
 
-- [Value of cosec10^° - 310^°](/q/q-2026-01-21-m-m16) (JEE Main 2026 21 Jan Shift 1)
-- [Solutions of 32θ + 8θ + 33 = 0 in [-3π, 2π]](/q/q-2026-01-23-m-m02) (JEE Main 2026 23 Jan Shift 1)
-- [Square inscribed in the incircle of an equilateral triangle of side 12](/q/q-2024-04-06-m-m06) (JEE Main 2024 06 Apr Shift 1)
-- [Area of BCPQ from depressions of 15° and 60° to a tower seen from a 30 m wall](/q/q-2023-04-06-m-m09) (JEE Main 2023 06 Apr Shift 1)
-- [From cos(α + β) and sin(α − β), tan 2α in a given surd form: r + s](/q/q-2026-01-22-e-m23) (JEE Main 2026 22 Jan Shift 2, numerical answer)
+- Compound angle difference evaluation: [JEE Main 2026 21 Jan Shift 1](/q/q-2026-01-21-m-m16)
+- Root counting for a trigonometric equation: [JEE Main 2026 23 Jan Shift 1](/q/q-2026-01-23-m-m02)
+- Inscribed square and equilateral triangle: [JEE Main 2024 06 Apr Shift 1](/q/q-2024-04-06-m-m06)
+- Surveying elevations and depression angles: [JEE Main 2023 06 Apr Shift 1](/q/q-2023-04-06-m-m09)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Trigonometry.
+Mastering trigonometry demands instinctive memory of transformation formulas:
 
-Next, work through past JEE Main questions topic by topic. Start with Ratios & Identities, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+- **Convert tangent and cotangent to sine and cosine**: When faced with expressions featuring secants, cosecants, tangents, or cotangents, immediately rewrite them in terms of sine and cosine over a common denominator. The resulting numerator almost always simplifies via standard compound angle identities.
+- **Count roots on intervals methodically**: When counting solutions of an equation like sin(n x) equals a constant on a given interval, compute the exact range traversed by the argument n x. Count the number of intersections of the sine wave with the horizontal line across that extended argument span, checking endpoints carefully.
+- **Use the linear combination extremum formula**: Remember that a cos theta plus b sin theta always attains a maximum of the positive square root of a squared plus b squared, and a minimum of the negative square root.
+- **Beware of extraneous solutions**: When solving equations by squaring both sides or multiplying by trigonometric factors, check that candidate roots do not cause denominators to vanish or introduce spurious solutions.
 
 ## Frequently asked questions
 
-### Is Trigonometry important for JEE Main 2027?
+### Are Heights & Distances and Properties of Triangles still tested?
+Both Heights & Distances and Properties of Triangles were removed from the updated NTA JEE Main syllabus starting in 2024. Questions specifically asking for angles of elevation or circumradius relations no longer appear in the exam, focusing the chapter entirely on identities and equations.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 166 questions across 162 papers, about 1.0 questions per paper. It ranks 15th of 29 Mathematics chapters by question volume.
+### How do I solve equations with mixed sine and cosine frequencies?
+Transform products of trigonometric functions into sums and differences using product-to-sum identities. This converts the equation into a sum of simple sinusoidal waves. If common factors emerge across grouped terms, factor them out rather than expanding further.
 
-### Which topic in Trigonometry has the most questions?
-
-Ratios & Identities is the most-asked topic, with 72 questions from 2019 to 2026 in our collection.
-
-### Are questions in Trigonometry multiple choice or numerical?
-
-Both formats appear. Of the 166 questions from 2019 to 2026 in our set, 31 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Why is compound angle manipulation so heavily tested?
+Compound angle formulas underpin transformation techniques throughout integral calculus, differential equations, and complex numbers. Fluency with these identities allows students to rewrite complicated calculus integrands into basic power terms. Step-by-step solutions for each one are in the EdLoop app.
