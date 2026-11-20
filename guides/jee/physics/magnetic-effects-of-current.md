@@ -1,67 +1,54 @@
+# Magnetic Effects of Current: JEE Main PYQ Trends & Preparation Guide
+
+Magnetic effects of current bridges classical electrostatics and electrodynamics, analyzing how steady electrical charges in motion generate magnetic fields and experience Lorentz forces. Preserved under Unit 13: Magnetic Effects of Current and Magnetism in the NTA syllabus, this Class 12 chapter holds rank 7 among the 29 physics chapters in JEE Main, contributing 4.4 percent of all physics questions between 2019 and 2026.
+
 ## How often it comes up
 
-Magnetic Effects of Current is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **201 questions in 162 papers**, about **1.2 questions per paper**, and it appeared in 133 of those 162 papers. That places it **7th of 29 Physics chapters** by share of questions in that period, with 4.4% of all Physics questions.
-
-The share has stayed about the same across two decades. In the AIEEE and early JEE Main years (2002 to 2018) it was 4.5% of Physics; in the last three exam years (2024 to 2026) it is 4.7%, with 73 questions in 58 papers. The busiest year in our set was 2023, with 35 questions across 24 papers. Since 2019 there has been no year without it, appearing in 133 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 13: Magnetic Effects of Current and Magnetism.
+Throughout the computer-based testing era from 2019 to 2026, 201 questions were drawn from this chapter across 162 papers, translating to an average of 1.2 questions per sitting. The topic appeared in 133 of those 162 exam sessions, and questions have been featured every year without omission. Looking at the three-year block from 2024 to 2026, candidates faced 73 questions across 58 papers, maintaining a rate of 1.3 questions per test and a 4.7 percent share. The chapter's subject share has stayed about the same when compared to the 2002 to 2018 window, which logged a 4.5 percent share from 60 questions across 38 papers. During the 2026 exams, 18 questions were presented across 19 papers, featured in 15 individual shifts. A total of 48 problems between 2019 and 2026 were formatted as numerical answer questions, requiring exact vector computations and numerical evaluations.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+The syllabus organizes questions into three prominent areas:
 
-- **Force on Charges & Currents**: 83 questions.
-- **Magnetic Field due to Current**: 80 questions.
-- **Current Loops & Galvanometer**: 38 questions.
-
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- **Force on Charges & Currents**: 116 questions since 2002, with 83 delivered between 2019 and 2026, asked up to 2026. This topic tests the Lorentz magnetic force on free charges, helical and circular trajectories, magnetic forces on straight and curved current-carrying wires, and mutual forces between parallel conductors.
+- **Magnetic Field due to Current**: 101 lifetime questions, including 80 from 2019 to 2026, tested in 2026. Problems center on the Biot-Savart law, circular loops, circular arcs, coaxial ring fields, Ampere's circuital law, solenoids, toroids, and field distributions inside thick cylindrical wires.
+- **Current Loops & Galvanometer**: 44 total questions, with 38 concentrated between 2019 and 2026, tested through 2026. Concepts examine the magnetic dipole moment of planar loops and spiral coils, torque on loops in uniform fields, potential energy of orientations, and moving coil galvanometer mechanics.
 
 ## What the questions look like
 
-Questions in Magnetic Effects of Current test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+JEE Main problems in this chapter emphasize vector cross products, spatial geometry, and right-hand rules:
 
-In **Force on Charges & Currents**, questions focus on standard exam setups. Recent problems include: Charged particle falling along the axis of a vertical solenoid: its acceleration; Wires P (3 A up), Q (1 A down), R (2 A down) at 3 cm and 2 cm: force on 15 cm of Q. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Magnetic Field due to Current**, questions focus on standard exam setups. Recent problems include: Long wire with a full circular loop tangent to it: field vector at the centre; Equilateral triangular loop of side 43 cm carrying 2 A: field at the centroid. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Current Loops & Galvanometer**, questions focus on standard exam setups. Recent problems include: Flat spiral coil of 200 turns between radii 3 cm and 6 cm: magnetic moment; Circular coil of 125 turns at 30° to a 0.4 T field: torque. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 48 of the 201 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Superposition of loop and straight wire fields**: A planar circuit formed by a straight wire running tangential to a full circular loop. Students apply the right-hand grip rule to find whether individual field vectors reinforce or oppose each other at the center.
+- **Force on multi-conductor parallel arrays**: Three or four parallel long wires carry specified currents in coplanar arrangements. Questions ask for the net magnetic force per unit length exerted on one specific wire.
+- **Centroid and axial fields of regular polygons**: Evaluating magnetic field intensity at the centroid of an equilateral triangle, square, or regular polygon carrying a steady current.
+- **Helical and circular particle motion**: Charged particles injected with specified velocity vectors into uniform magnetic fields or crossed electric and magnetic fields, calculating cyclotron radius, pitch, or net velocity.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Work through these representative recent problems:
 
-- [Long wire with a full circular loop tangent to it: field vector at the centre](/q/q-2026-01-21-e-p07) (JEE Main 2026 21 Jan Shift 2)
-- [Charged particle falling along the axis of a vertical solenoid: its acceleration](/q/q-2026-01-21-m-p11) (JEE Main 2026 21 Jan Shift 1)
-- [Flat spiral coil of 200 turns between radii 3 cm and 6 cm: magnetic moment](/q/q-2026-04-04-m-p16) (B Tech 4th Apr 2026 Shift 1)
-- [Equilateral triangular loop of side 43 cm carrying 2 A: field at the centroid](/q/q-2026-01-23-e-p18) (JEE Main 2026 23 Jan Shift 2)
-- [Coaxial loops P (I) and Q (4I), both clockwise as seen from the midpoint O: f...](/q/q-2026-01-24-e-p08) (JEE Main 2026 24 Jan Shift 2)
+- [Magnetic field vector at center of circular loop tangent to long straight wire](/q/q-2026-01-21-e-p07) (JEE Main 2026 21 Jan Shift 2, multiple choice)
+- [Vertical acceleration of a charged particle released along a solenoid axis](/q/q-2026-01-21-m-p11) (JEE Main 2026 21 Jan Shift 1, multiple choice)
+- [Magnetic moment of flat spiral coil with specified inner and outer radii](/q/q-2026-04-04-m-p16) (B Tech 4th Apr 2026 Shift 1, multiple choice)
+- [Magnetic field at centroid of equilateral triangular loop carrying current](/q/q-2026-01-23-e-p18) (JEE Main 2026 23 Jan Shift 2, multiple choice)
+- [Net magnetic field at midpoint between two coaxial circular loops](/q/q-2026-01-24-e-p08) (JEE Main 2026 24 Jan Shift 2, multiple choice)
+- [Net force acting on segment of current-carrying wire among three parallel lines](/q/q-2026-01-28-m-p09) (JEE Main 2026 28 Jan Shift 1, multiple choice)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Magnetic Effects of Current.
+Master right-hand rules for both magnetic field direction and magnetic force direction. Biot-Savart calculations require cross products of current elements with displacement vectors, while Lorentz forces require the cross product of velocity with magnetic field. A simple sign error in vector direction immediately leads to wrong choices.
 
-Next, work through past JEE Main questions topic by topic. Start with Force on Charges & Currents, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Memorize standard magnetic field results: straight finite wire segments, circular arcs subtending an angle at the center, axial fields of circular loops, and interior solenoid fields. When finding field values for polygonal loops, calculate the field of a single side segment and multiply by symmetry.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+For moving charges, become comfortable relating kinetic energy, momentum, and magnetic field through the cyclotron radius formula. When charged particles enter at an angle to the field, separate motion into parallel drift along the field lines and circular orbit in the transverse plane.
 
 ## Frequently asked questions
 
-### Is Magnetic Effects of Current important for JEE Main 2027?
+### Which formula in magnetic effects of current appears most often?
+The magnetic field at the center of circular arcs and along the axis of circular loops appears repeatedly. Equally important is the Lorentz force formula on moving charges and parallel current-carrying wires.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 201 questions across 162 papers, about 1.2 questions per paper. It ranks 7th of 29 Physics chapters by question volume.
+### How do I calculate the field of complex planar wire shapes?
+Break the circuit into simple segments: straight lines and circular arcs. Calculate the magnitude and direction of the magnetic field from each individual segment at the point of interest, then add them algebraically along the coordinate axis perpendicular to the plane.
 
-### Which topic in Magnetic Effects of Current has the most questions?
-
-Force on Charges & Currents is the most-asked topic, with 83 questions from 2019 to 2026 in our collection.
-
-### Are questions in Magnetic Effects of Current multiple choice or numerical?
-
-Both formats appear. Of the 201 questions from 2019 to 2026 in our set, 48 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Are questions on toroids and cyclotrons still asked in JEE Main?
+Cyclotron theory has been removed from the current syllabus, while basic Ampere circuital law applications on solenoids and wires remain central to the exam. Step-by-step solutions for each one are in the EdLoop app.

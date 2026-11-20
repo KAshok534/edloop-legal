@@ -1,67 +1,54 @@
+# Alternating Current: JEE Main PYQ Trends & Preparation Guide
+
+Alternating current deals with time-dependent sinusoidal voltages and currents, phasor diagrams, and reactive electrical components. Paired with electromagnetic induction in Unit 14: Electromagnetic Induction and Alternating Currents of the Class 12 syllabus, this topic provides regular scoring opportunities in the exam. Across the 162 test shifts held between 2019 and 2026, the question archive lists 142 questions from alternating current, placing the chapter at rank 18 among the 29 physics chapters with a 3.1 percent share of total physics questions.
+
 ## How often it comes up
 
-Alternating Current is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **142 questions in 162 papers**, about **0.9 questions per paper**, and it appeared in 108 of those 162 papers. That places it **18th of 29 Physics chapters** by share of questions in that period, with 3.1% of all Physics questions.
-
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 2.3% of Physics; in the last three exam years (2024 to 2026) it rose to 3.0%, with 47 questions in 58 papers. The busiest year in our set was 2021, with 32 questions across 26 papers. Since 2019 there has been no year without it, appearing in 108 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 14: Electromagnetic Induction and Alternating Currents.
+In the computerized exam period from 2019 to 2026, 142 alternating current problems were asked in 162 papers, representing an average rate of 0.9 questions per shift. The chapter featured in 108 of those 162 papers, and questions have appeared every year throughout this testing era. During the recent 2024 to 2026 examination seasons, candidates encountered 47 questions across 58 papers, giving 0.8 questions per paper and a 3.0 percent subject share. The chapter's share is up compared to the 2002 to 2018 testing window, which logged 31 questions across 38 papers for a 2.3 percent share. Relative to the full 2019 to 2026 baseline, its recent share has stayed about the same. In 2026 alone, 11 questions were presented across 19 papers, showing up in 10 test sessions. A total of 56 questions between 2019 and 2026 appeared as numerical answer questions, meaning students regularly calculate resonance frequencies, impedance values, and power factors to exact numerical figures.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+The question distribution focuses heavily on series resonance circuits alongside foundational AC quantities:
 
-- **LCR Circuits**: 88 questions.
-- **AC Basics**: 32 questions.
-- **Transformer & Generator**: 22 questions.
-
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- **LCR Circuits**: 109 total questions since 2002, with 88 appearing between 2019 and 2026, tested up to 2026. This topic forms the core of the chapter, covering series LCR resonance, impedance triangles, inductive and capacitive reactance, phase angles, power factor, quality factor, and bandwidth.
+- **AC Basics**: 36 questions overall, including 32 from 2019 to 2026, asked in 2026. Problems evaluate root mean square and average current definitions, non-sinusoidal waveforms like linear ramps, phase differences between voltage and current across pure elements, and average power consumption.
+- **Transformer & Generator**: 28 lifetime questions, with 22 between 2019 and 2026, continuing into 2026. Questions explore step-up and step-down transformers, voltage and turns ratios, power transmission line efficiency, generator loop rotations in magnetic fields, and induced alternating electromotive force.
 
 ## What the questions look like
 
-Questions in Alternating Current test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+JEE Main tests alternating current primarily through formulaic circuit calculations and phasor geometry:
 
-In **LCR Circuits**, questions focus on standard exam setups. Recent problems include: Series LCR (2 H, 100 Ω) at ω = 100 drawing its maximum 50 mA: capacitance; Series LCR with the reactances and resistance shown: power factor α/10. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **AC Basics**, questions focus on standard exam setups. Recent problems include: Current rising linearly as i0 tT from 0 to T: rms value. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Transformer & Generator**, questions focus on standard exam setups. Recent problems include: Line of 2 Ω delivering 1 kW at 250 V: transmission efficiency; Loop rotating at 100 rad/s in 0.5 T: EMF of 15.4 mV at 30° gives the radius. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 56 of the 142 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Series resonance parameter extraction**: A series circuit containing specified resistor and inductor values draws peak current at a given angular frequency. Students use the resonance condition to find the unknown capacitance.
+- **Impedance and power factor**: Circuits with given resistances and reactances require calculating the power factor cos phi, often formatted as an algebraic fraction or decimal.
+- **Transmission line power losses**: A generator delivers electric power to a distant load through a two-wire line of known resistance. Questions evaluate transmission efficiency and joule heating losses along the cables.
+- **Root mean square integration**: Deriving the root mean square value of custom current waveforms, such as currents that grow linearly from zero to a peak value across a single period.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Solve these representative problems from recent test sessions:
 
-- [Line of 2 Ω delivering 1 kW at 250 V: transmission efficiency](/q/q-2026-01-22-e-p08) (JEE Main 2026 22 Jan Shift 2)
-- [Series LCR (2 H, 100 Ω) at ω = 100 drawing its maximum 50 mA: capacitance](/q/q-2026-01-23-m-p22) (JEE Main 2026 23 Jan Shift 1, numerical answer)
-- [Current rising linearly as i0 tT from 0 to T: rms value](/q/q-2026-01-28-m-p01) (JEE Main 2026 28 Jan Shift 1)
-- [Loop rotating at 100 rad/s in 0.5 T: EMF of 15.4 mV at 30° gives the radius](/q/q-2026-01-22-e-p22) (JEE Main 2026 22 Jan Shift 2, numerical answer)
-- [Series LCR with the reactances and resistance shown: power factor α/10](/q/q-2026-01-24-m-p03) (JEE Main 2026 24 Jan Shift 1)
+- [Calculating power transmission efficiency for a two ohm line delivering electrical power](/q/q-2026-01-22-e-p08) (JEE Main 2026 22 Jan Shift 2, multiple choice)
+- [Finding unknown capacitance in resonant series LCR circuit drawing peak current](/q/q-2026-01-23-m-p22) (JEE Main 2026 23 Jan Shift 1, numerical answer)
+- [Evaluating root mean square current for a current that rises linearly over one period](/q/q-2026-01-28-m-p01) (JEE Main 2026 28 Jan Shift 1, multiple choice)
+- [Finding radius of rotating loop in magnetic field from induced electromotive force](/q/q-2026-01-22-e-p22) (JEE Main 2026 22 Jan Shift 2, numerical answer)
+- [Calculating power factor in series LCR circuit with specified resistance and reactances](/q/q-2026-01-24-m-p03) (JEE Main 2026 24 Jan Shift 1, multiple choice)
+- [Ratio of inductive reactance to resistance from stored energy and power dissipation](/q/q-2026-01-28-e-p24) (JEE Main 2026 28 Jan Shift 2, numerical answer)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Alternating Current.
+Master the phasor representation of series LCR circuits. Remember that current is identical through all series elements, while the voltage across an inductor leads the current by ninety degrees and the voltage across a capacitor lags by ninety degrees.
 
-Next, work through past JEE Main questions topic by topic. Start with LCR Circuits, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Practice using the impedance triangle to find total circuit impedance Z and phase angle phi. Because average power equals root mean square voltage multiplied by root mean square current multiplied by the power factor, calculating the cosine of the phase angle is central to most questions.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+Pay special attention to series resonance. At resonance, capacitive and inductive reactances cancel out, impedance reaches its minimum value equal to the pure ohmic resistance, current attains its maximum amplitude, and the power factor equals unity.
 
 ## Frequently asked questions
 
-### Is Alternating Current important for JEE Main 2027?
+### Which topic in alternating current provides the highest score return?
+Series LCR circuits account for 88 of the 142 modern questions. Thorough mastery of reactance formulas, total impedance, resonance frequency, and power factor covers the majority of exam items.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 142 questions across 162 papers, about 0.9 questions per paper. It ranks 18th of 29 Physics chapters by question volume.
+### What is the distinction between peak and root mean square values?
+For standard sinusoidal alternating signals, the root mean square value equals the peak amplitude divided by the square root of two. For non-sinusoidal waveforms like triangular or ramp waves, you must evaluate the root mean square by integrating the squared function over one period.
 
-### Which topic in Alternating Current has the most questions?
-
-LCR Circuits is the most-asked topic, with 88 questions from 2019 to 2026 in our collection.
-
-### Are questions in Alternating Current multiple choice or numerical?
-
-Both formats appear. Of the 142 questions from 2019 to 2026 in our set, 56 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Are parallel AC circuits tested in JEE Main?
+Standard JEE Main questions focus almost exclusively on series combinations of inductors, capacitors, and resistors. Parallel resonance and complex admittance methods are rarely tested. Step-by-step solutions for each one are in the EdLoop app.

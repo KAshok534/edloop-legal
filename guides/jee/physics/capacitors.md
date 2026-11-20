@@ -1,68 +1,55 @@
+# Capacitors: JEE Main PYQ Trends & Preparation Guide
+
+Capacitors connect electrostatic theory with electric circuits, offering direct applications in charge storage, energy density, and transient circuit response. Grouped with electrostatics under Unit 11: Electrostatics in the JEE Main syllabus, this Class 12 topic appears routinely across shifts. Between 2019 and 2026, the exam recorded 143 questions on capacitors across 162 papers, holding rank 17 among the 29 physics chapters with a 3.1 percent share of all physics questions.
+
 ## How often it comes up
 
-Capacitors is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **143 questions in 162 papers**, about **0.9 questions per paper**, and it appeared in 119 of those 162 papers. That places it **17th of 29 Physics chapters** by share of questions in that period, with 3.1% of all Physics questions.
-
-The share has stayed about the same across two decades. In the AIEEE and early JEE Main years (2002 to 2018) it was 2.9% of Physics; in the last three exam years (2024 to 2026) it is 2.9%, with 45 questions in 58 papers. The busiest year in our set was 2022, with 25 questions across 22 papers. Since 2019 there has been no year without it, appearing in 119 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 11: Electrostatics.
+During the computer-based era from 2019 to 2026, candidates faced 143 capacitor problems in 162 testing sessions, representing roughly 0.9 questions per paper. The chapter was present in 119 of those 162 papers, showing up consistently across testing seasons with questions asked every year. In the three years spanning 2024 to 2026, 45 questions appeared across 58 test papers, yielding an average of 0.8 questions per shift and a 2.9 percent share. The chapter's share has stayed about the same when compared to the 2002 to 2018 window, which also logged a 2.9 percent share with 39 questions in 38 tests. In 2026 alone, examiners included 16 capacitor problems across 19 papers, featured in 13 separate sessions. Notably, 49 questions from 2019 to 2026 required numerical answers, meaning about a third of all capacitor problems demand final numerical computation rather than option elimination.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 4 topics:
+The question pool divides across four core areas:
 
-- **Dielectrics**: 52 questions.
-- **Combinations**: 47 questions.
-- **RC Circuits**: 29 questions.
-- **Capacitance**: 15 questions.
-
-All 4 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- **Dielectrics**: 63 questions historically, including 52 from 2019 to 2026, continuing through 2026. Frequent problems evaluate partial slab insertion, composite dielectric arrangements with multiple slabs in series or parallel, and energy changes when slabs enter with or without a connected battery.
+- **Combinations**: 61 problems overall, with 47 between 2019 and 2026, tested up to 2026. This topic covers equivalent capacitance in bridge networks, symmetric ladder circuits, charge redistribution between disconnected or reconnected capacitors, and common potential calculations.
+- **RC Circuits**: 37 questions since 2002, with 29 appearing from 2019 to 2026, asked in 2026. Questions explore DC transient charging and discharging, exponential time constants, and steady-state currents where fully charged capacitors act as open circuits.
+- **Capacitance**: 21 lifetime problems, with 15 between 2019 and 2026, tested in 2026. Focus areas involve parallel plate geometry, pulling plates apart at constant charge or voltage, spherical and cylindrical capacitors, and mechanical electrostatic pressure.
 
 ## What the questions look like
 
-Questions in Capacitors test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Capacitor questions in JEE Main generally feature clear circuit diagrams and structured algebraic relations:
 
-In **Dielectrics**, questions focus on standard exam setups. Recent problems include: Dielectric sheet of one-third the gap inserted in a capacitor: new capacitance; 2 mm mica sheet in a 5 mm gap draws 25% more charge at fixed voltage: dielectric constant. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Combinations**, questions focus on standard exam setups. Recent problems include: 10 μF at 6 V connected across an uncharged 20 μF: charge on the second; Correct statements on series capacitance, dielectrics, plate area and equipotentials. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **RC Circuits**, questions focus on standard exam setups. Recent problems include: Cell, capacitor and two opposed diodes in parallel branches: steady-state charge; Network with a capacitor branch on a 10 V source: steady ammeter reading. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 49 of the 143 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Composite dielectric slabs**: Slabs of varying thickness and dielectric constant fill specific fractions of the gap between parallel plates. Students must model the system as combinations of sub-capacitors connected in series or parallel.
+- **Charge sharing between capacitors**: A capacitor charged to an initial voltage connects across another capacitor that is uncharged or charged with opposite polarity. Calculations determine final common voltages, individual charges, or heat dissipated during redistribution.
+- **Steady-state DC circuit analysis**: Circuits containing combinations of resistors and capacitors powered by a DC source. Candidates replace capacitors with open branches to determine branch currents and potential drops across specific elements.
+- **Dynamic plate movement**: Evaluating the work done by external forces or the rate of energy exchange as capacitor plates separate at constant velocity while connected to a supply.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Start your revision with these selected recent problems:
 
-- [Dielectric sheet of one-third the gap inserted in a capacitor: new capacitance](/q/q-2026-01-21-m-p04) (JEE Main 2026 21 Jan Shift 1)
-- [Cell, capacitor and two opposed diodes in parallel branches: steady-state charge](/q/q-2026-01-21-e-p18) (JEE Main 2026 21 Jan Shift 2)
-- [10 μF at 6 V connected across an uncharged 20 μF: charge on the second](/q/q-2026-01-22-e-p21) (JEE Main 2026 22 Jan Shift 2, numerical answer)
-- [Battery-connected capacitor, plates pulled apart: dU/dt x^α](/q/q-2026-04-04-m-p15) (B Tech 4th Apr 2026 Shift 1)
-- [2 mm mica sheet in a 5 mm gap draws 25% more charge at fixed voltage: dielect...](/q/q-2026-01-23-e-p12) (JEE Main 2026 23 Jan Shift 2)
+- [Capacitance change after inserting dielectric sheet across one third of plate separation](/q/q-2026-01-21-m-p04) (JEE Main 2026 21 Jan Shift 1, multiple choice)
+- [Steady state charge in DC circuit containing capacitor and opposing diodes](/q/q-2026-01-21-e-p18) (JEE Main 2026 21 Jan Shift 2, multiple choice)
+- [Final charge acquired after connecting charged capacitor to uncharged capacitor](/q/q-2026-01-22-e-p21) (JEE Main 2026 22 Jan Shift 2, numerical answer)
+- [Rate of electrostatic potential energy change as capacitor plates separate](/q/q-2026-04-04-m-p15) (B Tech 4th Apr 2026 Shift 1, multiple choice)
+- [Evaluating unknown dielectric constant from measured charge increase at fixed voltage](/q/q-2026-01-23-e-p12) (JEE Main 2026 23 Jan Shift 2, multiple choice)
+- [Equivalent capacitance for three part layered dielectric filling](/q/q-2026-01-23-m-p23) (JEE Main 2026 23 Jan Shift 1, numerical answer)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Capacitors.
+Master the distinction between isolated and battery-connected capacitors. When disconnected from a source, the stored charge Q stays constant while potential difference V and stored energy adjust with capacitance changes. When connected to a battery, voltage V remains fixed while charge Q and energy scale directly with capacitance.
 
-Next, work through past JEE Main questions topic by topic. Start with Dielectrics, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Pay special attention to equivalent capacitance when dielectric slabs fill portions of the gap. If slabs divide the gap perpendicular to the plates, treat them as series capacitances. If they divide the plate area parallel to the plates, treat them as parallel capacitances. Practice drawing equivalent circuits with labeled node voltages to break down complex networks.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+For transient circuits, be confident with the exponential charging and discharging equations. Know that at time zero an uncharged capacitor acts as a short circuit with zero voltage drop, while in the infinite time limit it acts as an open circuit blocking DC current.
 
 ## Frequently asked questions
 
-### Is Capacitors important for JEE Main 2027?
+### How often do capacitor questions involve dielectrics?
+Dielectrics account for the single largest share of capacitor questions, appearing in 52 problems between 2019 and 2026. Questions frequently test how capacitance, electric field, and stored electrostatic energy change when dielectric slabs fill portions of the plate gap.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 143 questions across 162 papers, about 0.9 questions per paper. It ranks 17th of 29 Physics chapters by question volume.
+### What is the most common mistake students make in capacitor combination problems?
+Students frequently confuse the series and parallel formulas for capacitors with those for resistors. In capacitors, parallel components add directly while series components add reciprocally. Another frequent pitfall is ignoring initial polarity when two charged capacitors connect in parallel.
 
-### Which topic in Capacitors has the most questions?
-
-Dielectrics is the most-asked topic, with 52 questions from 2019 to 2026 in our collection.
-
-### Are questions in Capacitors multiple choice or numerical?
-
-Both formats appear. Of the 143 questions from 2019 to 2026 in our set, 49 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Are RC circuit differential equations required for JEE Main?
+Standard JEE Main questions test either the steady-state DC limits or basic exponential growth and decay using the time constant RC. Complex transient differential equations are rarely tested in the Main exam. Step-by-step solutions for each one are in the EdLoop app.

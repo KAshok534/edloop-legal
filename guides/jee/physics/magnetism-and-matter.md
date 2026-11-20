@@ -1,67 +1,54 @@
+# Magnetism & Matter: JEE Main PYQ Trends & Preparation Guide
+
+Magnetism and matter covers macroscopic magnetic phenomena, bar magnets, terrestrial magnetism, and the classification of magnetic substances. Positioned under Unit 13: Magnetic Effects of Current and Magnetism in the Class 12 physics curriculum, this chapter represents a compact, descriptive portion of the exam. Across the 162 papers administered between 2019 and 2026, the question archive documents 57 questions, placing the chapter at rank 28 among the 29 physics chapters with a 1.2 percent share of total physics questions.
+
 ## How often it comes up
 
-Magnetism & Matter is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **57 questions in 162 papers**, about **0.4 questions per paper**, and it appeared in 50 of those 162 papers. That places it **28th of 29 Physics chapters** by share of questions in that period, with 1.2% of all Physics questions.
-
-The share has fallen since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 1.7% of Physics; in the last three exam years (2024 to 2026) it declined to 0.8%, with 13 questions in 58 papers. The busiest year in our set was 2021, with 13 questions across 26 papers. Since 2019 there has been no year without it, appearing in 50 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 13: Magnetic Effects of Current and Magnetism.
+In the computerized testing interval from 2019 to 2026, 57 questions appeared across 162 papers, representing an average of 0.4 questions per shift. The chapter featured in 50 of those 162 papers, and questions have been asked every year across that span. Examining the recent 2024 to 2026 cycle shows 13 questions across 58 papers, an average of 0.2 questions per test and a 0.8 percent share. The chapter's share is down when compared against the 2002 to 2018 period, which recorded 23 questions across 38 papers for a 1.7 percent share. Relative to the broader 2019 to 2026 baseline, the recent share has stayed about the same. In 2026 specifically, 4 questions were distributed across 19 papers, appearing in 3 testing sessions. Between 2019 and 2026, exactly 10 problems were presented in numerical answer format, with the majority of questions remaining conceptual multiple choice items.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Questions from this chapter center on three distinct subject divisions:
 
-- **Magnetic Materials**: 32 questions.
-- **Bar Magnet**: 16 questions.
-- **Earth's Magnetism**: 9 questions.
-
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- **Magnetic Materials**: 41 total questions since 2003, with 32 between 2019 and 2026, tested up to 2026. This topic explores the properties of diamagnetic, paramagnetic, and ferromagnetic materials, domain theory, Curie temperature, magnetic susceptibility, and the relation between permeability and susceptibility.
+- **Bar Magnet**: 28 questions overall, including 16 from 2019 to 2026, continuing in 2026. Problems evaluate magnetic dipole moments, axial and equatorial fields of short bar magnets, torque in external fields, potential energy of orientation, and work done rotating a dipole from stable to unstable alignment.
+- **Earth's Magnetism**: 11 lifetime questions, with 9 appearing between 2019 and 2026, last tested in 2023. Core themes analyze magnetic elements of the Earth, including angle of dip, declination, and horizontal and vertical field components.
 
 ## What the questions look like
 
-Questions in Magnetism & Matter test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Exam questions in this chapter are largely conceptual, with occasional compact numerical evaluations:
 
-In **Magnetic Materials**, questions focus on standard exam setups. Recent problems include: Ferromagnetic domains and the Curie temperature: assertion and reason; Solenoid core with μr = 400 and B = 1 T: magnetic intensity H. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Bar Magnet**, questions focus on standard exam setups. Recent problems include: Bar magnet at 30° in 800 G feeling 0.016 N m: work from most stable to most unstable; Two perpendicular bar magnets 10 cm apart: field at the midpoint. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Earth's Magnetism**, questions focus on standard exam setups. Recent problems include: Compass oscillations at two places with dips 30° and 60°: ratio of total fields. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 10 of the 57 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Classification of magnetic media**: Identifying differences in magnetic susceptibility across diamagnetic, paramagnetic, and ferromagnetic substances, or determining behavior in non-uniform magnetic fields.
+- **Rotating a bar magnet**: Calculating the mechanical work necessary to flip a permanent magnet from its equilibrium position aligned with an external field to the anti-parallel configuration.
+- **Relations between field vectors**: Connecting magnetic induction B, magnetic intensity H, and magnetization M within a solenoid core of known relative permeability.
+- **Dip needle and compass oscillations**: Evaluating how the time period of an oscillating magnetic needle varies with the horizontal component of the terrestrial field across differing dip angles.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Review these representative questions from recent examination papers:
 
-- [Ferromagnetic domains and the Curie temperature: assertion and reason](/q/q-2026-01-23-m-p18) (JEE Main 2026 23 Jan Shift 1)
-- [Bar magnet at 30° in 800 G feeling 0.016 N m: work from most stable to most u...](/q/q-2026-01-24-m-p23) (JEE Main 2026 24 Jan Shift 1, numerical answer)
-- [Compass oscillations at two places with dips 30° and 60°: ratio of total fields](/q/q-2023-04-12-m-p20) (JEE Main 2023 12 Apr Shift 1, numerical answer)
-- [Solenoid core with μr = 400 and B = 1 T: magnetic intensity H](/q/q-2026-04-04-e-p14) (B Tech 4th Apr 2026 Shift 2)
-- [Two perpendicular bar magnets 10 cm apart: field at the midpoint](/q/q-2026-04-04-e-p23) (B Tech 4th Apr 2026 Shift 2, numerical answer)
+- [Assertion and reason on ferromagnetic domains and Curie temperature behavior](/q/q-2026-01-23-m-p18) (JEE Main 2026 23 Jan Shift 1, multiple choice)
+- [Work required to turn a bar magnet from stable to unstable equilibrium in a magnetic field](/q/q-2026-01-24-m-p23) (JEE Main 2026 24 Jan Shift 1, numerical answer)
+- [Ratio of total terrestrial fields from compass oscillation periods at different dip angles](/q/q-2023-04-12-m-p20) (JEE Main 2023 12 Apr Shift 1, numerical answer)
+- [Calculating magnetic intensity inside a solenoid core of given relative permeability](/q/q-2026-04-04-e-p14) (B Tech 4th Apr 2026 Shift 2, multiple choice)
+- [Net magnetic field at midpoint between two mutually perpendicular bar magnets](/q/q-2026-04-04-e-p23) (B Tech 4th Apr 2026 Shift 2, numerical answer)
+- [Matching magnetic quantities and vectors with their appropriate SI units](/q/q-2025-01-29-e-p18) (JEE Main 2025 29 Jan Shift 2, multiple choice)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Magnetism & Matter.
+Begin by thoroughly learning the definitions and relationships connecting magnetic induction, magnetic field intensity, magnetization, and susceptibility. Ensure you know the exact algebraic connections and SI units for each quantity, as unit matching questions appear regularly.
 
-Next, work through past JEE Main questions topic by topic. Start with Magnetic Materials, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Memorize the distinctive characteristics of diamagnetic, paramagnetic, and ferromagnetic materials. Pay attention to how susceptibility depends on temperature for each class, particularly Curie's law for paramagnets and the Curie-Weiss law near the transition temperature.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+For bar magnet problems, draw analogies to electric dipoles. The formulas for magnetic field along the axis and the broadside-on position correspond directly to electric dipole equations when replacing permittivity with magnetic permeability.
 
 ## Frequently asked questions
 
-### Is Magnetism & Matter important for JEE Main 2027?
+### Has Earth's magnetism been removed from the syllabus?
+While Earth's magnetic elements were last asked in 2023 and have seen reduced emphasis in recent syllabus revisions, bar magnets and magnetic material classifications continue to be tested regularly in 2026.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 57 questions across 162 papers, about 0.4 questions per paper. It ranks 28th of 29 Physics chapters by question volume.
+### How much preparation time should be devoted to this chapter?
+Because it ranks 28 in overall question share and features predominantly qualitative questions, studying NCERT text and reviewing recent past questions for a few hours is usually sufficient for full coverage.
 
-### Which topic in Magnetism & Matter has the most questions?
-
-Magnetic Materials is the most-asked topic, with 32 questions from 2019 to 2026 in our collection.
-
-### Are questions in Magnetism & Matter multiple choice or numerical?
-
-Both formats appear. Of the 57 questions from 2019 to 2026 in our set, 10 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### What is the most critical formula to remember for magnetic materials?
+The relationship connecting relative permeability with magnetic susceptibility, alongside the equation relating total magnetic induction to magnetic intensity and magnetization, forms the core of most calculation problems. Step-by-step solutions for each one are in the EdLoop app.

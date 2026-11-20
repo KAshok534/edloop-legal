@@ -1,70 +1,57 @@
+# Electrostatics: JEE Main PYQ Trends & Preparation Guide
+
+Electrostatics forms the bedrock of Class 12 physics and serves as the starting point for all electromagnetic theory in JEE Main. Preserved within Unit 11: Electrostatics of the current syllabus, it accounts for a major portion of the physics section every single session. Across 162 papers administered between 2019 and 2026, the question pool records 230 questions from this chapter alone. It ranks 5 among the 29 physics chapters by total weight, contributing 5.0 percent of the physics questions over that span.
+
 ## How often it comes up
 
-Electrostatics is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **230 questions in 162 papers**, about **1.4 questions per paper**, and it appeared in 149 of those 162 papers. That places it **5th of 29 Physics chapters** by share of questions in that period, with 5.0% of all Physics questions.
-
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 5.0% of Physics; in the last three exam years (2024 to 2026) it rose to 5.9%, with 92 questions in 58 papers. The busiest year in our set was 2023, with 34 questions across 24 papers. Since 2019 there has been no year without it, appearing in 149 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 11: Electrostatics.
+In the modern computerized testing window from 2019 to 2026, electrostatics delivered 230 questions across 162 papers, an average of 1.4 problems in every sitting. A student encounters questions from this chapter in most tests, as 149 of those 162 test shifts included at least one problem. Testing has taken place every single year without interruption. Looking at recent testing cycles, the chapter's presence has shifted up: across the 58 papers set between 2024 and 2026, candidates tackled 92 questions, lifting its subject share to 5.9 percent with an average rate of 1.6 questions per shift. In the earlier paper-based window from 2002 to 2018, the chapter contributed 67 questions across 38 papers, yielding a 5.0 percent share. In the 2026 exam cycle alone, 19 papers featured 26 questions, appearing in 16 separate shifts. Across the 2019 to 2026 timeline, 53 questions required numerical answers without multiple options, meaning students regularly calculate exact numerical values for electrostatic field, flux, and energy.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 6 topics:
+Six distinct concepts structure the questions from this chapter:
 
-- **Gauss's Law**: 57 questions.
-- **Electric Potential**: 54 questions.
-- **Electric Field**: 41 questions.
-- **Charge & Coulomb's Law**: 33 questions.
-- **Electric Dipole**: 31 questions.
-- **Conductors**: 14 questions.
-
-All 6 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- **Gauss's Law**: 75 total questions since 2002, with 57 asked between 2019 and 2026, tested up to 2026. Problems demand flux calculations through geometric surfaces like cubes, cylinders, and spheres, as well as field determinations for infinite sheets, wire distributions, and non-uniform volume charge densities.
+- **Electric Potential**: 73 problems overall, including 54 in the 2019 to 2026 period and appearing in 2026. This area tests work done moving charges through electric fields, potential profiles of concentric conducting shells, and the calculation of potential from field gradients.
+- **Electric Field**: 54 total questions, with 41 coming between 2019 and 2026, continuing into 2026. Typical questions evaluate vector superpositions from discrete charge arrangements, circular arcs, and ring axes.
+- **Charge & Coulomb's Law**: 44 lifetime questions, with 33 asked from 2019 to 2026, tested in 2026. Questions explore pairwise forces, null points, equilibrium of suspended hanging pith balls, and integration over continuous linear rods.
+- **Electric Dipole**: 33 problems across all years, with 31 concentrated between 2019 and 2026, tested through 2026. Core themes involve axial and equatorial field strengths, torque in uniform fields, and potential energy of rotating dipoles.
+- **Conductors**: 18 problems overall, including 14 between 2019 and 2026, tested in 2026. Questions probe charge redistribution between connected metal spheres, surface charge densities, and cavity shielding.
 
 ## What the questions look like
 
-Questions in Electrostatics test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+JEE Main tests electrostatics through both algebraic deductions and direct multi-step arithmetic:
 
-In **Gauss's Law**, questions focus on standard exam setups. Recent problems include: 2q at a cube corner and q at the centre of a face: flux through the cube. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Electric Potential**, questions focus on standard exam setups. Recent problems include: Two charged spheres 4R apart sent towards each other: minimum speed to just touch; Moving 2 μC from (4, 4, 2) to (2, 2, 1) near a charge at the origin: work done. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Electric Field**, questions focus on standard exam setups. Recent problems include: Five +Q and one −Q, 60° apart on a circle: field vector at the centre. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 53 of the 230 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Flux through closed geometric shells**: A charge placed at an apex, edge, or face center of a prism or cube requires symmetry arguments or solid angle apportioning to determine the net escaping flux.
+- **Concentric conducting spherical systems**: Multiple concentric spherical shells carry specified charges or potentials. Questions ask for potential values on each shell surface or the charge shifted after earthing or interconnecting them.
+- **Vector superposition of fields**: Point charges arranged symmetrically around circles, pentagons, or squares create composite field vectors at the geometric center or along a perpendicular axis.
+- **Continuous charge distributions**: Calculating the electrostatic force on a point charge positioned along the extension of a uniformly charged thin rod requires setting up an integral over infinitesimal elements.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Try these representative recent problems:
 
-- [Two charged spheres 4R apart sent towards each other: minimum speed to just t...](/q/q-2026-01-21-e-p01) (JEE Main 2026 21 Jan Shift 2)
-- [Five +Q and one −Q, 60° apart on a circle: field vector at the centre](/q/q-2026-01-22-m-p17) (JEE Main 2026 22 Jan Shift 1)
-- [Short dipoles of ±4 μC (vertical) and ±2 μC (horizontal) 80 cm apart: field m...](/q/q-2026-01-23-e-p08) (JEE Main 2026 23 Jan Shift 2)
-- [2q at a cube corner and q at the centre of a face: flux through the cube](/q/q-2026-01-23-m-p11) (JEE Main 2026 23 Jan Shift 1)
-- [1 μC charge 2 cm beyond the end of a 10 cm rod carrying 24 μC: force](/q/q-2026-01-24-e-p25) (JEE Main 2026 24 Jan Shift 2, numerical answer)
+- [Speed needed for two approaching charged spheres to make contact](/q/q-2026-01-21-e-p01) (JEE Main 2026 21 Jan Shift 2, multiple choice)
+- [Resultant electric field at center of ring with six distributed charges](/q/q-2026-01-22-m-p17) (JEE Main 2026 22 Jan Shift 1, multiple choice)
+- [Midpoint electric field created by two orthogonal short dipoles](/q/q-2026-01-23-e-p08) (JEE Main 2026 23 Jan Shift 2, multiple choice)
+- [Electric flux exiting a cube with charges at corner and face](/q/q-2026-01-23-m-p11) (JEE Main 2026 23 Jan Shift 1, multiple choice)
+- [Coulomb force exerted by a charged rod on an adjacent point charge](/q/q-2026-01-24-e-p25) (JEE Main 2026 24 Jan Shift 2, numerical answer)
+- [Surface electric field ratio for two connected conducting spheres](/q/q-2026-04-02-m-p09) (B Tech 2nd Apr 2026 Shift 1, multiple choice)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Electrostatics.
+Begin by establishing strong vector fluency. Coulomb's law and electric field evaluations are vector operations, so writing unit vectors and resolving components along coordinate axes prevents sign mistakes.
 
-Next, work through past JEE Main questions topic by topic. Start with Gauss's Law, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Next, master the fundamental integral relationships connecting field and potential. When given a position-dependent electric field vector, integrate along the path to calculate work and potential difference. For continuous objects like charged rings, discs, and rods, practice setting up differential charge elements dq and evaluating the definite integrals.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+Dedicate focused time to Gauss's law and conductor electrostatics. Learn how to enclose charges using symmetric Gaussian surfaces and apply the principle that all static excess charge sits on the outer conductor boundary. Solve past numerical questions to build precision in converting prefixes like microcoulombs and centimeters without arithmetic slips.
 
 ## Frequently asked questions
 
-### Is Electrostatics important for JEE Main 2027?
+### Which topic in electrostatics carries the most weight?
+Gauss's law and electric potential together account for more than half of all electrostatics questions in JEE Main. Focusing on flux calculations, potential differences, and energy conservation yields the highest return.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 230 questions across 162 papers, about 1.4 questions per paper. It ranks 5th of 29 Physics chapters by question volume.
+### Are questions from electrostatics mostly theoretical or calculation-heavy?
+The majority of questions require algebraic manipulation or numerical calculation. With 53 numerical response questions appearing between 2019 and 2026, students must be ready to work through calculations accurately to an integer answer.
 
-### Which topic in Electrostatics has the most questions?
-
-Gauss's Law is the most-asked topic, with 57 questions from 2019 to 2026 in our collection.
-
-### Are questions in Electrostatics multiple choice or numerical?
-
-Both formats appear. Of the 230 questions from 2019 to 2026 in our set, 53 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### How should I study conductors and spherical shells?
+Focus on the properties of electrostatic equilibrium: electric fields vanish inside conducting material, excess charges reside on surfaces, and interconnected conductors equalize their electric potentials. Step-by-step solutions for each one are in the EdLoop app.
