@@ -1,0 +1,351 @@
+{
+ "chapter": "Nuclei",
+ "subject": "Physics",
+ "chapter_id": "phy-nuclei",
+ "page_url": "/jee/pyq/physics/nuclei",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 18: Atoms and Nuclei",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 164,
+  "papers_with_this_chapter": 131,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 151
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 120,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 104,
+  "per_paper": 0.7,
+  "share_of_subject_percent": 2.6
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 44,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 27,
+  "per_paper": 1.2,
+  "share_of_subject_percent": 3.3
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 39,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 35,
+  "per_paper": 0.7,
+  "share_of_subject_percent": 2.5
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 23,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 27,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2003": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2004": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2005": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2006": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2007": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2010": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2011": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2012": {
+   "questions": 4,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 0.8
+  },
+  "2013": {
+   "questions": 2,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.4
+  },
+  "2014": {
+   "questions": 3,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 3,
+   "per_paper": 0.6
+  },
+  "2015": {
+   "questions": 1,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.3
+  },
+  "2016": {
+   "questions": 1,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.3
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 4,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2019": {
+   "questions": 8,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.5
+  },
+  "2020": {
+   "questions": 9,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.6
+  },
+  "2021": {
+   "questions": 20,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 16,
+   "per_paper": 0.8
+  },
+  "2022": {
+   "questions": 20,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 16,
+   "per_paper": 0.9
+  },
+  "2023": {
+   "questions": 24,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 20,
+   "per_paper": 1.0
+  },
+  "2024": {
+   "questions": 18,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.9
+  },
+  "2025": {
+   "questions": 8,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.4
+  },
+  "2026": {
+   "questions": 13,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 12,
+   "per_paper": 0.7
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Radioactivity",
+   "questions": 85,
+   "questions_2019_2026": 57,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Nuclear Structure",
+   "questions": 50,
+   "questions_2019_2026": 38,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Nuclear Reactions",
+   "questions": 29,
+   "questions_2019_2026": 25,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-22-m-p20",
+   "url": "/q/q-2026-01-22-m-p20",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Structure",
+   "paper_is": "NTA paper",
+   "text": "Photon frequency to break a 15.348 u particle into four alpha particles (in kHz)"
+  },
+  {
+   "id": "q-2026-01-23-e-p21",
+   "url": "/q/q-2026-01-23-e-p21",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Nuclear Reactions",
+   "paper_is": "NTA paper",
+   "text": "47 g of U-235 at 190 MeV per fission: total energy in units of 10^23 MeV"
+  },
+  {
+   "id": "q-2026-04-08-e-p19",
+   "url": "/q/q-2026-04-08-e-p19",
+   "paper": "B Tech 8th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Radioactivity",
+   "paper_is": "NTA paper",
+   "text": "α-decays of A = 200 and A = 212 with equal Q: ratio of α energies"
+  },
+  {
+   "id": "q-2026-01-23-e-p06",
+   "url": "/q/q-2026-01-23-e-p06",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Structure",
+   "paper_is": "NTA paper",
+   "text": "Which pair of nuclei are isobars?"
+  },
+  {
+   "id": "q-2026-01-24-e-p01",
+   "url": "/q/q-2026-01-24-e-p01",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Structure",
+   "paper_is": "NTA paper",
+   "text": "He-3 + n releasing 20 MeV and He-4 + n absorbing 0.9 MeV: stability order of He-3, 4, 5"
+  },
+  {
+   "id": "q-2026-01-24-m-p13",
+   "url": "/q/q-2026-01-24-m-p13",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Structure",
+   "paper_is": "NTA paper",
+   "text": "Binding energy per nucleon against nuclear mass, and the direction of nuclear changes"
+  },
+  {
+   "id": "q-2026-01-28-m-p03",
+   "url": "/q/q-2026-01-28-m-p03",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Structure",
+   "paper_is": "NTA paper",
+   "text": "Nucleus with A = 8 absorbing 10 p, 9 n and 10 e: change in nuclear surface area"
+  },
+  {
+   "id": "q-2026-01-28-e-p09",
+   "url": "/q/q-2026-01-28-e-p09",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Structure",
+   "paper_is": "NTA paper",
+   "text": "Nuclei with mass numbers α and 8α: ratio of radii Rα/Rβ"
+  },
+  {
+   "id": "q-2026-04-02-e-p19",
+   "url": "/q/q-2026-04-02-e-p19",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Structure",
+   "paper_is": "NTA paper",
+   "text": "Binding energy per nucleon of ^20983Bi from atomic masses"
+  },
+  {
+   "id": "q-2026-04-04-m-p04",
+   "url": "/q/q-2026-04-04-m-p04",
+   "paper": "B Tech 4th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Reactions",
+   "paper_is": "NTA paper",
+   "text": "Two A = 3 nuclei and one A = 4 nucleus fuse to A = 10: energy change"
+  },
+  {
+   "id": "q-2026-04-05-e-p19",
+   "url": "/q/q-2026-04-05-e-p19",
+   "paper": "B Tech 5th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Structure",
+   "paper_is": "NTA paper",
+   "text": "Mass defect of carbon-12 in MeV/c² from proton and neutron masses"
+  },
+  {
+   "id": "q-2026-04-06-e-p16",
+   "url": "/q/q-2026-04-06-e-p16",
+   "paper": "B Tech 6th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Nuclear Reactions",
+   "paper_is": "NTA paper",
+   "text": "Two deuterons fusing into helium-4: energy from binding energies per nucleon"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

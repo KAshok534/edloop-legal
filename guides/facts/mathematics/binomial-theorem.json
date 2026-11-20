@@ -1,0 +1,351 @@
+{
+ "chapter": "Binomial Theorem",
+ "subject": "Mathematics",
+ "chapter_id": "math-binom",
+ "page_url": "/jee/pyq/mathematics/binomial-theorem",
+ "class_level": 11,
+ "nta_syllabus_unit": "Unit 5: Binomial Theorem and its Simple Applications",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 256,
+  "papers_with_this_chapter": 190,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 240
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 207,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 153,
+  "per_paper": 1.3,
+  "share_of_subject_percent": 4.5
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 49,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 37,
+  "per_paper": 1.3,
+  "share_of_subject_percent": 3.7
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 60,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 52,
+  "per_paper": 1.0,
+  "share_of_subject_percent": 3.9
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 9,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 84,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2003": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2004": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2005": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2006": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2007": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2010": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2011": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2012": {
+   "questions": 4,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 0.8
+  },
+  "2013": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2014": {
+   "questions": 6,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.2
+  },
+  "2015": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2016": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 4,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2019": {
+   "questions": 21,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.3
+  },
+  "2020": {
+   "questions": 17,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 15,
+   "per_paper": 1.1
+  },
+  "2021": {
+   "questions": 37,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 24,
+   "per_paper": 1.4
+  },
+  "2022": {
+   "questions": 26,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 22,
+   "per_paper": 1.2
+  },
+  "2023": {
+   "questions": 46,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 24,
+   "per_paper": 1.9
+  },
+  "2024": {
+   "questions": 21,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 19,
+   "per_paper": 1.1
+  },
+  "2025": {
+   "questions": 23,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 19,
+   "per_paper": 1.2
+  },
+  "2026": {
+   "questions": 16,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 14,
+   "per_paper": 0.8
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "General & Middle Terms",
+   "questions": 139,
+   "questions_2019_2026": 107,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Binomial Coefficients",
+   "questions": 103,
+   "questions_2019_2026": 91,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Other Expansions",
+   "questions": 14,
+   "questions_2019_2026": 9,
+   "last_year_asked": 2025
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-m-m01",
+   "url": "/q/q-2026-01-21-m-m01",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "General & Middle Terms",
+   "paper_is": "NTA paper",
+   "text": "(ax^2 + bx + c)(1 - 2x)^26 with given coefficients of x, x², x³: find a + b + c"
+  },
+  {
+   "id": "q-2026-01-22-e-m11",
+   "url": "/q/q-2026-01-22-e-m11",
+   "paper": "JEE Main 2026 22 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Binomial Coefficients",
+   "paper_is": "NTA paper",
+   "text": "Pn = Σ(-2)^r/r + 1Cr; sum of 1P2n for n = 1 to 25"
+  },
+  {
+   "id": "q-2025-01-23-m-m24",
+   "url": "/q/q-2025-01-23-m-m24",
+   "paper": "JEE Main 2025 23 Jan Shift 1",
+   "year": 2025,
+   "type": "numerical answer",
+   "topic": "Other Expansions",
+   "paper_is": "memory based",
+   "text": "Sum of rational terms of (1 + 2^(1/3) + 3^(1/2))⁶"
+  },
+  {
+   "id": "q-2026-01-22-m-m18",
+   "url": "/q/q-2026-01-22-m-m18",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Binomial Coefficients",
+   "paper_is": "NTA paper",
+   "text": "Coefficient of x^48 in Σk=1^100k(1 + x)^k"
+  },
+  {
+   "id": "q-2026-01-23-m-m19",
+   "url": "/q/q-2026-01-23-m-m19",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "General & Middle Terms",
+   "paper_is": "NTA paper",
+   "text": "Coefficients of x, x², x³ in (1 + x^2)^2(1 + x)^n in AP: sum of possible n"
+  },
+  {
+   "id": "q-2026-01-23-m-m20",
+   "url": "/q/q-2026-01-23-m-m20",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Binomial Coefficients",
+   "paper_is": "NTA paper",
+   "text": "Sum of ^100Ckk + 1 for k = 50 to 100"
+  },
+  {
+   "id": "q-2026-01-24-m-m11",
+   "url": "/q/q-2026-01-24-m-m11",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Binomial Coefficients",
+   "paper_is": "NTA paper",
+   "text": "Sum 1/25! + 1/3!23! + … (13 terms) as 2^k/13 n!: n + k"
+  },
+  {
+   "id": "q-2026-01-28-e-m03",
+   "url": "/q/q-2026-01-28-e-m03",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Binomial Coefficients",
+   "paper_is": "NTA paper",
+   "text": "25^13 + 20^13 + 8^13 + 3^13 divisible by 7; parity of [(7 + 43)^25]"
+  },
+  {
+   "id": "q-2026-01-28-e-m06",
+   "url": "/q/q-2026-01-28-e-m06",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Binomial Coefficients",
+   "paper_is": "NTA paper",
+   "text": "Sum of coefficients of x^499 and x^500 in Σk x^k(1 + x)^1000-k"
+  },
+  {
+   "id": "q-2026-04-02-e-m06",
+   "url": "/q/q-2026-04-02-e-m06",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Binomial Coefficients",
+   "paper_is": "NTA paper",
+   "text": "Weighted sum of ^30Ck terms with weights 1, 3, 3, 1 as a single ^mCr"
+  },
+  {
+   "id": "q-2026-04-04-e-m09",
+   "url": "/q/q-2026-04-04-e-m09",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "General & Middle Terms",
+   "paper_is": "NTA paper",
+   "text": "Term independent of x in (9x - 1/3 x)^18"
+  },
+  {
+   "id": "q-2026-04-04-m-m09",
+   "url": "/q/q-2026-04-04-m-m09",
+   "paper": "B Tech 4th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "General & Middle Terms",
+   "paper_is": "NTA paper",
+   "text": "Coefficient of x^3 in Σ(1+x)^r + (1+kx)^100 of a given form: smallest k"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

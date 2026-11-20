@@ -1,0 +1,351 @@
+{
+ "chapter": "Magnetism & Matter",
+ "subject": "Physics",
+ "chapter_id": "phy-magmat",
+ "page_url": "/jee/pyq/physics/magnetism-and-matter",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 13: Magnetic Effects of Current and Magnetism",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2003,
+  "to": 2026,
+  "questions": 80,
+  "papers_with_this_chapter": 68,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 76
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 57,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 50,
+  "per_paper": 0.4,
+  "share_of_subject_percent": 1.2
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 23,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 18,
+  "per_paper": 0.6,
+  "share_of_subject_percent": 1.7
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 13,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 12,
+  "per_paper": 0.2,
+  "share_of_subject_percent": 0.8
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 28,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 10,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2003": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2004": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2005": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2006": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2007": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2010": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2011": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2012": {
+   "questions": 1,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.2
+  },
+  "2013": {
+   "questions": 2,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.4
+  },
+  "2014": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2015": {
+   "questions": 1,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.3
+  },
+  "2016": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2017": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2018": {
+   "questions": 1,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.3
+  },
+  "2019": {
+   "questions": 8,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 7,
+   "per_paper": 0.5
+  },
+  "2020": {
+   "questions": 6,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 6,
+   "per_paper": 0.4
+  },
+  "2021": {
+   "questions": 13,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 11,
+   "per_paper": 0.5
+  },
+  "2022": {
+   "questions": 10,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.5
+  },
+  "2023": {
+   "questions": 7,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 5,
+   "per_paper": 0.3
+  },
+  "2024": {
+   "questions": 5,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 5,
+   "per_paper": 0.3
+  },
+  "2025": {
+   "questions": 4,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 4,
+   "per_paper": 0.2
+  },
+  "2026": {
+   "questions": 4,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 3,
+   "per_paper": 0.2
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Magnetic Materials",
+   "questions": 41,
+   "questions_2019_2026": 32,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Bar Magnet",
+   "questions": 28,
+   "questions_2019_2026": 16,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Earth's Magnetism",
+   "questions": 11,
+   "questions_2019_2026": 9,
+   "last_year_asked": 2023
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-23-m-p18",
+   "url": "/q/q-2026-01-23-m-p18",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Magnetic Materials",
+   "paper_is": "NTA paper",
+   "text": "Ferromagnetic domains and the Curie temperature: assertion and reason"
+  },
+  {
+   "id": "q-2026-01-24-m-p23",
+   "url": "/q/q-2026-01-24-m-p23",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Bar Magnet",
+   "paper_is": "NTA paper",
+   "text": "Bar magnet at 30° in 800 G feeling 0.016 N m: work from most stable to most unstable"
+  },
+  {
+   "id": "q-2023-04-12-m-p20",
+   "url": "/q/q-2023-04-12-m-p20",
+   "paper": "JEE Main 2023 12 Apr Shift 1",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Earth's Magnetism",
+   "paper_is": "memory based",
+   "text": "Compass oscillations at two places with dips 30° and 60°: ratio of total fields"
+  },
+  {
+   "id": "q-2026-04-04-e-p14",
+   "url": "/q/q-2026-04-04-e-p14",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Magnetic Materials",
+   "paper_is": "NTA paper",
+   "text": "Solenoid core with μr = 400 and B = 1 T: magnetic intensity H"
+  },
+  {
+   "id": "q-2026-04-04-e-p23",
+   "url": "/q/q-2026-04-04-e-p23",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Bar Magnet",
+   "paper_is": "NTA paper",
+   "text": "Two perpendicular bar magnets 10 cm apart: field at the midpoint"
+  },
+  {
+   "id": "q-2025-01-29-e-p18",
+   "url": "/q/q-2025-01-29-e-p18",
+   "paper": "JEE Main 2025 29 Jan Shift 2",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Magnetic Materials",
+   "paper_is": "memory based",
+   "text": "Match magnetic induction, intensity, flux and moment with their units"
+  },
+  {
+   "id": "q-2025-04-02-m-p19",
+   "url": "/q/q-2025-04-02-m-p19",
+   "paper": "JEE Main 2025 02 Apr Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Magnetic Materials",
+   "paper_is": "memory based",
+   "text": "Relation between magnetic susceptibility and permeability"
+  },
+  {
+   "id": "q-2025-04-07-m-p01",
+   "url": "/q/q-2025-04-07-m-p01",
+   "paper": "JEE Main 2025 07 Apr Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Magnetic Materials",
+   "paper_is": "memory based",
+   "text": "Percentage increase in B when a solenoid is filled with magnesium (χ = 1.2 × 10⁻⁵)"
+  },
+  {
+   "id": "q-2025-04-07-e-p02",
+   "url": "/q/q-2025-04-07-e-p02",
+   "paper": "JEE Main 2025 07 Apr Shift 2",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Bar Magnet",
+   "paper_is": "memory based",
+   "text": "No magnetic monopoles and closed magnetic field lines"
+  },
+  {
+   "id": "q-2024-01-29-m-p27",
+   "url": "/q/q-2024-01-29-m-p27",
+   "paper": "JEE Main 2024 29 Jan Shift 1",
+   "year": 2024,
+   "type": "numerical answer",
+   "topic": "Bar Magnet",
+   "paper_is": "memory based",
+   "text": "Magnetic moment from the magnetic potential 1.5 × 10⁻⁵ T m at 20 cm on the axis"
+  },
+  {
+   "id": "q-2024-04-04-e-p13",
+   "url": "/q/q-2024-04-04-e-p13",
+   "paper": "JEE Main 2024 04 Apr Shift 2",
+   "year": 2024,
+   "type": "multiple choice",
+   "topic": "Bar Magnet",
+   "paper_is": "memory based",
+   "text": "Work to turn a bar magnet from its most stable to its most unstable position"
+  },
+  {
+   "id": "q-2024-04-08-m-p13",
+   "url": "/q/q-2024-04-08-m-p13",
+   "paper": "JEE Main 2024 08 Apr Shift 1",
+   "year": 2024,
+   "type": "multiple choice",
+   "topic": "Magnetic Materials",
+   "paper_is": "memory based",
+   "text": "Properties of paramagnetic substances"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

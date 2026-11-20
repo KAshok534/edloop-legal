@@ -1,0 +1,357 @@
+{
+ "chapter": "Three Dimensional Geometry",
+ "subject": "Mathematics",
+ "chapter_id": "math-3d",
+ "page_url": "/jee/pyq/mathematics/three-dimensional-geometry",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 11: Three Dimensional Geometry",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 416,
+  "papers_with_this_chapter": 200,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 384
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 330,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 162,
+  "per_paper": 2.0,
+  "share_of_subject_percent": 7.2
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 86,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 38,
+  "per_paper": 2.3,
+  "share_of_subject_percent": 6.6
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 107,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 58,
+  "per_paper": 1.8,
+  "share_of_subject_percent": 6.9
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 1,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 86,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2003": {
+   "questions": 6,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 6.0
+  },
+  "2004": {
+   "questions": 5,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 5.0
+  },
+  "2005": {
+   "questions": 5,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 5.0
+  },
+  "2006": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2007": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2008": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2009": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2010": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2011": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2012": {
+   "questions": 9,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.8
+  },
+  "2013": {
+   "questions": 10,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 2.0
+  },
+  "2014": {
+   "questions": 10,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 2.0
+  },
+  "2015": {
+   "questions": 6,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 2.0
+  },
+  "2016": {
+   "questions": 6,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 2.0
+  },
+  "2017": {
+   "questions": 6,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 2.0
+  },
+  "2018": {
+   "questions": 8,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 2.0
+  },
+  "2019": {
+   "questions": 34,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 16,
+   "per_paper": 2.1
+  },
+  "2020": {
+   "questions": 18,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.1
+  },
+  "2021": {
+   "questions": 55,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 26,
+   "per_paper": 2.1
+  },
+  "2022": {
+   "questions": 45,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 22,
+   "per_paper": 2.0
+  },
+  "2023": {
+   "questions": 71,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 24,
+   "per_paper": 3.0
+  },
+  "2024": {
+   "questions": 41,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 20,
+   "per_paper": 2.1
+  },
+  "2025": {
+   "questions": 34,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 19,
+   "per_paper": 1.8
+  },
+  "2026": {
+   "questions": 32,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 19,
+   "per_paper": 1.7
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Lines",
+   "questions": 198,
+   "questions_2019_2026": 176,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Planes",
+   "questions": 186,
+   "questions_2019_2026": 140,
+   "last_year_asked": 2023
+  },
+  {
+   "topic": "Points & Direction Cosines",
+   "questions": 27,
+   "questions_2019_2026": 14,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Sphere (legacy)",
+   "questions": 5,
+   "questions_2019_2026": 0,
+   "last_year_asked": 2007
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-e-m07",
+   "url": "/q/q-2026-01-21-e-m07",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "Line of given direction meeting two lines at C and D: |CD|^2"
+  },
+  {
+   "id": "q-2026-01-23-m-m03",
+   "url": "/q/q-2026-01-23-m-m03",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Points & Direction Cosines",
+   "paper_is": "NTA paper",
+   "text": "Direction cosines with 4l + m - n = 0 and 2mn + 10nl + 3lm = 0: cosine of the angle"
+  },
+  {
+   "id": "q-2023-01-24-m-m18",
+   "url": "/q/q-2023-01-24-m-m18",
+   "paper": "JEE Main 2023 24 Jan Shift 1",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Planes",
+   "paper_is": "memory based",
+   "text": "Distance of (7, −3, −4) from the plane through three given points"
+  },
+  {
+   "id": "q-aieee-2007-m36",
+   "url": "/q/q-aieee-2007-m36",
+   "paper": "AIEEE 2007",
+   "year": 2007,
+   "type": "multiple choice",
+   "topic": "Sphere (legacy)",
+   "paper_is": "memory based",
+   "text": "Other end of a diameter of a sphere from one end and the equation"
+  },
+  {
+   "id": "q-2026-01-21-m-m14",
+   "url": "/q/q-2026-01-21-m-m14",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "Foot of perpendicular from (5, 4, 2) to a line, then its projection on a vector"
+  },
+  {
+   "id": "q-2026-01-21-e-m17",
+   "url": "/q/q-2026-01-21-e-m17",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "Line equally inclined to the axes at a given distance from a point: values of r"
+  },
+  {
+   "id": "q-2026-01-22-m-m04",
+   "url": "/q/q-2026-01-22-m-m04",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "Image of P(1, 2, a) in a line is Q(5, b, c): find a² + b² + c²"
+  },
+  {
+   "id": "q-2026-01-22-m-m07",
+   "url": "/q/q-2026-01-22-m-m07",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "Point on a line at distance 4√14, then shortest distance between two lines"
+  },
+  {
+   "id": "q-2026-01-22-e-m19",
+   "url": "/q/q-2026-01-22-e-m19",
+   "paper": "JEE Main 2026 22 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "Points on L at distance 7 along L from a second line: sum of coordinates"
+  },
+  {
+   "id": "q-2026-01-23-m-m07",
+   "url": "/q/q-2026-01-23-m-m07",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "Triangle with B, C on a line, BC = 10 and A given: area"
+  },
+  {
+   "id": "q-2026-01-23-e-m22",
+   "url": "/q/q-2026-01-23-e-m22",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "P(a, 2, a) reflected in one line gives Q, and Q reflected in another gives P: a + b"
+  },
+  {
+   "id": "q-2026-01-24-m-m03",
+   "url": "/q/q-2026-01-24-m-m03",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Lines",
+   "paper_is": "NTA paper",
+   "text": "Intersecting lines with PR = √29 and PQ = √(47/3), P in the first octant: 27 QR^2"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

@@ -1,0 +1,363 @@
+{
+ "chapter": "Indefinite Integration",
+ "subject": "Mathematics",
+ "chapter_id": "math-indef",
+ "page_url": "/jee/pyq/mathematics/indefinite-integration",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 8: Integral Calculus",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2004,
+  "to": 2026,
+  "questions": 110,
+  "papers_with_this_chapter": 108,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 102
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 77,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 76,
+  "per_paper": 0.5,
+  "share_of_subject_percent": 1.7
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 33,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 32,
+  "per_paper": 0.9,
+  "share_of_subject_percent": 2.5
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 29,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 29,
+  "per_paper": 0.5,
+  "share_of_subject_percent": 1.9
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 25,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 17,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2003": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2004": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2005": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2006": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2007": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2010": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2011": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2012": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2013": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2014": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2015": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2016": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 4,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2019": {
+   "questions": 15,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.9
+  },
+  "2020": {
+   "questions": 8,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.5
+  },
+  "2021": {
+   "questions": 11,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 10,
+   "per_paper": 0.4
+  },
+  "2022": {
+   "questions": 5,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 5,
+   "per_paper": 0.2
+  },
+  "2023": {
+   "questions": 9,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.4
+  },
+  "2024": {
+   "questions": 12,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 12,
+   "per_paper": 0.6
+  },
+  "2025": {
+   "questions": 9,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.5
+  },
+  "2026": {
+   "questions": 8,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.4
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Standard Integrals & Substitution",
+   "questions": 51,
+   "questions_2019_2026": 39,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Integration by Parts",
+   "questions": 20,
+   "questions_2019_2026": 16,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Trigonometric Integrals",
+   "questions": 20,
+   "questions_2019_2026": 8,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Special Techniques",
+   "questions": 10,
+   "questions_2019_2026": 7,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Partial Fractions & Rational Functions",
+   "questions": 9,
+   "questions_2019_2026": 7,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-22-m-m23",
+   "url": "/q/q-2026-01-22-m-m23",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Standard Integrals & Substitution",
+   "paper_is": "NTA paper",
+   "text": "∫^-11/2x^-5/2x dx in powers of cot x: product of coefficients"
+  },
+  {
+   "id": "q-2026-01-23-e-m03",
+   "url": "/q/q-2026-01-23-e-m03",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Special Techniques",
+   "paper_is": "NTA paper",
+   "text": "∫3 dx/(4x + 6)√4x^2 + 8x + 3 with I(0) given: I(12)"
+  },
+  {
+   "id": "q-2026-01-23-m-m11",
+   "url": "/q/q-2026-01-23-m-m11",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Integration by Parts",
+   "paper_is": "NTA paper",
+   "text": "∫(2 - x^2)e^x√1 + x(1 - x)^3/2dx with f(0) = 0: find f(1/2)"
+  },
+  {
+   "id": "q-2026-01-28-m-m19",
+   "url": "/q/q-2026-01-28-m-m19",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Trigonometric Integrals",
+   "paper_is": "NTA paper",
+   "text": "∫1 - 5^2x/^5x^2xdx: f(π/6) − f(π/4)"
+  },
+  {
+   "id": "q-2026-04-02-e-m19",
+   "url": "/q/q-2026-04-02-e-m19",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Partial Fractions & Rational Functions",
+   "paper_is": "NTA paper",
+   "text": "Partial fractions for 16x + 24/x^2 + 2x - 15 and the value of f(7)"
+  },
+  {
+   "id": "q-2026-01-24-m-m10",
+   "url": "/q/q-2026-01-24-m-m10",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Integration by Parts",
+   "paper_is": "NTA paper",
+   "text": "f(t) = ∫1 - ( t)/1 - ( t)dt with f(e^π/2) given: α"
+  },
+  {
+   "id": "q-2026-01-24-e-m17",
+   "url": "/q/q-2026-01-24-e-m17",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Standard Integrals & Substitution",
+   "paper_is": "NTA paper",
+   "text": "Rational integral f feeding a matrix A with |adj(adj A)| = 81: value of α²"
+  },
+  {
+   "id": "q-2026-01-28-e-m02",
+   "url": "/q/q-2026-01-28-e-m02",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Standard Integrals & Substitution",
+   "paper_is": "NTA paper",
+   "text": "f = ∫dxx^2/3 + 2x^1/2 with f(0) given: f(1) = a + b ln 3, a + b"
+  },
+  {
+   "id": "q-2025-01-22-e-m06",
+   "url": "/q/q-2025-01-22-e-m06",
+   "paper": "JEE Main 2025 22 Jan Shift 2",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Integration by Parts",
+   "paper_is": "memory based",
+   "text": "∫ e^x(…)dx = g(x) + C with ^-1x terms: value of g(1/2)"
+  },
+  {
+   "id": "q-2025-01-23-e-m04",
+   "url": "/q/q-2025-01-23-e-m04",
+   "paper": "JEE Main 2025 23 Jan Shift 2",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Integration by Parts",
+   "paper_is": "memory based",
+   "text": "∫x³ sin x dx = g(x) + C: value of 8(g(π/2) + g′(π/2))"
+  },
+  {
+   "id": "q-2025-01-23-m-m19",
+   "url": "/q/q-2025-01-23-m-m19",
+   "paper": "JEE Main 2025 23 Jan Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Standard Integrals & Substitution",
+   "paper_is": "memory based",
+   "text": "I(x) = ∫dx/((x − 11)^(11/13)(x + 15)^(15/13)): I(37) − I(24)"
+  },
+  {
+   "id": "q-2025-01-24-e-m22",
+   "url": "/q/q-2025-01-24-e-m22",
+   "paper": "JEE Main 2025 24 Jan Shift 2",
+   "year": 2025,
+   "type": "numerical answer",
+   "topic": "Standard Integrals & Substitution",
+   "paper_is": "memory based",
+   "text": "∫(2x² + 5x + 9)/√(x² + x + 1) dx in a given form: α + 2β"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

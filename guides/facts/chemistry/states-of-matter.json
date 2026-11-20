@@ -1,0 +1,354 @@
+{
+ "chapter": "States of Matter",
+ "subject": "Chemistry",
+ "chapter_id": "chem-som",
+ "page_url": "/jee/pyq/chemistry/states-of-matter",
+ "class_level": 11,
+ "nta_syllabus_unit": "States of Matter (removed 2024)",
+ "in_current_syllabus": false,
+ "removed_from_syllabus_in": 2024,
+ "all_years": {
+  "from": 2002,
+  "to": 2024,
+  "questions": 169,
+  "papers_with_this_chapter": 136,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 169
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 102,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 98,
+  "per_paper": 0.6,
+  "share_of_subject_percent": 2.2
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 67,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 38,
+  "per_paper": 1.8,
+  "share_of_subject_percent": 5.0
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 1,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 1,
+  "per_paper": 0.0,
+  "share_of_subject_percent": 0.1
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 22,
+  "of_chapters": 31,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 52,
+ "years_not_asked_since_2019": [
+  2025,
+  2026
+ ],
+ "by_year": {
+  "2002": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2003": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2004": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2005": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2006": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2007": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2010": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2011": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2012": {
+   "questions": 11,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 2.2
+  },
+  "2013": {
+   "questions": 10,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 2.0
+  },
+  "2014": {
+   "questions": 11,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 2.2
+  },
+  "2015": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2016": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 4,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2019": {
+   "questions": 18,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.1
+  },
+  "2020": {
+   "questions": 11,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 11,
+   "per_paper": 0.7
+  },
+  "2021": {
+   "questions": 27,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 25,
+   "per_paper": 1.0
+  },
+  "2022": {
+   "questions": 22,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 22,
+   "per_paper": 1.0
+  },
+  "2023": {
+   "questions": 23,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 23,
+   "per_paper": 1.0
+  },
+  "2024": {
+   "questions": 1,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.1
+  },
+  "2025": {
+   "questions": 0,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2026": {
+   "questions": 0,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Solid State",
+   "questions": 89,
+   "questions_2019_2026": 56,
+   "last_year_asked": 2024
+  },
+  {
+   "topic": "Gaseous State",
+   "questions": 74,
+   "questions_2019_2026": 43,
+   "last_year_asked": 2023
+  },
+  {
+   "topic": "Liquid State",
+   "questions": 6,
+   "questions_2019_2026": 3,
+   "last_year_asked": 2023
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2024-04-06-m-c03",
+   "url": "/q/q-2024-04-06-m-c03",
+   "paper": "JEE Main 2024 06 Apr Shift 1",
+   "year": 2024,
+   "type": "multiple choice",
+   "topic": "Solid State",
+   "paper_is": "memory based",
+   "text": "Which material is not a semiconductor: Si, copper oxide, Ge or graphite"
+  },
+  {
+   "id": "q-2023-01-24-e-c04",
+   "url": "/q/q-2023-01-24-e-c04",
+   "paper": "JEE Main 2023 24 Jan Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Gaseous State",
+   "paper_is": "memory based",
+   "text": "Compressing CO₂ along an Andrews isotherm: counting correct statements"
+  },
+  {
+   "id": "q-2023-01-25-e-c17",
+   "url": "/q/q-2023-01-25-e-c17",
+   "paper": "JEE Main 2023 25 Jan Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Liquid State",
+   "paper_is": "memory based",
+   "text": "Statements on surface tension, bulk and surface molecules, and vapour pressure"
+  },
+  {
+   "id": "q-2023-01-24-m-c25",
+   "url": "/q/q-2023-01-24-m-c25",
+   "paper": "JEE Main 2023 24 Jan Shift 1",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Solid State",
+   "paper_is": "memory based",
+   "text": "Statements on Fe₀.₉₃O: Fe²⁺/Fe³⁺ content, equivalent weight and structure"
+  },
+  {
+   "id": "q-2023-01-25-m-c12",
+   "url": "/q/q-2023-01-25-m-c12",
+   "paper": "JEE Main 2023 25 Jan Shift 1",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Solid State",
+   "paper_is": "memory based",
+   "text": "Formula of a cubic solid: X at alternate corners and body centre, Y on 1/3 of faces"
+  },
+  {
+   "id": "q-2023-01-29-m-c04",
+   "url": "/q/q-2023-01-29-m-c04",
+   "paper": "JEE Main 2023 29 Jan Shift 1",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Gaseous State",
+   "paper_is": "memory based",
+   "text": "Compressibility factor on the low-pressure dip of a pV against p curve"
+  },
+  {
+   "id": "q-2023-01-29-e-c13",
+   "url": "/q/q-2023-01-29-e-c13",
+   "paper": "JEE Main 2023 29 Jan Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Solid State",
+   "paper_is": "memory based",
+   "text": "Total voids in 0.02 mol of an hcp metal"
+  },
+  {
+   "id": "q-2023-01-30-e-c15",
+   "url": "/q/q-2023-01-30-e-c15",
+   "paper": "JEE Main 2023 30 Jan Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Solid State",
+   "paper_is": "memory based",
+   "text": "FeO units per unit cell from density 4.0 g/cm³ and edge 5.0 Å"
+  },
+  {
+   "id": "q-2023-01-31-e-c16",
+   "url": "/q/q-2023-01-31-e-c16",
+   "paper": "JEE Main 2023 31 Jan Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Solid State",
+   "paper_is": "memory based",
+   "text": "Percentage of M²⁺ ions in the metal-deficient oxide M₀.₈₃O"
+  },
+  {
+   "id": "q-2023-01-31-m-c25",
+   "url": "/q/q-2023-01-31-m-c25",
+   "paper": "JEE Main 2023 31 Jan Shift 1",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Gaseous State",
+   "paper_is": "memory based",
+   "text": "Partial pressure of X in a mixture of 0.6 g X and 0.45 g Y at 740 mm Hg"
+  },
+  {
+   "id": "q-2023-02-01-m-c07",
+   "url": "/q/q-2023-02-01-m-c07",
+   "paper": "JEE Main 2023 01 Feb Shift 1",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Solid State",
+   "paper_is": "memory based",
+   "text": "Lattice drawing that shows the metal-deficiency defect in A₀.₉₅O"
+  },
+  {
+   "id": "q-2023-02-01-e-c15",
+   "url": "/q/q-2023-02-01-e-c15",
+   "paper": "JEE Main 2023 01 Feb Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Solid State",
+   "paper_is": "memory based",
+   "text": "Ratio of densities of fcc and bcc forms of a metal from edge lengths"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

@@ -1,0 +1,351 @@
+{
+ "chapter": "Probability",
+ "subject": "Mathematics",
+ "chapter_id": "math-prob",
+ "page_url": "/jee/pyq/mathematics/probability",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 13: Statistics and Probability",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 245,
+  "papers_with_this_chapter": 191,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 227
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 189,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 154,
+  "per_paper": 1.2,
+  "share_of_subject_percent": 4.1
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 56,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 37,
+  "per_paper": 1.5,
+  "share_of_subject_percent": 4.3
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 66,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 53,
+  "per_paper": 1.1,
+  "share_of_subject_percent": 4.3
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 11,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 34,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2003": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2004": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2005": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2006": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2007": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2008": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2009": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2010": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2011": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2012": {
+   "questions": 4,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 0.8
+  },
+  "2013": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2014": {
+   "questions": 6,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.2
+  },
+  "2015": {
+   "questions": 4,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.3
+  },
+  "2016": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2017": {
+   "questions": 7,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 2.3
+  },
+  "2018": {
+   "questions": 5,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.3
+  },
+  "2019": {
+   "questions": 20,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.3
+  },
+  "2020": {
+   "questions": 16,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.0
+  },
+  "2021": {
+   "questions": 31,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 24,
+   "per_paper": 1.2
+  },
+  "2022": {
+   "questions": 30,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 21,
+   "per_paper": 1.4
+  },
+  "2023": {
+   "questions": 26,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 24,
+   "per_paper": 1.1
+  },
+  "2024": {
+   "questions": 26,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 20,
+   "per_paper": 1.3
+  },
+  "2025": {
+   "questions": 22,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.2
+  },
+  "2026": {
+   "questions": 18,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 17,
+   "per_paper": 0.9
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Random Variables & Distributions",
+   "questions": 84,
+   "questions_2019_2026": 68,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Basic Probability",
+   "questions": 89,
+   "questions_2019_2026": 67,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Conditional Probability",
+   "questions": 72,
+   "questions_2019_2026": 54,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-e-m16",
+   "url": "/q/q-2026-01-21-e-m16",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Random Variables & Distributions",
+   "paper_is": "NTA paper",
+   "text": "Distribution on 0–3 with parameters a, b and σ^2 + μ^2 = 2: ratio a/b"
+  },
+  {
+   "id": "q-2026-01-22-m-m01",
+   "url": "/q/q-2026-01-22-m-m01",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Basic Probability",
+   "paper_is": "NTA paper",
+   "text": "Two distinct numbers from 1–50: probability that their product is divisible by 3"
+  },
+  {
+   "id": "q-2026-01-23-e-m09",
+   "url": "/q/q-2026-01-23-e-m09",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Conditional Probability",
+   "paper_is": "NTA paper",
+   "text": "Ball moved from bag B (6W, 4B) to bag A (9W, 8B), then one drawn from A: P(white)"
+  },
+  {
+   "id": "q-2026-01-22-m-m02",
+   "url": "/q/q-2026-01-22-m-m02",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Random Variables & Distributions",
+   "paper_is": "NTA paper",
+   "text": "Distribution with probabilities in k and k²: find P(3 < x 6)"
+  },
+  {
+   "id": "q-2026-01-23-m-m24",
+   "url": "/q/q-2026-01-23-m-m24",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Basic Probability",
+   "paper_is": "NTA paper",
+   "text": "Ordered pair from 1–100 without replacement: probability that a − b ≥ 10"
+  },
+  {
+   "id": "q-2026-01-24-m-m15",
+   "url": "/q/q-2026-01-24-m-m15",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Random Variables & Distributions",
+   "paper_is": "NTA paper",
+   "text": "8 bulbs drawn with replacement from 10 defective in 100: P(at least 7 defective)"
+  },
+  {
+   "id": "q-2026-01-24-e-m25",
+   "url": "/q/q-2026-01-24-e-m25",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Basic Probability",
+   "paper_is": "NTA paper",
+   "text": "Ordered pair of disjoint subsets of a 5-element set: probability 3^p/2^q"
+  },
+  {
+   "id": "q-2026-01-28-m-m06",
+   "url": "/q/q-2026-01-28-m-m06",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Conditional Probability",
+   "paper_is": "NTA paper",
+   "text": "Bag with k red of 10 (k = 0 to 10 equally likely), three black drawn: P(k = 1)"
+  },
+  {
+   "id": "q-2026-01-28-e-m15",
+   "url": "/q/q-2026-01-28-e-m15",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Random Variables & Distributions",
+   "paper_is": "NTA paper",
+   "text": "Distribution with values in multiples of k/7 and E(X) = 263/15: P(X < 20)"
+  },
+  {
+   "id": "q-2026-04-02-e-m08",
+   "url": "/q/q-2026-04-02-e-m08",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Basic Probability",
+   "paper_is": "NTA paper",
+   "text": "Coin tossed repeatedly, 10 points per head and 5 per tail: chance of hitting exactly 30"
+  },
+  {
+   "id": "q-2026-04-02-m-m23",
+   "url": "/q/q-2026-04-02-m-m23",
+   "paper": "B Tech 2nd Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Basic Probability",
+   "paper_is": "NTA paper",
+   "text": "Random a, b, c ∈ 1,2,3,4: probability that ax^2 + 22 bx + c > 0 always"
+  },
+  {
+   "id": "q-2026-04-04-e-m21",
+   "url": "/q/q-2026-04-04-e-m21",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Basic Probability",
+   "paper_is": "NTA paper",
+   "text": "Three dates from a 31-day month: probability they form an increasing AP"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

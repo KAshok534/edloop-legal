@@ -1,0 +1,345 @@
+{
+ "chapter": "Periodic Table & Periodicity",
+ "subject": "Chemistry",
+ "chapter_id": "chem-period",
+ "page_url": "/jee/pyq/chemistry/periodic-table-and-periodicity",
+ "class_level": 11,
+ "nta_syllabus_unit": "Unit 9: Classification of Elements and Periodicity in Properties",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2003,
+  "to": 2026,
+  "questions": 182,
+  "papers_with_this_chapter": 154,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 164
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 145,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 125,
+  "per_paper": 0.9,
+  "share_of_subject_percent": 3.2
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 37,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 29,
+  "per_paper": 1.0,
+  "share_of_subject_percent": 2.8
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 59,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 50,
+  "per_paper": 1.0,
+  "share_of_subject_percent": 3.8
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 16,
+  "of_chapters": 31,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 8,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2003": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2004": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2005": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2006": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2007": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2008": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2009": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2010": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2011": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2012": {
+   "questions": 4,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 0.8
+  },
+  "2013": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2014": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2015": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2016": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 2,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.5
+  },
+  "2019": {
+   "questions": 12,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 11,
+   "per_paper": 0.8
+  },
+  "2020": {
+   "questions": 19,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.2
+  },
+  "2021": {
+   "questions": 20,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 17,
+   "per_paper": 0.8
+  },
+  "2022": {
+   "questions": 18,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 16,
+   "per_paper": 0.8
+  },
+  "2023": {
+   "questions": 17,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.7
+  },
+  "2024": {
+   "questions": 21,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 17,
+   "per_paper": 1.1
+  },
+  "2025": {
+   "questions": 20,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.1
+  },
+  "2026": {
+   "questions": 18,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 17,
+   "per_paper": 0.9
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Periodic Trends",
+   "questions": 157,
+   "questions_2019_2026": 123,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Periodic Table",
+   "questions": 25,
+   "questions_2019_2026": 22,
+   "last_year_asked": 2025
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-m-c05",
+   "url": "/q/q-2026-01-21-m-c05",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Correct orders of ionisation energy, electron affinity, metallic and basic character"
+  },
+  {
+   "id": "q-2025-01-23-m-c04",
+   "url": "/q/q-2025-01-23-m-c04",
+   "paper": "JEE Main 2025 23 Jan Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Periodic Table",
+   "paper_is": "memory based",
+   "text": "Which of Ir, Pt, Os and Pd lies in a different period"
+  },
+  {
+   "id": "q-2026-01-21-e-c18",
+   "url": "/q/q-2026-01-21-e-c18",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Radii of Al, Mg and their ions; electron gain enthalpies of Cl, Br, S, O"
+  },
+  {
+   "id": "q-2026-01-22-e-c19",
+   "url": "/q/q-2026-01-22-e-c19",
+   "paper": "JEE Main 2026 22 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "IE order of C, O, N, F; electron gain enthalpy order of group 16"
+  },
+  {
+   "id": "q-2026-01-23-m-c03",
+   "url": "/q/q-2026-01-23-m-c03",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "First ionisation enthalpies of Al, Si, P, S and Cl in order"
+  },
+  {
+   "id": "q-2026-01-23-e-c20",
+   "url": "/q/q-2026-01-23-e-c20",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Second ionisation enthalpy of Na vs Mg; ionic radius of O²⁻ vs F⁻"
+  },
+  {
+   "id": "q-2026-01-24-m-c15",
+   "url": "/q/q-2026-01-24-m-c15",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Metallic character order K > Mg > Al > B; is atomic radius always larger than ionic?"
+  },
+  {
+   "id": "q-2026-01-24-e-c19",
+   "url": "/q/q-2026-01-24-e-c19",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Second ionisation enthalpies of C, N, O and F in order"
+  },
+  {
+   "id": "q-2026-01-28-e-c01",
+   "url": "/q/q-2026-01-28-e-c01",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Among N, P, O, S, Cl, F: valence electrons of the most and least metallic"
+  },
+  {
+   "id": "q-2026-01-28-m-c10",
+   "url": "/q/q-2026-01-28-m-c10",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Period-4 elements with the largest and smallest atomic radii"
+  },
+  {
+   "id": "q-2026-04-02-e-c08",
+   "url": "/q/q-2026-04-02-e-c08",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Set of four oxides containing a basic, an acidic, an amphoteric and a neutral oxide"
+  },
+  {
+   "id": "q-2026-04-02-e-c09",
+   "url": "/q/q-2026-04-02-e-c09",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Periodic Trends",
+   "paper_is": "NTA paper",
+   "text": "Second IE of B, Al, Ga and first IE of Si, Ge, Sn, Pb: are the orders right"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

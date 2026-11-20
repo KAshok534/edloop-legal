@@ -1,0 +1,343 @@
+{
+ "chapter": "Hydrogen",
+ "subject": "Chemistry",
+ "chapter_id": "chem-hydrogen",
+ "page_url": "/jee/pyq/chemistry/hydrogen",
+ "class_level": 11,
+ "nta_syllabus_unit": "Hydrogen (removed 2024)",
+ "in_current_syllabus": false,
+ "removed_from_syllabus_in": 2024,
+ "all_years": {
+  "from": 2003,
+  "to": 2023,
+  "questions": 95,
+  "papers_with_this_chapter": 87,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 95
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 83,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 76,
+  "per_paper": 0.5,
+  "share_of_subject_percent": 1.8
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 12,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 11,
+  "per_paper": 0.3,
+  "share_of_subject_percent": 0.9
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 0,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 0,
+  "per_paper": 0.0,
+  "share_of_subject_percent": 0.0
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 28,
+  "of_chapters": 31,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 5,
+ "years_not_asked_since_2019": [
+  2024,
+  2025,
+  2026
+ ],
+ "by_year": {
+  "2002": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2003": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2004": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2005": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2006": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2007": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2010": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2011": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2012": {
+   "questions": 1,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.2
+  },
+  "2013": {
+   "questions": 0,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2014": {
+   "questions": 0,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2015": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2016": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2017": {
+   "questions": 0,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2018": {
+   "questions": 2,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.5
+  },
+  "2019": {
+   "questions": 12,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 10,
+   "per_paper": 0.8
+  },
+  "2020": {
+   "questions": 9,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.6
+  },
+  "2021": {
+   "questions": 27,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 24,
+   "per_paper": 1.0
+  },
+  "2022": {
+   "questions": 15,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 14,
+   "per_paper": 0.7
+  },
+  "2023": {
+   "questions": 20,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 20,
+   "per_paper": 0.8
+  },
+  "2024": {
+   "questions": 0,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2025": {
+   "questions": 0,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2026": {
+   "questions": 0,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Hydrogen & Its Compounds",
+   "questions": 95,
+   "questions_2019_2026": 83,
+   "last_year_asked": 2023
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2023-01-24-e-c08",
+   "url": "/q/q-2023-01-24-e-c08",
+   "paper": "JEE Main 2023 24 Jan Shift 2",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Reaction in which hydrogen peroxide acts as a reducing agent"
+  },
+  {
+   "id": "q-2023-01-25-m-c05",
+   "url": "/q/q-2023-01-25-m-c05",
+   "paper": "JEE Main 2023 25 Jan Shift 1",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Meaning of \"25 volume\" hydrogen peroxide in grams per litre"
+  },
+  {
+   "id": "q-2023-01-25-e-c06",
+   "url": "/q/q-2023-01-25-e-c06",
+   "paper": "JEE Main 2023 25 Jan Shift 2",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Match cobalt and nickel catalysts, syngas and brine with industrial processes"
+  },
+  {
+   "id": "q-2023-01-29-m-c08",
+   "url": "/q/q-2023-01-29-m-c08",
+   "paper": "JEE Main 2023 29 Jan Shift 1",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Compound used to improve hydrogen storage"
+  },
+  {
+   "id": "q-2023-01-29-e-c09",
+   "url": "/q/q-2023-01-29-e-c09",
+   "paper": "JEE Main 2023 29 Jan Shift 2",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Nickel as a catalyst for syn gas and fats; nature of silicon hydrides"
+  },
+  {
+   "id": "q-2023-01-30-e-c06",
+   "url": "/q/q-2023-01-30-e-c06",
+   "paper": "JEE Main 2023 30 Jan Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Strength in g/L of 50-volume hydrogen peroxide (molar volume 22.7 L)"
+  },
+  {
+   "id": "q-2023-01-31-e-c09",
+   "url": "/q/q-2023-01-31-e-c09",
+   "paper": "JEE Main 2023 31 Jan Shift 2",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Uses of H₂O₂: cephalosporin synthesis and treatment of sewage"
+  },
+  {
+   "id": "q-2023-02-01-m-c01",
+   "url": "/q/q-2023-02-01-m-c01",
+   "paper": "JEE Main 2023 01 Feb Shift 1",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Hydrogen as an environment-friendly fuel and its low atomic number"
+  },
+  {
+   "id": "q-2023-02-01-e-c08",
+   "url": "/q/q-2023-02-01-e-c08",
+   "paper": "JEE Main 2023 01 Feb Shift 2",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Starting material for laboratory preparation of D₂O₂"
+  },
+  {
+   "id": "q-2023-04-06-m-c04",
+   "url": "/q/q-2023-04-06-m-c04",
+   "paper": "JEE Main 2023 06 Apr Shift 1",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Size of the bare proton and why H⁺ never exists free"
+  },
+  {
+   "id": "q-2023-04-06-e-c05",
+   "url": "/q/q-2023-04-06-e-c05",
+   "paper": "JEE Main 2023 06 Apr Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Number of hydrogen-bonded neighbours of each water molecule in ice"
+  },
+  {
+   "id": "q-2023-04-08-e-c11",
+   "url": "/q/q-2023-04-08-e-c11",
+   "paper": "JEE Main 2023 08 Apr Shift 2",
+   "year": 2023,
+   "type": "multiple choice",
+   "topic": "Hydrogen & Its Compounds",
+   "paper_is": "memory based",
+   "text": "Substance that slows the light-induced decomposition of hydrogen peroxide"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

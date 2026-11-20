@@ -1,0 +1,11 @@
+/* chapter guides (guides/jee/<subject>/<chapter>.md, rendered by tools/guides.py) */
+.q-guide{max-width:780px;margin:8px 0 36px;color:#3d4a63;font-size:17px;line-height:1.75}
+.q-guide h2{font-size:24px;font-weight:400;letter-spacing:-.02em;color:var(--ink);margin:34px 0 10px}
+.q-guide h2:first-child{margin-top:8px}
+.q-guide h3{font-size:17px;font-weight:600;color:var(--ink);margin:20px 0 4px}
+.q-guide p{margin:0 0 14px}
+.q-guide ul{margin:0 0 16px;padding-left:22px}
+.q-guide li{margin:0 0 8px}
+.q-guide strong{color:var(--ink);font-weight:600}
+.q-guide a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.q-list-head{font-size:24px;font-weight:400;letter-spacing:-.02em;color:var(--ink);margin:12px 0 0;padding-top:24px;border-top:1px solid var(--line)}

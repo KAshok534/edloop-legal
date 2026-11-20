@@ -1,0 +1,351 @@
+{
+ "chapter": "Thermodynamics",
+ "subject": "Physics",
+ "chapter_id": "phy-thermo",
+ "page_url": "/jee/pyq/physics/thermodynamics",
+ "class_level": 11,
+ "nta_syllabus_unit": "Unit 8: Thermodynamics",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 221,
+  "papers_with_this_chapter": 170,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 203
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 163,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 134,
+  "per_paper": 1.0,
+  "share_of_subject_percent": 3.6
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 58,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 36,
+  "per_paper": 1.5,
+  "share_of_subject_percent": 4.3
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 58,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 46,
+  "per_paper": 1.0,
+  "share_of_subject_percent": 3.7
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 12,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 32,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2003": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2004": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2005": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2006": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2007": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2010": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2011": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2012": {
+   "questions": 9,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.8
+  },
+  "2013": {
+   "questions": 8,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.6
+  },
+  "2014": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2015": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 1.0
+  },
+  "2016": {
+   "questions": 5,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.7
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 4,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2019": {
+   "questions": 16,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 13,
+   "per_paper": 1.0
+  },
+  "2020": {
+   "questions": 15,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 14,
+   "per_paper": 0.9
+  },
+  "2021": {
+   "questions": 30,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 22,
+   "per_paper": 1.2
+  },
+  "2022": {
+   "questions": 22,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 18,
+   "per_paper": 1.0
+  },
+  "2023": {
+   "questions": 22,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 21,
+   "per_paper": 0.9
+  },
+  "2024": {
+   "questions": 17,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 16,
+   "per_paper": 0.9
+  },
+  "2025": {
+   "questions": 23,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.2
+  },
+  "2026": {
+   "questions": 18,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 14,
+   "per_paper": 0.9
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "First Law & Processes",
+   "questions": 162,
+   "questions_2019_2026": 124,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Second Law & Engines",
+   "questions": 53,
+   "questions_2019_2026": 36,
+   "last_year_asked": 2025
+  },
+  {
+   "topic": "Basics & Zeroth Law",
+   "questions": 6,
+   "questions_2019_2026": 3,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-e-p22",
+   "url": "/q/q-2026-01-21-e-p22",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "Diatomic gas does 100 J of work at constant pressure: heat supplied"
+  },
+  {
+   "id": "q-2026-04-05-m-p08",
+   "url": "/q/q-2026-04-05-m-p08",
+   "paper": "B Tech 5th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Basics & Zeroth Law",
+   "paper_is": "NTA paper",
+   "text": "Five statements on the laws of thermodynamics and intensive/extensive variables"
+  },
+  {
+   "id": "q-2025-01-23-e-p06",
+   "url": "/q/q-2025-01-23-e-p06",
+   "paper": "JEE Main 2025 23 Jan Shift 2",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Second Law & Engines",
+   "paper_is": "memory based",
+   "text": "Entropy change of water slowly heated from T₁ to T₂"
+  },
+  {
+   "id": "q-2026-01-21-m-p25",
+   "url": "/q/q-2026-01-21-m-p25",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "10 mol of oxygen heated at constant volume by 10 °C: change in internal energy"
+  },
+  {
+   "id": "q-2026-01-22-m-p06",
+   "url": "/q/q-2026-01-22-m-p06",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "Reversible adiabatic change: volume ×8, temperature ÷4; which gas?"
+  },
+  {
+   "id": "q-2026-01-23-e-p09",
+   "url": "/q/q-2026-01-23-e-p09",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "Helium (U = 3nRT as given) heated by 126 J under a free piston: piston displacement"
+  },
+  {
+   "id": "q-2026-01-23-e-p13",
+   "url": "/q/q-2026-01-23-e-p13",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "Diatomic gas: adiabatic expansion from 27 °C doing the isothermal (V to 2V) work"
+  },
+  {
+   "id": "q-2026-01-24-e-p09",
+   "url": "/q/q-2026-01-24-e-p09",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "Cycle on a P–V graph: heat in the step from P1 to P2 at V = 1 m³"
+  },
+  {
+   "id": "q-2026-01-24-m-p20",
+   "url": "/q/q-2026-01-24-m-p20",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "4 kg of water heated from 4 °C to 20 °C at 1 atm: increase in internal energy"
+  },
+  {
+   "id": "q-2026-01-24-e-p24",
+   "url": "/q/q-2026-01-24-e-p24",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "300 J at constant volume raising a gas (Cp = 72R) from 20 °C to 50 °C: its mass"
+  },
+  {
+   "id": "q-2026-01-28-m-p16",
+   "url": "/q/q-2026-01-28-m-p16",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "Cycle: parabola (V - 2)^2 = 4ap from V = 1 to 3, then isobaric back: net work"
+  },
+  {
+   "id": "q-2026-01-28-e-p25",
+   "url": "/q/q-2026-01-28-e-p25",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "First Law & Processes",
+   "paper_is": "NTA paper",
+   "text": "Triangular cycle A(2, 100) → B(5, 300) → C(5, 100) → A: total work"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

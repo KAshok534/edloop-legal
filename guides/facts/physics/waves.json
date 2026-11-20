@@ -1,0 +1,357 @@
+{
+ "chapter": "Waves",
+ "subject": "Physics",
+ "chapter_id": "phy-waves",
+ "page_url": "/jee/pyq/physics/waves",
+ "class_level": 11,
+ "nta_syllabus_unit": "Unit 10: Oscillations and Waves",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 180,
+  "papers_with_this_chapter": 142,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 170
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 125,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 104,
+  "per_paper": 0.8,
+  "share_of_subject_percent": 2.7
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 55,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 38,
+  "per_paper": 1.4,
+  "share_of_subject_percent": 4.1
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 32,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 28,
+  "per_paper": 0.6,
+  "share_of_subject_percent": 2.1
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 22,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 50,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 5,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 5.0
+  },
+  "2003": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2004": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2005": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2006": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2007": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2008": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2009": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2010": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2011": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2012": {
+   "questions": 8,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.6
+  },
+  "2013": {
+   "questions": 6,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.2
+  },
+  "2014": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2015": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2016": {
+   "questions": 4,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.3
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 5,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.3
+  },
+  "2019": {
+   "questions": 21,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 14,
+   "per_paper": 1.3
+  },
+  "2020": {
+   "questions": 15,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 14,
+   "per_paper": 0.9
+  },
+  "2021": {
+   "questions": 18,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.7
+  },
+  "2022": {
+   "questions": 19,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 17,
+   "per_paper": 0.9
+  },
+  "2023": {
+   "questions": 20,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 16,
+   "per_paper": 0.8
+  },
+  "2024": {
+   "questions": 10,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 10,
+   "per_paper": 0.5
+  },
+  "2025": {
+   "questions": 12,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 10,
+   "per_paper": 0.6
+  },
+  "2026": {
+   "questions": 10,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.5
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Wave Motion",
+   "questions": 55,
+   "questions_2019_2026": 42,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Sound Waves",
+   "questions": 48,
+   "questions_2019_2026": 32,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Doppler Effect",
+   "questions": 39,
+   "questions_2019_2026": 26,
+   "last_year_asked": 2023
+  },
+  {
+   "topic": "Superposition & Standing Waves",
+   "questions": 38,
+   "questions_2019_2026": 25,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-m-p15",
+   "url": "/q/q-2026-01-21-m-p15",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Wave Motion",
+   "paper_is": "NTA paper",
+   "text": "Two joined strings under 500 N: ratio of pulse times from each end to the joint"
+  },
+  {
+   "id": "q-2026-01-22-e-p02",
+   "url": "/q/q-2026-01-22-e-p02",
+   "paper": "JEE Main 2026 22 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Sound Waves",
+   "paper_is": "NTA paper",
+   "text": "Open pipe with 6th minus 3rd harmonic equal to 2200 Hz: length of the pipe"
+  },
+  {
+   "id": "q-2026-01-22-m-p25",
+   "url": "/q/q-2026-01-22-m-p25",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Superposition & Standing Waves",
+   "paper_is": "NTA paper",
+   "text": "Recorder moved 25 m past two speakers 10 m apart sees 10 cycles: signal frequency"
+  },
+  {
+   "id": "q-2023-01-25-e-p16",
+   "url": "/q/q-2023-01-25-e-p16",
+   "paper": "JEE Main 2023 25 Jan Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Doppler Effect",
+   "paper_is": "memory based",
+   "text": "Whistle of a train approaching a stationary observer at 66 m/s"
+  },
+  {
+   "id": "q-2026-01-23-e-p24",
+   "url": "/q/q-2026-01-23-e-p24",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Wave Motion",
+   "paper_is": "NTA paper",
+   "text": "Temperature at which the speed of sound in air doubles from its value at 0 °C"
+  },
+  {
+   "id": "q-2026-01-24-e-p06",
+   "url": "/q/q-2026-01-24-e-p06",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Sound Waves",
+   "paper_is": "NTA paper",
+   "text": "Fifth harmonic of a closed pipe in unison with the first of an open pipe: length ratio 5/x"
+  },
+  {
+   "id": "q-2026-01-24-e-p14",
+   "url": "/q/q-2026-01-24-e-p14",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Wave Motion",
+   "paper_is": "NTA paper",
+   "text": "Point source inside a spherical detector whose volume becomes 8 times: intensity"
+  },
+  {
+   "id": "q-2026-01-28-e-p06",
+   "url": "/q/q-2026-01-28-e-p06",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Wave Motion",
+   "paper_is": "NTA paper",
+   "text": "Wave at 400 m/s in a bar; density up 0.5% and Young's modulus up 1%: new speed"
+  },
+  {
+   "id": "q-2026-01-28-e-p22",
+   "url": "/q/q-2026-01-28-e-p22",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Sound Waves",
+   "paper_is": "NTA paper",
+   "text": "8 beats in 2 s with B = 380 Hz; waxing A cuts it to 4 beats in 2 s: frequency of A"
+  },
+  {
+   "id": "q-2026-04-02-m-p10",
+   "url": "/q/q-2026-04-02-m-p10",
+   "paper": "B Tech 2nd Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Wave Motion",
+   "paper_is": "NTA paper",
+   "text": "Speed of a plane progressive wave from its equation in cm and s"
+  },
+  {
+   "id": "q-2026-04-05-m-p23",
+   "url": "/q/q-2026-04-05-m-p23",
+   "paper": "B Tech 5th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Wave Motion",
+   "paper_is": "NTA paper",
+   "text": "Wave y = 3(36t + 0.018x + π/4): distance between successive crests"
+  },
+  {
+   "id": "q-2025-01-22-m-p11",
+   "url": "/q/q-2025-01-22-m-p11",
+   "paper": "JEE Main 2025 22 Jan Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Sound Waves",
+   "paper_is": "memory based",
+   "text": "Closed and open pipes with different gases: equal harmonics give the open length"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

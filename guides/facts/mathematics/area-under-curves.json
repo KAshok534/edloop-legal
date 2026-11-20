@@ -1,0 +1,339 @@
+{
+ "chapter": "Area Under Curves",
+ "subject": "Mathematics",
+ "chapter_id": "math-area",
+ "page_url": "/jee/pyq/mathematics/area-under-curves",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 8: Integral Calculus",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 178,
+  "papers_with_this_chapter": 171,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 160
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 146,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 141,
+  "per_paper": 0.9,
+  "share_of_subject_percent": 3.2
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 32,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 30,
+  "per_paper": 0.8,
+  "share_of_subject_percent": 2.4
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 59,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 56,
+  "per_paper": 1.0,
+  "share_of_subject_percent": 3.8
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 18,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 45,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2003": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2004": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2005": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2006": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2007": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2010": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2011": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2012": {
+   "questions": 6,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.2
+  },
+  "2013": {
+   "questions": 4,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 0.8
+  },
+  "2014": {
+   "questions": 3,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 3,
+   "per_paper": 0.6
+  },
+  "2015": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2016": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2017": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2018": {
+   "questions": 3,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 3,
+   "per_paper": 0.8
+  },
+  "2019": {
+   "questions": 14,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 14,
+   "per_paper": 0.9
+  },
+  "2020": {
+   "questions": 11,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 11,
+   "per_paper": 0.7
+  },
+  "2021": {
+   "questions": 18,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 18,
+   "per_paper": 0.7
+  },
+  "2022": {
+   "questions": 19,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 18,
+   "per_paper": 0.9
+  },
+  "2023": {
+   "questions": 25,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 24,
+   "per_paper": 1.0
+  },
+  "2024": {
+   "questions": 21,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 20,
+   "per_paper": 1.1
+  },
+  "2025": {
+   "questions": 20,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 18,
+   "per_paper": 1.1
+  },
+  "2026": {
+   "questions": 18,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 18,
+   "per_paper": 0.9
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Area Bounded by Curves",
+   "questions": 178,
+   "questions_2019_2026": 146,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-e-m09",
+   "url": "/q/q-2026-01-21-e-m09",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area of 1 - 2x y 4 - x^2, x 0, y 0"
+  },
+  {
+   "id": "q-2026-01-21-m-m11",
+   "url": "/q/q-2026-01-21-m-m11",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area inside x^2 + 4y^2 = 4 but outside the square |x| + |y| 1"
+  },
+  {
+   "id": "q-2026-01-22-e-m07",
+   "url": "/q/q-2026-01-22-e-m07",
+   "paper": "JEE Main 2026 22 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area of 4x^2 + y^2 8, y^2 4x"
+  },
+  {
+   "id": "q-2026-01-22-m-m12",
+   "url": "/q/q-2026-01-22-m-m12",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Region 1 + x^2 y 3 - x split by x = −1: ratio of the two areas"
+  },
+  {
+   "id": "q-2026-01-23-e-m08",
+   "url": "/q/q-2026-01-23-e-m08",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area common to x^2 + y^2 = 4 and x^2 + (y - 2)^2 = 4"
+  },
+  {
+   "id": "q-2026-01-23-m-m21",
+   "url": "/q/q-2026-01-23-m-m21",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area under y = x, x from 0 to 3π/2: A + A²"
+  },
+  {
+   "id": "q-2026-01-24-m-m05",
+   "url": "/q/q-2026-01-24-m-m05",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Areas bounded by y = x^2 + 2 with x + y = 8, and with y^2 = x, x = 2: A1 - A2"
+  },
+  {
+   "id": "q-2026-01-24-e-m13",
+   "url": "/q/q-2026-01-24-e-m13",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area between y^2 = x and a modulus curve on [0, 1] for α = 0 and 1: f(0) + f(1)"
+  },
+  {
+   "id": "q-2026-01-28-e-m01",
+   "url": "/q/q-2026-01-28-e-m01",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area between two parabolas is six times that between y = αx and y = 4x^2: α"
+  },
+  {
+   "id": "q-2026-01-28-m-m14",
+   "url": "/q/q-2026-01-28-m-m14",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area of xy 8, 1 y x^2, x 0"
+  },
+  {
+   "id": "q-2026-04-02-e-m24",
+   "url": "/q/q-2026-04-02-e-m24",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area between the hyperbola 16x^2 - 9y^2 = 144 and the line 8x - 3y = 24"
+  },
+  {
+   "id": "q-2026-04-04-e-m18",
+   "url": "/q/q-2026-04-04-e-m18",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Area Bounded by Curves",
+   "paper_is": "NTA paper",
+   "text": "Area between x + 3y^2 = 0 and x + 4y^2 = 1"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

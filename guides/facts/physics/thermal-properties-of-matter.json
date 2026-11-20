@@ -1,0 +1,357 @@
+{
+ "chapter": "Thermal Properties of Matter",
+ "subject": "Physics",
+ "chapter_id": "phy-thermal",
+ "page_url": "/jee/pyq/physics/thermal-properties-of-matter",
+ "class_level": 11,
+ "nta_syllabus_unit": "Unit 7: Properties of Solids and Liquids",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 129,
+  "papers_with_this_chapter": 99,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 122
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 91,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 73,
+  "per_paper": 0.6,
+  "share_of_subject_percent": 2.0
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 38,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 26,
+  "per_paper": 1.0,
+  "share_of_subject_percent": 2.8
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 22,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 16,
+  "per_paper": 0.4,
+  "share_of_subject_percent": 1.4
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 26,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 23,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2003": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2004": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2005": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2006": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2007": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2008": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2009": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2010": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2011": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2012": {
+   "questions": 3,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 3,
+   "per_paper": 0.6
+  },
+  "2013": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2014": {
+   "questions": 6,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.2
+  },
+  "2015": {
+   "questions": 1,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.3
+  },
+  "2016": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2017": {
+   "questions": 5,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.7
+  },
+  "2018": {
+   "questions": 1,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.3
+  },
+  "2019": {
+   "questions": 17,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 10,
+   "per_paper": 1.1
+  },
+  "2020": {
+   "questions": 11,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 10,
+   "per_paper": 0.7
+  },
+  "2021": {
+   "questions": 14,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 13,
+   "per_paper": 0.5
+  },
+  "2022": {
+   "questions": 15,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 12,
+   "per_paper": 0.7
+  },
+  "2023": {
+   "questions": 12,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 12,
+   "per_paper": 0.5
+  },
+  "2024": {
+   "questions": 2,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.1
+  },
+  "2025": {
+   "questions": 13,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.7
+  },
+  "2026": {
+   "questions": 7,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 5,
+   "per_paper": 0.4
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Calorimetry",
+   "questions": 48,
+   "questions_2019_2026": 40,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Thermal Expansion",
+   "questions": 26,
+   "questions_2019_2026": 19,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Conduction",
+   "questions": 28,
+   "questions_2019_2026": 18,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Radiation",
+   "questions": 27,
+   "questions_2019_2026": 14,
+   "last_year_asked": 2025
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-m-p02",
+   "url": "/q/q-2026-01-21-m-p02",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Thermal Expansion",
+   "paper_is": "NTA paper",
+   "text": "Aluminium and steel rods joined end to end, heated from 30 °C to 100 °C: new length"
+  },
+  {
+   "id": "q-2026-01-21-m-p10",
+   "url": "/q/q-2026-01-21-m-p10",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Calorimetry",
+   "paper_is": "NTA paper",
+   "text": "Geyser heating 5 L/min of water from 27 °C to 87 °C: rate of gas consumption"
+  },
+  {
+   "id": "q-2026-01-22-m-p12",
+   "url": "/q/q-2026-01-22-m-p12",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Conduction",
+   "paper_is": "NTA paper",
+   "text": "Network of rods x and y between 100 °C and 40 °C: temperatures at two junctions"
+  },
+  {
+   "id": "q-2025-01-22-m-p16",
+   "url": "/q/q-2025-01-22-m-p16",
+   "paper": "JEE Main 2025 22 Jan Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Radiation",
+   "paper_is": "memory based",
+   "text": "Spheres of radii 0.2 m and 0.8 m at 800 K and 400 K: radiated energy"
+  },
+  {
+   "id": "q-2026-01-28-m-p13",
+   "url": "/q/q-2026-01-28-m-p13",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Calorimetry",
+   "paper_is": "NTA paper",
+   "text": "Temperature against heat supplied for water from −20 °C to 120 °C"
+  },
+  {
+   "id": "q-2026-01-28-m-p19",
+   "url": "/q/q-2026-01-28-m-p19",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Calorimetry",
+   "paper_is": "NTA paper",
+   "text": "10 kg ice at −10 °C added to 100 kg water at 25 °C: fall in the water's temperature"
+  },
+  {
+   "id": "q-2026-04-04-e-p09",
+   "url": "/q/q-2026-04-04-e-p09",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Thermal Expansion",
+   "paper_is": "NTA paper",
+   "text": "Metal strip heated in two equal steps: second increase in length"
+  },
+  {
+   "id": "q-2026-04-05-e-p22",
+   "url": "/q/q-2026-04-05-e-p22",
+   "paper": "B Tech 5th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Calorimetry",
+   "paper_is": "NTA paper",
+   "text": "Heat from cooling x g of water equals heat to boil off (1000 − x) g: find x"
+  },
+  {
+   "id": "q-2025-01-22-m-p04",
+   "url": "/q/q-2025-01-22-m-p04",
+   "paper": "JEE Main 2025 22 Jan Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Calorimetry",
+   "paper_is": "memory based",
+   "text": "Heat to turn 1 g of ice at −10 °C into steam at 110 °C"
+  },
+  {
+   "id": "q-2025-01-22-m-p24",
+   "url": "/q/q-2025-01-22-m-p24",
+   "paper": "JEE Main 2025 22 Jan Shift 1",
+   "year": 2025,
+   "type": "numerical answer",
+   "topic": "Conduction",
+   "paper_is": "memory based",
+   "text": "Two rods in parallel joined to a thicker third rod: junction temperature"
+  },
+  {
+   "id": "q-2025-01-23-m-p13",
+   "url": "/q/q-2025-01-23-m-p13",
+   "paper": "JEE Main 2025 23 Jan Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Calorimetry",
+   "paper_is": "memory based",
+   "text": "Lead bullet at 300 K heated to 600 K and melted by 625 J: its mass"
+  },
+  {
+   "id": "q-2025-01-24-e-p01",
+   "url": "/q/q-2025-01-24-e-p01",
+   "paper": "JEE Main 2025 24 Jan Shift 2",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Calorimetry",
+   "paper_is": "memory based",
+   "text": "Graph of Celsius temperature against Fahrenheit temperature"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

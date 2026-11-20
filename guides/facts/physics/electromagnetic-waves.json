@@ -1,0 +1,345 @@
+{
+ "chapter": "Electromagnetic Waves",
+ "subject": "Physics",
+ "chapter_id": "phy-emw",
+ "page_url": "/jee/pyq/physics/electromagnetic-waves",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 15: Electromagnetic Waves",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 189,
+  "papers_with_this_chapter": 171,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 172
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 152,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 142,
+  "per_paper": 0.9,
+  "share_of_subject_percent": 3.3
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 37,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 29,
+  "per_paper": 1.0,
+  "share_of_subject_percent": 2.7
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 52,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 48,
+  "per_paper": 0.9,
+  "share_of_subject_percent": 3.4
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 13,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 22,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2003": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2004": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2005": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2006": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2007": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2008": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2009": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2010": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2011": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2012": {
+   "questions": 4,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 3,
+   "per_paper": 0.8
+  },
+  "2013": {
+   "questions": 7,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.4
+  },
+  "2014": {
+   "questions": 7,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.4
+  },
+  "2015": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2016": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2017": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2018": {
+   "questions": 4,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2019": {
+   "questions": 15,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.9
+  },
+  "2020": {
+   "questions": 15,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.9
+  },
+  "2021": {
+   "questions": 24,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 21,
+   "per_paper": 0.9
+  },
+  "2022": {
+   "questions": 22,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 21,
+   "per_paper": 1.0
+  },
+  "2023": {
+   "questions": 24,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 22,
+   "per_paper": 1.0
+  },
+  "2024": {
+   "questions": 20,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 19,
+   "per_paper": 1.0
+  },
+  "2025": {
+   "questions": 15,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 13,
+   "per_paper": 0.8
+  },
+  "2026": {
+   "questions": 17,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 16,
+   "per_paper": 0.9
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "EM Waves",
+   "questions": 162,
+   "questions_2019_2026": 137,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Electromagnetic Spectrum",
+   "questions": 27,
+   "questions_2019_2026": 15,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-m-p08",
+   "url": "/q/q-2026-01-21-m-p08",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "Ey of a plane EM wave given: the matching magnetic field"
+  },
+  {
+   "id": "q-2026-01-24-m-p18",
+   "url": "/q/q-2026-01-24-m-p18",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Electromagnetic Spectrum",
+   "paper_is": "NTA paper",
+   "text": "Match radio, microwave, infrared and X-rays with how they are produced"
+  },
+  {
+   "id": "q-2026-01-21-e-p21",
+   "url": "/q/q-2026-01-21-e-p21",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "100 MHz wave in a medium of conductivity 10 S/m: conduction to displacement current ratio"
+  },
+  {
+   "id": "q-2026-01-22-e-p18",
+   "url": "/q/q-2026-01-22-e-p18",
+   "paper": "JEE Main 2026 22 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "Laser of intensity 4×10^14 W/m²: amplitude of the magnetic field"
+  },
+  {
+   "id": "q-2026-01-22-m-p24",
+   "url": "/q/q-2026-01-22-m-p24",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "EM wave Ey = 20(3×10^6x - 4.5×10^14t) in a medium: dielectric constant"
+  },
+  {
+   "id": "q-2026-01-23-e-p07",
+   "url": "/q/q-2026-01-23-e-p07",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "Speed of EM waves in vacuum vs a medium with k = 3 and μ = 2μ₀"
+  },
+  {
+   "id": "q-2026-01-23-m-p19",
+   "url": "/q/q-2026-01-23-m-p19",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "Match Maxwell's equations with the laws they express"
+  },
+  {
+   "id": "q-2026-01-23-m-p24",
+   "url": "/q/q-2026-01-23-m-p24",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "EM wave with amplitude √377 N/C: average intensity"
+  },
+  {
+   "id": "q-2026-01-28-m-p08",
+   "url": "/q/q-2026-01-28-m-p08",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "EM wave 25(2×10^15t - 10^7x) in a medium: refractive index"
+  },
+  {
+   "id": "q-2026-01-28-e-p16",
+   "url": "/q/q-2026-01-28-e-p16",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "E = 54(kz - ω t) j V/m: the magnetic field vector"
+  },
+  {
+   "id": "q-2026-04-02-e-p12",
+   "url": "/q/q-2026-04-02-e-p12",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "EM wave along x with B along j: the electric field vector"
+  },
+  {
+   "id": "q-2026-04-02-m-p18",
+   "url": "/q/q-2026-04-02-m-p18",
+   "paper": "B Tech 2nd Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "EM Waves",
+   "paper_is": "NTA paper",
+   "text": "Electron moving in an EM wave: ratio of maximum electric to magnetic force"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

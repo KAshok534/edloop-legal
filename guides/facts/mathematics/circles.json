@@ -1,0 +1,351 @@
+{
+ "chapter": "Circles",
+ "subject": "Mathematics",
+ "chapter_id": "math-circle",
+ "page_url": "/jee/pyq/mathematics/circles",
+ "class_level": 11,
+ "nta_syllabus_unit": "Unit 10: Coordinate Geometry",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 200,
+  "papers_with_this_chapter": 157,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 184
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 149,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 121,
+  "per_paper": 0.9,
+  "share_of_subject_percent": 3.3
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 51,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 36,
+  "per_paper": 1.3,
+  "share_of_subject_percent": 3.9
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 45,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 38,
+  "per_paper": 0.8,
+  "share_of_subject_percent": 2.9
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 17,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 45,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2003": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2004": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2005": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2006": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2007": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2010": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2011": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2012": {
+   "questions": 4,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 0.8
+  },
+  "2013": {
+   "questions": 8,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.6
+  },
+  "2014": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2015": {
+   "questions": 4,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.3
+  },
+  "2016": {
+   "questions": 4,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.3
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 4,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2019": {
+   "questions": 20,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 15,
+   "per_paper": 1.3
+  },
+  "2020": {
+   "questions": 11,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 10,
+   "per_paper": 0.7
+  },
+  "2021": {
+   "questions": 28,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 19,
+   "per_paper": 1.1
+  },
+  "2022": {
+   "questions": 25,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 21,
+   "per_paper": 1.1
+  },
+  "2023": {
+   "questions": 20,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 18,
+   "per_paper": 0.8
+  },
+  "2024": {
+   "questions": 19,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 15,
+   "per_paper": 1.0
+  },
+  "2025": {
+   "questions": 10,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.5
+  },
+  "2026": {
+   "questions": 16,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 14,
+   "per_paper": 0.8
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Equation of a Circle",
+   "questions": 77,
+   "questions_2019_2026": 55,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Tangents & Normals",
+   "questions": 56,
+   "questions_2019_2026": 48,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Family of Circles & Two Circles",
+   "questions": 67,
+   "questions_2019_2026": 46,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-m-m10",
+   "url": "/q/q-2026-01-21-m-m10",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Tangents & Normals",
+   "paper_is": "NTA paper",
+   "text": "Tangents at A and B with ∠AOB = π/3: locus of their intersection"
+  },
+  {
+   "id": "q-2026-01-21-m-m19",
+   "url": "/q/q-2026-01-21-m-m19",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Equation of a Circle",
+   "paper_is": "NTA paper",
+   "text": "Vector condition fixes λ₁, λ₂; for which K is the second-degree equation a circle?"
+  },
+  {
+   "id": "q-2026-01-22-m-m10",
+   "url": "/q/q-2026-01-22-m-m10",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Family of Circles & Two Circles",
+   "paper_is": "NTA paper",
+   "text": "Values of r for which two circles meet in two points: product of the interval ends"
+  },
+  {
+   "id": "q-2026-01-23-e-m10",
+   "url": "/q/q-2026-01-23-e-m10",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Family of Circles & Two Circles",
+   "paper_is": "NTA paper",
+   "text": "Circle through the four common points of two ellipses: ab + 18r^2"
+  },
+  {
+   "id": "q-2026-01-24-m-m17",
+   "url": "/q/q-2026-01-24-m-m17",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Equation of a Circle",
+   "paper_is": "NTA paper",
+   "text": "Circle of radius 4 through O, (-3a, 0) and (0, -2b): locus of the centroid"
+  },
+  {
+   "id": "q-2026-01-28-m-m02",
+   "url": "/q/q-2026-01-28-m-m02",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Tangents & Normals",
+   "paper_is": "NTA paper",
+   "text": "Circle on the chord of y = x as diameter; chord through (2, 3) farthest from its centre"
+  },
+  {
+   "id": "q-2026-01-28-e-m17",
+   "url": "/q/q-2026-01-28-e-m17",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Equation of a Circle",
+   "paper_is": "NTA paper",
+   "text": "P, Q on x^2 + y^2 = 4 with α − β = π/2: locus of the meeting point of AQ and BP"
+  },
+  {
+   "id": "q-2026-04-02-e-m10",
+   "url": "/q/q-2026-04-02-e-m10",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Family of Circles & Two Circles",
+   "paper_is": "NTA paper",
+   "text": "Circle through the origin centred where two perpendicular lines meet: chord AB^2"
+  },
+  {
+   "id": "q-2026-04-02-m-m24",
+   "url": "/q/q-2026-04-02-m-m24",
+   "paper": "B Tech 2nd Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Equation of a Circle",
+   "paper_is": "NTA paper",
+   "text": "Circle meeting the axes in exactly three points with equal intercepts: radius"
+  },
+  {
+   "id": "q-2026-04-04-m-m13",
+   "url": "/q/q-2026-04-04-m-m13",
+   "paper": "B Tech 4th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Tangents & Normals",
+   "paper_is": "NTA paper",
+   "text": "Chords from (1, 2) on a circle bisected by the y-axis: midpoint of RS"
+  },
+  {
+   "id": "q-2026-04-05-m-m10",
+   "url": "/q/q-2026-04-05-m-m10",
+   "paper": "B Tech 5th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Equation of a Circle",
+   "paper_is": "NTA paper",
+   "text": "Point on a circle, maximum distance to the vertex of a parabola"
+  },
+  {
+   "id": "q-2026-04-05-e-m11",
+   "url": "/q/q-2026-04-05-e-m11",
+   "paper": "B Tech 5th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Family of Circles & Two Circles",
+   "paper_is": "NTA paper",
+   "text": "Line through the vertex of a parabola cutting a circle: maximum of (PR + PS)^2"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

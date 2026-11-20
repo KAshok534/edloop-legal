@@ -1,0 +1,357 @@
+{
+ "chapter": "Applications of Derivatives",
+ "subject": "Mathematics",
+ "chapter_id": "math-aod",
+ "page_url": "/jee/pyq/mathematics/applications-of-derivatives",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 7: Limit, Continuity and Differentiability",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 241,
+  "papers_with_this_chapter": 160,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 232
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 176,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 123,
+  "per_paper": 1.1,
+  "share_of_subject_percent": 3.9
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 65,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 37,
+  "per_paper": 1.7,
+  "share_of_subject_percent": 5.0
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 40,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 34,
+  "per_paper": 0.7,
+  "share_of_subject_percent": 2.6
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 13,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 41,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2003": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2004": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2005": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2006": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2007": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2010": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2011": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2012": {
+   "questions": 10,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 2.0
+  },
+  "2013": {
+   "questions": 9,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.8
+  },
+  "2014": {
+   "questions": 6,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.2
+  },
+  "2015": {
+   "questions": 6,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 2.0
+  },
+  "2016": {
+   "questions": 6,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 2.0
+  },
+  "2017": {
+   "questions": 4,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.3
+  },
+  "2018": {
+   "questions": 5,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.3
+  },
+  "2019": {
+   "questions": 23,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 15,
+   "per_paper": 1.4
+  },
+  "2020": {
+   "questions": 22,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 13,
+   "per_paper": 1.4
+  },
+  "2021": {
+   "questions": 37,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 23,
+   "per_paper": 1.4
+  },
+  "2022": {
+   "questions": 35,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 21,
+   "per_paper": 1.6
+  },
+  "2023": {
+   "questions": 19,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 17,
+   "per_paper": 0.8
+  },
+  "2024": {
+   "questions": 20,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 14,
+   "per_paper": 1.0
+  },
+  "2025": {
+   "questions": 11,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 11,
+   "per_paper": 0.6
+  },
+  "2026": {
+   "questions": 9,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.5
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Maxima & Minima",
+   "questions": 125,
+   "questions_2019_2026": 95,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Monotonicity",
+   "questions": 48,
+   "questions_2019_2026": 40,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Tangents & Normals",
+   "questions": 48,
+   "questions_2019_2026": 32,
+   "last_year_asked": 2023
+  },
+  {
+   "topic": "Rate of Change",
+   "questions": 20,
+   "questions_2019_2026": 9,
+   "last_year_asked": 2025
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-e-m11",
+   "url": "/q/q-2026-01-21-e-m11",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Monotonicity",
+   "paper_is": "NTA paper",
+   "text": "g(x) = f(^2x - 2 x + a) with f'' > 0, f'(a - 1) = 0: monotonicity"
+  },
+  {
+   "id": "q-2026-01-22-m-m16",
+   "url": "/q/q-2026-01-22-m-m16",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Maxima & Minima",
+   "paper_is": "NTA paper",
+   "text": "Minimum of x^2025 - x^2000 on [0, 1] written as 80^80n^-81"
+  },
+  {
+   "id": "q-2025-01-23-e-m13",
+   "url": "/q/q-2025-01-23-e-m13",
+   "paper": "JEE Main 2025 23 Jan Shift 2",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Rate of Change",
+   "paper_is": "memory based",
+   "text": "Ice-cream layer on a chocolate ball melting at 81 cm³/min: area of the ball"
+  },
+  {
+   "id": "q-2023-01-29-e-m20",
+   "url": "/q/q-2023-01-29-e-m20",
+   "paper": "JEE Main 2023 29 Jan Shift 2",
+   "year": 2023,
+   "type": "numerical answer",
+   "topic": "Tangents & Normals",
+   "paper_is": "memory based",
+   "text": "Constants a, b of y = (x − a)/((x + b)(x − 2)) from the normal x − 4y = 13 at (1, −3)"
+  },
+  {
+   "id": "q-2026-01-21-m-m21",
+   "url": "/q/q-2026-01-21-m-m21",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Monotonicity",
+   "paper_is": "NTA paper",
+   "text": "Equal roots of fm^2 - 2f'm + f'' = 0 for all x: where f( x - x) increases"
+  },
+  {
+   "id": "q-2026-01-24-e-m02",
+   "url": "/q/q-2026-01-24-e-m02",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Monotonicity",
+   "paper_is": "NTA paper",
+   "text": "f(x) = | x| - |x - 1| on (0, ∞): differentiability and monotonicity"
+  },
+  {
+   "id": "q-2026-01-24-m-m23",
+   "url": "/q/q-2026-01-24-m-m23",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Maxima & Minima",
+   "paper_is": "NTA paper",
+   "text": "|t + 1|/t^2 decreasing on (2α, α); local maximum of g(x)"
+  },
+  {
+   "id": "q-2026-04-02-e-m18",
+   "url": "/q/q-2026-04-02-e-m18",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Maxima & Minima",
+   "paper_is": "NTA paper",
+   "text": "Degree-5 polynomial with extrema at ±1 and f(x)/x^3 → -5: f(2) - f(-2)"
+  },
+  {
+   "id": "q-2026-04-02-m-m18",
+   "url": "/q/q-2026-04-02-m-m18",
+   "paper": "B Tech 2nd Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Maxima & Minima",
+   "paper_is": "NTA paper",
+   "text": "Critical points of | x / x| (value 1 at 0) on (-2π, 2π)"
+  },
+  {
+   "id": "q-2026-04-04-e-m12",
+   "url": "/q/q-2026-04-04-e-m12",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Maxima & Minima",
+   "paper_is": "NTA paper",
+   "text": "Maximum of 16 x2^3 x2 on [0, π]"
+  },
+  {
+   "id": "q-2026-04-06-e-m17",
+   "url": "/q/q-2026-04-06-e-m17",
+   "paper": "B Tech 6th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Maxima & Minima",
+   "paper_is": "NTA paper",
+   "text": "Singular matrix fixes α; extremes of ∫0^x(t^2 + 2t + 3)dt on [1, α]"
+  },
+  {
+   "id": "q-2025-01-22-e-m08",
+   "url": "/q/q-2025-01-22-e-m08",
+   "paper": "JEE Main 2025 22 Jan Shift 2",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Maxima & Minima",
+   "paper_is": "memory based",
+   "text": "f(x) = ∫0^x^2t^2 - 8t + 15/e^tdt: numbers of local maxima and minima"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

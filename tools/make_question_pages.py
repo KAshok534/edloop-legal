@@ -23,6 +23,9 @@ source = 'sample', and its exam belongs to the 'jee' family (JEE_MAIN, AIEEE). P
 """
 import argparse, base64, collections, datetime, html, json, os, re, shutil, sqlite3, sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import guides  # noqa: E402  chapter guides (guides/jee/<subject>/<chapter>.md), checked by tools/check_guides.py
+
 sys.stdout.reconfigure(encoding='utf-8')
 
 SITE = 'https://edloop.in'
@@ -34,6 +37,7 @@ KATEX_SRI = {
     'auto': 'sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk',
 }
 SUBJECT_SLUG = {'phy': 'physics', 'chem': 'chemistry', 'math': 'mathematics'}
+GUIDE_CSS = '  <link rel="stylesheet" href="/qguide.css?v=1">' + chr(10)  # only on chapter pages that have a guide
 E = html.escape
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -473,6 +477,7 @@ def main():
         ys = [q['year'] for q in qs]
         return min(ys), max(ys)
 
+    n_guides = 0
     all_papers = len({q['paper_id'] for q in rows})
     y0, y1 = span(rows)
     for ch in chapters.values():
@@ -506,6 +511,12 @@ def main():
         lst += '</div>'
         crumbs = [('EdLoop', SITE + '/'), ('JEE Main PYQs', SITE + '/jee/pyq/'), (sname, SITE + '/jee/pyq/' + SUBJECT_SLUG[ch['subject']]), (ch['name'], SITE + cu)]
         n_mem = sum(1 for q in qs if q['source'] == 'memory_based')
+        guide_html, faq = '', []
+        gp = guides.guide_path(root, SUBJECT_SLUG[ch['subject']], ch['slug'])
+        if os.path.exists(gp):
+            with open(gp, encoding='utf-8') as fh:
+                guide_html, faq = guides.render(fh.read(), ch['name'])
+            n_guides += 1
         body = '''  <main id="main" class="qpage-main">
     <header class="page-band"><div class="wrap">
       %s
@@ -516,14 +527,15 @@ def main():
       <p class="q-intro">%s is part of the JEE Main %s syllabus. This page lists every %s question we have on it, newest paper first, from JEE Main (2013 onwards) and its earlier name AIEEE (2002 to 2012). %s</p>
       <section class="q-cta q-cta-slim"><p><strong>Step-by-step solutions are in EdLoop.</strong> Free on Android, no ads.</p>
         <div class="q-actions"><a class="btn btn-solid" href="%s&amp;referrer=utm_source%%3Dweb%%26utm_content%%3Dpyq_hub" rel="noopener">Get EdLoop on Google Play</a></div></section>
-      %s
+      %s%s
     </div>
   </main>
 ''' % (crumbs_html(crumbs), E(h1), nfmt(len(qs)), papers, ya, yb, E(ch['name']), E(sname), E(ch['name']),
        ('%d of these questions come from memory-based papers (reconstructed by coaching institutes); papers marked NTA are the exam as held.' % n_mem) if n_mem else '',
-       PLAY.replace('&', '&amp;'), lst)
+       PLAY.replace('&', '&amp;'), (guide_html + chr(10) + '      ') if guide_html else '', ('<h2 class="q-list-head">Every %s question, newest first</h2>' % E(ch['name']) if guide_html else '') + lst)
         write('jee/pyq/%s/%s.html' % (SUBJECT_SLUG[ch['subject']], ch['slug']),
-              page(chrome, title, desc, SITE + cu, body, extra=crumbs_json(crumbs)))
+              page(chrome, title, desc, SITE + cu, body, extra=crumbs_json(crumbs) + guides.faq_jsonld(faq) +
+                   (GUIDE_CSS if guide_html else '')))
         hub_urls.append(SITE + cu)
 
     for sid, chs in subj_ch.items():
@@ -591,7 +603,7 @@ def main():
 
     dup = [t for t, c in titles.items() if c > 1]
     print('question pages: %d  (with image: %d)' % (len(rows), n_img))
-    print('chapters: %d  subjects: %d' % (len(chapters), len(subj_ch)))
+    print('chapters: %d  subjects: %d  chapter guides: %d' % (len(chapters), len(subj_ch), n_guides))
     print('sitemap URLs: %d  (questions %d, pages %d)' % (len(rows) + len(static), len(rows), len(static)))
     print('html bytes: %s  image bytes: %s' % (nfmt(sizes['html']), nfmt(sizes['img'])))
     print('duplicate titles:', len(dup))

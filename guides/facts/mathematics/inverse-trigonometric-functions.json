@@ -1,0 +1,345 @@
+{
+ "chapter": "Inverse Trigonometric Functions",
+ "subject": "Mathematics",
+ "chapter_id": "math-itf",
+ "page_url": "/jee/pyq/mathematics/inverse-trigonometric-functions",
+ "class_level": 12,
+ "nta_syllabus_unit": "Unit 14: Trigonometry",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 108,
+  "papers_with_this_chapter": 99,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 97
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 90,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 83,
+  "per_paper": 0.6,
+  "share_of_subject_percent": 2.0
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 18,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 16,
+  "per_paper": 0.5,
+  "share_of_subject_percent": 1.4
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 29,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 29,
+  "per_paper": 0.5,
+  "share_of_subject_percent": 1.9
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 23,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 15,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2003": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2004": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2005": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2006": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2007": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2008": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2009": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2010": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2011": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2012": {
+   "questions": 1,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.2
+  },
+  "2013": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2014": {
+   "questions": 2,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.4
+  },
+  "2015": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2016": {
+   "questions": 0,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2017": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2018": {
+   "questions": 0,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2019": {
+   "questions": 8,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.5
+  },
+  "2020": {
+   "questions": 5,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 5,
+   "per_paper": 0.3
+  },
+  "2021": {
+   "questions": 20,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 17,
+   "per_paper": 0.8
+  },
+  "2022": {
+   "questions": 17,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.8
+  },
+  "2023": {
+   "questions": 11,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.5
+  },
+  "2024": {
+   "questions": 7,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 7,
+   "per_paper": 0.4
+  },
+  "2025": {
+   "questions": 11,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 11,
+   "per_paper": 0.6
+  },
+  "2026": {
+   "questions": 11,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 11,
+   "per_paper": 0.6
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Properties & Equations",
+   "questions": 70,
+   "questions_2019_2026": 57,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Domain, Range & Graphs",
+   "questions": 38,
+   "questions_2019_2026": 33,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-m-m17",
+   "url": "/q/q-2026-01-21-m-m17",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Domain, Range & Graphs",
+   "paper_is": "NTA paper",
+   "text": "Domain of ^-12x - 5/11 - 3x + ^-1(2x^2 - 3x + 1)"
+  },
+  {
+   "id": "q-2026-01-22-m-m13",
+   "url": "/q/q-2026-01-22-m-m13",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Properties & Equations",
+   "paper_is": "NTA paper",
+   "text": "Solutions of ^-14x + ^-16x = π6 in a small interval"
+  },
+  {
+   "id": "q-2026-01-21-e-m21",
+   "url": "/q/q-2026-01-21-e-m21",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Domain, Range & Graphs",
+   "paper_is": "NTA paper",
+   "text": "Maximum of (^-1x)^2 + (^-1x)^2 on [-3/2, 12]"
+  },
+  {
+   "id": "q-2026-01-24-e-m09",
+   "url": "/q/q-2026-01-24-e-m09",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Domain, Range & Graphs",
+   "paper_is": "NTA paper",
+   "text": "Domain of ^-11/x^2 - 2x - 2: α + β + γ + δ"
+  },
+  {
+   "id": "q-2026-01-28-e-m16",
+   "url": "/q/q-2026-01-28-e-m16",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Domain, Range & Graphs",
+   "paper_is": "NTA paper",
+   "text": "(2^-12/√13 - 2^-13/√10)"
+  },
+  {
+   "id": "q-2026-01-28-m-m22",
+   "url": "/q/q-2026-01-28-m-m22",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Domain, Range & Graphs",
+   "paper_is": "NTA paper",
+   "text": "k from two half-angle tangents; solutions of an inverse sine equation in x"
+  },
+  {
+   "id": "q-2026-04-04-e-m20",
+   "url": "/q/q-2026-04-04-e-m20",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Properties & Equations",
+   "paper_is": "NTA paper",
+   "text": "Integral of ^-1(1 + x + x^2) from 0 to 1"
+  },
+  {
+   "id": "q-2026-04-05-m-m24",
+   "url": "/q/q-2026-04-05-m-m24",
+   "paper": "B Tech 5th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Properties & Equations",
+   "paper_is": "NTA paper",
+   "text": "π4 + Σp=1^11^-12^p-11 + 2^2p-1: value of α"
+  },
+  {
+   "id": "q-2026-04-06-e-m13",
+   "url": "/q/q-2026-04-06-e-m13",
+   "paper": "B Tech 6th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Properties & Equations",
+   "paper_is": "NTA paper",
+   "text": "Solve (^-1(x2)) = (^-1√1 - x^2) for x in (0, 1)"
+  },
+  {
+   "id": "q-2026-04-06-m-m13",
+   "url": "/q/q-2026-04-06-m-m13",
+   "paper": "B Tech 6th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Properties & Equations",
+   "paper_is": "NTA paper",
+   "text": "^-1(1 - α) + ^-1(1 - β) = π4 with αβ = 13"
+  },
+  {
+   "id": "q-2026-04-08-e-m12",
+   "url": "/q/q-2026-04-08-e-m12",
+   "paper": "B Tech 8th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Domain, Range & Graphs",
+   "paper_is": "NTA paper",
+   "text": "Signs of cos(α + β) and cos α for α, β given as triple inverse trig values"
+  },
+  {
+   "id": "q-2025-01-22-m-m11",
+   "url": "/q/q-2025-01-22-m-m11",
+   "paper": "JEE Main 2025 22 Jan Shift 1",
+   "year": 2025,
+   "type": "multiple choice",
+   "topic": "Properties & Equations",
+   "paper_is": "memory based",
+   "text": "Max plus min of 16((sec⁻¹x)² + (cosec⁻¹x)²)"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

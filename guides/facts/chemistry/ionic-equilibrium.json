@@ -1,0 +1,357 @@
+{
+ "chapter": "Ionic Equilibrium",
+ "subject": "Chemistry",
+ "chapter_id": "chem-ionic",
+ "page_url": "/jee/pyq/chemistry/ionic-equilibrium",
+ "class_level": 11,
+ "nta_syllabus_unit": "Unit 6: Equilibrium",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 153,
+  "papers_with_this_chapter": 120,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 140
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 103,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 92,
+  "per_paper": 0.6,
+  "share_of_subject_percent": 2.3
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 50,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 28,
+  "per_paper": 1.3,
+  "share_of_subject_percent": 3.7
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 33,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 29,
+  "per_paper": 0.6,
+  "share_of_subject_percent": 2.1
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 21,
+  "of_chapters": 31,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 43,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2003": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2004": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2005": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2006": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2007": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2008": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2009": {
+   "questions": 1,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 1.0
+  },
+  "2010": {
+   "questions": 4,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 4.0
+  },
+  "2011": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2012": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.0
+  },
+  "2013": {
+   "questions": 7,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 5,
+   "per_paper": 1.4
+  },
+  "2014": {
+   "questions": 4,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 3,
+   "per_paper": 0.8
+  },
+  "2015": {
+   "questions": 0,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2016": {
+   "questions": 0,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2017": {
+   "questions": 3,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 3,
+   "per_paper": 1.0
+  },
+  "2018": {
+   "questions": 8,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 3,
+   "per_paper": 2.0
+  },
+  "2019": {
+   "questions": 8,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.5
+  },
+  "2020": {
+   "questions": 12,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 12,
+   "per_paper": 0.8
+  },
+  "2021": {
+   "questions": 16,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.6
+  },
+  "2022": {
+   "questions": 17,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 13,
+   "per_paper": 0.8
+  },
+  "2023": {
+   "questions": 17,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 15,
+   "per_paper": 0.7
+  },
+  "2024": {
+   "questions": 8,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.4
+  },
+  "2025": {
+   "questions": 12,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 11,
+   "per_paper": 0.6
+  },
+  "2026": {
+   "questions": 13,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 10,
+   "per_paper": 0.7
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Solubility Equilibria",
+   "questions": 53,
+   "questions_2019_2026": 37,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Acids, Bases & pH",
+   "questions": 53,
+   "questions_2019_2026": 30,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Buffers & Titrations",
+   "questions": 36,
+   "questions_2019_2026": 29,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Salt Hydrolysis",
+   "questions": 11,
+   "questions_2019_2026": 7,
+   "last_year_asked": 2024
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-e-c21",
+   "url": "/q/q-2026-01-21-e-c21",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Acids, Bases & pH",
+   "paper_is": "NTA paper",
+   "text": "Weak diprotic acid at 0.1 M with given K₁ and K₂: concentration of X²⁻"
+  },
+  {
+   "id": "q-2026-01-22-e-c08",
+   "url": "/q/q-2026-01-22-e-c08",
+   "paper": "JEE Main 2026 22 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Buffers & Titrations",
+   "paper_is": "NTA paper",
+   "text": "Which NH₄OH + HCl mixture gives a buffer of pH 9.25 (pKb 4.75)?"
+  },
+  {
+   "id": "q-2026-01-24-m-c23",
+   "url": "/q/q-2026-01-24-m-c23",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Solubility Equilibria",
+   "paper_is": "NTA paper",
+   "text": "0.01 M X²⁺ and Y²⁺ saturated with H₂S: pH at which YS begins to precipitate"
+  },
+  {
+   "id": "q-2024-01-27-m-c05",
+   "url": "/q/q-2024-01-27-m-c05",
+   "paper": "JEE Main 2024 27 Jan Shift 1",
+   "year": 2024,
+   "type": "multiple choice",
+   "topic": "Salt Hydrolysis",
+   "paper_is": "memory based",
+   "text": "Is aqueous ammonium carbonate basic? Weak acid–weak base salt hydrolysis"
+  },
+  {
+   "id": "q-2026-01-28-m-c07",
+   "url": "/q/q-2026-01-28-m-c07",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Buffers & Titrations",
+   "paper_is": "NTA paper",
+   "text": "0.02 M HCl and 0.02 M weak base (pKb 5.699) mixed to 100 mL at pH 9: volumes"
+  },
+  {
+   "id": "q-2026-01-28-m-c22",
+   "url": "/q/q-2026-01-28-m-c22",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Acids, Bases & pH",
+   "paper_is": "NTA paper",
+   "text": "pH of 10 mM weak acid with pKa 4"
+  },
+  {
+   "id": "q-2026-04-02-e-c02",
+   "url": "/q/q-2026-04-02-e-c02",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Acids, Bases & pH",
+   "paper_is": "NTA paper",
+   "text": "Weak dibasic acid dissolved in 0.1 M HCl: concentration of HA^-"
+  },
+  {
+   "id": "q-2026-04-02-e-c06",
+   "url": "/q/q-2026-04-02-e-c06",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Buffers & Titrations",
+   "paper_is": "NTA paper",
+   "text": "Weak acid titrated with NaOH: pH at the start and at half neutralisation"
+  },
+  {
+   "id": "q-2026-04-02-m-c06",
+   "url": "/q/q-2026-04-02-m-c06",
+   "paper": "B Tech 2nd Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Solubility Equilibria",
+   "paper_is": "NTA paper",
+   "text": "Ratio of molar solubilities of Ag2CrO4 and AgBr from their Ksp"
+  },
+  {
+   "id": "q-2026-04-04-e-c05",
+   "url": "/q/q-2026-04-04-e-c05",
+   "paper": "B Tech 4th Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Buffers & Titrations",
+   "paper_is": "NTA paper",
+   "text": "Acetic acid half-neutralised by NaOH: pH of the mixture"
+  },
+  {
+   "id": "q-2026-04-04-m-c24",
+   "url": "/q/q-2026-04-04-m-c24",
+   "paper": "B Tech 4th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Buffers & Titrations",
+   "paper_is": "NTA paper",
+   "text": "pH of 5 mL 0.1 M NH4OH mixed with 250 mL 0.1 M NH4Cl"
+  },
+  {
+   "id": "q-2026-04-05-m-c05",
+   "url": "/q/q-2026-04-05-m-c05",
+   "paper": "B Tech 5th Apr 2026 Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Solubility Equilibria",
+   "paper_is": "NTA paper",
+   "text": "M3A2 with solubility x g/L: anion concentration over Ksp"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}

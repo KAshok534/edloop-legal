@@ -1,0 +1,357 @@
+{
+ "chapter": "Laws of Motion",
+ "subject": "Physics",
+ "chapter_id": "phy-nlm",
+ "page_url": "/jee/pyq/physics/laws-of-motion",
+ "class_level": 11,
+ "nta_syllabus_unit": "Unit 3: Laws of Motion",
+ "in_current_syllabus": true,
+ "removed_from_syllabus_in": null,
+ "all_years": {
+  "from": 2002,
+  "to": 2026,
+  "questions": 253,
+  "papers_with_this_chapter": 153,
+  "papers_in_our_set": 200,
+  "memory_based_questions": 232
+ },
+ "window_2019_2026": {
+  "from": 2019,
+  "to": 2026,
+  "questions": 195,
+  "papers_in_our_set": 162,
+  "papers_with_this_chapter": 126,
+  "per_paper": 1.2,
+  "share_of_subject_percent": 4.3
+ },
+ "window_2002_2018": {
+  "from": 2002,
+  "to": 2018,
+  "questions": 58,
+  "papers_in_our_set": 38,
+  "papers_with_this_chapter": 27,
+  "per_paper": 1.5,
+  "share_of_subject_percent": 4.3
+ },
+ "window_2024_2026": {
+  "from": 2024,
+  "to": 2026,
+  "questions": 67,
+  "papers_in_our_set": 58,
+  "papers_with_this_chapter": 46,
+  "per_paper": 1.2,
+  "share_of_subject_percent": 4.3
+ },
+ "rank_in_subject_2019_2026": {
+  "rank": 8,
+  "of_chapters": 29,
+  "by": "share of the subject's questions, 2019-2026"
+ },
+ "numerical_answer_questions_2019_2026": 39,
+ "years_not_asked_since_2019": [],
+ "by_year": {
+  "2002": {
+   "questions": 8,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 8.0
+  },
+  "2003": {
+   "questions": 8,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 8.0
+  },
+  "2004": {
+   "questions": 3,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 3.0
+  },
+  "2005": {
+   "questions": 5,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 5.0
+  },
+  "2006": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2007": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2008": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2009": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2010": {
+   "questions": 2,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 1,
+   "per_paper": 2.0
+  },
+  "2011": {
+   "questions": 0,
+   "papers_in_our_set": 1,
+   "papers_with_this_chapter": 0,
+   "per_paper": 0.0
+  },
+  "2012": {
+   "questions": 7,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.4
+  },
+  "2013": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2014": {
+   "questions": 5,
+   "papers_in_our_set": 5,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.0
+  },
+  "2015": {
+   "questions": 1,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.3
+  },
+  "2016": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 2,
+   "per_paper": 0.7
+  },
+  "2017": {
+   "questions": 2,
+   "papers_in_our_set": 3,
+   "papers_with_this_chapter": 1,
+   "per_paper": 0.7
+  },
+  "2018": {
+   "questions": 6,
+   "papers_in_our_set": 4,
+   "papers_with_this_chapter": 4,
+   "per_paper": 1.5
+  },
+  "2019": {
+   "questions": 11,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 9,
+   "per_paper": 0.7
+  },
+  "2020": {
+   "questions": 8,
+   "papers_in_our_set": 16,
+   "papers_with_this_chapter": 8,
+   "per_paper": 0.5
+  },
+  "2021": {
+   "questions": 35,
+   "papers_in_our_set": 26,
+   "papers_with_this_chapter": 21,
+   "per_paper": 1.3
+  },
+  "2022": {
+   "questions": 42,
+   "papers_in_our_set": 22,
+   "papers_with_this_chapter": 21,
+   "per_paper": 1.9
+  },
+  "2023": {
+   "questions": 32,
+   "papers_in_our_set": 24,
+   "papers_with_this_chapter": 21,
+   "per_paper": 1.3
+  },
+  "2024": {
+   "questions": 35,
+   "papers_in_our_set": 20,
+   "papers_with_this_chapter": 20,
+   "per_paper": 1.8
+  },
+  "2025": {
+   "questions": 11,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 10,
+   "per_paper": 0.6
+  },
+  "2026": {
+   "questions": 21,
+   "papers_in_our_set": 19,
+   "papers_with_this_chapter": 16,
+   "per_paper": 1.1
+  }
+ },
+ "topics_most_asked_first": [
+  {
+   "topic": "Newton's Laws & Free Body Diagrams",
+   "questions": 89,
+   "questions_2019_2026": 65,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Friction",
+   "questions": 65,
+   "questions_2019_2026": 48,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Dynamics of Circular Motion",
+   "questions": 49,
+   "questions_2019_2026": 42,
+   "last_year_asked": 2026
+  },
+  {
+   "topic": "Momentum & Impulse",
+   "questions": 50,
+   "questions_2019_2026": 40,
+   "last_year_asked": 2026
+  }
+ ],
+ "question_candidates": [
+  {
+   "id": "q-2026-01-21-e-p13",
+   "url": "/q/q-2026-01-21-e-p13",
+   "paper": "JEE Main 2026 21 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Dynamics of Circular Motion",
+   "paper_is": "NTA paper",
+   "text": "Mass stuck to the inner wall of a spinning drum: minimum angular velocity"
+  },
+  {
+   "id": "q-2026-01-21-m-p13",
+   "url": "/q/q-2026-01-21-m-p13",
+   "paper": "JEE Main 2026 21 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Newton's Laws & Free Body Diagrams",
+   "paper_is": "NTA paper",
+   "text": "Force 4t^3 i - 3t j on 4 kg from rest: velocity and position at 2 s"
+  },
+  {
+   "id": "q-2026-01-23-e-p05",
+   "url": "/q/q-2026-01-23-e-p05",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Momentum & Impulse",
+   "paper_is": "NTA paper",
+   "text": "14 kg body explodes into masses 2 : 2 : 3, equal pieces at right angles: third velocity"
+  },
+  {
+   "id": "q-2026-01-23-e-p14",
+   "url": "/q/q-2026-01-23-e-p14",
+   "paper": "JEE Main 2026 23 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Friction",
+   "paper_is": "NTA paper",
+   "text": "Block sliding down an incline is pushed up with speed u: distance before it stops"
+  },
+  {
+   "id": "q-2026-01-22-m-p16",
+   "url": "/q/q-2026-01-22-m-p16",
+   "paper": "JEE Main 2026 22 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Newton's Laws & Free Body Diagrams",
+   "paper_is": "NTA paper",
+   "text": "Charged pendulum in a horizontal field at equilibrium: tension in the string"
+  },
+  {
+   "id": "q-2026-01-23-m-p03",
+   "url": "/q/q-2026-01-23-m-p03",
+   "paper": "JEE Main 2026 23 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Dynamics of Circular Motion",
+   "paper_is": "NTA paper",
+   "text": "Bob released at 60° hits an identical bob that just completes a vertical loop: R"
+  },
+  {
+   "id": "q-2026-01-24-e-p05",
+   "url": "/q/q-2026-01-24-e-p05",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Dynamics of Circular Motion",
+   "paper_is": "NTA paper",
+   "text": "String goes slack 30° above the horizontal in a vertical circle: speed at the bottom"
+  },
+  {
+   "id": "q-2026-01-24-e-p11",
+   "url": "/q/q-2026-01-24-e-p11",
+   "paper": "JEE Main 2026 24 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Newton's Laws & Free Body Diagrams",
+   "paper_is": "NTA paper",
+   "text": "Chain of mass m hanging between level supports at 30°: tension at the lowest point"
+  },
+  {
+   "id": "q-2026-01-24-m-p21",
+   "url": "/q/q-2026-01-24-m-p21",
+   "paper": "JEE Main 2026 24 Jan Shift 1",
+   "year": 2026,
+   "type": "numerical answer",
+   "topic": "Friction",
+   "paper_is": "NTA paper",
+   "text": "Blocks A on B on C, B tied to C over a wall pulley: force to drag C at constant speed"
+  },
+  {
+   "id": "q-2026-01-28-e-p11",
+   "url": "/q/q-2026-01-28-e-p11",
+   "paper": "JEE Main 2026 28 Jan Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Newton's Laws & Free Body Diagrams",
+   "paper_is": "NTA paper",
+   "text": "Block sliding down a smooth incline that accelerates sideways: time to the bottom"
+  },
+  {
+   "id": "q-2026-01-28-m-p18",
+   "url": "/q/q-2026-01-28-m-p18",
+   "paper": "JEE Main 2026 28 Jan Shift 1",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Friction",
+   "paper_is": "NTA paper",
+   "text": "5 kg on a 30° incline with μ = √3/2: push needed to slide it down uniformly"
+  },
+  {
+   "id": "q-2026-04-02-e-p02",
+   "url": "/q/q-2026-04-02-e-p02",
+   "paper": "B Tech 2nd Apr 2026 Shift 2",
+   "year": 2026,
+   "type": "multiple choice",
+   "topic": "Dynamics of Circular Motion",
+   "paper_is": "NTA paper",
+   "text": "Mass stuck to the wall of a rotating drum: coefficient of friction"
+  }
+ ],
+ "source": {
+  "database_built_at": "2026-11-19T18:21:28+00:00",
+  "question_set": "verified JEE Main (2013-2026) and AIEEE (2002-2012) questions, sample papers excluded",
+  "note": "Most papers before 2026 are memory based (reconstructed by coaching institutes); 2026 papers are NTA's own."
+ }
+}
