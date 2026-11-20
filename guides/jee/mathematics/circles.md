@@ -1,67 +1,67 @@
+# Circles: JEE Main Guide
+
+Circles forms the central pillar of conic geometry in JEE Main. Across the 162 papers conducted between 2019 and 2026, the examination contained 149 questions from this chapter, representing 3.3 percent of all mathematics questions and placing it at rank 17 among the 29 chapters in the subject. It appeared in 121 of those 162 papers and has been tested every year since 2019. Over the recent 2024 to 2026 testing period, 45 questions were asked across 58 papers, averaging 0.8 questions per paper with a 2.9 percent subject share. Comparing the earlier 2002 to 2018 share of 3.9 percent against 2024 to 2026 indicates that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2026 spanning 200 papers, 200 questions were asked in 157 papers, with 45 numerical answer questions appearing between 2019 and 2026.
+
+```
+Circles in JEE Main (2019-2026)
+Total questions: 149 | Rank: 17 of 29 chapters
+Average per paper: 0.9 | Subject share: 3.3%
+Testing breadth: included in 121 of 162 papers
+```
+
 ## How often it comes up
 
-Circles is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **149 questions in 162 papers**, about **0.9 questions per paper**, and it appeared in 121 of those 162 papers. That places it **17th of 29 Mathematics chapters** by share of questions in that period, with 3.3% of all Mathematics questions.
+Students can expect roughly one circle question in almost every examination session. In the 2019 to 2026 period, 121 out of 162 papers featured problems from this chapter. The annual question tallies for 2024, 2025, and 2026 were 19, 10, and 16 questions respectively.
 
-The share has fallen since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 3.9% of Mathematics; in the last three exam years (2024 to 2026) it declined to 2.9%, with 45 questions in 58 papers. The busiest year in our set was 2021, with 28 questions across 26 papers. Since 2019 there has been no year without it, appearing in 121 of the 162 papers we hold.
-
-It is a Class 11 chapter, part of NTA's Unit 10: Coordinate Geometry.
+Examiners frequently combine circles with lines, parabolas, and ellipses. Questions commonly ask for the locus of a moving geometric point or investigate mutual intersection properties between two circular boundaries, demanding both algebraic speed and geometric intuition.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Questions in this chapter divide across three central thematic areas:
 
-- **Equation of a Circle**: 55 questions.
-- **Tangents & Normals**: 48 questions.
-- **Family of Circles & Two Circles**: 46 questions.
+1. **Equation of a Circle (55 questions, 2019-2026; 77 total, last asked 2026)**
+Focuses on general second-degree equations representing circles, finding centres and radii, equations of circles passing through three non-collinear points, diametric forms, intercept lengths on coordinate axes, and parametric representations.
 
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+2. **Tangents & Normals (48 questions, 2019-2026; 56 total, last asked 2026)**
+Involves conditions of tangency where the perpendicular distance from the centre matches the radius, equations of tangents in slope and point forms, lengths of tangents from an external point, chords of contact, and normals passing through the centre.
+
+3. **Family of Circles & Two Circles (46 questions, 2019-2026; 67 total, last asked 2026)**
+Covers relative positions of two circles, conditions for internal and external contact, number of common tangents, equations of common chords, radical axes, orthogonal intersection criteria, and families of circles passing through the intersections of a circle and a line.
 
 ## What the questions look like
 
-Questions in Circles test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners test circle geometry using several recurring problem templates:
 
-In **Equation of a Circle**, questions focus on standard exam setups. Recent problems include: Vector condition fixes λ₁, λ₂; for which K is the second-degree equation a circle?; Circle of radius 4 through O, (-3a, 0) and (0, -2b): locus of the centroid. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Tangents & Normals**, questions focus on standard exam setups. Recent problems include: Tangents at A and B with ∠AOB = π/3: locus of their intersection; Circle on the chord of y = x as diameter; chord through (2, 3) farthest from its centre. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Family of Circles & Two Circles**, questions focus on standard exam setups. Recent problems include: Values of r for which two circles meet in two points: product of the interval ends; Circle through the four common points of two ellipses: ab + 18r^2. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 45 of the 149 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Tangency Condition via Distance Formula**: A line touches a circle if and only if the perpendicular distance from the centre equals the radius. Many problems use this condition to establish relations between unknown slope or intercept constants.
+- **Two-Circle Interaction and Common Tangents**: Evaluating the distance between centres relative to the sum and difference of their radii to determine whether two circles intersect in two distinct points, touch at one point, or remain mutually disjoint.
+- **Locus of Chord Midpoints or Tangent Intersections**: A chord subtends a given angle at the centre, or tangents drawn from an external point meet at a fixed angle, requiring the locus equation of the external intersection point.
+- **Circle Through Conic Intersections**: Determining the radius or equation of a circle that passes through all four points of intersection between two concentric or confocal ellipses.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Test your circle fundamentals with these recent examination problems:
 
-- [Tangents at A and B with ∠AOB = π/3: locus of their intersection](/q/q-2026-01-21-m-m10) (JEE Main 2026 21 Jan Shift 1)
-- [Vector condition fixes λ₁, λ₂; for which K is the second-degree equation a ci...](/q/q-2026-01-21-m-m19) (JEE Main 2026 21 Jan Shift 1)
-- [Values of r for which two circles meet in two points: product of the interval...](/q/q-2026-01-22-m-m10) (JEE Main 2026 22 Jan Shift 1)
-- [Circle through the four common points of two ellipses: ab + 18r^2](/q/q-2026-01-23-e-m10) (JEE Main 2026 23 Jan Shift 2)
-- [Circle of radius 4 through O, (-3a, 0) and (0, -2b): locus of the centroid](/q/q-2026-01-24-m-m17) (JEE Main 2026 24 Jan Shift 1)
+- Locus of intersecting tangents subtending a fixed angle: [JEE Main 2026 21 Jan Shift 1](/q/q-2026-01-21-m-m10)
+- Second-degree equation condition for a circle: [JEE Main 2026 21 Jan Shift 1](/q/q-2026-01-21-m-m19)
+- Radius interval for two intersecting circles: [JEE Main 2026 22 Jan Shift 1](/q/q-2026-01-22-m-m10)
+- Circle passing through four ellipse intersections: [JEE Main 2026 23 Jan Shift 2](/q/q-2026-01-23-e-m10)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Circles.
+Mastering circle problems requires blending pure geometry with coordinate methods:
 
-Next, work through past JEE Main questions topic by topic. Start with Equation of a Circle, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+- **Prefer pure geometry over calculus**: To find the equation of a tangent or normal to a circle, avoid differentiating the implicit equation. Always use the geometric criterion: the perpendicular distance from the centre to the tangent line equals the radius, and every normal passes through the centre.
+- **Leverage the diametric form**: When given two opposite endpoints of a diameter, write the circle directly as the product of x minus x1 and x minus x2 plus the product of y minus y1 and y minus y2 equals zero, saving multiple steps of finding the midpoint and squaring the radius.
+- **Use the circle-line family formulation**: To write the equation of any circle passing through the intersection points of a circle S and a line L, use S plus lambda L equals zero. The single scalar parameter lambda is determined by enforcing a point constraint or centre locus.
+- **Exploit common chord properties**: Subtracting the equations of two circles with unit leading coefficients immediately gives the equation of their common chord or radical axis without calculating individual intersection coordinates.
 
 ## Frequently asked questions
 
-### Is Circles important for JEE Main 2027?
+### How do I determine the number of common tangents between two circles?
+Compute the distance d between their centres and compare it against the sum and difference of their radii. If d is greater than the sum of the radii, there are four common tangents. If d equals the sum, three tangents exist. If the absolute difference of radii is less than d and d is less than the sum, there are two common tangents. If d equals the absolute difference, one tangent exists, and if d is less than the difference, no common tangents exist.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 149 questions across 162 papers, about 0.9 questions per paper. It ranks 17th of 29 Mathematics chapters by question volume.
+### What is the condition for two circles to cut orthogonally?
+Two circles intersect orthogonally if the square of the distance between their centres equals the sum of the squares of their radii. In general second-degree coefficients, this translates to twice the sum of g1 g2 plus f1 f2 equaling c1 plus c2.
 
-### Which topic in Circles has the most questions?
-
-Equation of a Circle is the most-asked topic, with 55 questions from 2019 to 2026 in our collection.
-
-### Are questions in Circles multiple choice or numerical?
-
-Both formats appear. Of the 149 questions from 2019 to 2026 in our set, 45 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Why do normals always pass through the centre?
+By the fundamental geometric symmetry of a circle, the tangent at any point is perpendicular to the radius drawn to that point. Because the normal is by definition perpendicular to the tangent at the point of contact, the normal line must coincide with the radial line, passing directly through the centre. Step-by-step solutions for each one are in the EdLoop app.

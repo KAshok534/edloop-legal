@@ -1,64 +1,64 @@
+# Ellipse: JEE Main Guide
+
+Ellipse provides essential coordinate geometry problems on central conics in JEE Main. Between 2019 and 2026, 100 questions were catalogued from this chapter across 162 papers, representing 2.2 percent of all mathematics questions and placing it at rank 22 among the 29 chapters in the subject. It appeared in 90 of those 162 papers and has been tested every single year since 2019. In the recent 2024 to 2026 examination cycles, it contributed 39 questions across 58 papers, averaging 0.7 questions per paper and capturing a 2.5 percent subject share. Comparing the earlier 2002 to 2018 share of 1.8 percent with the 2024 to 2026 level shows that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete historical record from 2004 to 2026 across 200 papers, 123 questions appeared in 112 papers, including 18 numerical answer questions between 2019 and 2026.
+
+```
+Ellipse in JEE Main (2019-2026)
+Total questions: 100 | Rank: 22 of 29 chapters
+Average per paper: 0.6 | Subject share: 2.2%
+Shift distribution: tested in 90 of 162 papers
+```
+
 ## How often it comes up
 
-Ellipse is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **100 questions in 162 papers**, about **0.6 questions per paper**, and it appeared in 90 of those 162 papers. That places it **22th of 29 Mathematics chapters** by share of questions in that period, with 2.2% of all Mathematics questions.
+Students can expect an ellipse question in roughly six out of ten examination papers. Across the 162 test shifts from 2019 to 2026, 90 papers contained questions from this unit. The annual numbers for 2024, 2025, and 2026 stood at 8, 18, and 13 questions respectively, demonstrating steady modern engagement.
 
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 1.8% of Mathematics; in the last three exam years (2024 to 2026) it rose to 2.5%, with 39 questions in 58 papers. The busiest year in our set was 2025, with 18 questions across 19 papers. Since 2019 there has been no year without it, appearing in 90 of the 162 papers we hold.
-
-It is a Class 11 chapter, part of NTA's Unit 10: Coordinate Geometry.
+Examiners frequently formulate ellipse problems in conjunction with circles or auxiliary lines. Typical questions involve focal properties, eccentricities, equations of chords and tangents, and locus equations of geometric centroids or chord midpoints.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 2 topics:
+Questions in this chapter divide between two primary subject headings:
 
-- **Standard Forms**: 53 questions.
-- **Tangents, Normals & Chords**: 47 questions.
+1. **Standard Forms (53 questions, 2019-2026; 67 total, last asked 2026)**
+The dominant classification in the chapter. Covers equations of horizontal and vertical ellipses, major and minor axis lengths, eccentricity relations linking a and b, focus and directrix coordinates, latus rectum length, focal radii properties where SP plus S'P equals 2a, and parametric coordinates using eccentric angle theta.
 
-All 2 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+2. **Tangents, Normals & Chords (47 questions, 2019-2026; 56 total, last asked 2026)**
+Involves conditions of tangency where c squared equals a squared m squared plus b squared, point-form tangents using T equals zero, equations of chords joining points with specified eccentric angles, chords with given midpoints using T equals S1, and auxiliary circle intersections.
 
 ## What the questions look like
 
-Questions in Ellipse test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners test ellipse concepts through regular geometric configurations:
 
-In **Standard Forms**, questions focus on standard exam setups. Recent problems include: Chord of x^2/2 + y^2 = 1 on y - x = 1: angle at the centre; Two ellipses with e = 4/5 (one horizontal, one vertical), 2l1^2 = 9l2: foci of E₂. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Tangents, Normals & Chords**, questions focus on standard exam setups. Recent problems include: Line α x + 4y = 7 touches 3x^2 + 4y^2 = 1 in quadrant I: a focal distance; Point on an ellipse with a given relation between focal distances: find α² + β². Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 18 of the 100 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Tangency Condition and Focal Distances**: A line with unknown slope touches an ellipse in the first quadrant, requiring students to determine the point of contact and calculate its distance to the nearer focus.
+- **Chord Subtending Angle at the Centre**: A chord lying along a known line cuts the ellipse at two points, and candidates determine the angle subtended by the chord at the origin or the area of the resulting central triangle.
+- **Dual Horizontal and Vertical Ellipses**: Comparing two related ellipses where one has its major axis along the horizontal axis and the other along the vertical axis, using shared eccentricity or latus rectum relations to locate foci.
+- **Focal Distance Relations and Locus**: Enforcing constraints on the sum or ratio of distances from a point on the curve to the two foci to deduce coordinate values or trace a new locus curve.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Test your preparation with these representative questions from recent examination sessions:
 
-- [Line α x + 4y = 7 touches 3x^2 + 4y^2 = 1 in quadrant I: a focal distance](/q/q-2026-01-21-e-m04) (JEE Main 2026 21 Jan Shift 2)
-- [Chord of x^2/2 + y^2 = 1 on y - x = 1: angle at the centre](/q/q-2026-01-23-m-m01) (JEE Main 2026 23 Jan Shift 1)
-- [Point on an ellipse with a given relation between focal distances: find α² + β²](/q/q-2026-01-22-e-m20) (JEE Main 2026 22 Jan Shift 2)
-- [Two ellipses with e = 4/5 (one horizontal, one vertical), 2l1^2 = 9l2: foci o...](/q/q-2026-01-24-m-m08) (JEE Main 2026 24 Jan Shift 1)
-- [Ellipse with latus rectum 30 and e from the maximum of a quadratic: a^2 + b^2](/q/q-2026-01-24-e-m10) (JEE Main 2026 24 Jan Shift 2)
+- Tangency condition and focal distance: [JEE Main 2026 21 Jan Shift 2](/q/q-2026-01-21-e-m04)
+- Central angle subtended by a secant chord: [JEE Main 2026 23 Jan Shift 1](/q/q-2026-01-23-m-m01)
+- Focal distance coordinate relation: [JEE Main 2026 22 Jan Shift 2](/q/q-2026-01-22-e-m20)
+- Paired horizontal and vertical ellipses: [JEE Main 2026 24 Jan Shift 1](/q/q-2026-01-24-m-m08)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Ellipse.
+Efficient mastery of the ellipse depends on mastering eccentricity relations and parametric forms:
 
-Next, work through past JEE Main questions topic by topic. Start with Standard Forms, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+- **Check axis orientation first**: Before applying standard formulas, identify whether a is greater than b or b is greater than a. For a vertical ellipse where b exceeds a, the foci lie at (0, plus or minus be), the directrices are horizontal, and the eccentricity identity swaps roles to a squared equals b squared multiplied by one minus e squared.
+- **Exploit the focal radius identity**: Remember that for any point P on an ellipse, the sum of its distances to the two foci is always equal to the major axis length 2a. This property frequently shortcuts algebraic distance calculations in geometric triangle problems.
+- **Use the condition of tangency**: For the standard ellipse x squared over a squared plus y squared over b squared equals one, a line y equals mx plus c is tangent if and only if c squared equals a squared m squared plus b squared. This provides a direct path to finding common tangents with parabolas or circles.
+- **Employ the eccentric angle formulation**: Use the parametric coordinates (a cos theta, b sin theta) when dealing with chords, auxiliary circles, or maximum inscribed rectangle areas. The chord joining eccentric angles alpha and beta has a clean cosine-based linear equation.
 
 ## Frequently asked questions
 
-### Is Ellipse important for JEE Main 2027?
+### How do I distinguish an ellipse from a hyperbola in standard equations?
+An ellipse equation has positive signs for both quadratic variable terms: x squared over a squared plus y squared over b squared equals one. In contrast, a hyperbola features a minus sign between the squared terms: x squared over a squared minus y squared over b squared equals one. Furthermore, the eccentricity e of an ellipse strictly satisfies zero is less than e which is less than one, whereas a hyperbola has e strictly greater than one.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 100 questions across 162 papers, about 0.6 questions per paper. It ranks 22th of 29 Mathematics chapters by question volume.
+### What is the auxiliary circle of an ellipse?
+The auxiliary circle is the circle described on the major axis of the ellipse as diameter, given by x squared plus y squared equals a squared. If a perpendicular is dropped from a point on the auxiliary circle to the major axis, it meets the ellipse at a point with the identical x-coordinate, allowing trigonometric parameterisation through the eccentric angle theta.
 
-### Which topic in Ellipse has the most questions?
-
-Standard Forms is the most-asked topic, with 53 questions from 2019 to 2026 in our collection.
-
-### Are questions in Ellipse multiple choice or numerical?
-
-Both formats appear. Of the 100 questions from 2019 to 2026 in our set, 18 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Are normal lines still tested for ellipses?
+While general calculus normal theory was omitted from the updated syllabus, standard coordinate geometry questions involving conic perpendiculars and chords continue to appear in JEE Main. Understanding the parametric equation of the ellipse and perpendicular slope relations handles these questions effectively. Step-by-step solutions for each one are in the EdLoop app.

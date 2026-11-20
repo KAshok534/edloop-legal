@@ -1,67 +1,67 @@
+# Differential Equations: JEE Main Guide
+
+Differential Equations is one of the highest-yield chapters in JEE Main calculus. Between 2019 and 2026, the examination presented 212 questions from this chapter across 162 papers, representing 4.6 percent of all mathematics questions and securing rank 8 among the 29 chapters in the subject. It appeared in 155 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 test cycles, it accounted for 75 questions across 58 papers, averaging 1.3 questions per paper with a 4.8 percent subject share. Comparing its earlier 2002 to 2018 share of 3.3 percent against 2024 to 2026 reveals that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2026 spanning 200 papers, 255 questions were asked in 191 papers, including 50 numerical answer questions between 2019 and 2026.
+
+```
+Differential Equations in JEE Main (2019-2026)
+Total questions: 212 | Rank: 8 of 29 chapters
+Average per paper: 1.3 | Subject share: 4.6%
+Paper distribution: asked in 155 of 162 papers
+```
+
 ## How often it comes up
 
-Differential Equations is one of the important chapters in JEE Main Mathematics. Across the papers we hold from 2019 to 2026, it gave **212 questions in 162 papers**, about **1.3 questions per paper**, and it appeared in 155 of those 162 papers. That places it **8th of 29 Mathematics chapters** by share of questions in that period, with 4.6% of all Mathematics questions.
+Differential equations appear in almost every examination sitting, with many papers presenting more than one question. Across the 162 test shifts from 2019 to 2026, 155 featured this chapter. In the 2024, 2025, and 2026 testing periods, the counts stood at 39, 18, and 18 questions respectively, highlighting its sustained prominence.
 
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 3.3% of Mathematics; in the last three exam years (2024 to 2026) it rose to 4.8%, with 75 questions in 58 papers. The busiest year in our set was 2021, with 40 questions across 26 papers. Since 2019 there has been no year without it, appearing in 155 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 9: Differential Equations.
+The overwhelming majority of problems require solving a first-order differential equation subject to an initial value condition, followed by evaluating the resulting particular solution at a specified coordinate. Because these questions end in a concrete numerical value, they frequently appear in the numerical response section.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Questions in this chapter are concentrated heavily within a single primary subtopic:
 
-- **First Order Equations**: 197 questions.
-- **Applications**: 8 questions.
-- **Basics & Formation**: 7 questions.
+1. **First Order Equations (197 questions, 2019-2026; 226 total, last asked 2026)**
+The vast majority of questions fall here. The dominant mathematical forms are linear differential equations solved via integrating factors, homogeneous equations resolved by substituting y equals vx, separable equations, and exact differential forms where groups of terms collapse into total differentials.
 
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+2. **Applications (8 questions, 2019-2026; 11 total, last asked 2024)**
+Focuses on geometric curves whose tangents or normals possess specified coordinate intercept properties, or physical rates of growth, decay, and cooling. Formation of differential equations from geometric descriptions was recently curtailed.
+
+3. **Basics & Formation (7 questions, 2019-2026; 18 total, last asked 2024)**
+Deals with finding the order and degree of given equations, eliminating arbitrary constants to formulate family equations, and verifying given solutions. Note that the formation of differential equations was explicitly excised in recent syllabus updates.
 
 ## What the questions look like
 
-Questions in Differential Equations test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners repeatedly use well-defined structures when composing problems:
 
-In **First Order Equations**, questions focus on standard exam setups. Recent problems include: x y' - 2y = 2 + 3 x with y(0) = -74: find y(π/6); (1 + x^2)dy + (y - ^-1x)dx = 0 with y(0) = 1: find y(1). Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Applications**, questions focus on standard exam setups. Recent problems include: Curve whose tangent cuts off a triangle of given area with the axes: 12Y(2). Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Basics & Formation**, questions focus on standard exam setups. Recent problems include: Differential equation of circles through the origin with centre on y = x. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 50 of the 212 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **First-Order Linear Form in y or x**: An equation presented in standard or disguised linear format where finding the integrating factor e to the power of the integral of P resolves the general solution. In several problems, swapping the roles of dependent and independent variables to form dx over dy linear in x provides the only viable path.
+- **Total Differential Recognition**: Expressions containing combinations like x dy plus y dx, or x dy minus y dx divided by x squared or x squared plus y squared, which can be integrated immediately by inspection as exact differentials.
+- **Homogeneous Substitution**: Differential equations where terms share uniform polynomial degree, solvable by setting y equal to vx and separating variables in v and x.
+- **Initial Value Followed by Functional Evaluation**: Given dy over dx with an initial condition like y of one equals zero, solve for the particular solution and evaluate the functional value or local extrema of the resulting curve.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Build your command of first-order differential equations with these recent questions:
 
-- [x y' - 2y = 2 + 3 x with y(0) = -74: find y(π/6)](/q/q-2026-01-21-e-m08) (JEE Main 2026 21 Jan Shift 2)
-- [Curve whose tangent cuts off a triangle of given area with the axes: 12Y(2)](/q/q-2024-01-30-e-m29) (JEE Main 2024 30 Jan Shift 2, numerical answer)
-- [Differential equation of circles through the origin with centre on y = x](/q/q-2024-04-05-e-m16) (JEE Main 2024 05 Apr Shift 2)
-- [(1 + x^2)dy + (y - ^-1x)dx = 0 with y(0) = 1: find y(1)](/q/q-2026-01-21-m-m18) (JEE Main 2026 21 Jan Shift 1)
-- [x dy - y dx = √x^2 + y^2 dx with y(1) = 0: find y(3)](/q/q-2026-01-22-m-m11) (JEE Main 2026 22 Jan Shift 1)
+- Linear differential equation with trigonometric terms: [JEE Main 2026 21 Jan Shift 2](/q/q-2026-01-21-e-m08)
+- Geometric tangent area application: [JEE Main 2024 30 Jan Shift 2](/q/q-2024-01-30-e-m29)
+- Differential equation of a family of circles: [JEE Main 2024 05 Apr Shift 2](/q/q-2024-04-05-e-m16)
+- Linear equation with inverse tangent terms: [JEE Main 2026 21 Jan Shift 1](/q/q-2026-01-21-m-m18)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Differential Equations.
+Solving differential equations efficiently requires swift identification of the underlying type:
 
-Next, work through past JEE Main questions topic by topic. Start with First Order Equations, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+- **Check for linear form first**: Look for single occurrences of y and dy over dx. If both appear linearly, divide by the coefficient of the derivative to put the equation in standard form and compute the integrating factor. If y appears in higher powers while x appears linearly, test whether dx over dy is linear in x.
+- **Spot exact differentials**: Train your eye to recognize groupings such as d of xy, d of y over x, or d of the square root of x squared plus y squared. Grouping these terms on one side allows immediate integration without formal substitution.
+- **Substitute boundary conditions immediately**: Determine the constant of integration as soon as the general solution is obtained, prior to attempting any algebraic rearrangement of the curve equation.
+- **Watch out for integrating factor traps**: When computing the integrating factor, ensure that minus signs or numerical constants multiplying the integral are brought into the exponent as logarithms before cancelling the exponential base.
 
 ## Frequently asked questions
 
-### Is Differential Equations important for JEE Main 2027?
+### Is the formation of differential equations still in the JEE Main syllabus?
+The formation of differential equations by eliminating arbitrary constants was removed from the updated NTA syllabus starting in 2024. Consequently, recent exam papers focus almost exclusively on finding solutions to provided first-order differential equations.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 212 questions across 162 papers, about 1.3 questions per paper. It ranks 8th of 29 Mathematics chapters by question volume.
+### What should I do if a differential equation is not linear in y?
+If y appears in non-linear forms (such as in an exponent or under a trigonometric function) while x appears linearly, rewrite the equation by inverting the derivative to dx over dy. Many problems that look non-linear when solved for y turn out to be standard linear equations when treated with x as the dependent variable.
 
-### Which topic in Differential Equations has the most questions?
-
-First Order Equations is the most-asked topic, with 197 questions from 2019 to 2026 in our collection.
-
-### Are questions in Differential Equations multiple choice or numerical?
-
-Both formats appear. Of the 212 questions from 2019 to 2026 in our set, 50 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### How are Bernoulli's equations handled?
+A Bernoulli equation contains y to an arbitrary power multiplied onto the right-hand side of a linear form. Dividing the entire equation by that power of y and substituting a new variable z equal to y to the power of one minus n transforms the expression into a standard first-order linear differential equation in z. Step-by-step solutions for each one are in the EdLoop app.
