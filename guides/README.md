@@ -32,8 +32,13 @@ and fix the guide until it prints `ok`. After each batch of about ten guides, co
 2. **Say "the papers we hold"** (or "in our set") whenever you give a count. Most papers before 2026 are memory based
    (reconstructed by coaching institutes); 2026 papers are NTA's own. Do not claim we have every paper.
 3. **No promises or predictions.** Never say a topic *will* come, never "important questions", "expected", "sure shot",
-   "must do", "best", "guaranteed", ranks, percentiles or marks. "Expect at least one question" is fine only when the facts
-   show the chapter appeared in every year since 2019 (`years_not_asked_since_2019` is empty).
+   "must do", "best", "guaranteed", ranks, percentiles or marks. Never say "in every paper", "in your shift" or "each
+   paper" unless `appears_in_every_paper_2019_2026` is true; never say "every year since 2019" unless
+   `appears_every_year_2019_2026` is true. Say instead "it appeared in N of the M papers" with the two numbers.
+9. **Trends only from the `trend` field.** Say a chapter grew, rose, fell or declined only when `trend` says `up` or
+   `down` for the periods you are comparing; when it says `about the same`, say it has stayed about the same. Never infer
+   a trend from two numbers yourself. (The checker rejects "grown", "risen", "fallen", "declined" and similar words that
+   do not match.)
 4. **Original writing only.** Describe question types in your own words from the question texts in
    `question_candidates` and the topic names. Never copy text from coaching sites, books, ExamSide, ExamGOAL or any other
    site, and never name them. No other brand names, no AI tools.
@@ -65,6 +70,8 @@ students preparing for JEE Main 2027 can skip it unless their board or another e
   comparison. `window_2024_2026`: the last three exam years.
 - `rank_in_subject_2019_2026`: "Nth of M <subject> chapters by share of questions".
 - `topics_most_asked_first`: topic counts; use `questions_2019_2026` for the list, `questions` for the whole archive.
+- `trend`: `up`, `down` or `about the same` for the share of the subject, 2002–2018 vs 2024–2026 and 2019–2026 vs 2024–2026.
+- `appears_in_every_paper_2019_2026`, `appears_every_year_2019_2026`: the only basis for "every paper" or "every year" wording.
 - `numerical_answer_questions_2019_2026`: questions with no options (numerical answer type).
 - `years_not_asked_since_2019`: years with no question from the chapter.
 - `by_year`: per-year counts; use for "the busiest year was ..." (pick the year with the most `questions` yourself only by

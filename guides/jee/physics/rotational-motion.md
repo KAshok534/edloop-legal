@@ -2,7 +2,7 @@
 
 Rotational Motion is one of the steadiest chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **241 questions in 162 papers**, about **1.5 questions per paper**, and it appeared in 158 of those 162 papers. That makes it the **3rd largest of 29 Physics chapters** in that period, with 5.3% of all Physics questions.
 
-The share has not moved much over two decades. In the AIEEE and early JEE Main years (2002 to 2018) it was 5.5% of Physics, and in the last three exam years (2024 to 2026) it is again 5.5%: 85 questions in 58 papers. Since 2019 there has been no year without it. If you are planning JEE Main 2027, expect at least one question from this chapter in your shift, and often two.
+The share has not moved much over two decades. In the AIEEE and early JEE Main years (2002 to 2018) it was 5.5% of Physics, and in the last three exam years (2024 to 2026) it is again 5.5%: 85 questions in 58 papers. Since 2019 there has been no year without it, and it was missing from only a handful of the 162 papers. If you are planning JEE Main 2027, treat it as a chapter you cannot leave out.
 
 It is a Class 11 chapter (NTA's Unit 5: Rotational Motion), but it leans on Laws of Motion and Work, Energy and Power, so it rewards students who are already comfortable with forces and energy.
 

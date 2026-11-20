@@ -172,6 +172,20 @@ def check(src, facts, valid_q_ids, valid_paths):
         m = re.search(pat, text, re.I)
         if m:
             probs.append('banned word or claim: "%s"' % m.group(0))
+    # claims about frequency and trend must match the facts file
+    sec1 = src.split('## ' + SECTIONS[1])[0]
+    up_w = re.search(r'\b(grow|grew|grown|growing|risen|rose|rising|increas\w*|more often|gained|climb\w*|upward)\b', sec1, re.I)
+    down_w = re.search(r'\b(shr[ui]nk\w*|fallen|fell|falling|declin\w*|decreas\w*|less often|dropp\w*|downward|lost ground)\b', sec1, re.I)
+    tr = (facts.get('trend') or {})
+    trends = {tr.get('share_2002_2018_vs_2024_2026'), tr.get('share_2019_2026_vs_2024_2026')}
+    if up_w and 'up' not in trends:
+        probs.append('"%s": the facts trend is not up (trend: %s)' % (up_w.group(0), tr))
+    if down_w and 'down' not in trends:
+        probs.append('"%s": the facts trend is not down (trend: %s)' % (down_w.group(0), tr))
+    if re.search(r'\bevery (?:single )?(?:paper|shift)\b|\bin your shift\b|\beach (?:paper|shift)\b', src, re.I)             and not facts.get('appears_in_every_paper_2019_2026'):
+        probs.append('says "every paper/shift" but the chapter was not in every paper 2019-2026 (papers_with_this_chapter < papers_in_our_set)')
+    if re.search(r'no year without|every year since 2019|each year since 2019|every year from 2019', src, re.I)             and not facts.get('appears_every_year_2019_2026'):
+        probs.append('says "every year since 2019" but years_not_asked_since_2019 is not empty')
     links = LINK_RE.findall(src)
     qlinks = [u for _, u in links if u.startswith('/q/')]
     for _, u in links:

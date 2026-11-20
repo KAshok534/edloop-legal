@@ -1,6 +1,6 @@
 ## How often it comes up
 
-Definite Integration is one of the chapters JEE Main Mathematics returns to in almost every paper. In the papers we hold from 2019 to 2026 it gave **248 questions in 162 papers**, about **1.5 questions per paper**, and it appeared in 153 of those papers. By share of Mathematics questions (5.4%) it ranks **5th of 29 Mathematics chapters** in that period.
+Definite Integration is one of the chapters JEE Main Mathematics returns to most often. In the papers we hold from 2019 to 2026 it gave **248 questions in 162 papers**, about **1.5 questions per paper**, and it appeared in 153 of those papers. By share of Mathematics questions (5.4%) it ranks **5th of 29 Mathematics chapters** in that period.
 
 It has grown since the AIEEE years. From 2002 to 2018 it was 4.8% of Mathematics; in the last three exam years (2024 to 2026) it is 5.6%, with 86 questions in 58 papers. The busiest year was 2021, with 49 questions across the 26 papers we hold. Since 2019 there has been no year without it.
 

@@ -47,6 +47,13 @@
   "of_chapters": 29,
   "by": "share of the subject's questions, 2019-2026"
  },
+ "trend": {
+  "share_2002_2018_vs_2024_2026": "down",
+  "share_2019_2026_vs_2024_2026": "down",
+  "rule": "up / down = the later share is at least 0.5 points higher / lower; otherwise about the same. Describe a trend only with these words."
+ },
+ "appears_in_every_paper_2019_2026": false,
+ "appears_every_year_2019_2026": true,
  "numerical_answer_questions_2019_2026": 50,
  "years_not_asked_since_2019": [],
  "by_year": {

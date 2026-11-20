@@ -21,6 +21,10 @@ RECENT = (2019, 2026)   # NTA's online exam: several shifts a year, the current 
 LAST3 = (2024, 2026)
 
 
+def trend(before, after):
+    return 'up' if after - before >= 0.5 else 'down' if before - after >= 0.5 else 'about the same'
+
+
 def r1(x):
     return round(x + 1e-9, 1)
 
@@ -163,6 +167,13 @@ def main():
             'window_2024_2026': win(LAST3),
             'rank_in_subject_2019_2026': {'rank': rank[cid][0], 'of_chapters': rank[cid][1],
                                           'by': 'share of the subject\'s questions, 2019-2026'},
+            'trend': {
+                'share_2002_2018_vs_2024_2026': trend(win((2002, 2018))['share_of_subject_percent'], win(LAST3)['share_of_subject_percent']),
+                'share_2019_2026_vs_2024_2026': trend(rec['share_of_subject_percent'], win(LAST3)['share_of_subject_percent']),
+                'rule': 'up / down = the later share is at least 0.5 points higher / lower; otherwise about the same. '
+                        'Describe a trend only with these words.'},
+            'appears_in_every_paper_2019_2026': rec['papers_with_this_chapter'] == rec['papers_in_our_set'],
+            'appears_every_year_2019_2026': all(by_year.get(str(y), {}).get('questions', 0) > 0 for y in range(RECENT[0], RECENT[1] + 1)),
             'numerical_answer_questions_2019_2026': sum(1 for q in qs if in_win(q['year'], RECENT) and q['qtype'] == 'numerical'),
             'years_not_asked_since_2019': [y for y in range(RECENT[0], RECENT[1] + 1) if by_year.get(str(y), {}).get('questions', 0) == 0],
             'by_year': by_year,
