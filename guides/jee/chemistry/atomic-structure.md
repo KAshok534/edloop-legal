@@ -1,67 +1,56 @@
+# Atomic Structure: JEE Main PYQ Trends & Preparation Guide
+
+Atomic structure examines quantum mechanical models of atoms, orbital wave functions, quantum numbers, electronic configurations, and the Bohr hydrogen spectrum. Designated as Unit 2: Atomic Structure in the Class 11 chemistry curriculum, this chapter combines mathematical relationships with electron address rules. Between 2019 and 2026, the question pool records 177 questions on atomic structure across 162 papers, holding rank 11 among the 31 chemistry chapters with a 3.9 percent share of total chemistry questions.
+
 ## How often it comes up
 
-Atomic Structure is one of the chapters JEE Main Chemistry asks most often. In the papers we hold from 2019 to 2026, it gave **177 questions in 162 papers**, about **1.1 questions per paper**, and appeared in 156 of those papers. That ranks it **11th of 31 Chemistry chapters** by share of questions in that period, with 3.9% of all Chemistry questions.
-
-The chapter was asked more heavily in the AIEEE era: from 2002 to 2018 it contributed 4.8% of Chemistry questions at 1.7 per paper. In the last three exam years (2024 to 2026) it has stabilised at 4.4%, with 68 questions in 58 papers. Since 2019 there has been no year without a question from this chapter, appearing in 156 of the 162 papers we hold.
-
-It is a Class 11 chapter, part of NTA's Unit 2: Atomic Structure.
+In the computer-based testing era from 2019 to 2026, candidates answered 177 questions across 162 papers, delivering an average frequency of 1.1 questions per shift. The chapter appeared in 156 of those 162 papers, and questions were featured every single year without interruption. During the recent 2024 to 2026 cycle, testing registered 68 questions across 58 papers, raising the average to 1.2 questions per shift and lifting its subject share to 4.4 percent. This marks a trend that is up compared to the 3.9 percent share across the entire 2019 to 2026 window. When measured against the 2002 to 2018 era, which recorded 65 questions across 38 papers for a 4.8 percent share, the recent share has stayed about the same. In 2026 alone, examiners included 27 questions across 19 papers, showing up in 19 separate test shifts. A total of 62 questions from 2019 to 2026 required numerical answers, with candidates evaluating radial nodes, transition energies, and quantum number counts.
 
 ## Most-asked topics
 
-Five topics cover the chapter. From 2019 to 2026:
+Questions in this chapter divide across five distinct areas:
 
-- **Quantum Mechanical Model**: 68 questions. The largest share, covering orbitals, quantum numbers and shapes.
-- **Bohr Model and Hydrogen Spectrum**: 51 questions. Energy levels, spectral series and transitions in hydrogen-like ions.
-- **Electromagnetic Radiation and Quantum Theory**: 28 questions. Photoelectric effect, wavelength-energy relationships and photon calculations.
-- **Electronic Configuration**: 27 questions. Filling orbitals, exceptions and counting electrons in given sets of quantum numbers.
-- **Early Models and Subatomic Particles**: 3 questions. Thomson, Rutherford, neutrons, protons and mass numbers.
-
-All five topics appeared in 2026.
+- **Quantum Mechanical Model**: 86 questions historically, with 68 between 2019 and 2026, tested up to 2026. This dominant topic assesses de Broglie matter waves, Heisenberg uncertainty principle, Schrodinger wave equations, radial and angular wave functions, radial probability distribution curves, and total node counting using n and l.
+- **Bohr Model & Hydrogen Spectrum**: 68 total problems, including 51 from 2019 to 2026, continuing in 2026. Core concepts evaluate orbital radii, electron velocities, ionization energies of hydrogen-like species such as helium and lithium ions, Rydberg transitions, and line energy comparisons across spectral series.
+- **Electronic Configuration**: 41 lifetime questions, with 27 asked between 2019 and 2026, tested through 2026. Problems assess the Aufbau principle, Hund's rule of maximum multiplicity, Pauli exclusion principle, orbital energy ordering by n plus l rules, and exceptional half-filled or fully-filled d-subshell configurations.
+- **Electromagnetic Radiation & Quantum Theory**: 35 questions overall, including 28 between 2019 and 2026, tested in 2026. Questions explore photoelectric effect parameters, threshold work functions, Planck's quantum theory, photon energy calculations, and radiation intensity.
+- **Early Models & Subatomic Particles**: 12 questions since 2002, with 3 asked between 2019 and 2026, tested in 2026. Themes evaluate Thomson and Rutherford atomic models, subatomic particle properties, neutron-to-electron ratios, and isotope or isobar classifications.
 
 ## What the questions look like
 
-Quantum mechanical model questions most often ask how many electrons in an atom or ion satisfy a given set of quantum numbers. The numbers n, l, ml and ms are mixed in various combinations, and the work is in counting correctly without double-counting or missing spin states.
+JEE Main tests atomic structure through quantum number constraints and spectral line energy ratios:
 
-Bohr model questions split into two kinds. The first kind gives a transition and asks for the wavelength or energy of the emitted line, sometimes for hydrogen and a hydrogen-like ion in the same question. The second kind compares lines from different series and asks for the order of their energies or wavelengths.
-
-Electromagnetic radiation questions are built around the photoelectric effect: given two metals with work functions in a known ratio and the energy of incoming photons, find the kinetic energies of emitted electrons. A related set involves the de Broglie wavelength.
-
-Electronic configuration questions present a list of ions or elements and ask which statement about their configuration, number of unpaired electrons or Hund's rule exceptions is incorrect.
-
-Of the 177 questions from 2019 to 2026, 62 were numerical-answer questions.
+- **Maximum electron counts from quantum numbers**: Identifying how many electrons in an atom can simultaneously share specified sets of quantum numbers, such as a fixed principal quantum number and magnetic quantum number.
+- **Spectral transition energy ordering**: Arranging emission lines from different hydrogen series, such as the first and third Paschen lines alongside Balmer lines, in order of increasing photon energy.
+- **Orbital energy comparison by Aufbau rules**: Ranking a given collection of atomic subshells in order of increasing energy using the n plus l rule, resolving ties with principal quantum numbers.
+- **Subatomic particle bookkeeping in ions**: Deducing the mass number, periodic group, and chemical identity of a negative mono-anion from its stated neutron and electron counts.
 
 ## Questions to try first
 
-One question from each topic, all from NTA's 2026 papers:
+Solve these representative recent problems:
 
-- [Increasing energy of five orbitals identified by quantum numbers n, l, m](/q/q-2026-04-05-m-c02) (B Tech 5th Apr 2026 Shift 1)
-- [Maximum electrons with n = 5, ml = -1, and separately with n = 3, l = 2, ml = -1, ms = +1/2](/q/q-2026-01-23-m-c14) (JEE Main 2026, 23 Jan Shift 1)
-- [Energy of first Lyman line compared to first Balmer line, numerical answer](/q/q-2026-01-24-m-c21) (JEE Main 2026, 24 Jan Shift 1)
-- [Work functions in ratio 1 : 2, 6 eV photons, finding each work function from KE ratio](/q/q-2026-01-23-e-c06) (JEE Main 2026, 23 Jan Shift 2)
-- [Anion with 45 neutrons and 36 electrons: identify mass number, group and state](/q/q-2026-04-04-m-c08) (B Tech 4th Apr 2026 Shift 1)
+- [Arranging Paschen, Balmer, and Brackett spectral lines in order of photon energy](/q/q-2026-01-21-e-c09) (JEE Main 2026 21 Jan Shift 2, multiple choice)
+- [Calculating work functions of two metallic emitters from kinetic energy ratios](/q/q-2026-01-23-e-c06) (JEE Main 2026 23 Jan Shift 2, multiple choice)
+- [Maximum possible electrons possessing specified combinations of quantum numbers](/q/q-2026-01-23-m-c14) (JEE Main 2026 23 Jan Shift 1, multiple choice)
+- [Determining mass number and periodic placement of an anion from subatomic counts](/q/q-2026-04-04-m-c08) (B Tech 4th Apr 2026 Shift 1, multiple choice)
+- [Ranking five atomic orbitals in order of increasing energy from quantum numbers](/q/q-2026-04-05-m-c02) (B Tech 5th Apr 2026 Shift 1, multiple choice)
+- [Spectral line energy comparison between singly ionized helium and hydrogen transitions](/q/q-2026-01-21-m-c12) (JEE Main 2026 21 Jan Shift 1, multiple choice)
 
 ## How to practise it
 
-Begin with quantum numbers: draw out the allowed combinations for n = 1 to 4 and count electrons for a few given conditions until it is routine. Then move to Bohr model calculations: learn the energy level formula for hydrogen-like ions and practise identifying which series a transition falls into from the final principal quantum number.
+Master the four quantum numbers and their allowed ranges. Principal quantum number n determines shell energy, azimuthal quantum number l runs from zero to n minus one, magnetic quantum number m runs from minus l to plus l, and spin quantum number s is either plus or minus one-half. Remember that each individual orbital holds a maximum of two electrons with opposite spins.
 
-After that, do electromagnetic radiation questions as a short set: the photoelectric equation has very few unknowns, so the work is in careful unit conversion. For electronic configuration, write out configurations for the first 36 elements and note the exceptions, then apply Hund's rule to find unpaired electrons.
+Learn the node counting formulas thoroughly. Spherical or radial nodes equal n minus l minus one, angular or planar nodes equal l, and total nodes equal n minus one. Practice sketching radial probability density plots psi squared against distance r, identifying where the function touches the axis.
 
-Because the chapter mixes numerical and multiple-choice questions, practise both types from recent years to avoid being surprised by format.
+For hydrogen spectral series, use Rydberg wavenumber formulas. The transition from n two to n one has energy proportional to Z squared multiplied by the difference of inverse squares of the quantum levels.
 
 ## Frequently asked questions
 
-### Is Atomic Structure in the JEE Main 2027 syllabus?
+### Which topic in atomic structure appears most frequently?
+The quantum mechanical model and Bohr hydrogen spectrum together represent over seventy-five percent of modern questions. Mastery of quantum number rules, nodes, and Rydberg transitions covers the majority of exam items.
 
-Yes. It is part of NTA's Unit 2: Atomic Structure, Class 11, and appeared in 156 of the 162 papers we hold from 2019 to 2026.
+### How do I apply the n plus l rule to rank orbital energies?
+Calculate the sum of n and l for each orbital. Lower sums correspond to lower energy. When two orbitals have identical n plus l values, the orbital with the lower principal quantum number n possesses lower energy.
 
-### Which topic is asked most in Atomic Structure?
-
-Quantum mechanical model, with 68 questions from 2019 to 2026, followed by Bohr model and hydrogen spectrum with 51.
-
-### Are the Bohr model questions only about hydrogen?
-
-Hydrogen is the most common case, but many questions involve hydrogen-like ions such as He+, Li2+ and Be3+. The same energy-level formula applies to all of them, with atomic number Z inserted.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Are the atomic structure questions in chemistry different from atoms in physics?
+While both chapters share Bohr model calculations, chemistry places stronger emphasis on quantum numbers, orbital shapes, radial nodes, electronic configurations, and Hund's and Pauli's rules. Step-by-step solutions for each one are in the EdLoop app.

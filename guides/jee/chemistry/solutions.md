@@ -1,67 +1,54 @@
+# Solutions: JEE Main PYQ Trends & Preparation Guide
+
+Solutions explores liquid mixtures, solubility thermodynamics, Henry's law for dissolved gases, Raoult's law for ideal and non-ideal liquid mixtures, colligative properties, and the van't Hoff factor for electrolytic dissociation or association. Positioned as Unit 5: Solutions in the Class 12 curriculum, this chapter provides consistent scoring opportunities. Across the 162 papers administered between 2019 and 2026, the question pool records 156 questions on solutions, giving it rank 15 among the 31 chemistry chapters with a 3.4 percent share of total chemistry questions.
+
 ## How often it comes up
 
-Solutions is one of the important chapters in JEE Main Chemistry. Across the papers we hold from 2019 to 2026, it gave **156 questions in 162 papers**, about **1.0 questions per paper**, and it appeared in 145 of those 162 papers. That places it **15th of 31 Chemistry chapters** by share of questions in that period, with 3.4% of all Chemistry questions.
-
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 3.2% of Chemistry; in the last three exam years (2024 to 2026) it rose to 3.9%, with 60 questions in 58 papers. The busiest year in our set was 2021, with 25 questions across 26 papers. Since 2019 there has been no year without it, appearing in 145 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 5: Solutions.
+In the computerized exam period from 2019 to 2026, candidates answered 156 questions across 162 papers, representing an average frequency of 1.0 question per shift. The chapter featured in 145 of those 162 papers, and questions appeared every single year throughout the cycle. During the recent 2024 to 2026 testing sessions, examiners set 60 questions across 58 papers, maintaining an average of 1.0 question per test and lifting its subject share to 3.9 percent. This demonstrates a trend that is up compared to both the 3.2 percent share from 43 questions in the 2002 to 2018 window and the 3.4 percent baseline across 2019 to 2026. In 2026 alone, examiners presented 22 questions across 19 papers, showing up in 17 separate shifts. Remarkably, 83 questions between 2019 and 2026 were formatted as numerical answer questions, meaning over half of all modern solutions questions require students to calculate numerical values for depression in freezing point, elevation in boiling point, or osmotic pressure.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Questions in this chapter concentrate across three defined areas:
 
-- **Colligative Properties**: 83 questions.
-- **van't Hoff Factor**: 37 questions.
-- **Vapour Pressure & Raoult's Law**: 36 questions.
-
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- **Colligative Properties**: 100 questions historically, with 83 delivered between 2019 and 2026, tested up to 2026. This dominant area tests elevation of boiling point delta T b equals i K b m, depression of freezing point delta T f equals i K f m, osmotic pressure pi equals i C R T, relative lowering of vapor pressure, and molar mass determinations of unknown solutes.
+- **van't Hoff Factor**: 49 total questions, including 37 from 2019 to 2026, tested in 2026. Problems assess degree of dissociation alpha equals i minus 1 divided by n minus 1, degree of association, anomalous molar masses, and comparisons of freezing or boiling points across equimolar electrolyte solutions.
+- **Vapour Pressure & Raoult's Law**: 50 lifetime problems, with 36 between 2019 and 2026, tested through 2026. Concepts explore total vapor pressure of binary ideal liquid mixtures, vapor phase mole fractions, positive and negative deviations from Raoult's law, minimum and maximum boiling azeotropes, and Henry's gas solubility law.
 
 ## What the questions look like
 
-Questions in Solutions test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+JEE Main problems in solutions combine formulaic colligative equations with multi-component molar bookkeeping:
 
-In **Colligative Properties**, questions focus on standard exam setups. Recent problems include: Boiling point rises for PQ and PQ₂ in the same solvent: molar masses of P and Q; NaCl solution isotonic with a cell at 12 atm and 300 K: strength in g/L. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **van't Hoff Factor**, questions focus on standard exam setups. Recent problems include: Electrolyte lowering p from 640 to 600 mm Hg and boiling at 375 K: mole fraction x2. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Vapour Pressure & Raoult's Law**, questions focus on standard exam setups. Recent problems include: Henry's law constant: dependence on concentration and on the solvent; log(partial pressure of CO₂) against log(mole fraction in water): the correct plot. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 83 of the 156 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Molar mass determinations from boiling point elevation**: Dissolving known masses of binary compounds PQ and PQ2 into identical solvent volumes results in measured temperature rises, from which students set up simultaneous equations to extract individual atomic weights.
+- **Isotonic solutions and osmotic pressure**: Finding the required concentration in grams per liter of a sodium chloride solution to render it isotonic with biological cellular fluids at a specified osmotic pressure and temperature.
+- **Binary mixture vapor pressure equations**: Adding incremental moles of volatile component A or B to an initial mixture increases total vapor pressure by a measured amount, requiring determination of pure component vapor pressures.
+- **Henry's law gas solubility**: Evaluating the dissolved mole fraction of atmospheric nitrogen in water under specified total pressure and Henry's law constant.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Solve these representative recent problems:
 
-- [Boiling point rises for PQ and PQ₂ in the same solvent: molar masses of P and Q](/q/q-2026-01-21-m-c09) (JEE Main 2026 21 Jan Shift 1)
-- [Henry's law constant: dependence on concentration and on the solvent](/q/q-2026-01-22-m-c08) (JEE Main 2026 22 Jan Shift 1)
-- [Electrolyte lowering p from 640 to 600 mm Hg and boiling at 375 K: mole fract...](/q/q-2026-01-24-m-c10) (JEE Main 2026 24 Jan Shift 1)
-- [NaCl solution isotonic with a cell at 12 atm and 300 K: strength in g/L](/q/q-2026-01-21-e-c22) (JEE Main 2026 21 Jan Shift 2, numerical answer)
-- [Boiling point rise of 0.5 K gives the relative lowering of vapour pressure](/q/q-2026-01-21-e-c24) (JEE Main 2026 21 Jan Shift 2, numerical answer)
+- [Determining atomic masses of P and Q from boiling point rises of two solutes](/q/q-2026-01-21-m-c09) (JEE Main 2026 21 Jan Shift 1, multiple choice)
+- [Analyzing dependence of Henry's law constant on concentration and solvent nature](/q/q-2026-01-22-m-c08) (JEE Main 2026 22 Jan Shift 1, multiple choice)
+- [Calculating solute mole fraction from vapor pressure lowering and boiling point](/q/q-2026-01-24-m-c10) (JEE Main 2026 24 Jan Shift 1, multiple choice)
+- [Finding concentration in grams per liter of isotonic sodium chloride solution](/q/q-2026-01-21-e-c22) (JEE Main 2026 21 Jan Shift 2, numerical answer)
+- [Calculating relative lowering of vapor pressure from measured boiling point elevation](/q/q-2026-01-21-e-c24) (JEE Main 2026 21 Jan Shift 2, numerical answer)
+- [Identifying correct logarithmic graph of gas partial pressure against mole fraction](/q/q-2026-01-22-m-c12) (JEE Main 2026 22 Jan Shift 1, multiple choice)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Solutions.
+Always incorporate the van't Hoff factor i into every colligative property formula. For strong electrolytes like potassium chloride, barium chloride, or aluminum sulfate, write out complete ionic dissociation to find the theoretical factor unless a fractional degree of dissociation is explicitly provided.
 
-Next, work through past JEE Main questions topic by topic. Start with Colligative Properties, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Be careful with molality versus molarity. Boiling point elevation and freezing point depression depend strictly on molality, which uses kilograms of pure solvent in the denominator. Osmotic pressure depends on molarity, which uses liters of total solution.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+For Raoult's law binary mixtures, relate liquid phase mole fractions x A and x B to vapor phase mole fractions y A and y B using Dalton's law of partial pressures: y A equals p A divided by total pressure.
 
 ## Frequently asked questions
 
-### Is Solutions important for JEE Main 2027?
+### Which colligative property appears most often in JEE Main?
+Depression of freezing point and elevation of boiling point appear most frequently, closely followed by osmotic pressure calculations. Together with van't Hoff factor determinations, they comprise over eighty percent of modern questions.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 156 questions across 162 papers, about 1.0 questions per paper. It ranks 15th of 31 Chemistry chapters by question volume.
+### How do I identify positive versus negative deviations from Raoult's law?
+Positive deviations occur when solute-solvent intermolecular attractions are weaker than pure component attractions (such as acetone and carbon disulfide), raising vapor pressure. Negative deviations occur when new hydrogen bonds or dipole attractions form (such as acetone and chloroform), lowering vapor pressure.
 
-### Which topic in Solutions has the most questions?
-
-Colligative Properties is the most-asked topic, with 83 questions from 2019 to 2026 in our collection.
-
-### Are questions in Solutions multiple choice or numerical?
-
-Both formats appear. Of the 156 questions from 2019 to 2026 in our set, 83 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Why is osmotic pressure preferred for measuring molar masses of polymers?
+Osmotic pressure generates measurable hydrostatic pressures even at extremely low molar concentrations, and measurements occur at room temperature without risking thermal degradation of delicate macromolecules. Step-by-step solutions for each one are in the EdLoop app.

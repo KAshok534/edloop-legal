@@ -1,54 +1,54 @@
+# States of Matter: JEE Main PYQ Trends & Preparation Guide
+
+States of matter covers the physical behaviors of gases, liquids, and crystal lattices, incorporating ideal gas laws, van der Waals real gas corrections, compressibility factors, surface tension, and solid state crystallography. Designated under States of Matter (removed 2024) in the Class 11 curriculum, this chapter was removed from syllabus in 2024. In the 2019 to 2026 examination archive, it accounts for 102 questions across 162 papers, holding rank 22 among 31 chemistry chapters with a 2.2 percent share of total chemistry questions.
+
 ## How often it comes up
 
-States of Matter is no longer in the JEE Main syllabus. NTA removed it from the JEE Main syllabus in 2024. The last question from this chapter in our set appeared in 2024, and there were no questions in 2025 or 2026.
-
-Before the removal, it was a consistent chapter. In the papers we hold from 2019 to 2026, it contributed 102 questions in 162 papers, appearing in 98 of them. In the AIEEE and early JEE Main years (2002 to 2018), it was 5.0% of Chemistry, with 1.8 questions per paper on average. Its share fell to 2.2% from 2019 to 2026 as the online exam spread questions more broadly, and it dropped to nearly zero from 2024 onward.
-
-It was a Class 11 chapter under NTA's States of Matter unit (removed 2024).
+Throughout the computerized testing period from 2019 to 2026, candidates tackled 102 questions across 162 papers, giving an average frequency of 0.6 questions per shift. The chapter featured in 98 of those 162 papers. Because it was removed from the official syllabus in 2024, testing declined sharply: only 1 question appeared across 58 papers in the 2024 to 2026 stretch, representing a 0.1 percent share and registering zero questions in 2025 and 2026. The chapter's share is down compared to both the 5.0 percent share in the 2002 to 2018 window and the 2.2 percent share across 2019 to 2026. Between 2019 and 2026, 52 questions were set in numerical answer format, reflecting heavy historical testing on unit cell densities, void numbers, and partial gas pressures.
 
 ## Most-asked topics
 
-Three topics covered the chapter. Across all years:
+Questions in this chapter divide across three physical states:
 
-- **Solid State**: 89 questions (56 from 2019 to 2026). Crystal structures, unit cells, packing, defects and density calculations. The last question was in 2024.
-- **Gaseous State**: 74 questions (43 from 2019 to 2026). Gas laws, compressibility factor, van der Waals equation and Andrews isotherms. Last asked in 2023.
-- **Liquid State**: 6 questions (3 from 2019 to 2026). Surface tension, vapour pressure and viscosity. Last asked in 2023.
+- **Solid State**: 89 questions historically, with 56 appearing between 2019 and 2026, last tested in 2024. This area assesses primitive, body-centered, and face-centered cubic unit cells, packing efficiencies, tetrahedral and octahedral void enumerations in close-packed lattices, Bragg's law, non-stoichiometric defects in metal oxides, and density calculations.
+- **Gaseous State**: 74 problems overall, including 43 from 2019 to 2026, last asked in 2023. Core concepts explore Boyle's and Charles's laws, Dalton's law of partial pressures, Graham's law of diffusion, Maxwell-Boltzmann molecular speed distributions, critical constants, and van der Waals parameters.
+- **Liquid State**: 6 lifetime questions, with 3 between 2019 and 2026, last tested in 2023. Themes evaluate vapor pressure variations with temperature, surface tension, capillary action, and dynamic viscosity coefficients.
 
 ## What the questions look like
 
-Solid state questions dominated this chapter in its last years. A common type gives the positions of atoms in a cubic unit cell, asks for the formula of the compound and sometimes the coordination number or density. Another type describes a non-stoichiometric oxide such as Fe₀.₉₃O or M₀.₈₃O and asks for the ratio of ions or the percentage of a given oxidation state.
+Past examination questions from this chapter featured structured crystal geometry and equation-of-state calculations:
 
-Gaseous state questions often involved the Andrews isotherm or the pV versus p graph, asking for the behaviour of a gas at high or low pressure, or the value of the compressibility factor at a given point. Partial pressure and Dalton's law also appeared as numerical calculations.
+- **Crystal formula from fractional site occupancies**: Atoms of element X occupy alternate corners and the body center of a cube, while atoms of element Y occupy one-third of the face centers, requiring determination of the empirical formula.
+- **Non-stoichiometric metal-deficiency defects**: Analyzing transition metal oxides such as iron oxide to calculate the relative percentages of divalent and trivalent cations maintaining charge neutrality.
+- **Compressibility factor interpretations**: Evaluating real gas deviations on compressibility factor plots against pressure under low-pressure and high-pressure regimes.
+- **Total interstitial voids in metal lattices**: Calculating the absolute count of tetrahedral and octahedral voids present in a specified molar quantity of a hexagonal close-packed metal.
 
 ## Questions to try first
 
-These are from papers up to 2023, the last year with multiple questions:
+Review these representative past exam questions:
 
-- [FeO units per unit cell from density and edge length](/q/q-2023-01-30-e-c15) (JEE Main 2023, 30 Jan Shift 2)
-- [Formula of a cubic solid with X at corners and Y on some faces](/q/q-2023-01-25-m-c12) (JEE Main 2023, 25 Jan Shift 1)
-- [Compressibility factor on the low-pressure dip of a pV against p curve](/q/q-2023-01-29-m-c04) (JEE Main 2023, 29 Jan Shift 1)
-- [Partial pressure of X in a mixture of gases at given total pressure](/q/q-2023-01-31-m-c25) (JEE Main 2023, 31 Jan Shift 1)
+- [Classifying semiconductor and conductor characteristics among candidate materials](/q/q-2024-04-06-m-c03) (JEE Main 2024 06 Apr Shift 1, multiple choice)
+- [Evaluating statements regarding carbon dioxide compression along Andrews isotherms](/q/q-2023-01-24-e-c04) (JEE Main 2023 24 Jan Shift 2, numerical answer)
+- [Analyzing physical principles governing surface tension and liquid vapor pressure](/q/q-2023-01-25-e-c17) (JEE Main 2023 25 Jan Shift 2, numerical answer)
+- [Evaluating cation composition and defect stoichiometry in non-stoichiometric iron oxide](/q/q-2023-01-24-m-c25) (JEE Main 2023 24 Jan Shift 1, numerical answer)
+- [Finding empirical formula of cubic crystal with fractional corner and face occupancies](/q/q-2023-01-25-m-c12) (JEE Main 2023 25 Jan Shift 1, multiple choice)
+- [Deducing real gas compressibility factor at low pressure from equation of state](/q/q-2023-01-29-m-c04) (JEE Main 2023 29 Jan Shift 1, multiple choice)
 
 ## How to practise it
 
-Students preparing for JEE Main 2027 can skip States of Matter unless their board exam or another competitive exam still requires it. The chapter is not in the current NTA syllabus, and it has not been asked since 2024.
+Because states of matter has been removed from the JEE Main syllabus, aspirants should not devote core preparation time to this chapter.
 
-If you are revising for boards or another exam, focus on solid state unit cell calculations and defect types, then gas law applications. The archive below goes back to 2019 and shows the full range of question styles used before the chapter was removed.
+If preparing for other competitive examinations that still include gaseous state or solid state, focus on unit cell density calculations using edge length a and formula units Z. Understand that face-centered cubic lattices contain four formula units with octahedral and tetrahedral voids in one-to-two ratios.
+
+For real gases, practice evaluating van der Waals equations at low pressures where intermolecular attractions dominate and compressibility factor Z is less than one, and at very high pressures where molecular volume dominates and Z exceeds one.
 
 ## Frequently asked questions
 
-### Is States of Matter in the JEE Main 2027 syllabus?
+### Is states of matter still tested in JEE Main?
+No, states of matter was removed from the syllabus in 2024, recording only 1 question across all 58 papers between 2024 and 2026, and zero questions in 2025 and 2026.
 
-No. NTA removed States of Matter from the JEE Main syllabus in 2024. It is not in the current syllabus and has not appeared in any paper in our set since 2024.
+### Why do past JEE Main papers have so many solid state questions?
+Solid state was an independent, high-yield chapter in senior secondary chemistry before recent syllabus rationalizations merged and subsequently removed these topics from the JEE Main syllabus.
 
-### When was States of Matter last asked in JEE Main?
-
-The last question in our set was in 2024, with just 1 question that year across 20 papers. The final year with significant coverage was 2023, when the chapter gave 23 questions in 24 papers.
-
-### Which topic had the most questions when it was in the syllabus?
-
-Solid state, with 89 questions across all years in our set, followed by gaseous state with 74. Solid state was also asked slightly longer, with its last question appearing in 2024.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Does the gaseous state topic overlap with kinetic theory of gases in physics?
+Yes, ideal gas equations, molecular speeds, and kinetic energy distributions remain fully active in the physics syllabus under kinetic theory of gases, even though removed from the chemistry section. Step-by-step solutions for each one are in the EdLoop app.

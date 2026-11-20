@@ -1,66 +1,56 @@
+# Mole Concept & Stoichiometry: JEE Main PYQ Trends & Preparation Guide
+
+Mole concept and stoichiometry provides the quantitative foundation for all chemical calculations, covering mole-particle relationships, balanced reaction equations, limiting reactants, solution concentration terms, and empirical formulas. Positioned as Unit 1: Some Basic Concepts in Chemistry in the Class 11 curriculum, it represents one of the most prolific sources of numerical problems in JEE Main. Between 2019 and 2026, the question pool records 203 questions from this chapter across 162 papers, giving it rank 7 among 31 chemistry chapters with a 4.4 percent share of the entire chemistry section.
+
 ## How often it comes up
 
-Mole Concept and Stoichiometry is a steady presence in JEE Main Chemistry. In the papers we hold from 2019 to 2026, it contributed **203 questions across 162 papers**, about **1.3 questions per paper**, and appeared in 148 of those papers. That puts it at **7th of 31 Chemistry chapters** by share of questions in that period, with 4.4% of all Chemistry questions.
-
-Its weight has grown over time. In the AIEEE and early JEE Main years (2002 to 2018), it was 3.7% of Chemistry; in the last three exam years (2024 to 2026), it rose to 5.1%, with 79 questions in 58 papers. Since 2019 there has been no year without at least one question from this chapter. Expect at least one question from this chapter in any shift you sit.
-
-It is a Class 11 chapter, part of NTA's Unit 1: Some Basic Concepts in Chemistry.
+In the computer-based testing era from 2019 to 2026, candidates faced 203 questions across 162 papers, representing an average rate of 1.3 questions per examination shift. The chapter featured in 148 of those 162 papers, and questions were set in every single year throughout the cycle. During the recent 2024 to 2026 period, testing recorded 79 questions across 58 papers, maintaining an average of 1.4 questions per shift and achieving a 5.1 percent subject share. The chapter's share is up compared to both the 3.7 percent share in the 2002 to 2018 window and the 4.4 percent baseline across 2019 to 2026. In 2026 alone, examiners presented 20 questions across 19 papers, showing up in 16 individual shifts. A remarkable 116 questions between 2019 and 2026 were formatted as numerical answer questions, meaning over half of all questions from this chapter demand exact arithmetic answers rather than multiple choice selection.
 
 ## Most-asked topics
 
-Five topics cover the whole chapter. From 2019 to 2026:
+Questions in this chapter concentrate across five defined areas:
 
-- **Stoichiometry**: 82 questions. The largest slice by far, covering limiting reagent, percentage yield and mass-to-mass calculations.
-- **Concentration Terms**: 70 questions. Molarity, molality, mole fraction, mass percentage and mixing problems.
-- **Mole and Molar Mass**: 26 questions. Converting grams, volumes and particles to moles and back.
-- **Empirical and Molecular Formula**: 22 questions. Finding the formula from percentage composition or combustion data.
-- **Laws of Chemical Combination**: 3 questions. Statements and corrections about Dalton's atomic theory.
-
-All five topics appeared in 2026, so none can be safely skipped.
+- **Stoichiometry**: 98 questions historically, with 82 asked between 2019 and 2026, tested up to 2026. This dominant area tests gravimetric calculations, limiting reagents, theoretical and percentage yields, eudiometry gas combustion analysis, and sequential multi-step chemical reactions.
+- **Concentration Terms**: 85 total questions, including 70 from 2019 to 2026, tested in 2026. Problems assess molarity, molality, mole fraction, mass percentage, volume percentage, parts per million, mixing of solutions, and dilution calculations.
+- **Mole & Molar Mass**: 35 lifetime problems, with 26 between 2019 and 2026, continuing in 2026. Concepts explore Avogadro's number conversions, molar volume of ideal gases at standard temperature and pressure, total atom counting across compounds, and average atomic masses.
+- **Empirical & Molecular Formula**: 30 questions overall, with 22 from 2019 to 2026, tested through 2026. Themes evaluate percentage elemental compositions, simplest integer molar ratios, combustion analysis data, and determination of molecular formulas using molar masses.
+- **Laws of Chemical Combination**: 5 questions since 2002, with 3 asked between 2019 and 2026, last tested in 2024. Questions examine Dalton's atomic theory postulates, law of conservation of mass, definite proportions, and multiple proportions.
 
 ## What the questions look like
 
-Stoichiometry questions almost always give a balanced or unbalanced equation and ask about one quantity when another is known. Many involve a limiting reagent: you are told the masses of two reactants and must find which runs out first, then calculate the mass or volume of product formed. Percentage yield questions of the same type also appear frequently.
+JEE Main problems in mole concept emphasize multi-step numerical problem solving and quantitative reasoning:
 
-Concentration questions typically involve mixing two solutions of different strengths and asking for the resulting molarity, molality or mole fraction. A large number of these are set up so that two calculations must be chained together, for example converting mass percent to molarity using a given density.
-
-Mole and molar mass questions test whether you can convert between atoms, grams and moles for multi-atom molecules such as sucrose or cyclohexane. Empirical formula questions give percentage composition by mass and ask you to work back to the simplest ratio of atoms.
-
-A sizeable fraction of the chapter comes as numerical-answer questions: 116 of the 203 questions since 2019 had no options at all, so the final answer must be exact.
+- **Hydrocarbon combustion eudiometry**: Gaseous hydrocarbons combusted with excess oxygen gas produce volume contractions before and after absorption by potassium hydroxide solutions, allowing deduction of the molecular formula.
+- **Concentration conversion in acid mixtures**: Combining concentrated aqueous solutions of known mass percentages to evaluate the resulting mole fraction, molarity, or molality of the solute.
+- **Limiting reagent and unreacted residue**: Two reactants mixed in non-stoichiometric proportions react to form a compound. Students determine which reactant is exhausted first, how much product forms, and what mass of excess reactant remains.
+- **Titration neutralization stoichiometry**: Calculating the exact mass or volume of an acid neutralized by a standard alkaline titrant solution.
 
 ## Questions to try first
 
-These are from NTA's own 2026 papers, one per topic:
+Solve these representative recent problems:
 
-- [Hydrocarbon burnt in oxygen; find the molecular formula from volumes before and after KOH](/q/q-2026-01-21-m-c03) (JEE Main 2026, 21 Jan Shift 1)
-- [Mole fraction of sulphuric acid after mixing two solutions of different strengths](/q/q-2026-01-22-e-c05) (JEE Main 2026, 22 Jan Shift 2)
-- [Total atoms in cyclohexane, sucrose and hydrogen combined](/q/q-2026-04-04-e-c01) (B Tech 4th Apr 2026 Shift 2)
-- [Iron oxide with 69.9% iron: find the empirical formula](/q/q-2026-04-06-m-c01) (B Tech 6th Apr 2026 Shift 1)
-- [Limiting reagent and leftover in a reaction forming AB₂](/q/q-2026-01-22-e-c15) (JEE Main 2026, 22 Jan Shift 2)
-- [Incorrect statement about postulates of Dalton's atomic theory](/q/q-2024-04-04-e-c01) (JEE Main 2024, 04 Apr Shift 2)
+- [Determining hydrocarbon formula from combustion volumes before and after potassium hydroxide absorption](/q/q-2026-01-21-m-c03) (JEE Main 2026 21 Jan Shift 1, multiple choice)
+- [Calculating mole fraction after mixing two sulphuric acid solutions of differing percentages](/q/q-2026-01-22-e-c05) (JEE Main 2026 22 Jan Shift 2, multiple choice)
+- [Total atom counting across given moles of cyclohexane, sucrose, and hydrogen gas](/q/q-2026-04-04-e-c01) (B Tech 4th Apr 2026 Shift 2, multiple choice)
+- [Determining empirical formula of iron oxide from measured percentage mass of iron](/q/q-2026-04-06-m-c01) (B Tech 6th Apr 2026 Shift 1, multiple choice)
+- [Identifying incorrect statements regarding the fundamental postulates of Dalton atomic theory](/q/q-2024-04-04-e-c01) (JEE Main 2024 04 Apr Shift 2, multiple choice)
+- [Calculating mass of chlorine gas liberated from manganese dioxide reaction with excess acid](/q/q-2026-01-21-e-c06) (JEE Main 2026 21 Jan Shift 2, multiple choice)
 
 ## How to practise it
 
-Start with mole-to-gram-to-particle conversions until they are automatic, because every other topic in this chapter uses that skill. Then move to stoichiometry: practise balancing equations and setting up limiting-reagent problems with a fixed method so the approach is the same regardless of how the question is framed.
+Always write balanced chemical equations before performing arithmetic. Convert all given reactant quantities into moles, divide by respective stoichiometric coefficients, and identify the smallest ratio to find the limiting reagent.
 
-After stoichiometry, work through concentration terms. The key is knowing which formula to use for each term and how to handle density when converting between volume-based and mass-based units. Keep empirical and molecular formula problems for a short separate session: they follow a fixed algorithm and become reliable after a dozen attempts.
+Build automatic fluency with concentration conversions. Practice converting directly between mass percentage, molarity, and molality using solution density. Remember that molality depends on kilograms of solvent, while molarity depends on liters of total solution.
 
-Because most questions are numerical-answer type, always check the significant figures required and carry units through each step to catch early errors.
+With 116 numerical response questions appearing between 2019 and 2026, train yourself to compute without intermediate rounding errors. Keep track of decimal points and units when calculating masses in milligrams versus grams.
 
 ## Frequently asked questions
 
-### Is Mole Concept and Stoichiometry in the JEE Main 2027 syllabus?
+### Why does mole concept have so many numerical answer questions?
+Stoichiometry and concentration calculations produce unambiguous numerical values, making them ideal for Section B numerical answer questions where students enter calculated numbers directly.
 
-Yes. It is part of NTA's Unit 1: Some Basic Concepts in Chemistry and has been in the syllabus continuously. It gave 203 questions in the 162 papers we hold from 2019 to 2026.
+### What is the most common error in limiting reagent problems?
+Comparing given masses directly rather than converting to moles, or failing to divide moles by the stoichiometric coefficients in the balanced chemical equation before identifying the limiting reagent.
 
-### Which topic in this chapter appears most in JEE Main?
-
-Stoichiometry, with 82 questions from 2019 to 2026, followed by concentration terms with 70. Together they make up well over half the chapter's questions in that period.
-
-### How many numerical-answer questions come from this chapter?
-
-Of the 203 questions from 2019 to 2026, 116 were numerical-answer questions with no options given. That is a higher share than most Chemistry chapters, so practising exact calculation is important here.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### How does mole concept link to other chapters in chemistry?
+Stoichiometry and concentration terms serve as prerequisites for chemical equilibrium, ionic equilibrium, solutions, electrochemistry, and practical volumetric titrations. Step-by-step solutions for each one are in the EdLoop app.
