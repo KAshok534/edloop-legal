@@ -1,67 +1,54 @@
+# Nuclei: JEE Main PYQ Trends & Preparation Guide
+
+Nuclei deals with the subatomic domain, detailing nuclear binding energy, mass defect, radius scaling relations, radioactive decay kinetics, and fusion or fission reactions. Included within Unit 18: Atoms and Nuclei in the Class 12 curriculum, this chapter contributes straightforward scoring questions to the JEE Main physics paper. Between 2019 and 2026, the question pool records 120 questions across 162 papers, holding rank 23 among the 29 physics chapters with a 2.6 percent share of total physics questions.
+
 ## How often it comes up
 
-Nuclei is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **120 questions in 162 papers**, about **0.7 questions per paper**, and it appeared in 104 of those 162 papers. That places it **23th of 29 Physics chapters** by share of questions in that period, with 2.6% of all Physics questions.
-
-The share has fallen since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 3.3% of Physics; in the last three exam years (2024 to 2026) it declined to 2.5%, with 39 questions in 58 papers. The busiest year in our set was 2023, with 24 questions across 24 papers. Since 2019 there has been no year without it, appearing in 104 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 18: Atoms and Nuclei.
+In the computerized exam period from 2019 to 2026, candidates solved 120 questions from nuclei across 162 papers, representing an average frequency of 0.7 questions per session. The chapter appeared in 104 of those 162 papers, and questions were featured every single year. Examining the three years from 2024 to 2026 reveals 39 questions in 58 papers, maintaining 0.7 questions per test and a 2.5 percent subject share. The chapter's share is down compared to the 2002 to 2018 window, which logged 44 questions across 38 papers for a 3.3 percent share. Measured against the full 2019 to 2026 baseline, its recent share has stayed about the same. In 2026 alone, examiners presented 13 questions across 19 papers, featured in 12 separate shifts. Exactly 27 questions from 2019 to 2026 required numerical answers, with students calculating fission yields, mass defects, and nuclear radius ratios.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+The chapter distributes questions across three core subtopics:
 
-- **Radioactivity**: 57 questions.
-- **Nuclear Structure**: 38 questions.
-- **Nuclear Reactions**: 25 questions.
-
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- **Radioactivity**: 85 questions historically, with 57 asked between 2019 and 2026, tested up to 2026. This area examines exponential radioactive decay laws, half-life and mean life relations, alpha and beta decay energy splits, Q-value apportionment, and decay chain branching.
+- **Nuclear Structure**: 50 total questions, including 38 from 2019 to 2026, continuing into 2026. Themes assess the nuclear radius scaling law R proportional to mass number A to the one-third power, constant nuclear density, mass defect calculations, binding energy per nucleon curves, and isobar identification.
+- **Nuclear Reactions**: 29 lifetime problems, with 25 concentrated between 2019 and 2026, tested through 2026. Problems evaluate energy released in binary fusion, uranium-235 fission energy calculations, Q-value evaluations from atomic masses, and threshold reaction energies.
 
 ## What the questions look like
 
-Questions in Nuclei test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Questions in nuclei balance conceptual binding energy evaluations with quantitative mass energy conversions:
 
-In **Radioactivity**, questions focus on standard exam setups. Recent problems include: α-decays of A = 200 and A = 212 with equal Q: ratio of α energies. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Nuclear Structure**, questions focus on standard exam setups. Recent problems include: Photon frequency to break a 15.348 u particle into four alpha particles (in kHz); Which pair of nuclei are isobars?. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Nuclear Reactions**, questions focus on standard exam setups. Recent problems include: 47 g of U-235 at 190 MeV per fission: total energy in units of 10^23 MeV; Two A = 3 nuclei and one A = 4 nucleus fuse to A = 10: energy change. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 27 of the 120 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Nuclear radius and area scaling**: Comparing the radii or surface areas of two nuclei whose mass numbers differ by a known factor, applying the cube root relation of atomic mass numbers.
+- **Total energy released in nuclear fission**: Calculating the cumulative thermal energy liberated when a specified mass of uranium-235 undergoes complete fission, given the average energy yielded per individual event.
+- **Alpha decay kinetic energy partitioning**: Two parent nuclei of differing mass numbers undergo alpha decay with identical reaction Q-values. Students use momentum conservation to compare the kinetic energies carried away by the resulting alpha particles.
+- **Binding energy per nucleon curve interpretation**: Analyzing the stability of light nuclei fusing into heavier isotopes or heavy nuclei undergoing fission based on position along the binding energy curve.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Solve these representative recent problems:
 
-- [Photon frequency to break a 15.348 u particle into four alpha particles (in kHz)](/q/q-2026-01-22-m-p20) (JEE Main 2026 22 Jan Shift 1)
-- [47 g of U-235 at 190 MeV per fission: total energy in units of 10^23 MeV](/q/q-2026-01-23-e-p21) (JEE Main 2026 23 Jan Shift 2, numerical answer)
-- [α-decays of A = 200 and A = 212 with equal Q: ratio of α energies](/q/q-2026-04-08-e-p19) (B Tech 8th Apr 2026 Shift 2)
-- [Which pair of nuclei are isobars?](/q/q-2026-01-23-e-p06) (JEE Main 2026 23 Jan Shift 2)
-- [He-3 + n releasing 20 MeV and He-4 + n absorbing 0.9 MeV: stability order of ...](/q/q-2026-01-24-e-p01) (JEE Main 2026 24 Jan Shift 2)
+- [Determining photon frequency required to disintegrate particle into four alpha particles](/q/q-2026-01-22-m-p20) (JEE Main 2026 22 Jan Shift 1, multiple choice)
+- [Calculating total energy liberated by complete fission of forty-seven grams of uranium-235](/q/q-2026-01-23-e-p21) (JEE Main 2026 23 Jan Shift 2, numerical answer)
+- [Ratio of alpha particle kinetic energies in decays of nuclei with equal reaction Q values](/q/q-2026-04-08-e-p19) (B Tech 8th Apr 2026 Shift 2, multiple choice)
+- [Identifying matching isobaric nuclear pairs from given isotopic symbols](/q/q-2026-01-23-e-p06) (JEE Main 2026 23 Jan Shift 2, multiple choice)
+- [Evaluating relative stability order of helium isotopes from reaction energy changes](/q/q-2026-01-24-e-p01) (JEE Main 2026 24 Jan Shift 2, multiple choice)
+- [Connecting binding energy per nucleon curve variations with direction of nuclear reactions](/q/q-2026-01-24-m-p13) (JEE Main 2026 24 Jan Shift 1, multiple choice)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Nuclei.
+Master the cube root scaling law for nuclear dimensions. Nuclear radius R equals R zero multiplied by mass number A to the power one-third. Because nuclear volume is directly proportional to mass number A, nuclear mass density remains approximately constant across all stable nuclei.
 
-Next, work through past JEE Main questions topic by topic. Start with Radioactivity, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Be fluent with mass defect and binding energy calculations. Sum the masses of individual constituent protons and neutrons, subtract the measured nuclear mass, and convert the resulting mass defect in unified atomic mass units into mega-electronvolts.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+For radioactive decay, express remaining nuclei as N zero multiplied by one-half raised to the power of the number of elapsed half-lives. In alpha decays, remember that the alpha particle receives a fraction equal to A minus four divided by A of the total reaction Q-value.
 
 ## Frequently asked questions
 
-### Is Nuclei important for JEE Main 2027?
+### Has radioactivity been removed from the recent JEE Main syllabus?
+While certain syllabus revisions have compressed modern physics descriptions, radioactivity decay kinetics and alpha decay Q-value problems continue to appear in 2026 papers.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 120 questions across 162 papers, about 0.7 questions per paper. It ranks 23th of 29 Physics chapters by question volume.
+### How do I remember the kinetic energy split in alpha decay?
+By conservation of linear momentum, the daughter nucleus and alpha particle carry equal and opposite momenta. Since kinetic energy equals momentum squared divided by two times mass, the lighter alpha particle takes the majority of the energy, specifically A minus four over A times Q.
 
-### Which topic in Nuclei has the most questions?
-
-Radioactivity is the most-asked topic, with 57 questions from 2019 to 2026 in our collection.
-
-### Are questions in Nuclei multiple choice or numerical?
-
-Both formats appear. Of the 120 questions from 2019 to 2026 in our set, 27 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### What is the most critical curve to memorize in nuclei?
+The binding energy per nucleon versus mass number curve is essential. It peaks near mass number fifty-six for iron and declines toward both lighter elements and heavy actinide nuclei, explaining why fusion occurs for light nuclei and fission for heavy nuclei. Step-by-step solutions for each one are in the EdLoop app.

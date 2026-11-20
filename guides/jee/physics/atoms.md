@@ -1,67 +1,54 @@
+# Atoms: JEE Main PYQ Trends & Preparation Guide
+
+Atoms explores atomic architecture, alpha particle scattering, nuclear dimensions, and Bohr's quantized orbital model for hydrogen-like species. Structured within Unit 18: Atoms and Nuclei in the Class 12 curriculum, this topic provides reliable, formula-driven points. In the computer-based testing window spanning 2019 to 2026, the question pool logs 115 questions from atoms across 162 papers, giving the chapter rank 24 among the 29 physics chapters with a 2.5 percent share of total physics questions.
+
 ## How often it comes up
 
-Atoms is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **115 questions in 162 papers**, about **0.7 questions per paper**, and it appeared in 97 of those 162 papers. That places it **24th of 29 Physics chapters** by share of questions in that period, with 2.5% of all Physics questions.
-
-The share has stayed about the same across two decades. In the AIEEE and early JEE Main years (2002 to 2018) it was 2.8% of Physics; in the last three exam years (2024 to 2026) it is 2.8%, with 44 questions in 58 papers. The busiest year in our set was 2023, with 22 questions across 24 papers. Since 2019 there has been no year without it, appearing in 97 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 18: Atoms and Nuclei.
+Between 2019 and 2026, candidates answered 115 questions across 162 papers, representing an average rate of 0.7 questions per sitting. The chapter featured in 97 of those 162 papers, and questions appeared every single year throughout the testing era. In the recent three-year block from 2024 to 2026, examiners set 44 questions across 58 papers, maintaining an average of 0.8 questions per shift and a 2.8 percent subject share. The chapter's share has stayed about the same when compared to the 2002 to 2018 window, which recorded 38 questions across 38 papers for a 2.8 percent share. During the 2026 examination sessions, 11 questions were presented across 19 papers, showing up in 11 separate shifts. Over the 2019 to 2026 timeline, 34 questions required numerical answers, with candidates evaluating quantum numbers, wavelength differences, and closest approach distances.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Questions from this chapter concentrate almost entirely on Bohr's quantization framework:
 
-- **Bohr Model**: 103 questions.
-- **Rutherford Model**: 8 questions.
-- **X-rays**: 4 questions.
-
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- **Bohr Model**: 137 questions historically, with 103 delivered between 2019 and 2026, tested up to 2026. This dominant topic explores orbital radii scaling with n squared over Z, electron orbital speeds scaling with Z over n, kinetic and potential energy relationships, angular momentum quantization, Rydberg formula calculations, and spectral series lines from Lyman to Pfund.
+- **Rutherford Model**: 11 total problems, including 8 from 2019 to 2026, asked in 2026. Concepts test alpha particle scattering, distance of closest approach, impact parameter relations, and nuclear dimension estimations.
+- **X-rays**: 5 lifetime questions, with 4 appearing between 2019 and 2026, last asked in 2023. Questions assess continuous and characteristic X-ray generation mechanisms and Duane-Hunt minimum cutoff wavelengths.
 
 ## What the questions look like
 
-Questions in Atoms test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+JEE Main tests atoms through structured algebraic substitutions and orbital proportionality rules:
 
-In **Bohr Model**, questions focus on standard exam setups. Recent problems include: Bohr orbit with energy 0.04 times the ground state: value of 2π L/h; Shortest Lyman line 91 nm: difference of the longest Paschen and Balmer lines. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Rutherford Model**, questions focus on standard exam setups. Recent problems include: 7.7 MeV alpha particle on gold (Z = 79): distance of closest approach; 7.9 MeV alpha particle on Z = 79: estimated nuclear diameter. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **X-rays**, questions focus on standard exam setups. Recent problems include: Radiation produced when fast electrons strike a metal target. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 34 of the 115 questions since 2019 had no options, requiring exact computation and proper handling of units.
+- **Orbital quantum number from energy fractions**: An electron occupies a stationary Bohr orbit with total energy equal to a specified decimal fraction of the ground state energy. Students determine the principal quantum number n and evaluate orbital angular momentum.
+- **Distance of closest approach in alpha scattering**: High-energy alpha particles fired head-on toward heavy gold nuclei convert initial kinetic energy entirely into electrostatic potential energy at the turning point.
+- **Spectral wavelength differences**: Given the shortest wavelength of the Lyman series, students apply the Rydberg formula to calculate the difference between the longest wavelengths of the Balmer and Paschen series.
+- **Orbital magnetic field scaling**: Comparing the magnetic field generated at the nucleus by circulating orbital electrons across different principal quantum states.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Solve these representative recent problems:
 
-- [Bohr orbit with energy 0.04 times the ground state: value of 2π L/h](/q/q-2026-01-21-e-p08) (JEE Main 2026 21 Jan Shift 2)
-- [7.7 MeV alpha particle on gold (Z = 79): distance of closest approach](/q/q-2026-01-21-m-p20) (JEE Main 2026 21 Jan Shift 1)
-- [Radiation produced when fast electrons strike a metal target](/q/q-2023-04-08-e-p23) (JEE Main 2023 08 Apr Shift 2)
-- [7.9 MeV alpha particle on Z = 79: estimated nuclear diameter](/q/q-2026-01-22-m-p03) (JEE Main 2026 22 Jan Shift 1)
-- [Shortest Lyman line 91 nm: difference of the longest Paschen and Balmer lines](/q/q-2026-01-22-e-p07) (JEE Main 2026 22 Jan Shift 2)
+- [Evaluating quantized orbital angular momentum from fractional ground state energy](/q/q-2026-01-21-e-p08) (JEE Main 2026 21 Jan Shift 2, multiple choice)
+- [Calculating distance of closest approach for alpha particle directed at gold nucleus](/q/q-2026-01-21-m-p20) (JEE Main 2026 21 Jan Shift 1, multiple choice)
+- [Radiation mechanism produced when fast moving electrons strike metallic targets](/q/q-2023-04-08-e-p23) (JEE Main 2023 08 Apr Shift 2, multiple choice)
+- [Estimating upper bound on nuclear diameter from alpha scattering turning point](/q/q-2026-01-22-m-p03) (JEE Main 2026 22 Jan Shift 1, multiple choice)
+- [Calculating wavelength difference between longest Balmer and Paschen spectral lines](/q/q-2026-01-22-e-p07) (JEE Main 2026 22 Jan Shift 2, multiple choice)
+- [Comparing longest and shortest wavelength limits across hydrogen spectral series](/q/q-2026-01-23-m-p14) (JEE Main 2026 23 Jan Shift 1, multiple choice)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Atoms.
+Memorize the power dependencies of all Bohr quantities with respect to principal quantum number n and nuclear charge Z. Radius scales as n squared over Z, velocity scales as Z over n, orbital time period scales as n cubed over Z squared, and total energy scales as minus Z squared over n squared.
 
-Next, work through past JEE Main questions topic by topic. Start with Bohr Model, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Be proficient with energy relations: potential energy is always negative and twice the total energy, while kinetic energy is positive and equals the absolute value of total energy. When an electron transitions to a lower energy state, kinetic energy increases while potential energy decreases by twice that amount.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+For hydrogen spectral series, know the transition limits cold. The shortest wavelength of any series corresponds to an electron falling from infinity, while the longest wavelength corresponds to an transition from the immediately adjacent upper level.
 
 ## Frequently asked questions
 
-### Is Atoms important for JEE Main 2027?
+### Which topic in atoms carries the highest weight?
+Bohr model questions represent nearly ninety percent of all modern questions from this chapter. Mastering orbital scaling laws and Rydberg transition formulas provides comprehensive exam coverage.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 115 questions across 162 papers, about 0.7 questions per paper. It ranks 24th of 29 Physics chapters by question volume.
+### What is the connection between atoms in physics and atomic structure in chemistry?
+Both chapters share identical theoretical foundations for Bohr orbits and hydrogen spectral transitions. Preparing these concepts thoroughly provides dual scoring benefits across both physics and chemistry sections.
 
-### Which topic in Atoms has the most questions?
-
-Bohr Model is the most-asked topic, with 103 questions from 2019 to 2026 in our collection.
-
-### Are questions in Atoms multiple choice or numerical?
-
-Both formats appear. Of the 115 questions from 2019 to 2026 in our set, 34 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Are X-ray spectra questions still common?
+X-ray questions were last asked in 2023 and have been de-emphasized in recent syllabus revisions, leaving Rutherford scattering and Bohr transitions as the primary focus areas. Step-by-step solutions for each one are in the EdLoop app.
