@@ -117,3 +117,16 @@ checker ("resonance" → "delocalisation", |x| → "mod(x)"), which changed the 
     set-ups) in "What the questions look like" and "How to practise it", in sentences no other guide uses.
 
 Rewrite all 87 guides (keep the two examples), one at a time, checker after each, commit every ~10 as before.
+
+## Fix round (2026-11-20, after the rewrite)
+
+The rewrite passed, but two things slipped through the checker, which now catches both:
+
+13. **No `# title` line and nothing before `## How often it comes up`.** The page already has its title; a `#` line
+    shows up as a literal "#" on the site. Delete the title line; if the intro paragraph says something the first
+    section does not (class, unit, what the chapter is about), move that sentence into "How often it comes up" and
+    delete the rest. Do not repeat numbers that section already gives.
+14. **No "scoring", "score", "high-yield".** These are promises about marks (rule 3). Say what the questions test instead.
+
+Fix only the guides that fail (`python tools/check_guides.py`), one at a time, by hand; change nothing else in them.
+Commit as `Chapter guides: fix round (<n> guides)` and push. Done when the last line says `89 checked, 0 failed`.

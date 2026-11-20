@@ -24,6 +24,7 @@ BANNED = [  # claims we cannot back, rank/score promises, other brands, coaching
     r'\bwill (?:definitely|surely|certainly) (?:come|be asked)', r'\bpredict', r'\bleak',
     r'\ballen\b', r'\baakash\b', r'\bfiitjee\b', r'(?-i:\bResonance (?:Eduventures|coaching|institute))', r'\bmathongo\b', r'\bphysics ?wallah\b', r'\bPW\b',
     r'\bvedantu\b', r'\bunacademy\b', r'\bexamgoal\b', r'\bexamside\b', r'\bmarks app\b', r'\bembibe\b', r'\btoppr\b',
+    r'\bhigh(?:est)?[- ]yield', r'\bscor(?:e|ing)\b',
     r'\bchatgpt\b', r'\bgemini\b', r'\bclaude\b', r'\bAI[- ]generated\b',
 ]
 LINK_RE = re.compile(r'\[([^\]\n]+)\]\((/[^)\s]*)\)')
@@ -147,7 +148,11 @@ def check(src, facts, valid_q_ids, valid_paths):
         probs.append('images and tables are not allowed')
     if re.search(r'\]\((?!/)', src) or re.search(r'https?://', src):
         probs.append('only site links starting with / are allowed (no outside links, no Play link: the page already has one)')
+    if re.search(r'^#(?!#)', src, re.M):
+        probs.append('no "# title" line: the page already has its title; start with "## How often it comes up"')
     blocks = parse(src)
+    if blocks and blocks[0] != ('h2', SECTIONS[0]):
+        probs.append('nothing may come before "## How often it comes up" (move any intro sentence into that section)')
     heads = [v for k, v in blocks if k == 'h2']
     if heads != SECTIONS:
         probs.append('sections must be exactly, in order: %s (found: %s)' % (SECTIONS, heads))
