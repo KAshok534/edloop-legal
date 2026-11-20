@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Exact numbers for the chapter guides: one JSON per JEE chapter, read from the content database.
 
-    python tools/chapter_facts.py <path to content.sqlite> [--out guides/facts]
+    python tools/chapter_facts.py <path to content.sqlite> [--out <guides root>/facts]
 
-Writes guides/facts/<subject>/<chapter slug>.json (the same slugs as the chapter pages that
-tools/make_question_pages.py builds) and guides/facts/index.json (the list of chapters).
+Writes <guides root>/facts/<subject>/<chapter slug>.json (the same slugs as the chapter pages that
+tools/make_question_pages.py builds) and <guides root>/facts/index.json (the list of chapters).
 
 A guide may only state a number that is in its facts file (tools/check_guides.py enforces it). The writer never counts
 or estimates anything itself. Same question set as the website: verified questions of JEE-family papers (JEE Main,
@@ -32,8 +32,14 @@ def r1(x):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('db')
-    ap.add_argument('--out', default=os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'guides', 'facts'))
+    ap.add_argument('--out', default=None, help='default: <guides root>/facts (tools/guides.py guides_root)')
     a = ap.parse_args()
+    if a.out is None:
+        import guides
+        g = guides.guides_root()
+        if not g:
+            sys.exit('guides folder not found: set EDLOOP_GUIDES to IIT APP/marketing/chapter-guides')
+        a.out = os.path.join(g, 'facts')
     db = sqlite3.connect('file:%s?mode=ro' % os.path.abspath(a.db).replace('\\', '/'), uri=True)
     db.row_factory = sqlite3.Row
     meta = dict(db.execute('select key, value from content_meta').fetchall())
@@ -192,7 +198,7 @@ def main():
                       'questions': len(qs), 'questions_2019_2026': rec['questions'],
                       'in_current_syllabus': facts['in_current_syllabus'],
                       'facts': '%s/%s.json' % (SUBJECT_SLUG[sid], ch['slug']),
-                      'guide': 'guides/jee/%s/%s.md' % (SUBJECT_SLUG[sid], ch['slug'])})
+                      'guide': 'jee/%s/%s.md' % (SUBJECT_SLUG[sid], ch['slug'])})
     with open(os.path.join(a.out, 'index.json'), 'w', encoding='utf-8', newline='\n') as fh:
         json.dump({'database_built_at': meta.get('built_at'), 'chapters': index}, fh, ensure_ascii=False, indent=1)
         fh.write('\n')

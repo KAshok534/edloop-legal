@@ -24,7 +24,7 @@ source = 'sample', and its exam belongs to the 'jee' family (JEE_MAIN, AIEEE). P
 import argparse, base64, collections, datetime, html, json, os, re, shutil, sqlite3, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import guides  # noqa: E402  chapter guides (guides/jee/<subject>/<chapter>.md), checked by tools/check_guides.py
+import guides  # noqa: E402  chapter guides (<guides root>/jee/<subject>/<chapter>.md, outside this repo), checked by tools/check_guides.py
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -261,8 +261,13 @@ def main():
                     help="all (default since 2026-11-18): every figure question gets a page; the content build cuts MathonGo's "
                          "footer advert out of memory-based crops (IIT-APP content/figures/advert_cuts.tsv, Prod load 2026-11-17). "
                          "nta-only: only NTA's own papers' figure questions (for a content file built before that cut).")
+    ap.add_argument('--guides', default=None, help='chapter guides folder (IIT APP marketing/chapter-guides); default: tools/guides.py guides_root()')
+    ap.add_argument('--no-guides', action='store_true', help='build chapter pages without guides (they would be removed from the site)')
     a = ap.parse_args()
     root = os.path.abspath(a.out)
+    groot = None if a.no_guides else (os.path.abspath(a.guides) if a.guides else guides.guides_root(root))
+    if not a.no_guides and not (groot and os.path.isdir(os.path.join(groot, 'jee'))):
+        sys.exit('chapter guides not found: pass --guides <IIT APP>/marketing/chapter-guides or set EDLOOP_GUIDES (or --no-guides on purpose)')
     db = sqlite3.connect('file:%s?mode=ro' % os.path.abspath(a.db).replace('\\', '/'), uri=True)
     db.row_factory = sqlite3.Row
     meta = dict(db.execute('select key, value from content_meta').fetchall())
@@ -512,8 +517,8 @@ def main():
         crumbs = [('EdLoop', SITE + '/'), ('JEE Main PYQs', SITE + '/jee/pyq/'), (sname, SITE + '/jee/pyq/' + SUBJECT_SLUG[ch['subject']]), (ch['name'], SITE + cu)]
         n_mem = sum(1 for q in qs if q['source'] == 'memory_based')
         guide_html, faq = '', []
-        gp = guides.guide_path(root, SUBJECT_SLUG[ch['subject']], ch['slug'])
-        if os.path.exists(gp):
+        gp = groot and guides.guide_path(groot, SUBJECT_SLUG[ch['subject']], ch['slug'])
+        if gp and os.path.exists(gp):
             with open(gp, encoding='utf-8') as fh:
                 guide_html, faq = guides.render(fh.read(), ch['name'])
             n_guides += 1

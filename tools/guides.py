@@ -1,6 +1,7 @@
 """Chapter guides: the Markdown format, its renderer and its checks (shared by make_question_pages.py and check_guides.py).
 
-A guide is guides/jee/<subject>/<chapter slug>.md, written from guides/facts/<subject>/<chapter slug>.json.
+A guide is <guides root>/jee/<subject>/<chapter slug>.md, written from <guides root>/facts/<subject>/<chapter slug>.json
+(guides root: see guides_root(); it is outside this public repo).
 Format (nothing else is allowed):
     ## Heading                      the six fixed sections, in this order (SECTIONS)
     ### Question?                   only inside "Frequently asked questions"; the next paragraph is its answer
@@ -31,12 +32,23 @@ LINK_RE = re.compile(r'\[([^\]\n]+)\]\((/[^)\s]*)\)')
 NUM_RE = re.compile(r'(?<![\w.])\d+(?:,\d{3})*(?:\.\d+)?')
 
 
-def guide_path(root, subject_slug, chapter_slug):
-    return os.path.join(root, 'guides', 'jee', subject_slug, chapter_slug + '.md')
+def guides_root(site_root=None):
+    """The guides folder (README, facts/, jee/) lives in the private IIT APP repo (marketing/chapter-guides), not in this
+    public site repo. Set EDLOOP_GUIDES to it, or keep IIT APP next to this checkout. -> abspath or None."""
+    d = os.environ.get('EDLOOP_GUIDES')
+    if d:
+        return os.path.abspath(d)
+    site_root = site_root or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+    c = os.path.join(site_root, '..', 'IIT APP', 'marketing', 'chapter-guides')
+    return os.path.abspath(c) if os.path.isdir(c) else None
 
 
-def facts_path(root, subject_slug, chapter_slug):
-    return os.path.join(root, 'guides', 'facts', subject_slug, chapter_slug + '.json')
+def guide_path(groot, subject_slug, chapter_slug):
+    return os.path.join(groot, 'jee', subject_slug, chapter_slug + '.md')
+
+
+def facts_path(groot, subject_slug, chapter_slug):
+    return os.path.join(groot, 'facts', subject_slug, chapter_slug + '.json')
 
 
 def _inline(s):

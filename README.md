@@ -91,8 +91,8 @@ the bodies that set them. EdLoop is independent of NTA, APSCHE, TGCHE and JNTU.
 
 ## Chapter guides (from 2026-11-20)
 
-`guides/jee/<subject>/<chapter>.md` is a short study guide shown above the question list on the chapter page
-(`/jee/pyq/<subject>/<chapter>`), with FAQ data for Google. Numbers come only from `guides/facts/` (made by
-`python tools/chapter_facts.py <content.sqlite>`); `python tools/check_guides.py` checks every guide (format, numbers,
-links, banned claims); `tools/make_question_pages.py` renders them (`tools/guides.py`, styles in `qguide.css`). The
-writing brief for an outside agent is `guides/README.md`. Regenerate the facts and rerun the checker after each content load.
+A short study guide is shown above the question list on each chapter page (`/jee/pyq/<subject>/<chapter>`), with FAQ
+data for Google. The guides and their facts live outside this public repo (IIT APP `marketing/chapter-guides`); point the
+tools at it with `EDLOOP_GUIDES=<that folder>` or `--guides`. `tools/chapter_facts.py <content.sqlite>` writes the facts,
+`tools/check_guides.py` checks every guide, `tools/make_question_pages.py` renders them (`tools/guides.py`, `qguide.css`)
+and stops if it cannot find the guides (`--no-guides` only on purpose). Rerun facts and checker after each content load.

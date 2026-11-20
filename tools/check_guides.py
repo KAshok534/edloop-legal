@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check chapter guides against their facts files and the format rules in tools/guides.py.
 
-    python tools/check_guides.py                 every guide under guides/jee/
+    python tools/check_guides.py                 every guide under <guides root>/jee/ (EDLOOP_GUIDES; see tools/guides.py)
     python tools/check_guides.py physics/rotational-motion [...]
 
 Exit code 0 = all pass. Run it after writing or changing any guide; a guide that fails is not published.
@@ -12,15 +12,17 @@ sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import guides  # noqa: E402
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+ROOT = guides.guides_root()
+if not ROOT:
+    sys.exit('guides folder not found: set EDLOOP_GUIDES to IIT APP/marketing/chapter-guides')
 
 
 def main():
-    idx = json.load(open(os.path.join(ROOT, 'guides', 'facts', 'index.json'), encoding='utf-8'))
+    idx = json.load(open(os.path.join(ROOT, 'facts', 'index.json'), encoding='utf-8'))
     paths = {'/jee/pyq/', '/jee/pyq/physics', '/jee/pyq/chemistry', '/jee/pyq/mathematics', '/jee/', '/get'}
     paths |= {'/jee/pyq/%s/%s' % (c['subject'], c['slug']) for c in idx['chapters']}
-    want = sys.argv[1:] or sorted(os.path.relpath(p, os.path.join(ROOT, 'guides', 'jee')).replace(os.sep, '/')[:-3]
-                                  for p in glob.glob(os.path.join(ROOT, 'guides', 'jee', '*', '*.md')))
+    want = sys.argv[1:] or sorted(os.path.relpath(p, os.path.join(ROOT, 'jee')).replace(os.sep, '/')[:-3]
+                                  for p in glob.glob(os.path.join(ROOT, 'jee', '*', '*.md')))
     # templated text: a sentence (numbers, bold and the chapter name blanked) that appears in more than 3 guides fails
     allowed_common = {'Every question on this page opens with its options and answer.',
                       'Step-by-step solutions for each one are in the EdLoop app.'}
@@ -30,8 +32,8 @@ def main():
         t = re.sub(r'\*\*[^*]+\*\*', 'X', re.sub(r'\d[\d.,]*', 'N', t))
         return {s.strip() for s in re.split(r'(?<=[.?:])\s+|\n', t) if len(s.split()) >= 8 and s.strip() not in allowed_common and not s.strip().startswith('#')}
     corpus = collections.Counter()
-    for p in glob.glob(os.path.join(ROOT, 'guides', 'jee', '*', '*.md')):
-        k = os.path.relpath(p, os.path.join(ROOT, 'guides', 'jee')).replace(os.sep, '/')[:-3]
+    for p in glob.glob(os.path.join(ROOT, 'jee', '*', '*.md')):
+        k = os.path.relpath(p, os.path.join(ROOT, 'jee')).replace(os.sep, '/')[:-3]
         fp = guides.facts_path(ROOT, *k.split('/'))
         if os.path.exists(fp):
             corpus.update(sentences(open(p, encoding='utf-8').read(), json.load(open(fp, encoding='utf-8'))['chapter']))
