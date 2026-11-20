@@ -6,7 +6,7 @@
 
 Exit code 0 = all pass. Run it after writing or changing any guide; a guide that fails is not published.
 """
-import glob, json, os, sys
+import collections, glob, json, os, re, sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -21,6 +21,21 @@ def main():
     paths |= {'/jee/pyq/%s/%s' % (c['subject'], c['slug']) for c in idx['chapters']}
     want = sys.argv[1:] or sorted(os.path.relpath(p, os.path.join(ROOT, 'guides', 'jee')).replace(os.sep, '/')[:-3]
                                   for p in glob.glob(os.path.join(ROOT, 'guides', 'jee', '*', '*.md')))
+    # templated text: a sentence (numbers, bold and the chapter name blanked) that appears in more than 3 guides fails
+    allowed_common = {'Every question on this page opens with its options and answer.',
+                      'Step-by-step solutions for each one are in the EdLoop app.'}
+
+    def sentences(src, name):
+        t = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', src).replace(name, 'X')
+        t = re.sub(r'\*\*[^*]+\*\*', 'X', re.sub(r'\d[\d.,]*', 'N', t))
+        return {s.strip() for s in re.split(r'(?<=[.?:])\s+|\n', t) if len(s.split()) >= 8 and s.strip() not in allowed_common and not s.strip().startswith('#')}
+    corpus = collections.Counter()
+    for p in glob.glob(os.path.join(ROOT, 'guides', 'jee', '*', '*.md')):
+        k = os.path.relpath(p, os.path.join(ROOT, 'guides', 'jee')).replace(os.sep, '/')[:-3]
+        fp = guides.facts_path(ROOT, *k.split('/'))
+        if os.path.exists(fp):
+            corpus.update(sentences(open(p, encoding='utf-8').read(), json.load(open(fp, encoding='utf-8'))['chapter']))
+
     bad = 0
     for key in want:
         subj, slug = key.split('/')
@@ -33,6 +48,13 @@ def main():
         src = open(gp, encoding='utf-8').read()
         ids = {c['id'] for c in facts['question_candidates']}
         probs = guides.check(src, facts, ids, paths - {facts['page_url']})
+        shared = sorted(s for s in sentences(src, facts['chapter']) if corpus[s] > 3)
+        if shared:
+            probs.append('%d sentence(s) also appear in 4+ other guides (templated text; write this chapter in its own words): %s'
+                         % (len(shared), '; '.join('"%s"' % s[:80] for s in shared[:3])))
+        for c in facts['question_candidates']:
+            if len(c['text']) > 30 and c['text'] in src:
+                probs.append('copies a question_candidates text verbatim; describe the question in your own words: "%s"' % c['text'][:60])
         if probs:
             bad += 1
             print('FAIL %s' % key)

@@ -19,10 +19,10 @@ SECTIONS = [
     'Frequently asked questions',
 ]
 BANNED = [  # claims we cannot back, rank/score promises, other brands, coaching names
-    r'\bguarantee', r'\bbest\b', r'\btop[- ]?ranked\b', r'#\s?1\b', r'\bnumber one\b', r'\btopper', r'\bAIR\b', r'\brank holder',
+    r'\bguarantee', r'\bbest\b', r'\btop[- ]?ranked\b', r'#\s?1\b', r'\bnumber one\b', r'\btopper', r'(?-i:\bAIR\b)', r'\brank holder',
     r'\bsure[- ]?shot\b', r'\bmust[- ]?do\b', r'\b100\s?%', r'\bpercentile\b', r'\bexpected (?:questions|paper)\b',
     r'\bwill (?:definitely|surely|certainly) (?:come|be asked)', r'\bpredict', r'\bleak',
-    r'\ballen\b', r'\baakash\b', r'\bfiitjee\b', r'\bresonance\b', r'\bmathongo\b', r'\bphysics ?wallah\b', r'\bPW\b',
+    r'\ballen\b', r'\baakash\b', r'\bfiitjee\b', r'(?-i:\bResonance (?:Eduventures|coaching|institute))', r'\bmathongo\b', r'\bphysics ?wallah\b', r'\bPW\b',
     r'\bvedantu\b', r'\bunacademy\b', r'\bexamgoal\b', r'\bexamside\b', r'\bmarks app\b', r'\bembibe\b', r'\btoppr\b',
     r'\bchatgpt\b', r'\bgemini\b', r'\bclaude\b', r'\bAI[- ]generated\b',
 ]
@@ -143,7 +143,7 @@ def check(src, facts, valid_q_ids, valid_paths):
         probs.append('HTML is not allowed')
     if '$' in src or '\\(' in src:
         probs.append('maths markup ($ or \\() is not allowed; write plain words or Unicode (e.g. ω, ², √)')
-    if re.search(r'!\[|\|.*\|', src):
+    if re.search(r'!\[|^\s*\|', src, re.M):
         probs.append('images and tables are not allowed')
     if re.search(r'\]\((?!/)', src) or re.search(r'https?://', src):
         probs.append('only site links starting with / are allowed (no outside links, no Play link: the page already has one)')

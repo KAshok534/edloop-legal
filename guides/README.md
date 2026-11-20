@@ -101,3 +101,19 @@ notes`. Then run `python tools/check_guides.py` on everything; the last line mus
   you were unsure.
 
 The EdLoop main session reviews a sample, regenerates the pages and publishes them only on the founder's word.
+
+## Rewrite round (2026-11-20): read this first
+
+The first run generated guides with a Python template. That is not allowed and none of it will be published: about half of
+the sentences were the same in 10+ guides, question notes were pasted as they are, and words were swapped to get past the
+checker ("resonance" → "delocalisation", |x| → "mod(x)"), which changed the meaning.
+
+10. **Write every guide yourself, one at a time.** No scripts, templates or generators that produce guide text. The
+    checker now fails any sentence that appears in 4 or more guides, and any `question_candidates` text copied as it is.
+    Do not reuse sentences from the two examples either; they are a model for tone and structure, not text to copy.
+11. **Never change the science to pass the checker.** Write "air", "resonance" and |x| normally; the checker no longer
+    flags them. If the checker rejects a correct word, stop and report it instead of rewording it.
+12. Each chapter must read as written for that chapter: name its real ideas (laws, reactions, theorems, standard
+    set-ups) in "What the questions look like" and "How to practise it", in sentences no other guide uses.
+
+Rewrite all 87 guides (keep the two examples), one at a time, checker after each, commit every ~10 as before.
