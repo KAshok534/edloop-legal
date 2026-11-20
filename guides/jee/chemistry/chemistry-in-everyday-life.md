@@ -1,55 +1,50 @@
+# JEE Main Chemistry in Everyday Life: PYQ Trends & Preparation Guide
+
+Chemistry in Everyday Life investigates pharmaceutical drugs, food additives, artificial sweeteners, and cleansing agents (soaps and detergents). Topics include classification of drugs (analgesics, tranquilizers, antiseptics, disinfectants, antibiotics, and antacids), action of enzymes and receptor proteins, artificial sweeteners (aspartame, saccharin, sucralose, and alitame), food preservatives like BHA, and anionic versus cationic detergents. In 2024, the National Testing Agency removed this chapter from the JEE Main syllabus.
+
 ## How often it comes up
 
-NTA removed Chemistry in Everyday Life from the JEE Main syllabus in 2024. Across all papers we hold from 2002 to 2023, it contributed **77 questions across 200 papers**, appearing in 77 of those papers. From 2019 to 2026, it gave 59 questions in 162 papers, about 0.4 questions per paper.
+Across 2019 to 2026, Chemistry in Everyday Life accounted for 59 questions across 162 test papers, delivering 1.3% of the chemistry section and standing at rank 31 of 31 chapters. During the earlier 2002 to 2018 timeframe, it contributed 18 questions across 38 papers with a 1.3% share. Over the 2024 to 2026 cycle, it recorded 0 questions across 58 papers, capturing a 0.0% share. The overall trajectory has trended down following curriculum reduction.
 
-Before its removal, the chapter was asked regularly. In the AIEEE and early JEE Main years (2002 to 2018) it gave 18 questions in 38 papers, making up 1.3% of Chemistry questions. In our set it was last asked in 2023.
-
-It was historically taught as a Class 12 chapter under Chemistry in Everyday Life (removed 2024).
+Because it was deleted from the syllabus, the chapter was not asked in 2024, 2025, or 2026. Across 2019 to 2026, it averaged 0.4 questions per paper, with 4 numerical answer questions recorded.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 1 topics:
+Historical test questions group under one broad topic:
 
-- **Chemistry in Everyday Life**: 59 questions.
-
-These topics made up the syllabus when the chapter was part of JEE Main.
+- Chemistry in Everyday Life: Comprises 77 total questions (59 during 2019 to 2026), last tested in 2023. Core themes focused on drug classification (tranquilizers like Equanil, Valium, and veronal; analgesics like aspirin; antibiotics like penicillin and chloramphenicol; antiseptics like Dettol containing chloroxylenol and terpineol), artificial sweetening agents, and cleansing mechanisms of soaps versus synthetic detergents.
 
 ## What the questions look like
 
-Questions in Chemistry in Everyday Life test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Previous exam questions were purely memory-based matching and classification tasks. A common problem provided a list of medication brand names or active molecules (such as ranitidine, meprobamate, terfenadine, and cimetidine) and asked students to categorize each by pharmacological therapeutic effect (such as antacids versus antihistamines).
 
-In **Chemistry in Everyday Life**, questions focus on standard exam setups. Recent problems include: Noradrenaline as a neurotransmitter and its link with depression; Match drug classes with examples: antifertility, tranquilizer, antihistamine, antibiotic. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 4 of the 59 questions since 2019 had no options, requiring exact computation and proper handling of units.
+Other items evaluated artificial sweeteners (identifying alitame as possessing the highest sweetness relative to cane sugar, or noting that aspartame is unstable at cooking temperatures) and synthetic detergents (such as cetyltrimethylammonium bromide as a cationic detergent).
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Candidates consulting past year questions or reviewing pharmaceutical chemistry basics can examine these historical questions:
 
-- [Noradrenaline as a neurotransmitter and its link with depression](/q/q-2023-01-24-m-c20) (JEE Main 2023 24 Jan Shift 1)
-- [Match drug classes with examples: antifertility, tranquilizer, antihistamine,...](/q/q-2023-01-24-e-c29) (JEE Main 2023 24 Jan Shift 2)
-- [BHA as an antioxidant in butter: shelf life and reactivity towards oxygen](/q/q-2023-01-25-e-c26) (JEE Main 2023 25 Jan Shift 2)
-- [Incorrect statement about antibiotics](/q/q-2023-01-25-m-c27) (JEE Main 2023 25 Jan Shift 1)
-- [What the tranquilliser Equanil is prescribed for](/q/q-2023-01-29-e-c29) (JEE Main 2023 29 Jan Shift 2)
+- [Neurotransmitters and therapeutic action](/q/q-2023-01-24-m-c20): Connecting noradrenaline level fluctuations with mood regulation and antidepressant drug design.
+- [Therapeutic drug class matching](/q/q-2023-01-24-e-c29): Pairing pharmaceutical agents with antifertility, tranquilizer, antihistamine, and antibiotic categories.
+- [Food preservation and antioxidants](/q/q-2023-01-25-e-c26): Explaining the role of butylated hydroxyanisole (BHA) in retarding oxidative rancidity in fats and butter.
+- [Antiseptic and disinfectant differentiation](/q/q-2023-01-29-m-c29): Distinguishing broad-spectrum antibiotics, antiseptics applied to living tissues, and disinfectants for inanimate surfaces.
+- [Artificial sweetener relative potency](/q/q-2023-01-31-m-c19): Ordering artificial sweetening agents by comparative sweetness values relative to sucrose.
 
 ## How to practise it
 
-Because NTA removed Chemistry in Everyday Life from the JEE Main syllabus, students preparing for JEE Main 2027 can safely skip this chapter unless their state board examinations, school syllabus, or other competitive entrance tests still cover it.
+Because this unit has been excised from active JEE Main papers, adjust study priorities appropriately:
 
-If your curriculum requires this material, study the standard textbook theory and definitions first. Practise basic derivations and simple formula applications before attempting historical past questions.
-
-Reviewing the questions below helps students who need to cover this topic for foundational knowledge or other examinations.
+1. Prioritize active chapters: Concentrate your study hours on active organic units such as Aldehydes, Ketones & Carboxylic Acids, and Biomolecules.
+2. Note basic antiseptic terminology: Remembering that Dettol consists of chloroxylenol and terpineol remains helpful general chemistry knowledge.
+3. Understand detergent classes: Knowing that cationic detergents are quaternary ammonium salts with germicidal properties provides helpful surface chemistry intuition.
 
 ## Frequently asked questions
 
-### Is Chemistry in Everyday Life in the JEE Main 2027 syllabus?
+### Is Chemistry in Everyday Life included in the current JEE Main curriculum?
+No, the National Testing Agency officially excised this chapter from the syllabus in 2024, resulting in 0 questions across 2024, 2025, and 2026.
 
-No. NTA removed it from the JEE Main syllabus, so questions from Chemistry in Everyday Life will not appear in JEE Main 2027. Students focusing exclusively on JEE Main can skip it.
+### What is the difference between an antiseptic and a disinfectant?
+Antiseptics prevent microbial growth and are applied safely to living human tissues (such as Dettol or tincture of iodine), whereas disinfectants kill microorganisms on inanimate objects like floors and instruments (such as 1% phenol).
 
-### When was Chemistry in Everyday Life last asked in JEE Main?
-
-In the papers we hold, questions from Chemistry in Everyday Life were last asked in 2023. Across all years in our collection, it contributed 77 questions.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Where can I check complete step-by-step solutions to past questions?
+Historical question explanations remain cataloged for reference. Step-by-step solutions for each one are in the EdLoop app.

@@ -1,70 +1,57 @@
+# JEE Main Aldehydes, Ketones & Carboxylic Acids: PYQ Trends & Preparation Guide
+
+Aldehydes, Ketones & Carboxylic Acids forms the most versatile and heavily examined carbonyl chemistry unit in JEE Main. Coverage spans nucleophilic addition to carbonyl groups, alpha-hydrogen reactivity (aldol condensation, Cannizzaro reaction, haloform reaction), reduction reactions (Clemmensen and Wolff-Kishner), diagnostic tests (Tollens, Fehling, 2,4-DNP), carboxylic acid derivatives, and decarboxylation.
+
 ## How often it comes up
 
-Aldehydes, Ketones & Carboxylic Acids is one of the important chapters in JEE Main Chemistry. Across the papers we hold from 2019 to 2026, it gave **214 questions in 162 papers**, about **1.3 questions per paper**, and it appeared in 129 of those 162 papers. That places it **5th of 31 Chemistry chapters** by share of questions in that period, with 4.7% of all Chemistry questions.
+In the 2019 to 2026 test timeframe, Aldehydes, Ketones & Carboxylic Acids produced 214 questions across 162 exam papers, making up 4.7% of the chemistry section and holding rank 5 of 31 chapters. During the 2002 to 2018 period, it accounted for 51 questions across 38 papers with a 3.8% share. Over the recent 2024 to 2026 window, the chapter yielded 71 questions across 58 papers, capturing a 4.6% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
 
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 3.8% of Chemistry; in the last three exam years (2024 to 2026) it rose to 4.6%, with 71 questions in 58 papers. The busiest year in our set was 2021, with 41 questions across 26 papers. Since 2019 there has been no year without it, appearing in 129 of the 162 papers we hold.
-
-It is a Class 12 chapter, part of NTA's Unit 17: Organic Compounds Containing Oxygen.
+The chapter has appeared every year from 2019 to 2026. Students faced an average of 1.3 questions per paper across 2019 to 2026, and 1.2 questions per paper in the 2024 to 2026 cycle. Twenty numerical answer questions were set between 2019 and 2026.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 6 topics:
+The syllabus organizes across six key topics:
 
-- **Nucleophilic Addition Reactions**: 64 questions.
-- **Alpha-Hydrogen & Named Reactions**: 57 questions.
-- **Carboxylic Acids**: 26 questions.
-- **Acid Derivatives**: 26 questions.
-- **Preparation of Aldehydes & Ketones**: 26 questions.
-- **Oxidation & Distinguishing Tests**: 15 questions.
-
-All 6 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+- Nucleophilic Addition Reactions: The leading topic with 78 total questions (64 in 2019 to 2026), examined continuously through 2026. Evaluates nucleophilic addition of HCN, sodium bisulfite, Grignard reagents, alcohols forming hemiacetals and acetals, and ammonia derivatives (hydroxylamine, hydrazine, semicarbazide, and 2,4-dinitrophenylhydrazine).
+- Alpha-Hydrogen & Named Reactions: Produced 70 total questions (57 in 2019 to 2026), tested through 2026. Centers on aldol and cross-aldol condensations with enolate intermediates, Cannizzaro disproportionation of non-enolizable aldehydes in concentrated alkali, and the haloform reaction on methyl ketones.
+- Carboxylic Acids: Contributed 40 total questions (26 in 2019 to 2026), evaluated through 2026. Focuses on acid strengths, resonance stabilization of carboxylate anions, Hell-Volhard-Zelinsky (HVZ) alpha-bromination, and soda lime decarboxylation.
+- Acid Derivatives: Yielded 30 total questions (26 in 2019 to 2026), active through 2026. Evaluates nucleophilic acyl substitution on acid chlorides, anhydrides, esters, and amides, alongside Hofmann bromamide degradation.
+- Preparation of Aldehydes & Ketones: Accounted for 29 total questions (26 in 2019 to 2026), tested through 2026. Covers Rosenmund reduction of acyl chlorides, Stephen reduction of nitriles, Etard reaction using chromyl chloride, and Gattermann-Koch formylation.
+- Oxidation & Distinguishing Tests: Contributed 18 total questions (15 in 2019 to 2026), active through 2026. Evaluates silver mirror Tollens test, red cuprous oxide precipitation with Fehling solution, and Schiff's reagent tests.
 
 ## What the questions look like
 
-Questions in Aldehydes, Ketones & Carboxylic Acids test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Examiners emphasize multi-step roadmap puzzles. A typical problem presents an unknown organic formula, states that it forms a 2,4-DNP derivative and gives a positive haloform test, but gives a negative Tollens reaction, pinpointing a methyl ketone.
 
-In **Nucleophilic Addition Reactions**, questions focus on standard exam setups. Recent problems include: C₆H₁₂O₃ positive to iodoform, negative to Tollens, Tollens-positive after acid; Match reagents with Wolff–Kishner, Tollens, Fehling and Clemmensen. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Alpha-Hydrogen & Named Reactions**, questions focus on standard exam setups. Recent problems include: C8H8O2 giving one cross-aldol product and a benzyl alcohol in conc. NaOH; True statements about the haloform reaction (KOI, enone, isopropanol, formic acid). Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-In **Carboxylic Acids**, questions focus on standard exam setups. Recent problems include: Acids from four routes (benzoic, propanoic, formic, phenylacetic): acidity order. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 20 of the 214 questions since 2019 had no options, requiring exact computation and proper handling of units.
+In named reactions, questions frequently test cross-aldol condensation between two different carbonyls, asking students to determine the maximum count of possible aldol products or identify the major product formed when one partner lacks alpha-hydrogens (such as benzaldehyde reacting with acetophenone).
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+Work through these representative recent problems:
 
-- [Match reagents with aldehyde-forming named reactions](/q/q-2026-01-21-e-c07) (JEE Main 2026 21 Jan Shift 2)
-- [Acid → amide → C6H7N with Br2/KOH: name P, Q and R](/q/q-2026-01-21-m-c11) (JEE Main 2026 21 Jan Shift 1)
-- [C₆H₁₂O₃ positive to iodoform, negative to Tollens, Tollens-positive after acid](/q/q-2026-01-21-m-c19) (JEE Main 2026 21 Jan Shift 1)
-- [C8H8O2 giving one cross-aldol product and a benzyl alcohol in conc. NaOH](/q/q-2026-01-22-e-c06) (JEE Main 2026 22 Jan Shift 2)
-- [Which of four substituted tetrahydrofurans gives a positive Tollens test?](/q/q-2026-01-24-m-c16) (JEE Main 2026 24 Jan Shift 1)
+- [Named preparation reactions matching](/q/q-2026-01-21-e-c07): Matching specific transition reagents with classical aldehyde-forming transformations.
+- [Carboxylic acid derivative degradation](/q/q-2026-01-21-m-c11): Tracing an acid through amidation and Hofmann bromamide degradation to identify intermediate structures.
+- [Carbonyl diagnostic testing and acetals](/q/q-2026-01-21-m-c19): Deducing an organic structure that responds positively to haloform oxidation and acquires Tollens reactivity only after acidic hydrolysis.
+- [Aldol and Cannizzaro discrimination](/q/q-2026-01-22-e-c06): Identifying an aromatic carbonyl that undergoes cross-aldol condensation and gives benzyl alcohol under strongly basic conditions.
+- [Carboxylic acid relative acidity order](/q/q-2026-01-28-e-c06): Comparing acid strengths among benzoic, propanoic, formic, and phenylacetic acids based on electronic effects.
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Aldehydes, Ketones & Carboxylic Acids.
+Because this unit ranks fifth in chemistry weight, organize revision around reaction mechanisms:
 
-Next, work through past JEE Main questions topic by topic. Start with Nucleophilic Addition Reactions, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
-
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+1. Master addition-elimination mechanisms: Understand how ammonia derivatives (NH₂–G) condense with carbonyls to form imines, oximes, hydrazones, and semicarbazones under weakly acidic conditions.
+2. Differentiate Aldol from Cannizzaro: Aldehydes and ketones with alpha-hydrogens undergo aldol condensation; aldehydes lacking alpha-hydrogens (like benzaldehyde and formaldehyde) undergo Cannizzaro disproportionation in concentrated alkali.
+3. Understand haloform requirements: Compounds containing a CH₃–C=O group or a CH₃–CH(OH) group oxidize with halogen and alkali to yield yellow iodoform (CHI₃) precipitate.
+4. Compare reducing agents: Clemmensen reduction uses zinc amalgam and concentrated hydrochloric acid (avoid with acid-sensitive groups); Wolff-Kishner reduction uses hydrazine and potassium hydroxide in ethylene glycol (avoid with base-sensitive groups).
+5. Review Hell-Volhard-Zelinsky bromination: Red phosphorus and bromine selectively substitute the alpha-hydrogen of aliphatic carboxylic acids.
 
 ## Frequently asked questions
 
-### Is Aldehydes, Ketones & Carboxylic Acids important for JEE Main 2027?
+### Why does semicarbazide react through only one of its two nitrogen atoms?
+Semicarbazide (NH₂–NH–CONH₂) contains three nitrogens, but the two nitrogens adjacent to the carbonyl group have their lone pairs delocalized into the carbonyl pi system via resonance. Only the hydrazine terminal NH₂ nitrogen maintains an available, localized lone pair to act as an effective nucleophile.
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 214 questions across 162 papers, about 1.3 questions per paper. It ranks 5th of 31 Chemistry chapters by question volume.
+### What is the purpose of acid catalysis in the formation of oximes and hydrazones?
+Acid protonates the carbonyl oxygen, making the carbonyl carbon substantially more electrophilic. However, the solution must not be too acidic, or the amine nucleophile becomes protonated into an unreactive ammonium ion.
 
-### Which topic in Aldehydes, Ketones & Carboxylic Acids has the most questions?
-
-Nucleophilic Addition Reactions is the most-asked topic, with 64 questions from 2019 to 2026 in our collection.
-
-### Are questions in Aldehydes, Ketones & Carboxylic Acids multiple choice or numerical?
-
-Both formats appear. Of the 214 questions from 2019 to 2026 in our set, 20 were numerical-answer questions and the remainder were multiple choice.
-
-### Where can I see the solutions?
-
-Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.
+### Which carboxylic acid can reduce Tollens reagent?
+Formic acid (methanoic acid) uniquely possesses both a carboxylic acid group and an aldehyde hydrogen, allowing it to reduce Tollens and Fehling reagents just like an aldehyde. Step-by-step solutions for each one are in the EdLoop app.
