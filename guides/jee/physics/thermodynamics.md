@@ -1,66 +1,62 @@
 ## How often it comes up
 
-Thermodynamics is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **163 questions in 162 papers**, about **1.0 questions per paper**, and it appeared in 134 of those 162 papers. That places it **12th of 29 Physics chapters** by share of questions in that period, with 3.6% of all Physics questions.
+Thermodynamics provides one of the most reliable and conceptual question sets in JEE Main Physics. Across the papers we hold from 2019 to 2026, the chapter delivered **163 questions in 162 papers**, which translates to exactly **1.0 questions per paper**, and was present in 134 of those 162 papers. This record places it at **12th of 29 Physics chapters** by question share, contributing 3.6% of all Physics questions.
 
-The share has fallen since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 4.3% of Physics; in the last three exam years (2024 to 2026) it declined to 3.7%, with 58 questions in 58 papers. The busiest year in our set was 2021, with 30 questions across 26 papers. Since 2019 there has been no year without it, appearing in 134 of the 162 papers we hold.
+The chapter's share has fallen since the AIEEE years. In the 2002 to 2018 era, it accounted for 4.3% of the Physics section; in the last three exam years (2024 to 2026), it declined to 3.7%, yielding 58 questions across 58 papers. Its most concentrated appearance in our collection occurred in 2021, when papers logged 30 questions across 26 papers, followed by 2025 with 23 questions across 19 papers. Every single testing year since 2019 has included questions from this chapter, appearing in 134 of the 162 papers we hold.
 
-It is a Class 11 chapter, part of NTA's Unit 8: Thermodynamics.
+The syllabus designates this material as Unit 8: Thermodynamics in Class 11. It pairs naturally with the Kinetic Theory of Gases, which supplies the microscopic molecular picture for the macroscopic state variables analyzed here.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Between 2019 and 2026, the chapter's questions sorted across three main topics:
 
-- **First Law & Processes**: 124 questions.
-- **Second Law & Engines**: 36 questions.
-- **Basics & Zeroth Law**: 3 questions.
+- **First Law & Processes**: 124 questions. More than three-quarters of the entire chapter, covering isothermal, adiabatic, isobaric, and isochoric paths, cyclic work areas on P-V indicator diagrams, and internal energy changes.
+- **Second Law & Engines**: 36 questions. Carnot engine efficiency, coefficient of performance of refrigerators, heat pump cycles, and entropy definitions.
+- **Basics & Zeroth Law**: 3 questions. Thermal equilibrium, zeroth law, and classification of thermodynamic variables into intensive and extensive parameters.
 
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+First law processes and basic state definitions were tested actively in 2026, while second law engine problems appeared regularly through 2025.
 
 ## What the questions look like
 
-Questions in Thermodynamics test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+First law problems routinely test energy partitioning during quasi-static expansions. A popular pattern asks for the total heat supplied to an ideal diatomic gas when it expands isobarically and does a specified amount of work, such as 100 J. Because work at constant pressure equals nRΔT and change in internal energy equals nCvΔT, students use the molar heat capacity ratio Cp/R to determine the heat input immediately. In isochoric processes, all supplied heat directly increments internal energy according to nCvΔT.
 
-In **First Law & Processes**, questions focus on standard exam setups. Recent problems include: Diatomic gas does 100 J of work at constant pressure: heat supplied; 10 mol of oxygen heated at constant volume by 10 °C: change in internal energy. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
+Adiabatic transformations test the Poisson relations. Given that a gas undergoes reversible adiabatic expansion where volume increases eightfold while absolute temperature drops to one-fourth, students solve T V^(γ - 1) = constant to determine the heat capacity ratio γ and infer whether the gas is monatomic, diatomic, or polyatomic. Indicator diagrams evaluate cyclic work: clockwise cycles enclose positive net work output, whereas counter-clockwise refrigeration cycles require net work input.
 
-In **Second Law & Engines**, questions focus on standard exam setups. Recent problems include: Entropy change of water slowly heated from T₁ to T₂. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
+Carnot and second law problems calculate theoretical engine efficiencies. Questions frequently specify sink and source temperatures, asking for work output given a heat input, or ask for the entropy change when a substance warms reversibly from one temperature to another.
 
-In **Basics & Zeroth Law**, questions focus on standard exam setups. Recent problems include: Five statements on the laws of thermodynamics and intensive/extensive variables. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 32 of the 163 questions since 2019 had no options, requiring exact computation and proper handling of units.
+A significant share requires exact numerical computation: 32 of the 163 questions from 2019 to 2026 had no answer choices, demanding precise algebra with the universal gas constant.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+The following questions from recent papers reflect the core testing styles:
 
-- [Diatomic gas does 100 J of work at constant pressure: heat supplied](/q/q-2026-01-21-e-p22) (JEE Main 2026 21 Jan Shift 2, numerical answer)
-- [Five statements on the laws of thermodynamics and intensive/extensive variables](/q/q-2026-04-05-m-p08) (B Tech 5th Apr 2026 Shift 1)
-- [Entropy change of water slowly heated from T₁ to T₂](/q/q-2025-01-23-e-p06) (JEE Main 2025 23 Jan Shift 2)
-- [10 mol of oxygen heated at constant volume by 10 °C: change in internal energy](/q/q-2026-01-21-m-p25) (JEE Main 2026 21 Jan Shift 1, numerical answer)
-- [Reversible adiabatic change: volume ×8, temperature ÷4; which gas?](/q/q-2026-01-22-m-p06) (JEE Main 2026 22 Jan Shift 1)
+- [Heat absorbed by a diatomic gas performing isobaric expansion work](/q/q-2026-01-21-e-p22) (JEE Main 2026 21 Jan Shift 2, numerical answer)
+- [Conceptual classification of intensive and extensive thermodynamic variables](/q/q-2026-04-05-m-p08) (B Tech 5th Apr 2026 Shift 1)
+- [Entropy change of liquid water warmed reversibly across a temperature range](/q/q-2025-01-23-e-p06) (JEE Main 2025 23 Jan Shift 2)
+- [Internal energy rise during isochoric heating of molecular oxygen](/q/q-2026-01-21-m-p25) (JEE Main 2026 21 Jan Shift 1, numerical answer)
+- [Identifying gas atomicity from volume and temperature shifts in adiabatic expansion](/q/q-2026-01-22-m-p06) (JEE Main 2026 22 Jan Shift 1)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Thermodynamics.
+Master the first law equation ΔQ = ΔU + W, fixing your sign conventions early. In physics, work W is defined as positive when the gas expands against external pressure (W = ∫P dV), so work done by the system reduces its internal energy unless heat is added. Verify whether a given problem uses physics or chemistry sign conventions to avoid algebraic errors.
 
-Next, work through past JEE Main questions topic by topic. Start with First Law & Processes, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+Remember that internal energy U for an ideal gas is strictly a state function of temperature alone: ΔU = n Cv ΔT for any process, whether isobaric, isothermal, adiabatic, or arbitrary. For an isothermal process on an ideal gas, ΔU is always zero regardless of pressure shifts.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+For adiabatic processes, write the governing relationships in terms of whichever pair of variables is provided: P V^γ = constant, T V^(γ - 1) = constant, or P^(1 - γ) T^γ = constant. Memorize the degrees of freedom and resulting values of Cv, Cp, and γ for monatomic gases (3 degrees of freedom) and diatomic gases (5 degrees of freedom at ordinary temperatures).
 
 ## Frequently asked questions
 
-### Is Thermodynamics important for JEE Main 2027?
+### Is Thermodynamics a high-priority chapter for JEE Main 2027?
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 163 questions across 162 papers, about 1.0 questions per paper. It ranks 12th of 29 Physics chapters by question volume.
+Yes. Thermodynamics produced 163 questions across 162 papers in our set from 2019 to 2026, averaging 1.0 questions per paper. It ranks 12th of 29 Physics chapters and appeared in 134 of the 162 papers we hold.
 
-### Which topic in Thermodynamics has the most questions?
+### What is the most-tested formula in this chapter?
 
-First Law & Processes is the most-asked topic, with 124 questions from 2019 to 2026 in our collection.
+The first law equation ΔQ = ΔU + W combined with the expressions for work done in isothermal (nRT ln(V2/V1)) and adiabatic processes ((P1 V1 - P2 V2) / (γ - 1)).
 
-### Are questions in Thermodynamics multiple choice or numerical?
+### How do I quickly find work done in a cyclic process from a P-V graph?
 
-Both formats appear. Of the 163 questions from 2019 to 2026 in our set, 32 were numerical-answer questions and the remainder were multiple choice.
+The net work done over a complete thermodynamic cycle equals the geometric area enclosed by the path on a P-V indicator diagram. If the cycle runs clockwise, net work done by the gas is positive; if counter-clockwise, net work is negative.
 
 ### Where can I see the solutions?
 

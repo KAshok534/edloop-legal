@@ -1,67 +1,63 @@
 ## How often it comes up
 
-Fluid Mechanics is a steady presence in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **146 questions in 162 papers**, about **0.9 questions per paper**, and it appeared in 116 of those 162 papers. That makes it the **15th of 29 Physics chapters** in that period, with 3.2% of all Physics questions.
+Fluid Mechanics is a fundamental branch of continuum physics that tests both hydrostatic balances and moving flow dynamics in JEE Main. In the papers we hold from 2019 to 2026, the chapter accounted for **146 questions in 162 papers**, working out to **0.9 questions per paper**, and appeared in 116 of those 162 papers. That puts it at **15th of 29 Physics chapters** over that eight-year period, representing 3.2% of all Physics questions.
 
-The chapter has grown in recent years. In the AIEEE and early JEE Main years (2002 to 2018) it was 3.0% of Physics; in the last three exam years (2024 to 2026) it rose to 4.3%, with 67 questions in 58 papers. The busiest year in our set was 2024, with 26 questions across 20 papers. Since 2019 there has been no year without it, appearing in 116 of the 162 papers we hold.
+The chapter has grown in weighting in recent exam years. Between 2002 and 2018, it claimed 3.0% of Physics; across the last three exam years (2024 to 2026), its share rose to 4.3%, yielding 67 questions in 58 papers. The most active single year in our collection was 2024, with 26 questions across 20 papers. Every exam year since 2019 included questions on fluids, with questions appearing in 116 of the 162 papers in our set.
 
-It is a Class 11 chapter (NTA's Unit 7: Properties of Solids and Liquids), combining static equilibrium, fluid flow, surface tension and viscous forces.
+The topics form part of Unit 7: Properties of Solids and Liquids in NTA's Class 11 Physics syllabus. The concepts bridge mechanical equilibrium with energy conservation along streamlines and molecular surface forces.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across four topics:
+From 2019 to 2026, the questions distributed across four distinct topics:
 
-- **Surface Tension**: 51 questions. The single most-asked topic, covering excess pressure in drops and bubbles, capillary rise, and surface energy.
-- **Viscosity**: 36 questions. Terminal velocity, Stokes' law, Poiseuille flow, and viscous drag.
-- **Fluid Dynamics**: 30 questions. The equation of continuity, Bernoulli's principle, Torricelli's law, and venturi meters.
-- **Fluid Statics**: 29 questions. Pascal's law, hydrostatic pressure variation with depth, buoyant force, and Archimedes' principle.
+- **Surface Tension**: 51 questions. Capillary rise, excess pressure across spherical interfaces, bubble coalescence work, and contact angles.
+- **Viscosity**: 36 questions. Terminal velocity in viscous media, Stokes' law, Poiseuille flow, and velocity gradients.
+- **Fluid Dynamics**: 30 questions. Bernoulli's equation, continuity equation, Torricelli's orifice efflux, and venturi meters.
+- **Fluid Statics**: 29 questions. Archimedes' principle, hydrostatic pressure variation with depth, buoyant equilibrium, and accelerated fluid tanks.
 
-All four topics were asked in 2026, so none of them is safe to leave out.
+All four topic divisions were tested in the 2026 exam cycle, so preparing across the entire chapter is necessary.
 
 ## What the questions look like
 
-Surface tension questions often feature capillary tubes or liquid drops. A frequent variation asks for the height of liquid rise when tube radius, density or surface tension changes, or compares capillary rise in two tubes of different radii. Other common questions compute the work done in blowing a soap bubble or merging many small droplets into a single large drop.
+Surface tension questions frequently feature capillary tubes and spherical bubbles. A common question gives two capillary tubes of different bore radii dipped into the same liquid and asks for the ratio of liquid column heights, or evaluates the percentage change in capillary rise when radius, liquid density, and surface tension shift by small percentages. Other questions calculate the mechanical work done in blowing a soap bubble or merging many tiny mist droplets into a larger drop.
 
-Viscosity questions center on terminal velocity. The typical problem asks for the terminal speed of a sphere falling through a viscous liquid like glycerine, or compares the terminal velocities of two spheres of different radii in the same medium. Stokes' law and the balance of gravity, buoyancy, and viscous drag are the main tools here.
+Viscosity problems center on steady terminal motion. A typical problem presents a small metallic sphere falling through glycerine or oil under gravity. Students balance downward gravitational force against the combined upward forces of buoyancy and Stokes viscous drag, showing that terminal velocity is proportional to the square of the sphere radius and the density difference. Questions often ask for the new terminal speed when the sphere radius is halved.
 
-Fluid dynamics questions apply Bernoulli's theorem and the continuity equation. You will find venturi meter problems asking for flow rate or speed from a given level difference in manometer arms, and orifice problems finding the speed of efflux from an open or pressurized tank.
+Fluid dynamics questions apply Bernoulli's theorem along streamlines. You will encounter venturi meter problems where a manometer level difference between wide and constricted pipe sections allows you to calculate volume discharge rate. In fluid statics, problems typically ask for the submerged depth or tilt angle of a solid block floating at an interface between two immiscible liquids.
 
-Fluid statics problems deal with floating bodies, u-tube manometers, or accelerated fluid containers. You balance buoyant force against weight to determine the fraction of volume submerged for blocks floating at liquid interfaces.
-
-A notable part of this chapter comes as numerical-answer questions: 43 of the 146 questions since 2019 had no options at all, so accurate numerical calculation is essential.
+Direct numeric computation is common in this chapter: 43 of the 146 questions since 2019 were numerical-response questions without options.
 
 ## Questions to try first
 
-These are from NTA's own 2026 papers, covering the major topic areas:
+Here are five questions from NTA's 2026 papers covering the major themes:
 
-- [Capillary rise of two liquids in tubes with different radii](/q/q-2026-01-21-e-p02) (JEE Main 2026, 21 Jan Shift 2)
-- [Venturi tube with a level difference: flow rate](/q/q-2026-01-21-m-p12) (JEE Main 2026, 21 Jan Shift 1)
-- [Ball of half the radius in the same fluid: new terminal velocity](/q/q-2026-01-21-e-p25) (JEE Main 2026, 21 Jan Shift 2, numerical answer)
-- [Cube floating in a liquid: depth submerged](/q/q-2026-01-24-e-p17) (JEE Main 2026, 24 Jan Shift 2)
-- [Change in capillary rise from percentage variations in radius and density](/q/q-2026-01-22-e-p16) (JEE Main 2026, 22 Jan Shift 2)
+- [Capillary height comparison for liquids in tubes of different bore radii](/q/q-2026-01-21-e-p02) (JEE Main 2026 21 Jan Shift 2)
+- [Calculating discharge rate from manometer height difference in a venturi tube](/q/q-2026-01-21-m-p12) (JEE Main 2026 21 Jan Shift 1)
+- [New terminal falling speed when sphere radius is halved in the same fluid](/q/q-2026-01-21-e-p25) (JEE Main 2026 21 Jan Shift 2, numerical answer)
+- [Equilibrium submerged depth of a solid block floating in a liquid](/q/q-2026-01-24-e-p17) (JEE Main 2026 24 Jan Shift 2)
+- [Capillary rise variation resulting from small shifts in radius and density](/q/q-2026-01-22-e-p16) (JEE Main 2026 22 Jan Shift 2)
 
 ## How to practise it
 
-Start with fluid statics and Archimedes' principle, ensuring you are comfortable setting up equilibrium equations for floating bodies in single and multiple liquids. Practice hydrostatic pressure variations in both static and accelerating containers.
+Begin with fluid statics and buoyancy. Practice writing equilibrium equations for floating bodies by equating weight to buoyant force, taking care to use the density of the displaced liquid rather than the solid body. For accelerated fluid containers, remember that the free surface tilts such that the effective gravity vector is perpendicular to the liquid surface.
 
-Next, master the continuity equation and Bernoulli's equation together. Work through standard applications: efflux through small holes, venturi meters, and flow through horizontal pipes with varying cross-sections. Keep track of pressure terms at points open to the atmosphere.
+Next, master the combination of the continuity equation and Bernoulli's equation. Whenever you analyze horizontal pipe flow, remember that higher fluid speed in a narrow constriction corresponds to lower static pressure, not higher. Always verify whether a point on a streamline is exposed to the atmosphere so atmospheric pressure terms cancel cleanly.
 
-Then focus on viscosity and surface tension. Learn the terminal velocity formula by deriving it from force balance rather than memorising it blindly, so changes in buoyant force or density ratio do not confuse you. For surface tension, practice excess pressure formulas for bubbles and drops, capillary rise relations, and energy changes when droplets split or coalesce.
-
-Because numerical-answer questions make up a solid share of this chapter, practice solving questions to the final numerical value with correct SI units.
+For surface tension, distinguish carefully between drops and bubbles: a liquid drop has one interface with excess pressure 2T/R, whereas a soap bubble surrounded by air has two interfaces with excess pressure 4T/R. In viscosity problems, never omit the buoyant force when deriving terminal velocity unless the surrounding fluid density is explicitly stated to be negligible.
 
 ## Frequently asked questions
 
-### Is Fluid Mechanics important for JEE Main 2027?
+### Is Fluid Mechanics high yield in JEE Main 2027?
 
-Yes. It gave 146 questions in the 162 papers we hold from 2019 to 2026, about 0.9 questions per paper, and ranks 15th of 29 Physics chapters. It appeared in 116 of those 162 papers, with at least one question in every year since 2019.
+Yes. Fluid Mechanics generated 146 questions across 162 papers in our set from 2019 to 2026, averaging 0.9 questions per paper. It ranks 15th among 29 Physics chapters and appeared in 116 of those 162 papers.
 
-### Which topic in Fluid Mechanics carries the most questions?
+### Which topic in Fluid Mechanics is tested most often?
 
-Surface tension is the most-asked topic, accounting for 51 questions from 2019 to 2026, followed by viscosity with 36 questions, fluid dynamics with 30, and fluid statics with 29.
+Surface tension is the most-asked topic, providing 51 questions between 2019 and 2026, followed by viscosity with 36 questions and fluid dynamics with 30 questions.
 
-### What is the most common formula asked in Fluid Mechanics?
+### Why do raindrops reach a constant speed rather than accelerating indefinitely?
 
-The capillary rise formula, the terminal velocity equation from Stokes' law, and Bernoulli's equation combined with the equation of continuity are the three formulas tested most regularly.
+As a raindrop falls through the atmosphere, upward viscous drag increases linearly with speed until the sum of viscous drag and buoyant force exactly balances the downward gravitational pull. At that equilibrium point, acceleration ceases and the drop maintains a constant terminal velocity.
 
 ### Where can I see the solutions?
 

@@ -1,68 +1,64 @@
 ## How often it comes up
 
-Gravitation is a steady chapter in JEE Main Physics. In the papers we hold from 2019 to 2026, it contributed **172 questions in 162 papers**, about **1.1 questions per paper**, appearing in 142 of those papers. By share of Physics questions (3.8%) it ranks **10th of 29 Physics chapters** in that period.
+Gravitation is one of the most dependable chapters in JEE Main Physics, providing clean, mathematically tractable questions on almost every exam day. Across the papers we hold from 2019 to 2026, it accounted for **172 questions in 162 papers**, which corresponds to **1.1 questions per paper**, and appeared in 142 of those 162 papers. That makes it the **10th largest of 29 Physics chapters** over that eight-year period, representing 3.8% of all Physics questions.
 
-The share has stayed about the same since the AIEEE era. From 2002 to 2018 it was 3.2% of Physics; in the last three exam years (2024 to 2026) it is 2.8%, with 44 questions in 58 papers. Since 2019 there has been no year without it, appearing in 142 of the 162 papers we hold.
+The chapter's share has stayed about the same over two decades of testing. Between 2002 and 2018, it took 3.2% of Physics; across the last three exam years (2024 to 2026), it stood at 2.8%, producing 44 questions across 58 papers. The busiest year in our set was 2021, when our records show 38 questions across 26 papers. Since 2019 there has been no year without it, appearing in 142 of the 162 papers we hold.
 
-It is a Class 11 chapter covered under NTA's Unit 6: Gravitation. The energy methods used here overlap with Work, Energy and Power, and the orbital mechanics connects to Kinematics for circular motion.
+The chapter corresponds to Unit 6: Gravitation in NTA's Class 11 Physics syllabus. Its conceptual structure closely mirrors Electrostatics, meaning mastery of gravitational potential and field superposition directly reinforces Coulomb's law later in Class 12.
 
 ## Most-asked topics
 
-Four topics split the questions. From 2019 to 2026:
+From 2019 to 2026, gravitation problems distributed across four main topics:
 
-- **Newton's Law of Gravitation**: 62 questions. Gravity at different heights and depths, variation of g, and force between extended bodies.
-- **Satellites**: 61 questions. Orbital speed, orbital energy, escape velocity and the effect of changing orbit.
-- **Kepler's Laws**: 25 questions. The relation between period and radius, and the properties of elliptical orbits.
-- **Field and Potential**: 24 questions. Gravitational field and potential inside and outside spheres, potential energy of systems of masses and work done in rearranging them.
+- **Newton's Law of Gravitation**: 62 questions. Variation of g with altitude, depth, and planetary rotation, along with force between distributed masses.
+- **Satellites**: 61 questions. Orbital velocity, total mechanical energy, escape speed, and orbital altitude transitions.
+- **Kepler's Laws**: 25 questions. Orbital period scaling, areal velocity conservation, and elliptical trajectory geometry.
+- **Field & Potential**: 24 questions. Gravitational potential inside solid and hollow spheres, binding energy of discrete mass configurations, and field superposition.
 
-All four topics appeared again in 2026.
+All four topic divisions appeared in the 2026 question papers, so none can be safely set aside.
 
 ## What the questions look like
 
-Newton's law questions ask about how g changes with height above the surface, depth below it, or latitude. A common variant gives you two locations (for example, 16 km below and 16 km above the surface) and asks for the percentage change in g. Some questions involve a sphere with a spherical cavity, where you apply superposition.
+Variation of acceleration due to gravity is the most frequent calculation. A typical problem asks for the height above Earth's surface where g falls to a stated fraction, such as g/9. Students must be careful not to use the linear approximation (1 - 2h/R) when h is comparable to Earth's radius, opting instead for the exact inverse-square relation R² / (R + h)². Other variations explore depth variations inside the Earth, where g decreases linearly toward zero at the center.
 
-Satellite questions range from computing the orbital speed at a given radius to finding the energy needed to shift a satellite from one orbit to another. Escape velocity questions often compare two planets with given density and radius ratios.
+Satellite mechanics questions focus on energy bookkeeping. You will often calculate the energy input required to shift an orbiting satellite from an initial orbital radius to a higher circular orbit. Because total orbital energy equals negative kinetic energy, moving outward reduces kinetic energy while increasing gravitational potential energy, resulting in a net positive energy requirement. Escape velocity problems frequently ask you to scale escape speed to hypothetical planets with given ratios of density and radius.
 
-Kepler's law questions use the period-radius relation (T² proportional to r³) to compare the periods of planets around different stars, or to find a property of an elliptical orbit.
+Field and potential problems evaluate vector additions and scalar potential energies. A standard format places four masses at the vertices of a square, asking for the net gravitational pull at the center, or evaluates how the force shifts when two masses swap positions. Kepler's third law questions test period ratios when orbit radii or central star masses vary.
 
-Field and potential questions set up two or three masses at the corners of a triangle or square and ask for the net field at the centre or the work done in moving one mass.
-
-Of the 172 questions from 2019 to 2026, only 16 were numerical-answer type, so this chapter is predominantly multiple-choice.
+The numerical answer format appears moderately here: 16 of the 172 questions since 2019 had no options, requiring exact arithmetic.
 
 ## Questions to try first
 
-These are from NTA's own 2026 papers, one per topic:
+The following questions from NTA's 2026 papers illustrate the classic problem styles:
 
-- [Height above Earth where g falls to g/9](/q/q-2026-04-04-e-p05) (B Tech 4th Apr 2026 Shift 2)
-- [100 kg satellite moved from 1.5RE to 3RE: energy supplied](/q/q-2026-01-21-m-p16) (JEE Main 2026, 21 Jan Shift 1)
-- [Planets around stars of different masses: ratio of orbital periods](/q/q-2026-04-02-m-p05) (B Tech 2nd Apr 2026 Shift 1)
-- [Three masses at the corners of a triangle moved to a larger triangle: work done](/q/q-2026-01-24-m-p17) (JEE Main 2026, 24 Jan Shift 1)
-- [Masses at square corners; two are swapped: ratio of gravitational forces at the centre](/q/q-2026-01-22-m-p08) (JEE Main 2026, 22 Jan Shift 1)
+- [Energy needed to transfer an orbiting satellite to a wider radius](/q/q-2026-01-21-m-p16) (JEE Main 2026 21 Jan Shift 1)
+- [Gravitational force ratio at a square center when corner masses swap](/q/q-2026-01-22-m-p08) (JEE Main 2026 22 Jan Shift 1)
+- [Ratio of orbital periods for planets around stars of different masses](/q/q-2026-04-02-m-p05) (B Tech 2nd Apr 2026 Shift 1)
+- [Altitude where acceleration due to gravity drops to one ninth](/q/q-2026-04-04-e-p05) (B Tech 4th Apr 2026 Shift 2)
+- [Escape speed for a planet scaled in both radius and average density](/q/q-2026-01-22-m-p10) (JEE Main 2026 22 Jan Shift 1)
 
 ## How to practise it
 
-Start with Newton's law of gravitation and the standard formulas for g at height h and depth d. These appear in many questions and the derivations are short. Next do satellites: learn the relationships between orbital radius, speed, period and total energy, and practise switching between them without confusion.
+Start by deriving the formulas for acceleration due to gravity at height h and depth d directly from Newton's law of gravitation and shell theorems. Commit to memory that g at depth d equals g(1 - d/R) for a uniform sphere, whereas at height h it follows g R² / (R + h)². Never mix up the two regimes.
 
-Kepler's laws are mostly formula application. The T² to r³ relationship is the one used most often. Keep a note of when it applies (only for orbits around the same central body) and when it does not.
+Next, master satellite energy relationships. Remember that for a circular orbit of radius r around mass M, potential energy is -GMm/r, kinetic energy is GMm/(2r), and total energy is -GMm/(2r). This simple 2 : -1 : 1 relationship between potential, kinetic, and total energies will allow you to answer energy shift questions in under a minute without algebraic confusion.
 
-Field and potential questions are fewer but can be tricky. Practice superposition: find the contribution from each mass separately, then add as vectors for field or as scalars for potential.
-
-Because only 16 of the 172 questions from 2019 to 2026 were numerical-answer type, most of your marks here will come from multiple-choice reasoning. Focus on knowing the relationships and their directions, not just memorising formulas.
+For escape velocity, relate the formula to both mass and density. Writing escape velocity as proportional to R times the square root of density makes comparative problems straightforward when given density ratios. Finish by solving multi-particle potential energy problems, counting pairwise combinations systematically using n(n - 1)/2 for n masses.
 
 ## Frequently asked questions
 
+### Is Gravitation considered high yield for JEE Main 2027?
+
+Yes. Gravitation contributed 172 questions across 162 papers in our set from 2019 to 2026, yielding 1.1 questions per paper. It ranks 10th of 29 Physics chapters and appeared in 142 of those 162 papers.
+
 ### Which topic in Gravitation has the most questions?
 
-Newton's law of gravitation and satellites are close to each other, with 62 and 61 questions respectively from 2019 to 2026. Kepler's laws account for 25 and field and potential for 24.
+Newton's law of gravitation and satellite dynamics dominate the chapter, with 62 questions and 61 questions respectively between 2019 and 2026.
 
-### Is escape velocity the same as orbital speed?
+### When can I use the approximation for g at height h?
 
-No. Orbital speed for a satellite skimming the surface is v = sqrt(gR), and escape velocity is v = sqrt(2gR), which is sqrt(2) times larger. Questions often ask you to compare the two or to find one given the other, so keep both formulas available.
+Use g' ≈ g(1 - 2h/R) only when height h is very small compared to Earth's radius, typically below a few percent of R. If h is comparable to R, always apply the exact formula g' = g / (1 + h/R)².
 
-### Does Gravitation overlap with other chapters?
-
-The energy methods in satellite questions use the same ideas as Work, Energy and Power. The circular motion of satellites uses centripetal force from Laws of Motion. If those chapters are not yet comfortable, return to them before tackling satellite energy problems.
-
-### Where can I find solutions to these questions?
+### Where can I see the solutions?
 
 Every question on this page opens with its options and answer. Step-by-step solutions for each one are in the EdLoop app.

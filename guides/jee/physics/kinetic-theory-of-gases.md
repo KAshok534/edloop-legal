@@ -1,66 +1,62 @@
 ## How often it comes up
 
-Kinetic Theory of Gases is one of the important chapters in JEE Main Physics. Across the papers we hold from 2019 to 2026, it gave **146 questions in 162 papers**, about **0.9 questions per paper**, and it appeared in 131 of those 162 papers. That places it **16th of 29 Physics chapters** by share of questions in that period, with 3.2% of all Physics questions.
+Kinetic Theory of Gases provides the statistical microscopic bridge between classical Newtonian mechanics and macroscopic thermal physics. In the papers we hold from 2019 to 2026, the chapter generated **146 questions in 162 papers**, which corresponds to **0.9 questions per paper**, and appeared in 131 of those 162 papers. Over that span, it holds the **16th rank among 29 Physics chapters** by question count, making up 3.2% of the Physics section.
 
-The chapter has grown since the AIEEE years. In the AIEEE and early JEE Main years (2002 to 2018) it was 2.2% of Physics; in the last three exam years (2024 to 2026) it rose to 3.0%, with 47 questions in 58 papers. The busiest year in our set was 2021, with 26 questions across 26 papers. Since 2019 there has been no year without it, appearing in 131 of the 162 papers we hold.
+The chapter has grown in weighting compared to the older AIEEE era. From 2002 to 2018, it represented 2.2% of Physics; across the last three exam years (2024 to 2026), its share rose to 3.0%, producing 47 questions in 58 papers. The busiest year in our collection was 2021, when our records show 26 questions across 26 papers, followed by 2024 with 21 questions across 20 papers. Across every year from 2019 to 2026, questions on kinetic theory appeared consistently, featuring in 131 of the 162 papers in our set.
 
-It is a Class 11 chapter, part of NTA's Unit 9: Kinetic Theory of Gases.
+The topics form Unit 9: Kinetic Theory of Gases in NTA's Class 11 curriculum, concluding the mechanics and properties of matter sequence before the study of oscillations and waves.
 
 ## Most-asked topics
 
-From 2019 to 2026, the questions split across 3 topics:
+Between 2019 and 2026, the chapter's questions divided into three closely matched topics:
 
-- **Gas Laws & Kinetic Model**: 52 questions.
-- **Degrees of Freedom & Specific Heats**: 49 questions.
-- **Molecular Speeds**: 45 questions.
+- **Gas Laws & Kinetic Model**: 52 questions. Ideal gas state equation (PV = nRT), Dalton's law of partial pressures, pressure exerted by gas collisions against container walls, and bubbles expanding with depth.
+- **Degrees of Freedom & Specific Heats**: 49 questions. Equipartition of energy, vibrational contributions, molar heat capacities (Cv and Cp), and mixtures of non-reacting gases.
+- **Molecular Speeds**: 45 questions. Root mean square speed, average speed, most probable speed, Maxwellian distributions, mean free path, and collision frequency.
 
-All 3 topics appeared in recent papers, so broad coverage across the whole chapter is needed.
+All three topic areas appeared in 2026 shifts, demonstrating that examiners treat the entire chapter as active testing territory.
 
 ## What the questions look like
 
-Questions in Kinetic Theory of Gases test both fundamental concepts and direct calculations. Students encounter problems that combine core definitions with multi-step algebraic or physical setups.
+Molecular speed problems frequently test functional dependencies on temperature and molar mass. A standard problem asks for the temperature at which hydrogen molecules possess the same root mean square speed as oxygen molecules at a given temperature like 47 °C. Because root mean square speed is proportional to the square root of absolute temperature divided by molar mass, students set up a simple ratio equating T / M for both gases, taking care to convert temperatures from Celsius to Kelvin.
 
-In **Gas Laws & Kinetic Model**, questions focus on standard exam setups. Recent problems include: Gas at 2 atm, 60 cm³, 27 °C compressed to 20 cm³ at 77 °C: final pressure; Gas bubble of 2.9 cm³ rising from 5 m depth (17 °C) to the surface (27 °C): new volume. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
+Degrees of freedom questions evaluate energy equipartition. Each translational and rotational degree of freedom contributes (1/2)kT of thermal energy per molecule, or (1/2)RT per mole. Questions frequently present mixtures of non-reacting gases, such as two moles of helium combined with three moles of oxygen, asking for the equivalent molar specific heat or the adiabatic exponent of the mixture.
 
-In **Degrees of Freedom & Specific Heats**, questions focus on standard exam setups. Recent problems include: Internal energy in terms of γ, and γ from degrees of freedom. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
+Gas law problems test simultaneous shifts in pressure, volume, and temperature. For example, a sample of gas at 2 atm and 27 °C inside 60 cm³ is compressed to 20 cm³ while heated to 77 °C, and students calculate the final pressure using combined gas laws. Other problems compute the mean free path of gas molecules from given values of molecular diameter, pressure, and ambient temperature.
 
-In **Molecular Speeds**, questions focus on standard exam setups. Recent problems include: Hydrogen temperature with the same rms speed as oxygen at 47 °C; Gases with half the molecular size and four times the mass: collision frequency. Success on these questions depends on understanding the underlying rules rather than relying on rote formulas.
-
-A notable portion of this chapter appears in numerical-answer format: 17 of the 146 questions since 2019 had no options, requiring exact computation and proper handling of units.
+Direct calculation without options is required on occasion: 17 of the 146 questions between 2019 and 2026 were numerical answer questions.
 
 ## Questions to try first
 
-These questions from our collection illustrate the typical question styles:
+The following questions from NTA's 2026 papers illustrate the dominant question styles:
 
-- [Hydrogen temperature with the same rms speed as oxygen at 47 °C](/q/q-2026-01-21-e-p17) (JEE Main 2026 21 Jan Shift 2)
-- [Gas at 2 atm, 60 cm³, 27 °C compressed to 20 cm³ at 77 °C: final pressure](/q/q-2026-01-22-e-p25) (JEE Main 2026 22 Jan Shift 2, numerical answer)
-- [Internal energy in terms of γ, and γ from degrees of freedom](/q/q-2026-04-05-m-p07) (B Tech 5th Apr 2026 Shift 1)
-- [Gases with half the molecular size and four times the mass: collision frequency](/q/q-2026-01-22-e-p13) (JEE Main 2026 22 Jan Shift 2)
-- [Gas bubble of 2.9 cm³ rising from 5 m depth (17 °C) to the surface (27 °C): n...](/q/q-2026-01-23-e-p03) (JEE Main 2026 23 Jan Shift 2)
+- [Temperature matching root mean square speeds of hydrogen and oxygen](/q/q-2026-01-21-e-p17) (JEE Main 2026 21 Jan Shift 2)
+- [Final pressure under simultaneous compression and heating of a gas](/q/q-2026-01-22-e-p25) (JEE Main 2026 22 Jan Shift 2, numerical answer)
+- [Relating internal thermal energy and heat capacity ratio to degrees of freedom](/q/q-2026-04-05-m-p07) (B Tech 5th Apr 2026 Shift 1)
+- [Collision frequency scaling with molecular diameter and molecular mass](/q/q-2026-01-22-e-p13) (JEE Main 2026 22 Jan Shift 2)
+- [Calculating molecular mean free path from diameter and pressure conditions](/q/q-2026-01-28-e-p08) (JEE Main 2026 28 Jan Shift 2)
 
 ## How to practise it
 
-Begin your preparation by thoroughly reviewing the core concepts and definitions from standard textbooks. Build a structured summary sheet containing essential formulas, definitions, and sign conventions for Kinetic Theory of Gases.
+Master the three characteristic molecular speeds: root mean square speed, average speed, and most probable speed. Notice that all three scale identically with the square root of temperature over molar mass. Remember that kinetic energy per mole depends strictly on temperature, completely independent of molecular mass or gas density.
 
-Next, work through past JEE Main questions topic by topic. Start with Gas Laws & Kinetic Model, which provides the foundation for the rest of the chapter. Solve problems without consulting hints or answer keys on your first attempt.
+For gas mixtures, learn the weighted average rules for molar heat capacity rather than memorizing complicated formulas. The effective Cv of a mixture is the total internal energy derivative, which equals (n1 Cv1 + n2 Cv2) / (n1 + n2). Once you have Cv for the mixture, simply add R to get Cp, and take their ratio to find γ.
 
-Focus on precision during numerical practice. Because numerical-answer questions require exact values, pay close attention to rounding rules, powers of ten, and unit conversions throughout your solving process.
-
-Finally, take timed practice sets combining questions from different years. This builds exam-day stamina and helps you recognize question patterns quickly under time constraints.
+For mean free path problems, write the formula 1 / (√2 n π d²), where n is number density (N/V = P / (kT)) and d is molecular diameter. Keep track of SI prefixes, converting angstroms to meters and pressure from atmospheres or kilopascals into pascals.
 
 ## Frequently asked questions
 
-### Is Kinetic Theory of Gases important for JEE Main 2027?
+### Is Kinetic Theory of Gases high scoring in JEE Main 2027?
 
-Yes. In the papers we hold from 2019 to 2026, it contributed 146 questions across 162 papers, about 0.9 questions per paper. It ranks 16th of 29 Physics chapters by question volume.
+Yes. Kinetic Theory of Gases generated 146 questions across 162 papers in our collection from 2019 to 2026, averaging 0.9 questions per paper. It ranks 16th among 29 Physics chapters and appeared in 131 of those 162 papers.
 
-### Which topic in Kinetic Theory of Gases has the most questions?
+### Which speed among rms, average, and most probable is the highest?
 
-Gas Laws & Kinetic Model is the most-asked topic, with 52 questions from 2019 to 2026 in our collection.
+Root mean square speed is the highest of the three, followed by average speed, with most probable speed being the lowest for any ideal gas distribution.
 
-### Are questions in Kinetic Theory of Gases multiple choice or numerical?
+### How do degrees of freedom change with temperature?
 
-Both formats appear. Of the 146 questions from 2019 to 2026 in our set, 17 were numerical-answer questions and the remainder were multiple choice.
+At room temperatures, monatomic gases have 3 translational degrees of freedom, while rigid diatomic gases have 5 (3 translational plus 2 rotational). At very high temperatures, vibrational modes become active, adding 2 additional degrees of freedom (one kinetic, one potential) per vibrational mode.
 
 ### Where can I see the solutions?
 
