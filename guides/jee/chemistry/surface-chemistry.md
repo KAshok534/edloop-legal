@@ -1,10 +1,6 @@
-# JEE Main Surface Chemistry: PYQ Trends & Preparation Guide
-
-Surface Chemistry studies phenomena occurring at phase boundaries, including gas adsorption onto solid surfaces, catalytic mechanisms, and colloidal dispersions. The National Testing Agency removed this unit from the official syllabus in 2024, leading to zero appearances in recent exam papers.
-
 ## How often it comes up
 
-Across the 2019 to 2026 timeframe, Surface Chemistry contributed 98 questions across 162 test papers, representing 2.1% of chemistry questions and standing at rank 24 of 31 chapters. Prior to that, from 2002 to 2018, it registered 32 questions across 38 papers with a 2.4% subject share. Following the curriculum reduction in 2024, the chapter saw 0 questions across 58 papers in the 2024 to 2026 period. Consequently, its overall trajectory has trended down.
+Surface chemistry studies phenomena at phase boundaries and was formerly in the Class 12 curriculum before being removed in 2024, holding rank 24 of 31 chemistry chapters with a 2.1% share of chemistry questions. Across the 2019 to 2026 timeframe, Surface Chemistry contributed 98 questions across 162 test papers, representing 2.1% of chemistry questions and standing at rank 24 of 31 chapters. Prior to that, from 2002 to 2018, it registered 32 questions across 38 papers with a 2.4% subject share. Following the curriculum reduction in 2024, the chapter saw 0 questions across 58 papers in the 2024 to 2026 period. Consequently, its overall trajectory has trended down.
 
 Because of its removal, the chapter was not asked in 2024, 2025, or 2026. Prior to deletion, the chapter averaged 0.6 questions per paper between 2019 and 2026, including 18 numerical answer questions.
 

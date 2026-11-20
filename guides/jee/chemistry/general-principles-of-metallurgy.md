@@ -1,10 +1,6 @@
-# JEE Main General Principles of Metallurgy: PYQ Trends & Preparation Guide
-
-General Principles of Metallurgy investigates the thermodynamic and chemical extraction of pure metals from natural ores. Core topics involve mineral classification, concentration techniques like froth flotation, Ellingham diagrams, smelting, self-reduction, Hall-Héroult electrolysis, and refining methods like zone refining and vapor phase refining. The National Testing Agency removed this chapter from the JEE Main syllabus in 2024.
-
 ## How often it comes up
 
-In the 2019 to 2026 test series, General Principles of Metallurgy yielded 98 questions across 162 exam papers, accounting for 2.1% of the chemistry section and standing at rank 25 of 31 chapters. During the 2002 to 2018 period, it produced 26 questions across 38 papers with a 1.9% share. Across the 2024 to 2026 seasons, it recorded 0 questions across 58 papers, resulting in a 0.0% share. The chapter's appearance frequency has trended down following curriculum deletion.
+General principles of metallurgy covers the chemical extraction of metals and was formerly in the Class 12 curriculum before being removed in 2024, standing at rank 25 of 31 chapters with a 2.1% share of the chemistry section. In the 2019 to 2026 test series, General Principles of Metallurgy yielded 98 questions across 162 exam papers, accounting for 2.1% of the chemistry section and standing at rank 25 of 31 chapters. During the 2002 to 2018 period, it produced 26 questions across 38 papers with a 1.9% share. Across the 2024 to 2026 seasons, it recorded 0 questions across 58 papers, resulting in a 0.0% share. The chapter's appearance frequency has trended down following curriculum deletion.
 
 Due to its removal, the chapter was not asked in 2024, 2025, or 2026. Across the 2019 to 2026 span, it averaged 0.6 questions per paper, with only 4 numerical answer questions recorded.
 

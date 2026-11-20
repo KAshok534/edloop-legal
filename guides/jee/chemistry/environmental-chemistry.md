@@ -1,10 +1,6 @@
-# JEE Main Environmental Chemistry: PYQ Trends & Preparation Guide
-
-Environmental Chemistry evaluates atmospheric layers, environmental pollutants, greenhouse effects, ozone layer depletion, acid rain, photochemical smog, and water quality criteria like Biochemical Oxygen Demand (BOD). In 2024, the National Testing Agency excised this chapter from the JEE Main curriculum.
-
 ## How often it comes up
 
-Across 2019 to 2026, Environmental Chemistry contributed 99 questions across 162 exam papers, delivering a 2.2% share of the chemistry section and standing at rank 23 of 31 chapters. During the 2002 to 2018 window, it accounted for 20 questions across 38 papers with a 1.5% share. In the 2024 to 2026 period, it recorded 1 question across 58 papers, capturing a 0.1% share. Its testing trajectory has trended down following curriculum rationalization.
+Environmental chemistry covers pollutants and atmospheric chemistry and was formerly in the Class 11 curriculum before being removed in 2024, standing at rank 23 of 31 chapters with a 2.2% share of the chemistry section. Across 2019 to 2026, Environmental Chemistry contributed 99 questions across 162 exam papers, delivering a 2.2% share of the chemistry section and standing at rank 23 of 31 chapters. During the 2002 to 2018 window, it accounted for 20 questions across 38 papers with a 1.5% share. In the 2024 to 2026 period, it recorded 1 question across 58 papers, capturing a 0.1% share. Its testing trajectory has trended down following curriculum rationalization.
 
 The chapter was not asked in 2025 or 2026, though 1 isolated question appeared in 2024 before full syllabus alignment took effect. Between 2019 and 2026, it averaged 0.6 questions per paper. Numerical answer questions are absent here, with 0 numerical answer questions recorded across the entire 2019 to 2026 timeframe.
 

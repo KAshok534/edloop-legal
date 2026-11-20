@@ -1,10 +1,6 @@
-# JEE Main Determinants: PYQ Trends & Preparation Guide
-
-Determinants covers square arrays, scalar evaluations, row and column operations, differentiation of functional determinants, factor theorem applications, and geometric applications like triangle area and line collinearity. While linear systems are classified under the Matrices unit, evaluating complex symbolic and trigonometric determinants remains a foundational skill.
-
 ## How often it comes up
 
-In the 2019 to 2026 test window, Determinants contributed 64 questions across 162 exam papers, making up 1.4% of the mathematics section and holding rank 27 of 29 chapters. During the earlier 2002 to 2018 testing span, it accounted for 34 questions across 38 papers with a 2.6% share. In the recent 2024 to 2026 seasons, the chapter saw 17 questions across 58 papers, capturing a 1.1% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is down, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
+Determinants covers scalar evaluations, row operations, and area applications under Unit 3: Matrices and Determinants in the Class 12 curriculum, holding rank 27 of 29 chapters with a 1.4% share of the mathematics section. In the 2019 to 2026 test window, Determinants contributed 64 questions across 162 exam papers, making up 1.4% of the mathematics section and holding rank 27 of 29 chapters. During the earlier 2002 to 2018 testing span, it accounted for 34 questions across 38 papers with a 2.6% share. In the recent 2024 to 2026 seasons, the chapter saw 17 questions across 58 papers, capturing a 1.1% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is down, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
 
 The chapter has appeared every year from 2019 to 2026. Students met an average of 0.4 questions per paper across 2019 to 2026, and 0.3 questions per paper between 2024 and 2026. Nine numerical answer questions were set between 2019 and 2026.
 

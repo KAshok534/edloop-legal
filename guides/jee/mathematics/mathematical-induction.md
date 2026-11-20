@@ -1,18 +1,6 @@
-# Mathematical Induction: JEE Main Guide
-
-> [!WARNING]
-> Mathematical Induction was officially removed from the JEE Main syllabus in 2024. It was asked 1 time between 2019 and 2026 and does not appear in current exams.
-
-Mathematical Induction was historically a minor theoretical chapter in JEE Main mathematics. Between 2019 and 2026, the examination included only 1 question from this chapter across 162 papers, representing 0.0 percent of all mathematics questions and placing it at rank 28 among the 29 chapters in the subject. It appeared in 1 of those 162 papers and was not asked in 2020, 2021, 2022, 2023, 2024, 2025, or 2026. In the 2024 to 2026 period following its formal excision, 0 questions appeared across 58 papers, averaging 0.0 questions per paper with a 0.0 percent subject share. Comparing the earlier 2002 to 2018 share of 0.2 percent to 2024 to 2026 shows that its share is about the same, and comparing 2019 to 2026 with 2024 to 2026 also shows it is about the same. Across the entire 2002 to 2019 historical record of 200 papers, 4 questions appeared across 4 papers, with 0 numerical answer questions between 2019 and 2026.
-
-```
-Mathematical Induction in JEE Main (2019-2026)
-Total questions: 1 | Rank: 28 of 29 chapters
-Average per paper: 0.0 | Subject share: 0.0%
-Current status: Removed from syllabus in 2024
-```
-
 ## How often it comes up
+
+Mathematical induction was formerly in the Class 11 curriculum before being removed in 2024, placing it at rank 28 among the 29 chapters in the subject. Between 2019 and 2026, the examination included only 1 question from this chapter across 162 papers, representing 0.0 percent of all mathematics questions. It appeared in 1 of those 162 papers and was not asked in 2020, 2021, 2022, 2023, 2024, 2025, or 2026. In the 2024 to 2026 period following its formal excision, 0 questions appeared across 58 papers, averaging 0.0 questions per paper with a 0.0 percent subject share. Comparing the earlier 2002 to 2018 share of 0.2 percent to 2024 to 2026 shows that its share is about the same, and comparing 2019 to 2026 with 2024 to 2026 also shows it is about the same. Across the entire 2002 to 2019 historical record of 200 papers, 4 questions appeared across 4 papers, with 0 numerical answer questions between 2019 and 2026.
 
 Even prior to its formal deletion from the NTA curriculum in 2024, mathematical induction rarely appeared in the exam. Across the 162 papers conducted between 2019 and 2026, it was featured in only a single shift in January 2019. Zero questions appeared in any subsequent year, confirming that candidates preparing for the modern examination cycle should bypass this unit entirely.
 
@@ -52,7 +40,7 @@ Because this chapter has been removed from the syllabus and was asked only once 
 ## Frequently asked questions
 
 ### Should I study this chapter for the upcoming JEE Main?
-No. Mathematical induction was formally deleted from the NTA syllabus in 2024 and contributed zero questions across 2020 through 2026. Devote your preparation time to high-yield algebra topics such as sequences and series or matrices.
+No. Mathematical induction was formally deleted from the NTA syllabus in 2024 and contributed zero questions across 2020 through 2026. Devote your preparation time to major algebra topics such as sequences and series or matrices.
 
 ### How were induction questions solved when they did appear?
 In objective formats, questions were almost invariably solved by direct numerical substitution of n equals one, two, or three, avoiding full inductive derivations.

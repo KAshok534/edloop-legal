@@ -1,10 +1,6 @@
-# JEE Main Polymers: PYQ Trends & Preparation Guide
-
-Polymers covers macromolecules formed by repetitive linkage of monomeric units. Key areas include classification by origin, structure, and intermolecular forces (elastomers, fibers, thermoplastics, and thermosetting plastics), modes of polymerization (addition versus condensation), synthetic rubbers (Buna-S, Buna-N, neoprene), commercial fibers (nylon 6, nylon 6,6, Dacron), and biodegradable polymers. In 2024, the National Testing Agency removed this chapter from the JEE Main curriculum.
-
 ## How often it comes up
 
-In the 2019 to 2026 testing timeframe, Polymers contributed 60 questions across 162 exam papers, delivering a 1.3% share of the chemistry section and standing at rank 30 of 31 chapters. During the 2002 to 2018 period, it registered 29 questions across 38 papers with a 2.2% share. Across the 2024 to 2026 exam sessions, it recorded 0 questions across 58 papers, resulting in a 0.0% share. The overall testing trajectory has trended down following curriculum rationalization.
+Polymers covers macromolecules and monomer linkages and was formerly in the Class 12 curriculum before being removed in 2024, standing at rank 30 of 31 chapters with a 1.3% share of the chemistry section. In the 2019 to 2026 testing timeframe, Polymers contributed 60 questions across 162 exam papers, delivering a 1.3% share of the chemistry section and standing at rank 30 of 31 chapters. During the 2002 to 2018 period, it registered 29 questions across 38 papers with a 2.2% share. Across the 2024 to 2026 exam sessions, it recorded 0 questions across 58 papers, resulting in a 0.0% share. The overall testing trajectory has trended down following curriculum rationalization.
 
 Because of its removal, the chapter was not asked in 2024, 2025, or 2026. Prior to deletion, the chapter averaged 0.4 questions per paper between 2019 and 2026, with only 1 numerical answer question recorded.
 

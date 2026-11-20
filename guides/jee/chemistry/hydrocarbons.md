@@ -1,10 +1,6 @@
-# JEE Main Hydrocarbons: PYQ Trends & Preparation Guide
-
-Hydrocarbons forms the core reaction groundwork for organic chemistry in JEE Main. The unit covers alkanes (free radical halogenation, Kolbe electrolysis, and Wurtz coupling), alkenes (electrophilic addition, Markovnikov rule, anti-Markovnikov peroxide effect, ozonolysis, and hydration), alkynes (acidity of terminal alkynes, hydration yielding carbonyls, and stereoselective reductions), and aromatic hydrocarbons (electrophilic aromatic substitution, nitration, halogenation, Friedel-Crafts alkylation and acylation, and directing effects).
-
 ## How often it comes up
 
-Between 2019 and 2026, Hydrocarbons yielded 224 questions across 162 exam papers, making up 4.9% of the chemistry section and holding rank 3 of 31 chapters. In the earlier 2002 to 2018 era, it accounted for 63 questions across 38 papers with a 4.7% share. Across the recent 2024 to 2026 test cycles, it contributed 89 questions across 58 papers, capturing a 5.7% share. Its testing frequency has trended up across recent shifts.
+Hydrocarbons forms the core reaction groundwork for organic chemistry under Unit 15: Hydrocarbons in the Class 11 curriculum, holding rank 3 of 31 chapters with a 4.9% share of the chemistry section. Between 2019 and 2026, Hydrocarbons yielded 224 questions across 162 exam papers, making up 4.9% of the chemistry section and holding rank 3 of 31 chapters. In the earlier 2002 to 2018 era, it accounted for 63 questions across 38 papers with a 4.7% share. Across the recent 2024 to 2026 test cycles, it contributed 89 questions across 58 papers, capturing a 5.7% share. Its testing frequency has trended up across recent shifts.
 
 Questions have appeared every year from 2019 to 2026. Across 2019 to 2026, candidates faced an average of 1.4 questions per paper, rising to 1.5 questions per paper during 2024 to 2026. Examiners included 32 numerical answer questions between 2019 and 2026, often requiring calculation of elemental percentages or product degree of unsaturation.
 

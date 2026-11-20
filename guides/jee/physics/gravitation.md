@@ -47,7 +47,7 @@ For escape velocity, relate the formula to both mass and density. Writing escape
 
 ## Frequently asked questions
 
-### Is Gravitation considered high yield for JEE Main 2027?
+### Is Gravitation heavily featured in JEE Main 2027?
 
 Yes. Gravitation contributed 172 questions across 162 papers in our set from 2019 to 2026, yielding 1.1 questions per paper. It ranks 10th of 29 Physics chapters and appeared in 142 of those 162 papers.
 

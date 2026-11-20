@@ -1,10 +1,6 @@
-# JEE Main Haloalkanes & Haloarenes: PYQ Trends & Preparation Guide
-
-Haloalkanes & Haloarenes covers alkyl, allyl, benzyl, vinyl, and aryl halides. Major conceptual pillars include bimolecular nucleophilic substitution (SN2) with Walden inversion, unimolecular nucleophilic substitution (SN1) through carbocation intermediates, beta-elimination (E2 and E1 mechanisms conforming to Saytzeff and Hofmann rules), Grignard reagents, and nucleophilic aromatic substitution under harsh conditions.
-
 ## How often it comes up
 
-In the 2019 to 2026 testing window, Haloalkanes & Haloarenes accounted for 113 questions across 162 exam papers, making up 2.5% of the chemistry section and holding rank 19 of 31 chapters. During the 2002 to 2018 timeframe, it contributed 36 questions across 38 papers with a 2.7% share. Across the 2024 to 2026 seasons, the chapter yielded 48 questions across 58 papers, accounting for a 3.1% share. Comparing 2002 to 2018 against 2024 to 2026, its share is about the same, while comparing 2019 to 2026 against 2024 to 2026, the trend is up.
+Haloalkanes and haloarenes covers substitution and elimination reactions under Unit 16: Organic Compounds Containing Halogens in the Class 12 curriculum, holding rank 19 of 31 chapters with a 2.5% share of the chemistry section. In the 2019 to 2026 testing window, Haloalkanes & Haloarenes accounted for 113 questions across 162 exam papers, making up 2.5% of the chemistry section and holding rank 19 of 31 chapters. During the 2002 to 2018 timeframe, it contributed 36 questions across 38 papers with a 2.7% share. Across the 2024 to 2026 seasons, the chapter yielded 48 questions across 58 papers, accounting for a 3.1% share. Comparing 2002 to 2018 against 2024 to 2026, its share is about the same, while comparing 2019 to 2026 against 2024 to 2026, the trend is up.
 
 The topic has appeared every year from 2019 to 2026. Across the 2019 to 2026 period, it averaged 0.7 questions per paper, rising to 0.8 questions per paper between 2024 and 2026. Numerical value questions are relatively rare here, with 7 numerical answer questions set between 2019 and 2026.
 

@@ -1,17 +1,8 @@
-# Probability: JEE Main Guide
-
-Probability is a cornerstone topic in JEE Main mathematics, requiring logical modelling alongside combinatorial counting. Across the 162 papers conducted between 2019 and 2026, this chapter supplied 189 questions, accounting for 4.1 percent of all mathematics questions and securing rank 11 among the 29 chapters in the subject. It appeared in 154 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 examination cycles, it contributed 66 questions across 58 papers, averaging 1.1 questions per paper with a 4.3 percent subject share. Comparing the earlier 2002 to 2018 share of 4.3 percent against 2024 to 2026 shows that its long-term share is about the same, while comparing 2019 to 2026 with 2024 to 2026 also shows it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 245 questions were asked in 191 papers, including 34 numerical answer questions between 2019 and 2026.
-
-```
-Probability in JEE Main (2019-2026)
-Total questions: 189 | Rank: 11 of 29 chapters
-Average per paper: 1.2 | Subject share: 4.1%
-Shift occurrence: asked in 154 of 162 papers
-```
-
 ## How often it comes up
 
-Students can expect at least one probability problem in almost every examination sitting, with numerous shifts featuring two problems. Across the 162 papers from 2019 to 2026, 154 included questions from this chapter. In the 2024, 2025, and 2026 examination periods, the question tallies were 26, 22, and 18 questions respectively.
+Probability requires logical modelling and combinatorial counting under Unit 13: Statistics and Probability in the Class 12 curriculum, securing rank 11 among the 29 chapters in the subject. Across the 162 papers conducted between 2019 and 2026, this chapter supplied 189 questions, accounting for 4.1 percent of all mathematics questions. It appeared in 154 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 examination cycles, it contributed 66 questions across 58 papers, averaging 1.1 questions per paper with a 4.3 percent subject share. Comparing the earlier 2002 to 2018 share of 4.3 percent against 2024 to 2026 shows that its long-term share is about the same, while comparing 2019 to 2026 with 2024 to 2026 also shows it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 245 questions were asked in 191 papers, including 34 numerical answer questions between 2019 and 2026.
+
+In the 2024, 2025, and 2026 examination periods, the question tallies were 26, 22, and 18 questions respectively.
 
 Probability problems frequently serve as the ultimate test of combinatorial enumeration. Because modern questions integrate conditional updating and discrete random variable distributions, methodical case listing and probability tree analysis are essential.
 

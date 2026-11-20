@@ -1,10 +1,6 @@
-# JEE Main Chemistry in Everyday Life: PYQ Trends & Preparation Guide
-
-Chemistry in Everyday Life investigates pharmaceutical drugs, food additives, artificial sweeteners, and cleansing agents (soaps and detergents). Topics include classification of drugs (analgesics, tranquilizers, antiseptics, disinfectants, antibiotics, and antacids), action of enzymes and receptor proteins, artificial sweeteners (aspartame, saccharin, sucralose, and alitame), food preservatives like BHA, and anionic versus cationic detergents. In 2024, the National Testing Agency removed this chapter from the JEE Main syllabus.
-
 ## How often it comes up
 
-Across 2019 to 2026, Chemistry in Everyday Life accounted for 59 questions across 162 test papers, delivering 1.3% of the chemistry section and standing at rank 31 of 31 chapters. During the earlier 2002 to 2018 timeframe, it contributed 18 questions across 38 papers with a 1.3% share. Over the 2024 to 2026 cycle, it recorded 0 questions across 58 papers, capturing a 0.0% share. The overall trajectory has trended down following curriculum reduction.
+Chemistry in everyday life covers pharmaceutical drugs and detergents and was formerly in the Class 12 curriculum before being removed in 2024, standing at rank 31 of 31 chapters with a 1.3% share of the chemistry section. Across 2019 to 2026, Chemistry in Everyday Life accounted for 59 questions across 162 test papers, delivering 1.3% of the chemistry section and standing at rank 31 of 31 chapters. During the earlier 2002 to 2018 timeframe, it contributed 18 questions across 38 papers with a 1.3% share. Over the 2024 to 2026 cycle, it recorded 0 questions across 58 papers, capturing a 0.0% share. The overall trajectory has trended down following curriculum reduction.
 
 Because it was deleted from the syllabus, the chapter was not asked in 2024, 2025, or 2026. Across 2019 to 2026, it averaged 0.4 questions per paper, with 4 numerical answer questions recorded.
 

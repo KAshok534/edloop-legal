@@ -1,17 +1,8 @@
-# Inverse Trigonometric Functions: JEE Main Guide
-
-Inverse Trigonometric Functions provides the bridge between periodic circular ratios and single-valued algebraic functions in JEE Main. Between 2019 and 2026, 90 questions were catalogued from this chapter across 162 papers, representing 2.0 percent of all mathematics questions and placing it at rank 23 among the 29 chapters in the subject. It appeared in 83 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 testing sessions, it contributed 29 questions across 58 papers, averaging 0.5 questions per paper with a 1.9 percent subject share. Comparing the earlier 2002 to 2018 share of 1.4 percent against 2024 to 2026 indicates that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 108 questions appeared in 99 papers, with 15 numerical answer questions appearing between 2019 and 2026.
-
-```
-Inverse Trigonometric Functions in JEE Main (2019-2026)
-Total questions: 90 | Rank: 23 of 29 chapters
-Average per paper: 0.6 | Subject share: 2.0%
-Testing coverage: featured in 83 of 162 papers
-```
-
 ## How often it comes up
 
-Students typically face an inverse trigonometric question in roughly one out of every two examination papers. Across the 162 test shifts from 2019 to 2026, 83 shifts included problems from this chapter. In the 2024, 2025, and 2026 test cycles, the question numbers were 7, 11, and 11 questions respectively.
+Inverse trigonometric functions provides the bridge between circular ratios and single-valued functions under Unit 14: Trigonometry in the Class 12 curriculum, placing it at rank 23 among the 29 chapters in the subject. Between 2019 and 2026, 90 questions were catalogued from this chapter across 162 papers, representing 2.0 percent of all mathematics questions. It appeared in 83 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 testing sessions, it contributed 29 questions across 58 papers, averaging 0.5 questions per paper with a 1.9 percent subject share. Comparing the earlier 2002 to 2018 share of 1.4 percent against 2024 to 2026 indicates that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 108 questions appeared in 99 papers, with 15 numerical answer questions appearing between 2019 and 2026.
+
+In the 2024, 2025, and 2026 test cycles, the question numbers were 7, 11, and 11 questions respectively.
 
 Beyond standalone appearances, inverse trigonometric expressions appear constantly across limits, differentiation, and definite integrals. Questions commonly probe domain restrictions, principal value branch evaluations, telescoping series involving inverse tangents, and root determination for inverse trigonometric equations.
 

@@ -1,17 +1,8 @@
-# Differentiation: JEE Main Guide
-
-Differentiation provides the operative techniques needed across calculus in JEE Main. Between 2019 and 2026, this chapter contributed 73 questions across 162 papers, representing 1.6 percent of all mathematics questions and occupying rank 26 among the 29 chapters in the subject. It appeared in 65 of those papers and has been featured every year since 2019. In the recent 2024 to 2026 examination cycle, it supplied 18 questions across 58 papers, averaging 0.3 questions per paper with a 1.2 percent subject share. Comparing the 2002 to 2018 window share of 2.6 percent to the 2024 to 2026 share shows that its long-term presence is down, whereas comparing 2019 to 2026 against 2024 to 2026 shows it is about the same. Across all 200 papers from 2002 to 2026, 107 questions were asked in 90 test sessions. Among the questions from 2019 to 2026, 13 were numerical answer questions.
-
-```
-Differentiation in JEE Main (2019-2026)
-Total questions: 73 | Rank: 26 of 29 chapters
-Average per paper: 0.5 | Subject share: 1.6%
-Paper appearance: 65 of 162 papers (every year since 2019)
-```
-
 ## How often it comes up
 
-Direct differentiation questions appear in approximately one out of every two examination papers. In the 2019 to 2026 period, 65 of the 162 papers included dedicated differentiation questions. The annual figures across 2024, 2025, and 2026 were 13, 1, and 4 questions respectively.
+Differentiation provides the operative techniques across calculus under Unit 7: Limit, Continuity and Differentiability in the Class 12 curriculum, occupying rank 26 among the 29 chapters in the subject. Between 2019 and 2026, this chapter contributed 73 questions across 162 papers, representing 1.6 percent of all mathematics questions. It appeared in 65 of those papers and has been featured every year since 2019. In the recent 2024 to 2026 examination cycle, it supplied 18 questions across 58 papers, averaging 0.3 questions per paper with a 1.2 percent subject share. Comparing the 2002 to 2018 window share of 2.6 percent to the 2024 to 2026 share shows that its long-term presence is down, whereas comparing 2019 to 2026 against 2024 to 2026 shows it is about the same. Across all 200 papers from 2002 to 2026, 107 questions were asked in 90 test sessions. Among the questions from 2019 to 2026, 13 were numerical answer questions.
+
+Direct differentiation questions appear in approximately one out of every two examination papers. The annual figures across 2024, 2025, and 2026 were 13, 1, and 4 questions respectively.
 
 While rank 26 indicates a comparatively modest standalone presence, differentiation is a vital computational engine for applications of derivatives, differential equations, and definite integrals. Examiners often nest differentiation within functional equations or inverse function evaluations rather than asking for straightforward derivatives.
 

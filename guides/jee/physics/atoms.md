@@ -1,10 +1,6 @@
-# Atoms: JEE Main PYQ Trends & Preparation Guide
-
-Atoms explores atomic architecture, alpha particle scattering, nuclear dimensions, and Bohr's quantized orbital model for hydrogen-like species. Structured within Unit 18: Atoms and Nuclei in the Class 12 curriculum, this topic provides reliable, formula-driven points. In the computer-based testing window spanning 2019 to 2026, the question pool logs 115 questions from atoms across 162 papers, giving the chapter rank 24 among the 29 physics chapters with a 2.5 percent share of total physics questions.
-
 ## How often it comes up
 
-Between 2019 and 2026, candidates answered 115 questions across 162 papers, representing an average rate of 0.7 questions per sitting. The chapter featured in 97 of those 162 papers, and questions appeared every single year throughout the testing era. In the recent three-year block from 2024 to 2026, examiners set 44 questions across 58 papers, maintaining an average of 0.8 questions per shift and a 2.8 percent subject share. The chapter's share has stayed about the same when compared to the 2002 to 2018 window, which recorded 38 questions across 38 papers for a 2.8 percent share. During the 2026 examination sessions, 11 questions were presented across 19 papers, showing up in 11 separate shifts. Over the 2019 to 2026 timeline, 34 questions required numerical answers, with candidates evaluating quantum numbers, wavelength differences, and closest approach distances.
+Atoms explores atomic architecture and Bohr's quantized orbital model under Unit 18: Atoms and Nuclei in the Class 12 curriculum, holding rank 24 among the 29 physics chapters with a 2.5 percent share of total physics questions. Between 2019 and 2026, candidates answered 115 questions across 162 papers, representing an average rate of 0.7 questions per sitting. The chapter featured in 97 of those 162 papers, and questions appeared every single year throughout the testing era. In the recent three-year block from 2024 to 2026, examiners set 44 questions across 58 papers, maintaining an average of 0.8 questions per shift and a 2.8 percent subject share. The chapter's share has stayed about the same when compared to the 2002 to 2018 window, which recorded 38 questions across 38 papers for a 2.8 percent share. During the 2026 examination sessions, 11 questions were presented across 19 papers, showing up in 11 separate shifts. Over the 2019 to 2026 timeline, 34 questions required numerical answers, with candidates evaluating quantum numbers, wavelength differences, and closest approach distances.
 
 ## Most-asked topics
 
@@ -48,7 +44,7 @@ For hydrogen spectral series, know the transition limits cold. The shortest wave
 Bohr model questions represent nearly ninety percent of all modern questions from this chapter. Mastering orbital scaling laws and Rydberg transition formulas provides comprehensive exam coverage.
 
 ### What is the connection between atoms in physics and atomic structure in chemistry?
-Both chapters share identical theoretical foundations for Bohr orbits and hydrogen spectral transitions. Preparing these concepts thoroughly provides dual scoring benefits across both physics and chemistry sections.
+Both chapters share identical theoretical foundations for Bohr orbits and hydrogen spectral transitions. Preparing these concepts thoroughly provides dual benefits across both physics and chemistry sections.
 
 ### Are X-ray spectra questions still common?
 X-ray questions were last asked in 2023 and have been de-emphasized in recent syllabus revisions, leaving Rutherford scattering and Bohr transitions as the primary focus areas. Step-by-step solutions for each one are in the EdLoop app.

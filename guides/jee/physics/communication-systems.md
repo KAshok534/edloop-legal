@@ -1,10 +1,6 @@
-# Communication Systems: JEE Main PYQ Trends & Preparation Guide
-
-Communication systems covers signal transmission, propagation of electromagnetic waves through atmospheric layers, amplitude modulation, and line-of-sight antenna coverage. Previously codified as a standalone unit in the Class 12 physics syllabus, the chapter was removed from syllabus in 2024. In the 2019 to 2026 examination window, the archive contains 82 questions across 162 papers, giving the chapter rank 27 among 29 physics chapters with a 1.8 percent share of total physics questions.
-
 ## How often it comes up
 
-Between 2019 and 2026, the question pool recorded 82 questions across 162 papers, representing an average of 0.5 questions per shift. The topic featured in 81 of those 162 papers. Because it was removed in 2024, zero questions were set in 2024, 2025, or 2026. Over the recent 2024 to 2026 period, its testing count dropped to 0 questions across 58 papers, yielding a 0.0 percent share. This demonstrates a trend that is down compared to both the 1.6 percent share in the 2002 to 2018 era and the 1.8 percent share across 2019 to 2026. Across 2019 to 2026, 19 questions appeared in numerical answer format, with the remainder being multiple choice items on modulation parameters and communication terminology.
+Communication systems was previously in the Class 12 physics syllabus before being removed in 2024, holding rank 27 among 29 physics chapters with a 1.8 percent share of total physics questions. Between 2019 and 2026, the question pool recorded 82 questions across 162 papers, representing an average of 0.5 questions per shift. The topic featured in 81 of those 162 papers. Because it was removed in 2024, zero questions were set in 2024, 2025, or 2026. Over the recent 2024 to 2026 period, its testing count dropped to 0 questions across 58 papers, yielding a 0.0 percent share. This demonstrates a trend that is down compared to both the 1.6 percent share in the 2002 to 2018 era and the 1.8 percent share across 2019 to 2026. Across 2019 to 2026, 19 questions appeared in numerical answer format, with the remainder being multiple choice items on modulation parameters and communication terminology.
 
 ## Most-asked topics
 

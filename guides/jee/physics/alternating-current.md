@@ -1,10 +1,6 @@
-# Alternating Current: JEE Main PYQ Trends & Preparation Guide
-
-Alternating current deals with time-dependent sinusoidal voltages and currents, phasor diagrams, and reactive electrical components. Paired with electromagnetic induction in Unit 14: Electromagnetic Induction and Alternating Currents of the Class 12 syllabus, this topic provides regular scoring opportunities in the exam. Across the 162 test shifts held between 2019 and 2026, the question archive lists 142 questions from alternating current, placing the chapter at rank 18 among the 29 physics chapters with a 3.1 percent share of total physics questions.
-
 ## How often it comes up
 
-In the computerized exam period from 2019 to 2026, 142 alternating current problems were asked in 162 papers, representing an average rate of 0.9 questions per shift. The chapter featured in 108 of those 162 papers, and questions have appeared every year throughout this testing era. During the recent 2024 to 2026 examination seasons, candidates encountered 47 questions across 58 papers, giving 0.8 questions per paper and a 3.0 percent subject share. The chapter's share is up compared to the 2002 to 2018 testing window, which logged 31 questions across 38 papers for a 2.3 percent share. Relative to the full 2019 to 2026 baseline, its recent share has stayed about the same. In 2026 alone, 11 questions were presented across 19 papers, showing up in 10 test sessions. A total of 56 questions between 2019 and 2026 appeared as numerical answer questions, meaning students regularly calculate resonance frequencies, impedance values, and power factors to exact numerical figures.
+Alternating current deals with sinusoidal voltages and reactive components under Unit 14: Electromagnetic Induction and Alternating Currents in the Class 12 syllabus, holding rank 18 among the 29 physics chapters. In the computerized exam period from 2019 to 2026, 142 alternating current problems were asked in 162 papers, representing an average rate of 0.9 questions per shift. The chapter featured in 108 of those 162 papers, and questions have appeared every year throughout this testing era. During the recent 2024 to 2026 examination seasons, candidates encountered 47 questions across 58 papers, giving 0.8 questions per paper and a 3.0 percent subject share. The chapter's share is up compared to the 2002 to 2018 testing window, which logged 31 questions across 38 papers for a 2.3 percent share. Relative to the full 2019 to 2026 baseline, its recent share has stayed about the same. In 2026 alone, 11 questions were presented across 19 papers, showing up in 10 test sessions. A total of 56 questions between 2019 and 2026 appeared as numerical answer questions, meaning students regularly calculate resonance frequencies, impedance values, and power factors to exact numerical figures.
 
 ## Most-asked topics
 
@@ -44,7 +40,7 @@ Pay special attention to series resonance. At resonance, capacitive and inductiv
 
 ## Frequently asked questions
 
-### Which topic in alternating current provides the highest score return?
+### Which topic in alternating current appears most frequently?
 Series LCR circuits account for 88 of the 142 modern questions. Thorough mastery of reactance formulas, total impedance, resonance frequency, and power factor covers the majority of exam items.
 
 ### What is the distinction between peak and root mean square values?

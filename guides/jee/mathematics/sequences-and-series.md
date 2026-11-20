@@ -1,17 +1,8 @@
-# Sequences & Series: JEE Main Guide
-
-Sequences & Series is one of the heaviest scoring domains in JEE Main algebra. With 261 questions catalogued across 162 papers between 2019 and 2026, it represents 5.7 percent of all mathematics questions, placing it at rank 3 among the 29 chapters in the subject. It appeared in 153 of those papers and has surfaced every year since 2019. In the more recent 2024 to 2026 test cycles, it accounted for 93 problems across 58 papers, maintaining an average of 1.6 questions per paper and capturing a 6.0 percent subject share. Compared with its 5.5 percent share during the 2002 to 2018 window, its recent share is up, while comparing 2019 to 2026 against 2024 to 2026 shows it is about the same. Across the entire 2002 to 2026 archive of 200 papers, 333 questions appear across 190 shifts. Among the 2019 to 2026 questions, 79 were numerical answer questions.
-
-```
-Sequences & Series in JEE Main (2019-2026)
-Total questions: 261 | Rank: 3 of 29 chapters
-Average per paper: 1.6 | Subject share: 5.7%
-Paper appearance: 153 of 162 papers (every year since 2019)
-```
-
 ## How often it comes up
 
-Students can expect around one to two problems on progressions in nearly every examination shift. Between 2019 and 2026, 153 out of 162 examination shifts presented problems from this chapter. During 2024, 2025, and 2026, the question counts stood at 34, 29, and 30 questions respectively, confirming that the examiner considers this chapter a staple component of the algebra paper. 
+Sequences and series is a foundational algebra domain under Unit 6: Sequence and Series in the Class 11 curriculum, placing it at rank 3 among the 29 chapters in the subject. With 261 questions catalogued across 162 papers between 2019 and 2026, it represents 5.7 percent of all mathematics questions. It appeared in 153 of those papers and has surfaced every year since 2019. In the more recent 2024 to 2026 test cycles, it accounted for 93 problems across 58 papers, maintaining an average of 1.6 questions per paper and capturing a 6.0 percent subject share. Compared with its 5.5 percent share during the 2002 to 2018 window, its recent share is up, while comparing 2019 to 2026 against 2024 to 2026 shows it is about the same. Across the entire 2002 to 2026 archive of 200 papers, 333 questions appear across 190 shifts. Among the 2019 to 2026 questions, 79 were numerical answer questions.
+
+Students can expect around one to two problems on progressions in nearly every examination shift. During 2024, 2025, and 2026, the question counts stood at 34, 29, and 30 questions respectively, confirming that the examiner considers this chapter a staple component of the algebra paper. 
 
 Because sequences can be combined seamlessly with quadratics, binomial coefficients, and limits, questions frequently serve as bridge problems between distinct syllabus areas. Numerical response sections regularly feature progression problems, demanding methodical calculation to avoid computational slips.
 

@@ -1,17 +1,8 @@
-# Ellipse: JEE Main Guide
-
-Ellipse provides essential coordinate geometry problems on central conics in JEE Main. Between 2019 and 2026, 100 questions were catalogued from this chapter across 162 papers, representing 2.2 percent of all mathematics questions and placing it at rank 22 among the 29 chapters in the subject. It appeared in 90 of those 162 papers and has been tested every single year since 2019. In the recent 2024 to 2026 examination cycles, it contributed 39 questions across 58 papers, averaging 0.7 questions per paper and capturing a 2.5 percent subject share. Comparing the earlier 2002 to 2018 share of 1.8 percent with the 2024 to 2026 level shows that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete historical record from 2004 to 2026 across 200 papers, 123 questions appeared in 112 papers, including 18 numerical answer questions between 2019 and 2026.
-
-```
-Ellipse in JEE Main (2019-2026)
-Total questions: 100 | Rank: 22 of 29 chapters
-Average per paper: 0.6 | Subject share: 2.2%
-Shift distribution: tested in 90 of 162 papers
-```
-
 ## How often it comes up
 
-Students can expect an ellipse question in roughly six out of ten examination papers. Across the 162 test shifts from 2019 to 2026, 90 papers contained questions from this unit. The annual numbers for 2024, 2025, and 2026 stood at 8, 18, and 13 questions respectively, demonstrating steady modern engagement.
+Ellipse provides coordinate geometry problems on central conics under Unit 10: Coordinate Geometry in the Class 11 curriculum, placing it at rank 22 among the 29 chapters in the subject. Between 2019 and 2026, 100 questions were catalogued from this chapter across 162 papers, representing 2.2 percent of all mathematics questions. It appeared in 90 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 examination cycles, it contributed 39 questions across 58 papers, averaging 0.7 questions per paper and capturing a 2.5 percent subject share. Comparing the earlier 2002 to 2018 share of 1.8 percent with the 2024 to 2026 level shows that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete historical record from 2004 to 2026 across 200 papers, 123 questions appeared in 112 papers, including 18 numerical answer questions between 2019 and 2026.
+
+The annual numbers for 2024, 2025, and 2026 stood at 8, 18, and 13 questions respectively, demonstrating steady modern engagement.
 
 Examiners frequently formulate ellipse problems in conjunction with circles or auxiliary lines. Typical questions involve focal properties, eccentricities, equations of chords and tangents, and locus equations of geometric centroids or chord midpoints.
 

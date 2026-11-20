@@ -1,10 +1,6 @@
-# JEE Main Sets, Relations & Functions: PYQ Trends & Preparation Guide
-
-Sets, Relations & Functions provides the structural framework for mathematical reasoning across calculus and algebra. The chapter investigates set operations, Venn diagrams, Cartesian products, equivalence relations, domain and range of real functions, one-one (injective) and onto (surjective) mappings, composite functions, and functional equations.
-
 ## How often it comes up
 
-In the 2019 to 2026 testing window, Sets, Relations & Functions produced 266 questions across 162 exam papers, making up 5.8% of the mathematics section and capturing rank 2 of 29 chapters. During the 2002 to 2018 period, it contributed 55 questions across 38 papers with a 4.2% share. Across recent 2024 to 2026 sessions, it expanded dramatically to 118 questions across 58 papers, accounting for a 7.6% share. The chapter's appearance weight has trended up strongly across recent exam sessions.
+Sets, relations and functions provides the foundation for calculus and algebra under Unit 1: Sets, Relations and Functions in the Class 11 curriculum, capturing rank 2 of 29 chapters with a 5.8% share of the mathematics section. In the 2019 to 2026 testing window, Sets, Relations & Functions produced 266 questions across 162 exam papers, making up 5.8% of the mathematics section and capturing rank 2 of 29 chapters. During the 2002 to 2018 period, it contributed 55 questions across 38 papers with a 4.2% share. Across recent 2024 to 2026 sessions, it expanded dramatically to 118 questions across 58 papers, accounting for a 7.6% share. The chapter's appearance weight has trended up strongly across recent exam sessions.
 
 The topic has appeared every year from 2019 to 2026. Across 2019 to 2026, students met an average of 1.6 questions per paper, rising to 2.0 questions per paper between 2024 and 2026. It yielded 62 numerical answer questions between 2019 and 2026, frequently requiring integer counting of relation pairs or mapping combinations.
 

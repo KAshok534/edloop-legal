@@ -1,17 +1,8 @@
-# Area Under Curves: JEE Main Guide
-
-Area Under Curves combines coordinate geometry curve-sketching with definite integration in JEE Main. Between 2019 and 2026, 146 questions were set from this chapter across 162 papers, representing 3.2 percent of all mathematics questions and placing it at rank 18 among the 29 chapters in the subject. It appeared in 141 of those 162 papers and has been tested every single year since 2019. In the recent 2024 to 2026 testing window, it generated 59 questions across 58 papers, averaging 1.0 question per paper and capturing a 3.8 percent subject share. Comparing its 2.4 percent share during the 2002 to 2018 period against 2024 to 2026, its share is up, and comparing 2019 to 2026 against 2024 to 2026 also shows it is up. Over the full 2002 to 2026 historical record of 200 papers, 178 questions were asked across 171 papers, including 45 numerical answer questions between 2019 and 2026.
-
-```
-Area Under Curves in JEE Main (2019-2026)
-Total questions: 146 | Rank: 18 of 29 chapters
-Average per paper: 0.9 | Subject share: 3.2%
-Shift occurrence: featured in 141 of 162 papers
-```
-
 ## How often it comes up
 
-In recent examination administrations, candidates should expect approximately one area problem in almost every session. Across the 162 shifts between 2019 and 2026, 141 shifts included an area problem. The question volumes across 2024, 2025, and 2026 were 21, 20, and 18 questions respectively, showing steady presence.
+Area under curves combines curve-sketching with definite integration under Unit 8: Integral Calculus in the Class 12 curriculum, placing it at rank 18 among the 29 chapters in the subject. Between 2019 and 2026, 146 questions were set from this chapter across 162 papers, representing 3.2 percent of all mathematics questions. It appeared in 141 of those 162 papers and has been tested every single year since 2019. In the recent 2024 to 2026 testing window, it generated 59 questions across 58 papers, averaging 1.0 question per paper and capturing a 3.8 percent subject share. Comparing its 2.4 percent share during the 2002 to 2018 period against 2024 to 2026, its share is up, and comparing 2019 to 2026 against 2024 to 2026 also shows it is up. Over the full 2002 to 2026 historical record of 200 papers, 178 questions were asked across 171 papers, including 45 numerical answer questions between 2019 and 2026.
+
+The question volumes across 2024, 2025, and 2026 were 21, 20, and 18 questions respectively, showing steady presence.
 
 Because calculating a bounded planar area requires solving simultaneous equations for intersection coordinates and setting up definite integrals across appropriate limits, this chapter functions as a comprehensive checkpoint for curve sketching and integral evaluation. Furthermore, area questions frequently appear in the numerical section.
 

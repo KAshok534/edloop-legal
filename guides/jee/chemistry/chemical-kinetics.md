@@ -1,10 +1,6 @@
-# JEE Main Chemical Kinetics: PYQ Trends & Preparation Guide
-
-Chemical Kinetics deals with reaction speeds, reaction pathways, and the factors altering rates. Within physical chemistry for JEE Main, it stands as one of the most reliable scoring chapters because questions stick closely to mathematical formulas and well-tested graph interpretations.
-
 ## How often it comes up
 
-In the 2019 to 2026 period, Chemical Kinetics accounted for 178 questions across 162 papers, holding a 3.9% share of all chemistry questions and ranking 10 of 31 chapters. During earlier testing between 2002 and 2018, it represented 57 questions across 38 papers with a 4.2% share. Looking at 2024 to 2026, the volume rose to 73 questions in 58 papers, taking a 4.7% subject share. The chapter's trajectory has trended up across recent shifts.
+Chemical kinetics deals with reaction speeds and reaction mechanisms under Unit 8: Chemical Kinetics in the Class 12 curriculum, holding rank 10 of 31 chemistry chapters with a 3.9% share of all chemistry questions. In the 2019 to 2026 period, Chemical Kinetics accounted for 178 questions across 162 papers, holding a 3.9% share of all chemistry questions and ranking 10 of 31 chapters. During earlier testing between 2002 and 2018, it represented 57 questions across 38 papers with a 4.2% share. Looking at 2024 to 2026, the volume rose to 73 questions in 58 papers, taking a 4.7% subject share. The chapter's trajectory has trended up across recent shifts.
 
 The topic has appeared every year from 2019 to 2026. Students routinely encounter at least one question per test, averaging 1.1 questions per paper across 2019 to 2026 and 1.3 per paper in the 2024 to 2026 window. Additionally, numerical value problems feature very heavily here: 105 numerical answer questions were presented between 2019 and 2026.
 

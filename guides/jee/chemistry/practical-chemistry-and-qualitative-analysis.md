@@ -1,10 +1,6 @@
-# JEE Main Practical Chemistry & Qualitative Analysis: PYQ Trends & Preparation Guide
-
-Practical Chemistry & Qualitative Analysis covers laboratory techniques, systematic inorganic cation and anion detection (salt analysis), organic functional group tests, titrimetric methods, and double salt preparations. In recent testing sessions, this unit has gained significant momentum in JEE Main.
-
 ## How often it comes up
 
-During 2019 to 2026, Practical Chemistry & Qualitative Analysis registered 97 questions across 162 exam papers, accounting for 2.1% of chemistry questions and holding rank 26 of 31 chapters. In the earlier testing span from 2002 to 2018, it contributed 16 questions across 38 papers, delivering a 1.2% share. Across the recent 2024 to 2026 cycle, question counts rose sharply to 51 questions across 58 papers, capturing a 3.3% share. The testing weight has trended up across recent shifts.
+Practical chemistry and qualitative analysis covers salt analysis and titrimetric methods under Unit 20: Principles Related to Practical Chemistry in the Class 12 curriculum, holding rank 26 of 31 chapters with a 2.1% share of chemistry questions. During 2019 to 2026, Practical Chemistry & Qualitative Analysis registered 97 questions across 162 exam papers, accounting for 2.1% of chemistry questions and holding rank 26 of 31 chapters. In the earlier testing span from 2002 to 2018, it contributed 16 questions across 38 papers, delivering a 1.2% share. Across the recent 2024 to 2026 cycle, question counts rose sharply to 51 questions across 58 papers, capturing a 3.3% share. The testing weight has trended up across recent shifts.
 
 The chapter has appeared every year from 2019 to 2026. Students met an average of 0.6 questions per paper over 2019 to 2026, rising to 0.9 questions per paper in the 2024 to 2026 period. Eleven numerical answer questions were included between 2019 and 2026.
 

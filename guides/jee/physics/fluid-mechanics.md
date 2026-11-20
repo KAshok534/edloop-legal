@@ -47,7 +47,7 @@ For surface tension, distinguish carefully between drops and bubbles: a liquid d
 
 ## Frequently asked questions
 
-### Is Fluid Mechanics high yield in JEE Main 2027?
+### Is Fluid Mechanics heavily tested in JEE Main 2027?
 
 Yes. Fluid Mechanics generated 146 questions across 162 papers in our set from 2019 to 2026, averaging 0.9 questions per paper. It ranks 15th among 29 Physics chapters and appeared in 116 of those 162 papers.
 

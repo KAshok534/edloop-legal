@@ -1,6 +1,6 @@
 ## How often it comes up
 
-Units, Dimensions & Errors serves as the starting gate of the Class 11 Physics syllabus and has become a major scoring area in JEE Main. Across the papers we hold from 2019 to 2026, the chapter delivered **235 questions in 162 papers**, working out to **1.5 questions per paper**, and appeared in 156 of those 162 papers. That makes it the **4th largest of 29 Physics chapters** over that span, accounting for 5.1% of all Physics questions.
+Units,Dimensions & Errors serves as the starting gate of the Class 11 Physics syllabus and has become a major testing area in JEE Main. Across the papers we hold from 2019 to 2026, the chapter delivered **235 questions in 162 papers**, working out to **1.5 questions per paper**, and appeared in 156 of those 162 papers. That makes it the **4th largest of 29 Physics chapters** over that span, accounting for 5.1% of all Physics questions.
 
 The chapter has grown significantly compared to earlier decades. In the AIEEE and early JEE Main years (2002 to 2018), it represented 3.5% of the Physics section; in the last three exam years (2024 to 2026), its share rose to 6.5%, producing 101 questions in 58 papers. The peak years in our collection were 2021 (38 questions in 26 papers) and 2024 (38 questions in 20 papers). Since 2019 there has been no year without it, featuring in 156 of the 162 papers we hold.
 
@@ -47,7 +47,7 @@ For measuring instruments, draw the barrel and thimble scales of a screw gauge a
 
 ## Frequently asked questions
 
-### Is Units, Dimensions & Errors high scoring in JEE Main 2027?
+### Is Units, Dimensions & Errors heavily tested in JEE Main 2027?
 
 Yes. It provided 235 questions across the 162 papers we hold from 2019 to 2026, averaging 1.5 questions per paper. It ranks 4th among 29 Physics chapters and appeared in 156 of the 162 papers in our collection.
 

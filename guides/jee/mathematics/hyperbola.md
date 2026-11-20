@@ -1,17 +1,8 @@
-# Hyperbola: JEE Main Guide
-
-Hyperbola completes the conic sections curriculum in JEE Main coordinate geometry. Between 2019 and 2026, 83 questions were asked from this chapter across 162 papers, representing 1.8 percent of all mathematics questions and occupying rank 24 among the 29 chapters in the subject. It appeared in 79 of those 162 papers and has been tested every single year since 2019. In the recent 2024 to 2026 testing sessions, it delivered 34 questions across 58 papers, averaging 0.6 questions per paper and holding a 2.2 percent subject share. Comparing the earlier 2002 to 2018 share of 1.4 percent against 2024 to 2026 shows that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Over the entire 2003 to 2026 historical record across 200 papers, 101 questions were asked in 97 papers, with 26 numerical answer questions appearing between 2019 and 2026.
-
-```
-Hyperbola in JEE Main (2019-2026)
-Total questions: 83 | Rank: 24 of 29 chapters
-Average per paper: 0.5 | Subject share: 1.8%
-Shift coverage: present in 79 of 162 papers
-```
-
 ## How often it comes up
 
-Students typically encounter a hyperbola problem in about every second examination paper. Across the 162 test shifts from 2019 to 2026, 79 shifts featured a dedicated hyperbola question. In the 2024, 2025, and 2026 test cycles, the question volumes were 11, 11, and 12 questions respectively, maintaining an exceptionally stable level of appearances.
+Hyperbola completes the conic sections curriculum under Unit 10: Coordinate Geometry in the Class 11 curriculum, occupying rank 24 among the 29 chapters in the subject. Between 2019 and 2026, 83 questions were asked from this chapter across 162 papers, representing 1.8 percent of all mathematics questions. It appeared in 79 of those 162 papers and has been tested every single year since 2019. In the recent 2024 to 2026 testing sessions, it delivered 34 questions across 58 papers, averaging 0.6 questions per paper and holding a 2.2 percent subject share. Comparing the earlier 2002 to 2018 share of 1.4 percent against 2024 to 2026 shows that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Over the entire 2003 to 2026 historical record across 200 papers, 101 questions were asked in 97 papers, with 26 numerical answer questions appearing between 2019 and 2026.
+
+In the 2024, 2025, and 2026 test cycles, the question volumes were 11, 11, and 12 questions respectively, maintaining an exceptionally stable level of appearances.
 
 Examiners frequently formulate confocal conic questions where an ellipse and a hyperbola share the same foci. In addition, problems often investigate conditions of tangency, non-intersection conditions between secant lines and hyperbola branches, or focal triangle areas.
 

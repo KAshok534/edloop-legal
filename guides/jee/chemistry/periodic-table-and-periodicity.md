@@ -1,10 +1,6 @@
-# JEE Main Periodic Table & Periodicity: PYQ Trends & Preparation Guide
-
-Periodic Table & Periodicity establishes the structural framework for all inorganic chemistry in JEE Main. Testing focuses on electron configurations, atomic and ionic radii, successive ionisation enthalpies, electron gain enthalpies, electronegativity scales, and oxide acidity trends across periods and groups.
-
 ## How often it comes up
 
-Between 2019 and 2026, Periodic Table & Periodicity yielded 145 questions across 162 exam papers, corresponding to a 3.2% share of the chemistry section and holding rank 16 of 31 chapters. In the earlier testing phase from 2002 to 2018, the chapter accounted for 37 questions across 38 papers, delivering a 2.8% share. Recent sessions from 2024 to 2026 saw 59 questions across 58 papers, representing a 3.8% share. The chapter's testing trend has moved up across recent exam sessions.
+Periodic table and periodicity establishes periodic trends under Unit 9: Classification of Elements and Periodicity in Properties in the Class 11 curriculum, holding rank 16 of 31 chapters with a 3.2% share of the chemistry section. Between 2019 and 2026, Periodic Table & Periodicity yielded 145 questions across 162 exam papers, corresponding to a 3.2% share of the chemistry section and holding rank 16 of 31 chapters. In the earlier testing phase from 2002 to 2018, the chapter accounted for 37 questions across 38 papers, delivering a 2.8% share. Recent sessions from 2024 to 2026 saw 59 questions across 58 papers, representing a 3.8% share. The chapter's testing trend has moved up across recent exam sessions.
 
 Questions have appeared every year from 2019 to 2026. Across the 2019 to 2026 span, it averaged 0.9 questions per paper, rising to 1.0 question per paper in the 2024 to 2026 interval. Because the subject matter is primarily qualitative, numerical answer questions are uncommon here, with only 8 recorded from 2019 to 2026.
 

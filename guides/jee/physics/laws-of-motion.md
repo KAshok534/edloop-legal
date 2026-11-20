@@ -47,7 +47,7 @@ In circular motion, identify the physical agent supplying the centripetal force,
 
 ## Frequently asked questions
 
-### Is Laws of Motion vital for scoring well in JEE Main 2027?
+### Is Laws of Motion vital for overall mechanics in JEE Main 2027?
 
 Yes. Laws of Motion yielded 195 questions across 162 papers in our set from 2019 to 2026, giving 1.2 questions per paper. It ranks 8th among 29 Physics chapters and appeared in 126 of the 162 papers we hold.
 

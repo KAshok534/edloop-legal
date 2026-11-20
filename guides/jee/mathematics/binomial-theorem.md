@@ -1,10 +1,6 @@
-# JEE Main Binomial Theorem: PYQ Trends & Preparation Guide
-
-Binomial Theorem covers polynomial expansions for positive integral indices along with their algebraic applications. Key topics include general terms (T_{r+1}), middle terms, terms independent of x, summation and differentiation of combinatorial binomial coefficients, remainder and divisibility problems using modular binomial expansions, and multinomial expansions.
-
 ## How often it comes up
 
-In the 2019 to 2026 examination timeframe, Binomial Theorem contributed 207 questions across 162 test papers, delivering 4.5% of the mathematics section and holding rank 9 of 29 chapters. During the earlier 2002 to 2018 era, it accounted for 49 questions across 38 papers with a 3.7% share. Across the 2024 to 2026 sessions, it recorded 60 questions across 58 papers, capturing a 3.9% share. Comparing 2002 to 2018 against 2024 to 2026, its share is about the same, while comparing 2019 to 2026 against 2024 to 2026, the trend is down.
+Binomial theorem covers polynomial expansions and coefficient identities under Unit 5: Binomial Theorem and its Simple Applications in the Class 11 curriculum, holding rank 9 of 29 chapters with a 4.5% share of the mathematics section. In the 2019 to 2026 examination timeframe, Binomial Theorem contributed 207 questions across 162 test papers, delivering 4.5% of the mathematics section and holding rank 9 of 29 chapters. During the earlier 2002 to 2018 era, it accounted for 49 questions across 38 papers with a 3.7% share. Across the 2024 to 2026 sessions, it recorded 60 questions across 58 papers, capturing a 3.9% share. Comparing 2002 to 2018 against 2024 to 2026, its share is about the same, while comparing 2019 to 2026 against 2024 to 2026, the trend is down.
 
 The topic has appeared every year from 2019 to 2026. Across 2019 to 2026, it averaged 1.3 questions per paper, settling at 1.0 question per paper in the 2024 to 2026 interval. It serves as an extensive source of numerical problems, generating 84 numerical answer questions between 2019 and 2026.
 

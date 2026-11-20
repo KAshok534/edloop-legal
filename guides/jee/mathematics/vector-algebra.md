@@ -1,17 +1,8 @@
-# Vector Algebra: JEE Main Guide
-
-Vector Algebra provides the algebraic tools for geometric problem solving and spatial physics in JEE Main. Across the 162 examination papers administered between 2019 and 2026, this chapter contributed 223 questions, capturing 4.9 percent of all mathematics questions and securing rank 6 among the 29 chapters in the subject. It appeared in 153 of those 162 papers and has been featured every year since 2019. Over the recent 2024 to 2026 examination cycles, it delivered 84 questions across 58 papers, averaging 1.4 questions per paper with an increased subject share of 5.4 percent. Comparing the earlier 2002 to 2018 share of 4.8 percent against the 2024 to 2026 level shows that its long-term share is up, and comparing 2019 to 2026 with 2024 to 2026 also shows it is up. Over the full 2002 to 2026 archive spanning 200 papers, 286 questions appeared in 189 papers, with 54 questions featured in the numerical answer format between 2019 and 2026.
-
-```
-Vector Algebra in JEE Main (2019-2026)
-Total questions: 223 | Rank: 6 of 29 chapters
-Average per paper: 1.4 | Subject share: 4.9%
-Testing footprint: asked in 153 of 162 papers
-```
-
 ## How often it comes up
 
-Students can expect one to two vector questions in nearly every examination shift. Between 2019 and 2026, 153 out of 162 papers included vector problems. In the 2024, 2025, and 2026 testing sessions, the question numbers were 39, 22, and 23 questions respectively.
+Vector algebra provides algebraic tools for geometric problem solving under Unit 12: Vector Algebra in the Class 12 curriculum, securing rank 6 among the 29 chapters in the subject. Across the 162 examination papers administered between 2019 and 2026, this chapter contributed 223 questions, capturing 4.9 percent of all mathematics questions. It appeared in 153 of those 162 papers and has been featured every year since 2019. Over the recent 2024 to 2026 examination cycles, it delivered 84 questions across 58 papers, averaging 1.4 questions per paper with an increased subject share of 5.4 percent. Comparing the earlier 2002 to 2018 share of 4.8 percent against the 2024 to 2026 level shows that its long-term share is up, and comparing 2019 to 2026 with 2024 to 2026 also shows it is up. Over the full 2002 to 2026 archive spanning 200 papers, 286 questions appeared in 189 papers, with 54 questions featured in the numerical answer format between 2019 and 2026.
+
+In the 2024, 2025, and 2026 testing sessions, the question numbers were 39, 22, and 23 questions respectively.
 
 Vector algebra works in close partnership with three-dimensional geometry. While spatial lines are categorized under coordinate geometry, vector equations, vector projections, and vector triple products provide the underlying algebraic mechanics used to resolve these spatial relationships.
 

@@ -1,10 +1,6 @@
-# JEE Main Matrices: PYQ Trends & Preparation Guide
-
-Matrices provides essential tools for linear transformations and solving simultaneous systems. Core concepts encompass matrix operations (multiplication, transpose, symmetric and skew-symmetric matrices), trace, powers of nilpotent and idempotent matrices, adjoint and inverse properties, Cayley-Hamilton theorem, and Cramer's rule alongside matrix methods for systems of linear equations.
-
 ## How often it comes up
 
-In the 2019 to 2026 testing cycle, Matrices contributed 260 questions across 162 exam papers, delivering 5.7% of all mathematics questions and standing at rank 4 of 29 chapters. During the earlier 2002 to 2018 timeframe, it produced 52 questions across 38 papers with a 4.0% share. In the recent 2024 to 2026 window, question volume reached 88 questions across 58 papers, accounting for a 5.7% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
+Matrices provides tools for linear transformations and solving systems of linear equations under Unit 3: Matrices and Determinants in the Class 12 curriculum, standing at rank 4 of 29 chapters with a 5.7% share of all mathematics questions. In the 2019 to 2026 testing cycle, Matrices contributed 260 questions across 162 exam papers, delivering 5.7% of all mathematics questions and standing at rank 4 of 29 chapters. During the earlier 2002 to 2018 timeframe, it produced 52 questions across 38 papers with a 4.0% share. In the recent 2024 to 2026 window, question volume reached 88 questions across 58 papers, accounting for a 5.7% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
 
 The chapter has appeared every year from 2019 to 2026. Across 2019 to 2026, candidates faced an average of 1.6 questions per paper, and 1.5 questions per paper between 2024 and 2026. It yielded 66 numerical answer questions from 2019 to 2026, making it one of the largest numerical question sources in the exam.
 

@@ -47,7 +47,7 @@ For thermal radiation, remember that temperatures in the Stefan-Boltzmann law an
 
 ## Frequently asked questions
 
-### Is Thermal Properties of Matter a quick scoring chapter for JEE Main 2027?
+### Is Thermal Properties of Matter a concise chapter for JEE Main 2027?
 
 Yes. It provided 91 questions across 162 papers in our set from 2019 to 2026, appearing in 73 of those 162 papers. Because the formulas are direct and the topic count is small, students can master it in a couple of study sessions.
 

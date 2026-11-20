@@ -1,17 +1,8 @@
-# Differential Equations: JEE Main Guide
-
-Differential Equations is one of the highest-yield chapters in JEE Main calculus. Between 2019 and 2026, the examination presented 212 questions from this chapter across 162 papers, representing 4.6 percent of all mathematics questions and securing rank 8 among the 29 chapters in the subject. It appeared in 155 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 test cycles, it accounted for 75 questions across 58 papers, averaging 1.3 questions per paper with a 4.8 percent subject share. Comparing its earlier 2002 to 2018 share of 3.3 percent against 2024 to 2026 reveals that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2026 spanning 200 papers, 255 questions were asked in 191 papers, including 50 numerical answer questions between 2019 and 2026.
-
-```
-Differential Equations in JEE Main (2019-2026)
-Total questions: 212 | Rank: 8 of 29 chapters
-Average per paper: 1.3 | Subject share: 4.6%
-Paper distribution: asked in 155 of 162 papers
-```
-
 ## How often it comes up
 
-Differential equations appear in almost every examination sitting, with many papers presenting more than one question. Across the 162 test shifts from 2019 to 2026, 155 featured this chapter. In the 2024, 2025, and 2026 testing periods, the counts stood at 39, 18, and 18 questions respectively, highlighting its sustained prominence.
+Differential equations is a prominent calculus chapter under Unit 9: Differential Equations in the Class 12 curriculum, securing rank 8 among the 29 chapters in the subject. Between 2019 and 2026, the examination presented 212 questions from this chapter across 162 papers, representing 4.6 percent of all mathematics questions. It appeared in 155 of those 162 papers and has been tested every single year since 2019. Over the recent 2024 to 2026 test cycles, it accounted for 75 questions across 58 papers, averaging 1.3 questions per paper with a 4.8 percent subject share. Comparing its earlier 2002 to 2018 share of 3.3 percent against 2024 to 2026 reveals that its long-term share is up, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2026 spanning 200 papers, 255 questions were asked in 191 papers, including 50 numerical answer questions between 2019 and 2026.
+
+In the 2024, 2025, and 2026 testing periods, the counts stood at 39, 18, and 18 questions respectively, highlighting its sustained prominence.
 
 The overwhelming majority of problems require solving a first-order differential equation subject to an initial value condition, followed by evaluating the resulting particular solution at a specified coordinate. Because these questions end in a concrete numerical value, they frequently appear in the numerical response section.
 

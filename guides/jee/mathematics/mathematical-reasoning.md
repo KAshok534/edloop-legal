@@ -1,22 +1,8 @@
-# Mathematical Reasoning: JEE Main Guide
-
-> [!WARNING]
-> Mathematical Reasoning was formally excised from the JEE Main syllabus in 2024. It was asked 101 times between 2019 and 2026 but zero times in 2024, 2025, and 2026.
-
-Mathematical Reasoning was historically one of the most consistent, formulaic scoring chapters in JEE Main mathematics. Across the 162 papers conducted between 2019 and 2026, the examination included 101 questions from this chapter, capturing 2.2 percent of all mathematics questions and occupying rank 21 among the 29 chapters in the subject. It appeared in 100 of those 162 papers, but was not asked in 2024, 2025, or 2026. Over the recent 2024 to 2026 testing cycles, zero questions were asked across 58 papers, averaging 0.0 questions per paper with a 0.0 percent subject share. Comparing the earlier 2002 to 2018 share of 2.4 percent with 2024 to 2026 shows that its long-term share is down, and comparing 2019 to 2026 against 2024 to 2026 also shows it is down. Across the complete historical record from 2008 to 2023 covering 200 papers, 132 questions appeared in 130 papers, including 2 numerical answer questions between 2019 and 2026.
-
-```
-Mathematical Reasoning in JEE Main (2019-2026)
-Total questions: 101 | Rank: 21 of 29 chapters
-Average per paper: 0.6 | Subject share: 2.2%
-Current status: Excluded from syllabus in 2024
-```
-
 ## How often it comes up
 
-Up until the end of the 2023 examination season, mathematical reasoning appeared in most testing sessions, delivering multiple-choice questions on symbolic logic. However, following the curriculum overhaul by the NTA for the 2024 exam, the chapter was completely removed.
+Mathematical reasoning was formerly in the Class 11 mathematics curriculum before being removed in 2024, occupying rank 21 among the 29 chapters in the subject. Across the 162 papers conducted between 2019 and 2026, the examination included 101 questions from this chapter, capturing 2.2 percent of all mathematics questions. It appeared in 100 of those 162 papers, but was not asked in 2024, 2025, or 2026. Over the recent 2024 to 2026 testing cycles, zero questions were asked across 58 papers, averaging 0.0 questions per paper with a 0.0 percent subject share. Comparing the earlier 2002 to 2018 share of 2.4 percent with 2024 to 2026 shows that its long-term share is down, and comparing 2019 to 2026 against 2024 to 2026 also shows it is down. Across the complete historical record from 2008 to 2023 covering 200 papers, 132 questions appeared in 130 papers, including 2 numerical answer questions between 2019 and 2026.
 
-In 2024, 2025, and 2026, exactly zero questions appeared across all 58 examination sessions. As a result, candidates preparing for current and future examination cycles should omit this chapter from their preparation schedules.
+Up until the end of the 2023 examination season, mathematical reasoning appeared in most testing sessions, delivering multiple-choice questions on symbolic logic. In 2024, 2025, and 2026, exactly zero questions appeared across all 58 examination sessions. As a result, candidates preparing for current and future examination cycles should omit this chapter from their preparation schedules.
 
 ## Most-asked topics
 

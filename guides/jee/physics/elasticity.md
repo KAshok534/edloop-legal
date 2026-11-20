@@ -45,7 +45,7 @@ For elastic potential energy, practice deriving both total stored energy (half o
 
 ## Frequently asked questions
 
-### Is Elasticity a high-scoring topic in JEE Main 2027?
+### Is Elasticity regularly tested in JEE Main 2027?
 
 Yes. Elasticity delivered 99 questions across 162 papers in our collection from 2019 to 2026, appearing in 84 of those 162 papers. Because the question patterns are narrow and repetitive, it offers reliable marks for modest preparation time.
 

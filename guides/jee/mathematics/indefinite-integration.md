@@ -1,17 +1,8 @@
-# Indefinite Integration: JEE Main Guide
-
-Indefinite Integration equips students with the algebraic manipulation techniques required to find antiderivatives across calculus in JEE Main. Between 2019 and 2026, the examination featured 77 questions from this chapter across 162 papers, representing 1.7 percent of all mathematics questions and placing it at rank 25 among the 29 chapters in the subject. It appeared in 76 of those papers and has been asked every year since 2019. Over the recent three-year window of 2024 to 2026, 29 questions were asked across 58 papers, averaging 0.5 questions per paper with a 1.9 percent subject share. Comparing the earlier 2002 to 2018 share of 2.5 percent to the recent 2024 to 2026 level shows that its long-term share is down, whereas the comparison between 2019 to 2026 and 2024 to 2026 indicates that it is about the same. Across the complete archive from 2004 to 2026 spanning 200 papers, 110 questions appeared across 108 papers, including 17 numerical answer questions between 2019 and 2026.
-
-```
-Indefinite Integration in JEE Main (2019-2026)
-Total questions: 77 | Rank: 25 of 29 chapters
-Average per paper: 0.5 | Subject share: 1.7%
-Shift coverage: present in 76 of 162 papers
-```
-
 ## How often it comes up
 
-Students typically encounter an antiderivative question in about every second paper. Across the 162 examination shifts conducted from 2019 to 2026, 76 papers featured a problem directly drawn from this unit. In 2024, 2025, and 2026, the question tallies were 12, 9, and 8 questions respectively.
+Indefinite integration equips students with algebraic techniques to find antiderivatives under Unit 8: Integral Calculus in the Class 12 curriculum, placing it at rank 25 among the 29 chapters in the subject. Between 2019 and 2026, the examination featured 77 questions from this chapter across 162 papers, representing 1.7 percent of all mathematics questions. It appeared in 76 of those papers and has been asked every year since 2019. Over the recent three-year window of 2024 to 2026, 29 questions were asked across 58 papers, averaging 0.5 questions per paper with a 1.9 percent subject share. Comparing the earlier 2002 to 2018 share of 2.5 percent to the recent 2024 to 2026 level shows that its long-term share is down, whereas the comparison between 2019 to 2026 and 2024 to 2026 indicates that it is about the same. Across the complete archive from 2004 to 2026 spanning 200 papers, 110 questions appeared across 108 papers, including 17 numerical answer questions between 2019 and 2026.
+
+Students typically encounter an antiderivative question in about every second paper. In 2024, 2025, and 2026, the question tallies were 12, 9, and 8 questions respectively.
 
 Even though its standalone volume ranks near the lower quarter of mathematics chapters, indefinite integration techniques underpin definite integrals, area evaluations, and differential equations. Examiners frequently formulate problems by defining a function as an indefinite integral with a boundary condition, requiring candidates to find an antiderivative before evaluating the function at a specific point.
 

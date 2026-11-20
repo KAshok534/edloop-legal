@@ -1,10 +1,6 @@
-# Ray Optics: JEE Main PYQ Trends & Preparation Guide
-
-Ray optics investigates the rectilinear propagation of light, geometric image formation by curved mirrors and lenses, total internal reflection, prism dispersion, and optical instruments. Listed under Unit 16: Optics in the Class 12 physics syllabus, it ranks among the highest-yield chapters in the entire exam. Between 2019 and 2026, the question database logs 227 questions across 162 papers, earning the chapter rank 6 among all 29 physics chapters with a 5.0 percent share of the subject.
-
 ## How often it comes up
 
-During the modern computer-based testing era from 2019 to 2026, ray optics supplied 227 questions in 162 test papers, delivering an average of 1.4 problems per sitting. The chapter appeared in 150 of those 162 test papers, with questions featured in every single exam year. Over the recent 2024 to 2026 cycle, its testing frequency has risen significantly: candidates encountered 96 questions across 58 papers, achieving a rate of 1.7 questions per paper and a 6.2 percent share. This demonstrates a trend that is up compared to the 3.8 percent share recorded from 51 questions in the 2002 to 2018 testing window. In the 2026 exam season alone, examiners set 35 questions across 19 papers, with problems appearing in 19 separate sessions. Across the 2019 to 2026 timeframe, 64 questions were structured as numerical answer questions, meaning students regularly calculate focal lengths, image positions, and magnifications without multiple choices.
+Ray optics investigates geometric image formation under Unit 16: Optics in the Class 12 physics syllabus, holding rank 6 among all 29 physics chapters with a 5.0 percent share of the subject. During the modern computer-based testing era from 2019 to 2026, ray optics supplied 227 questions in 162 test papers, delivering an average of 1.4 problems per sitting. The chapter appeared in 150 of those 162 test papers, with questions featured in every single exam year. Over the recent 2024 to 2026 cycle, its testing frequency has risen significantly: candidates encountered 96 questions across 58 papers, achieving a rate of 1.7 questions per paper and a 6.2 percent share. This demonstrates a trend that is up compared to the 3.8 percent share recorded from 51 questions in the 2002 to 2018 testing window. In the 2026 exam season alone, examiners set 35 questions across 19 papers, with problems appearing in 19 separate sessions. Across the 2019 to 2026 timeframe, 64 questions were structured as numerical answer questions, meaning students regularly calculate focal lengths, image positions, and magnifications without multiple choices.
 
 ## Most-asked topics
 
@@ -47,7 +43,7 @@ For optical instruments, focus on normal adjustment where the final image forms 
 ## Frequently asked questions
 
 ### Which concepts in ray optics appear most frequently?
-Lenses and refraction together comprise over sixty percent of all ray optics questions. Mastery of the lens maker equation, lens combinations, and refraction at spherical surfaces yields the highest score dividends.
+Lenses and refraction together comprise over sixty percent of all ray optics questions. Mastery of the lens maker equation, lens combinations, and refraction at spherical surfaces yields the highest returns in practice.
 
 ### What is the most common reason for mistakes in ray optics?
 Sign convention errors account for most lost marks. Students often forget to apply signs to focal lengths and object distances, or accidentally invert the signs of radii of curvature when substituting into the lens maker formula.

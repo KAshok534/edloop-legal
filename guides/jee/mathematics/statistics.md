@@ -1,17 +1,8 @@
-# Statistics: JEE Main Guide
-
-Statistics provides a highly formula-driven, dependable scoring opportunity in JEE Main mathematics. Across the 162 papers administered between 2019 and 2026, the examination included 121 questions from this chapter, representing 2.6 percent of all mathematics questions and placing it at rank 19 among the 29 chapters in the subject. It appeared in 121 of those 162 papers and has been tested every year since 2019. Over the recent 2024 to 2026 examination cycles, it supplied 38 questions across 58 papers, averaging 0.7 questions per paper with a 2.5 percent subject share. Comparing the earlier 2002 to 2018 share of 3.0 percent against 2024 to 2026 shows that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 indicates that it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 160 questions appeared in 156 papers, with 37 numerical answer questions asked between 2019 and 2026.
-
-```
-Statistics in JEE Main (2019-2026)
-Total questions: 121 | Rank: 19 of 29 chapters
-Average per paper: 0.7 | Subject share: 2.6%
-Paper presence: featured in 121 of 162 papers
-```
-
 ## How often it comes up
 
-Students can expect a statistics question in roughly three out of every four examination shifts. Between 2019 and 2026, 121 of the 162 examination shifts presented a problem from this chapter. The annual question totals for 2024, 2025, and 2026 were 14, 8, and 16 questions respectively.
+Statistics provides formula-driven dispersion and central tendency problems under Unit 13: Statistics and Probability in the Class 11 curriculum, placing it at rank 19 among the 29 chapters in the subject. Across the 162 papers administered between 2019 and 2026, the examination included 121 questions from this chapter, representing 2.6 percent of all mathematics questions. It appeared in 121 of those 162 papers and has been tested every year since 2019. Over the recent 2024 to 2026 examination cycles, it supplied 38 questions across 58 papers, averaging 0.7 questions per paper with a 2.5 percent subject share. Comparing the earlier 2002 to 2018 share of 3.0 percent against 2024 to 2026 shows that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 indicates that it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 160 questions appeared in 156 papers, with 37 numerical answer questions asked between 2019 and 2026.
+
+The annual question totals for 2024, 2025, and 2026 were 14, 8, and 16 questions respectively.
 
 Statistics questions in JEE Main are renowned for following highly repetitive algebraic recipes. Most problems focus on determining two missing observations from given values of the mean and variance, or correcting erroneous data entries, making thorough computational accuracy the decisive success factor.
 

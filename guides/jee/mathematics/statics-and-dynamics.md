@@ -1,18 +1,6 @@
-# Statics & Dynamics: JEE Main Guide
-
-> [!WARNING]
-> Statics & Dynamics belonged to the old AIEEE mathematics syllabus and was discontinued after 2007. It is not part of the modern JEE Main mathematics curriculum.
-
-Statics & Dynamics is a legacy chapter that appeared exclusively in early AIEEE mathematics papers. Between 2019 and 2026, zero questions were asked from this chapter across 162 papers, representing 0.0 percent of all mathematics questions and placing it at rank 29 among the 29 chapters in the subject. It appeared in 0 of those 162 papers and was not asked in 2019, 2020, 2021, 2022, 2023, 2024, 2025, or 2026. In the 2024 to 2026 testing sessions, 0 questions appeared across 58 papers, averaging 0.0 questions per paper with a 0.0 percent subject share. Comparing the earlier 2002 to 2018 share of 1.3 percent to the 2024 to 2026 share shows that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2007 spanning 200 papers, 17 questions appeared across 6 papers, with 0 numerical answer questions between 2019 and 2026.
-
-```
-Statics & Dynamics in JEE Main (2019-2026)
-Total questions: 0 | Rank: 29 of 29 chapters
-Average per paper: 0.0 | Subject share: 0.0%
-Current status: Legacy AIEEE topic; not in JEE Main
-```
-
 ## How often it comes up
+
+Statics and dynamics is a legacy chapter that appeared exclusively in early AIEEE mathematics papers, placing it at rank 29 among the 29 chapters in the subject. Between 2019 and 2026, zero questions were asked from this chapter across 162 papers, representing 0.0 percent of all mathematics questions. It appeared in 0 of those 162 papers and was not asked in 2019, 2020, 2021, 2022, 2023, 2024, 2025, or 2026. In the 2024 to 2026 testing sessions, 0 questions appeared across 58 papers, averaging 0.0 questions per paper with a 0.0 percent subject share. Comparing the earlier 2002 to 2018 share of 1.3 percent to the 2024 to 2026 share shows that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2007 spanning 200 papers, 17 questions appeared across 6 papers, with 0 numerical answer questions between 2019 and 2026.
 
 This chapter has not appeared in any modern JEE Main sitting. It was completely dropped from the engineering entrance mathematics syllabus after 2007, when AIEEE streamlined mechanics into the physics paper. Zero questions were asked between 2008 and 2026.
 

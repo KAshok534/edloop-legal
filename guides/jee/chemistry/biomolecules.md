@@ -1,10 +1,6 @@
-# JEE Main Biomolecules: PYQ Trends & Preparation Guide
-
-Biomolecules bridges organic chemistry with biological structures. The chapter covers carbohydrates (glucose open-chain and cyclic structures, mutarotation, reducing versus non-reducing disaccharides, polysaccharides), amino acids (zwitterions, isoelectric points, essential versus non-essential types), proteins (peptide linkages, primary through quaternary structures, denaturation), nucleic acids (DNA and RNA nucleotides, phosphodiester bonds), and vitamins.
-
 ## How often it comes up
 
-During 2019 to 2026, Biomolecules accounted for 162 questions across 162 exam papers, delivering 3.5% of the chemistry section and holding rank 14 of 31 chapters. In the earlier 2002 to 2018 testing span, it contributed 45 questions across 38 papers with a 3.4% share. Over the recent 2024 to 2026 cycle, question numbers reached 60 questions across 58 papers, accounting for a 3.9% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, while comparing 2019 to 2026 against 2024 to 2026, the testing share has remained about the same.
+Biomolecules bridges organic chemistry with biological structures under Unit 19: Biomolecules in the Class 12 curriculum, holding rank 14 of 31 chapters with a 3.5% share of the chemistry section. During 2019 to 2026, Biomolecules accounted for 162 questions across 162 exam papers, delivering 3.5% of the chemistry section and holding rank 14 of 31 chapters. In the earlier 2002 to 2018 testing span, it contributed 45 questions across 38 papers with a 3.4% share. Over the recent 2024 to 2026 cycle, question numbers reached 60 questions across 58 papers, accounting for a 3.9% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, while comparing 2019 to 2026 against 2024 to 2026, the testing share has remained about the same.
 
 The chapter has appeared every year from 2019 to 2026. Across 2019 to 2026, students met an average of 1.0 question per paper, identical to the 1.0 question per paper recorded between 2024 and 2026. Nineteen numerical answer questions were presented from 2019 to 2026, often counting peptide bonds, chiral carbons, or stereoisomeric peptides.
 

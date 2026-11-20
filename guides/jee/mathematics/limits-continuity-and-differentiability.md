@@ -1,17 +1,8 @@
-# Limits, Continuity & Differentiability: JEE Main Guide
-
-Limits, Continuity & Differentiability forms the foundational bedrock of differential calculus in JEE Main. Between 2019 and 2026, this chapter contributed 220 questions across 162 papers, representing 4.8 percent of all mathematics questions and securing rank 7 among the 29 chapters in the subject. It appeared in 148 of those 162 papers and has been tested every single year since 2019. In the recent three-year window from 2024 to 2026, it maintained an identical subject share of 4.8 percent, delivering 75 questions across 58 papers at a steady rate of 1.3 questions per paper. Historical comparison reveals that both the shift from the 2002 to 2018 share of 5.0 percent to 2024 to 2026 and the comparison between 2019 to 2026 and 2024 to 2026 are about the same. Across the entire 2002 to 2026 span of 200 papers, 285 questions were asked across 186 shifts, with 59 numerical answer questions appearing between 2019 and 2026.
-
-```
-Limits, Continuity & Differentiability in JEE Main (2019-2026)
-Total questions: 220 | Rank: 7 of 29 chapters
-Average per paper: 1.4 | Subject share: 4.8%
-Paper appearance: 148 of 162 papers (every year since 2019)
-```
-
 ## How often it comes up
 
-Calculus questions on limits and local behaviour appear in almost every test sitting. Across the 162 test shifts from 2019 to 2026, 148 shifts included at least one problem from this unit, frequently delivering two. The annual totals during 2024, 2025, and 2026 were 33, 22, and 20 questions respectively.
+Limits, continuity and differentiability forms the foundational bedrock of differential calculus under Unit 7: Limit, Continuity and Differentiability in the Class 12 curriculum, securing rank 7 among the 29 chapters in the subject. Between 2019 and 2026, this chapter contributed 220 questions across 162 papers, representing 4.8 percent of all mathematics questions. It appeared in 148 of those 162 papers and has been tested every single year since 2019. In the recent three-year window from 2024 to 2026, it maintained an identical subject share of 4.8 percent, delivering 75 questions across 58 papers at a steady rate of 1.3 questions per paper. Historical comparison reveals that both the shift from the 2002 to 2018 share of 5.0 percent to 2024 to 2026 and the comparison between 2019 to 2026 and 2024 to 2026 are about the same. Across the entire 2002 to 2026 span of 200 papers, 285 questions were asked across 186 shifts, with 59 numerical answer questions appearing between 2019 and 2026.
+
+Calculus questions on limits and local behaviour appear in almost every test sitting. The annual totals during 2024, 2025, and 2026 were 33, 22, and 20 questions respectively.
 
 Because testing whether a function is continuous or differentiable requires evaluating one-sided limits, examiner problems frequently blend all three concepts into a unified piecewise problem. Furthermore, many questions appear in the numerical section, requiring exact parameter determination without relying on multiple-choice elimination.
 

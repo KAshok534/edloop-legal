@@ -1,10 +1,6 @@
-# JEE Main d- and f-Block Elements: PYQ Trends & Preparation Guide
-
-The d- and f-Block Elements chapter investigates 3d transition metals along with inner-transition series. Key focal points include variable oxidation states, standard reduction potentials, magnetic moments, catalytic activity, interstitial alloys, potassium permanganate, potassium dichromate, and lanthanoid contraction.
-
 ## How often it comes up
 
-In the 2019 to 2026 testing timeframe, d- and f-Block Elements produced 202 questions across 162 exam papers, making up 4.4% of the chemistry section and achieving rank 8 of 31 chapters. During the 2002 to 2018 era, it contributed 47 questions across 38 papers with a 3.5% share. In the recent 2024 to 2026 testing phase, question volume grew to 88 questions across 58 papers, accounting for a 5.7% share. The chapter's frequency has trended up across recent sessions.
+The d- and f-block elements covers transition metals and lanthanoid contraction under Unit 11: d- and f-Block Elements in the Class 12 curriculum, achieving rank 8 of 31 chapters with a 4.4% share of the chemistry section. In the 2019 to 2026 testing timeframe, d- and f-Block Elements produced 202 questions across 162 exam papers, making up 4.4% of the chemistry section and achieving rank 8 of 31 chapters. During the 2002 to 2018 era, it contributed 47 questions across 38 papers with a 3.5% share. In the recent 2024 to 2026 testing phase, question volume grew to 88 questions across 58 papers, accounting for a 5.7% share. The chapter's frequency has trended up across recent sessions.
 
 Questions have appeared every year from 2019 to 2026. Across 2019 to 2026, students met an average of 1.2 questions per paper, rising to 1.5 questions per paper during 2024 to 2026. Numerical value problems feature regularly, with 45 numerical answer questions set between 2019 and 2026, frequently asking for magnetic moments or counts of unpaired d electrons.
 

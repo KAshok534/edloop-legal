@@ -1,10 +1,6 @@
-# JEE Main Quadratic Equations: PYQ Trends & Preparation Guide
-
-Quadratic Equations serves as a core algebraic building block throughout the JEE Main syllabus. The chapter investigates relations between roots and coefficients, symmetric functions of roots, Newton's sums, sign and sign changes of quadratic expressions, location of roots relative to specified real numbers, equations reducible to quadratic forms (modulus, exponential, and logarithmic variants), and common root conditions.
-
 ## How often it comes up
 
-In the 2019 to 2026 exam window, Quadratic Equations accounted for 185 questions across 162 test papers, delivering 4.0% of the mathematics section and holding rank 12 of 29 chapters. During the earlier 2002 to 2018 testing span, it contributed 53 questions across 38 papers with an identical 4.0% share. Over the recent 2024 to 2026 sessions, question volume reached 68 questions across 58 papers, capturing a 4.4% share. Comparing both earlier periods against 2024 to 2026, the chapter's share of mathematics questions has remained about the same.
+Quadratic equations serves as a foundational algebraic unit under Unit 2: Complex Numbers and Quadratic Equations in the Class 11 curriculum, holding rank 12 of 29 chapters with a 4.0% share of the mathematics section. In the 2019 to 2026 exam window, Quadratic Equations accounted for 185 questions across 162 test papers, delivering 4.0% of the mathematics section and holding rank 12 of 29 chapters. During the earlier 2002 to 2018 testing span, it contributed 53 questions across 38 papers with an identical 4.0% share. Over the recent 2024 to 2026 sessions, question volume reached 68 questions across 58 papers, capturing a 4.4% share. Comparing both earlier periods against 2024 to 2026, the chapter's share of mathematics questions has remained about the same.
 
 Questions have appeared every year from 2019 to 2026. Students faced an average of 1.1 questions per paper across 2019 to 2026, and 1.2 questions per paper between 2024 and 2026. A substantial 52 numerical answer questions were set between 2019 and 2026, frequently asking for parameter bounds or counts of distinct real solutions.
 

@@ -1,10 +1,6 @@
-# JEE Main Permutations & Combinations: PYQ Trends & Preparation Guide
-
-Permutations & Combinations develops systematic discrete counting techniques required across probability and discrete mathematics. Core themes cover fundamental counting principles (multiplication and addition rules), linear and circular arrangements with identical objects, restricted selections, distribution of identical and distinct objects (stars and bars method), derangements, Legendre's formula for prime exponents in factorials, and dictionary rank permutations.
-
 ## How often it comes up
 
-During the 2019 to 2026 testing cycle, Permutations & Combinations accounted for 193 questions across 162 exam papers, making up 4.2% of the mathematics section and capturing rank 10 of 29 chapters. In the earlier 2002 to 2018 testing span, it registered 46 questions across 38 papers with a 3.5% share. Across recent 2024 to 2026 sessions, it yielded 68 questions across 58 papers, accounting for a 4.4% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
+Permutations and combinations develops discrete counting methods under Unit 4: Permutations and Combinations in the Class 11 curriculum, capturing rank 10 of 29 chapters with a 4.2% share of the mathematics section. During the 2019 to 2026 testing cycle, Permutations & Combinations accounted for 193 questions across 162 exam papers, making up 4.2% of the mathematics section and capturing rank 10 of 29 chapters. In the earlier 2002 to 2018 testing span, it registered 46 questions across 38 papers with a 3.5% share. Across recent 2024 to 2026 sessions, it yielded 68 questions across 58 papers, accounting for a 4.4% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
 
 The chapter has appeared every year from 2019 to 2026. Across 2019 to 2026, students faced an average of 1.2 questions per paper, consistent with the 1.2 questions per paper recorded in the 2024 to 2026 timeframe. The chapter is an extraordinary source of numerical value questions: exactly 100 numerical answer questions were set between 2019 and 2026.
 

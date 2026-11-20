@@ -1,17 +1,8 @@
-# Three Dimensional Geometry: JEE Main Guide
-
-Three Dimensional Geometry is the single highest-weight chapter in JEE Main mathematics. Between 2019 and 2026, 330 questions were asked from this chapter across 162 papers, representing 7.2 percent of all mathematics questions and claiming rank 1 among the 29 chapters in the subject. It appeared in all 162 papers, meaning every paper in that period contained questions from this chapter, and it has surfaced every year since 2019. Over the recent 2024 to 2026 testing sessions, it contributed 107 questions across 58 papers, averaging 1.8 questions per paper and holding a 6.9 percent subject share. Comparing the earlier 2002 to 2018 share of 6.6 percent with 2024 to 2026 shows that its long-term share is about the same, while comparing 2019 to 2026 against 2024 to 2026 also shows it is about the same. Across the complete historical record from 2002 to 2026 covering 200 papers, 416 questions were asked across all 200 papers, with 86 numerical answer questions appearing between 2019 and 2026.
-
-```
-Three Dimensional Geometry in JEE Main (2019-2026)
-Total questions: 330 | Rank: 1 of 29 chapters
-Average per paper: 2.0 | Subject share: 7.2%
-Paper frequency: featured in all 162 papers (every paper)
-```
-
 ## How often it comes up
 
-Students will find questions from this chapter in every examination shift without exception. Between 2019 and 2026, every single one of the 162 papers included at least one question, with the majority featuring two or three distinct problems. The annual totals during 2024, 2025, and 2026 were 41, 34, and 32 questions respectively.
+Three dimensional geometry is the single highest-weight chapter in JEE Main mathematics under Unit 11: Three Dimensional Geometry in the Class 12 curriculum, claiming rank 1 among the 29 chapters in the subject. Between 2019 and 2026, 330 questions were asked from this chapter across 162 papers, representing 7.2 percent of all mathematics questions. It appeared in all 162 papers, meaning every paper in that period contained questions from this chapter, and it has surfaced every year since 2019. Over the recent 2024 to 2026 testing sessions, it contributed 107 questions across 58 papers, averaging 1.8 questions per paper and holding a 6.9 percent subject share. Comparing the earlier 2002 to 2018 share of 6.6 percent with 2024 to 2026 shows that its long-term share is about the same, while comparing 2019 to 2026 against 2024 to 2026 also shows it is about the same. Across the complete historical record from 2002 to 2026 covering 200 papers, 416 questions were asked across all 200 papers, with 86 numerical answer questions appearing between 2019 and 2026.
+
+Students will find questions from this chapter in every examination shift without exception, with the majority featuring two or three distinct problems. The annual totals during 2024, 2025, and 2026 were 41, 34, and 32 questions respectively.
 
 Even with the formal removal of plane equations from the syllabus starting in 2024, the chapter has maintained its top-tier prominence. Modern examination shifts focus intensively on skew lines, shortest distance calculations, parametric coordinates of line points, foot of perpendiculars, and reflections in spatial lines.
 
@@ -67,4 +58,4 @@ Yes, plane equations were explicitly removed from the official NTA syllabus star
 Compute the shortest distance between them. If the scalar triple product of the vector joining a point on each line with the two direction vectors equals zero, the lines lie in a common plane. If their direction vectors are not parallel, they intersect at a single unique point.
 
 ### Why does this chapter hold rank 1 in subject share?
-Three-dimensional geometry has consistently provided two or more questions in every examination sitting, accounting for 330 questions and a 7.2 percent share of all mathematics questions between 2019 and 2026. Its procedural nature makes it one of the most reliable scoring opportunities in the exam. Step-by-step solutions for each one are in the EdLoop app.
+Three-dimensional geometry has consistently provided two or more questions in every examination sitting, accounting for 330 questions and a 7.2 percent share of all mathematics questions between 2019 and 2026. Its procedural nature makes it one of the most reliable testing opportunities in the exam. Step-by-step solutions for each one are in the EdLoop app.

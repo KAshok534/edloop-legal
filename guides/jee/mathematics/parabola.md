@@ -1,17 +1,8 @@
-# Parabola: JEE Main Guide
-
-Parabola serves as the introductory curve for conic section geometry in JEE Main. Between 2019 and 2026, the examination presented 102 questions from this chapter across 162 papers, representing 2.2 percent of all mathematics questions and placing it at rank 20 among the 29 chapters in the subject. It appeared in 97 of those 162 papers and has been featured every year since 2019. Over the recent 2024 to 2026 test cycle, it contributed 35 questions across 58 papers, averaging 0.6 questions per paper with a 2.3 percent subject share. Comparing the 2002 to 2018 window share of 2.4 percent to the 2024 to 2026 share shows that the long-term trend is about the same, and comparing 2019 to 2026 with 2024 to 2026 also shows it is about the same. Across the complete archive from 2002 to 2026 spanning 200 papers, 134 questions were asked in 129 papers, with 23 numerical answer questions appearing between 2019 and 2026.
-
-```
-Parabola in JEE Main (2019-2026)
-Total questions: 102 | Rank: 20 of 29 chapters
-Average per paper: 0.6 | Subject share: 2.2%
-Shift presence: appeared in 97 of 162 papers
-```
-
 ## How often it comes up
 
-A dedicated parabola question appears in approximately six out of every ten examination papers. Across the 162 shifts conducted from 2019 to 2026, 97 papers included problems from this chapter. In the 2024, 2025, and 2026 testing sessions, the question counts were 8, 14, and 13 questions respectively.
+Parabola serves as the introductory curve for conic section geometry under Unit 10: Coordinate Geometry in the Class 11 curriculum, placing it at rank 20 among the 29 chapters in the subject. Between 2019 and 2026, the examination presented 102 questions from this chapter across 162 papers, representing 2.2 percent of all mathematics questions. It appeared in 97 of those 162 papers and has been featured every year since 2019. Over the recent 2024 to 2026 test cycle, it contributed 35 questions across 58 papers, averaging 0.6 questions per paper with a 2.3 percent subject share. Comparing the 2002 to 2018 window share of 2.4 percent to the 2024 to 2026 share shows that the long-term trend is about the same, and comparing 2019 to 2026 with 2024 to 2026 also shows it is about the same. Across the complete archive from 2002 to 2026 spanning 200 papers, 134 questions were asked in 129 papers, with 23 numerical answer questions appearing between 2019 and 2026.
+
+In the 2024, 2025, and 2026 testing sessions, the question counts were 8, 14, and 13 questions respectively.
 
 Parabolas also feature prominently in boundary problems under area under curves and tangent intersections with circles or ellipses. Questions commonly ask for locus derivations of moving triangle centres, properties of chords subtending right angles at the vertex, or geometric segments along focal chords.
 

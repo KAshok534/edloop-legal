@@ -1,17 +1,8 @@
-# Straight Lines: JEE Main Guide
-
-Straight Lines provides the primary algebraic language for two-dimensional coordinate geometry in JEE Main. Across the 162 papers conducted between 2019 and 2026, this chapter contributed 159 questions, capturing 3.5 percent of all mathematics questions and standing at rank 16 among the 29 chapters in the subject. It appeared in 125 of those 162 papers and has been asked every year since 2019. In the recent 2024 to 2026 examination cycle, it supplied 68 questions across 58 papers, averaging 1.2 questions per paper with an increased subject share of 4.4 percent. Comparing the 2002 to 2018 share of 5.4 percent to the 2024 to 2026 share shows that its long-term share is down, whereas comparing 2019 to 2026 against 2024 to 2026 shows it is up. Over the full 2002 to 2026 archive spanning 200 papers, 230 questions appeared in 161 papers, with 27 questions appearing in the numerical answer format from 2019 to 2026.
-
-```
-Straight Lines in JEE Main (2019-2026)
-Total questions: 159 | Rank: 16 of 29 chapters
-Average per paper: 1.0 | Subject share: 3.5%
-Shift frequency: asked in 125 of 162 papers
-```
-
 ## How often it comes up
 
-A dedicated straight line question appears in approximately three out of every four examination shifts. Between 2019 and 2026, 125 shifts included problems from this unit. In the 2024, 2025, and 2026 cycles, the question counts were 30, 22, and 16 questions respectively.
+Straight lines provides the primary algebraic language for two-dimensional coordinate geometry under Unit 10: Coordinate Geometry in the Class 11 curriculum, standing at rank 16 among the 29 chapters in the subject. Across the 162 papers conducted between 2019 and 2026, this chapter contributed 159 questions, capturing 3.5 percent of all mathematics questions. It appeared in 125 of those 162 papers and has been asked every year since 2019. In the recent 2024 to 2026 examination cycle, it supplied 68 questions across 58 papers, averaging 1.2 questions per paper with an increased subject share of 4.4 percent. Comparing the 2002 to 2018 share of 5.4 percent to the 2024 to 2026 share shows that its long-term share is down, whereas comparing 2019 to 2026 against 2024 to 2026 shows it is up. Over the full 2002 to 2026 archive spanning 200 papers, 230 questions appeared in 161 papers, with 27 questions appearing in the numerical answer format from 2019 to 2026.
+
+In the 2024, 2025, and 2026 cycles, the question counts were 30, 22, and 16 questions respectively.
 
 Because lines define the sides of triangles, chords of circles, and axes of symmetry, straight line mechanics permeate all of coordinate geometry. Even when an exam problem is categorized under circles or parabolas, the core algebraic workload frequently reduces to line perpendicularity, distance formulas, or angle bisectors.
 

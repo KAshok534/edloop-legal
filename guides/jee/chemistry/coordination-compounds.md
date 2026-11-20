@@ -1,10 +1,6 @@
-# JEE Main Coordination Compounds: PYQ Trends & Preparation Guide
-
-Coordination Compounds represents the highest-weight chapter in the entire JEE Main chemistry curriculum. The chapter encompasses Werner's coordination theory, IUPAC nomenclature, structural and stereoisomerism, Valence Bond Theory, Crystal Field Theory, spectrochemical series, magnetic moments, and chelating ligands.
-
 ## How often it comes up
 
-During the 2019 to 2026 testing cycle, Coordination Compounds contributed 288 questions across 162 exam papers, making up 6.3% of all chemistry questions and commanding rank 1 of 31 chapters. In the earlier 2002 to 2018 dataset, it yielded 71 questions across 38 papers with a 5.3% share. In the recent 2024 to 2026 window, question volume surged to 111 questions across 58 papers, capturing a massive 7.2% share. The chapter's weight has trended up across recent sessions.
+Coordination compounds encompasses Werner's coordination theory and Crystal Field Theory under Unit 12: Coordination Compounds in the Class 12 curriculum, commanding rank 1 of 31 chapters with a 6.3% share of all chemistry questions. During the 2019 to 2026 testing cycle, Coordination Compounds contributed 288 questions across 162 exam papers, making up 6.3% of all chemistry questions and commanding rank 1 of 31 chapters. In the earlier 2002 to 2018 dataset, it yielded 71 questions across 38 papers with a 5.3% share. In the recent 2024 to 2026 window, question volume surged to 111 questions across 58 papers, capturing a massive 7.2% share. The chapter's weight has trended up across recent sessions.
 
 Questions have appeared every year from 2019 to 2026. Students faced an average of 1.8 questions per paper across 2019 to 2026, and 1.9 questions per paper in the 2024 to 2026 interval, meaning most test sessions feature one or two questions from this unit. Additionally, it produced 76 numerical answer questions between 2019 and 2026.
 

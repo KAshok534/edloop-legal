@@ -1,10 +1,6 @@
-# JEE Main Alcohols, Phenols & Ethers: PYQ Trends & Preparation Guide
-
-Alcohols, Phenols & Ethers covers oxygen-containing organic functional groups characterized by single carbon-oxygen bonds. Key subjects include alcohol classification, dehydration mechanisms, Lucas reagent distinction, industrial preparation of phenol via cumene hydroperoxide, electrophilic substitutions on phenol (Kolbe-Schmitt and Reimer-Tiemann reactions), Williamson ether synthesis, and ether cleavage by concentrated hydroiodic acid.
-
 ## How often it comes up
 
-During the 2019 to 2026 examination span, Alcohols, Phenols & Ethers contributed 128 questions across 162 exam papers, delivering 2.8% of the chemistry section and holding rank 18 of 31 chapters. In the earlier testing era from 2002 to 2018, it registered 40 questions across 38 papers with a 3.0% share. Over the recent 2024 to 2026 testing sessions, it produced 49 questions across 58 papers, accounting for a 3.2% share. Comparing both earlier testing periods against 2024 to 2026, its testing share has remained about the same.
+Alcohols, phenols and ethers covers oxygen-containing functional groups under Unit 17: Organic Compounds Containing Oxygen in the Class 12 curriculum, holding rank 18 of 31 chapters with a 2.8% share of the chemistry section. During the 2019 to 2026 examination span, Alcohols, Phenols & Ethers contributed 128 questions across 162 exam papers, delivering 2.8% of the chemistry section and holding rank 18 of 31 chapters. In the earlier testing era from 2002 to 2018, it registered 40 questions across 38 papers with a 3.0% share. Over the recent 2024 to 2026 testing sessions, it produced 49 questions across 58 papers, accounting for a 3.2% share. Comparing both earlier testing periods against 2024 to 2026, its testing share has remained about the same.
 
 The chapter has appeared every year from 2019 to 2026. Across 2019 to 2026, it averaged 0.8 questions per paper, consistent with the 0.8 questions per paper observed between 2024 and 2026. Twelve numerical answer questions were presented from 2019 to 2026, frequently involving acetylation stoichiometry or molecular mass calculations.
 

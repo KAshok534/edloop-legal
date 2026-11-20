@@ -1,17 +1,8 @@
-# Trigonometry: JEE Main Guide
-
-Trigonometry serves both as an independent chapter and as the computational alphabet for algebra and calculus in JEE Main. Between 2019 and 2026, the examination presented 166 questions from this chapter across 162 papers, representing 3.6 percent of all mathematics questions and placing it at rank 15 among the 29 chapters in the subject. It appeared in 128 of those 162 papers and has been asked every single year since 2019. Over the recent 2024 to 2026 testing sessions, it contributed 51 questions across 58 papers, averaging 0.9 questions per paper with a 3.3 percent subject share. Comparing the earlier 2002 to 2018 share of 4.7 percent against 2024 to 2026 shows that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 indicates that it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 228 questions were asked in 162 papers, including 31 numerical answer questions between 2019 and 2026.
-
-```
-Trigonometry in JEE Main (2019-2026)
-Total questions: 166 | Rank: 15 of 29 chapters
-Average per paper: 1.0 | Subject share: 3.6%
-Shift coverage: appeared in 128 of 162 papers
-```
-
 ## How often it comes up
 
-Candidates will encounter direct trigonometry questions in roughly eight out of ten examination shifts. Between 2019 and 2026, 128 examination sessions included standalone problems from this chapter. The annual question tallies for 2024, 2025, and 2026 were 18, 12, and 21 questions respectively, demonstrating sustained examination value.
+Trigonometry serves as the computational alphabet for algebra and calculus under Unit 14: Trigonometry in the Class 11 curriculum, placing it at rank 15 among the 29 chapters in the subject. Between 2019 and 2026, the examination presented 166 questions from this chapter across 162 papers, representing 3.6 percent of all mathematics questions. It appeared in 128 of those 162 papers and has been asked every single year since 2019. Over the recent 2024 to 2026 testing sessions, it contributed 51 questions across 58 papers, averaging 0.9 questions per paper with a 3.3 percent subject share. Comparing the earlier 2002 to 2018 share of 4.7 percent against 2024 to 2026 shows that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 indicates that it is about the same. Across the complete historical record from 2002 to 2026 spanning 200 papers, 228 questions were asked in 162 papers, including 31 numerical answer questions between 2019 and 2026.
+
+The annual question tallies for 2024, 2025, and 2026 were 18, 12, and 21 questions respectively, demonstrating sustained examination value.
 
 The scope of this chapter has been refined in modern test cycles. Formal syllabus updates removed Heights & Distances and Properties of Triangles from the active list. Consequently, recent examination sessions focus squarely on compound angle identities, multiple angle transformations, trigonometric series summations, and solving trigonometric equations on bounded intervals.
 

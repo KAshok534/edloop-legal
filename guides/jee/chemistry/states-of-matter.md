@@ -1,10 +1,6 @@
-# States of Matter: JEE Main PYQ Trends & Preparation Guide
-
-States of matter covers the physical behaviors of gases, liquids, and crystal lattices, incorporating ideal gas laws, van der Waals real gas corrections, compressibility factors, surface tension, and solid state crystallography. Designated under States of Matter (removed 2024) in the Class 11 curriculum, this chapter was removed from syllabus in 2024. In the 2019 to 2026 examination archive, it accounts for 102 questions across 162 papers, holding rank 22 among 31 chemistry chapters with a 2.2 percent share of total chemistry questions.
-
 ## How often it comes up
 
-Throughout the computerized testing period from 2019 to 2026, candidates tackled 102 questions across 162 papers, giving an average frequency of 0.6 questions per shift. The chapter featured in 98 of those 162 papers. Because it was removed from the official syllabus in 2024, testing declined sharply: only 1 question appeared across 58 papers in the 2024 to 2026 stretch, representing a 0.1 percent share and registering zero questions in 2025 and 2026. The chapter's share is down compared to both the 5.0 percent share in the 2002 to 2018 window and the 2.2 percent share across 2019 to 2026. Between 2019 and 2026, 52 questions were set in numerical answer format, reflecting heavy historical testing on unit cell densities, void numbers, and partial gas pressures.
+States of matter was formerly in the Class 11 chemistry curriculum before being removed in 2024, holding rank 22 among 31 chemistry chapters with a 2.2 percent share of total chemistry questions. Throughout the computerized testing period from 2019 to 2026, candidates tackled 102 questions across 162 papers, giving an average frequency of 0.6 questions per shift. The chapter featured in 98 of those 162 papers. Because it was removed from the official syllabus in 2024, testing declined sharply: only 1 question appeared across 58 papers in the 2024 to 2026 stretch, representing a 0.1 percent share and registering zero questions in 2025 and 2026. The chapter's share is down compared to both the 5.0 percent share in the 2002 to 2018 window and the 2.2 percent share across 2019 to 2026. Between 2019 and 2026, 52 questions were set in numerical answer format, reflecting heavy historical testing on unit cell densities, void numbers, and partial gas pressures.
 
 ## Most-asked topics
 
@@ -48,7 +44,7 @@ For real gases, practice evaluating van der Waals equations at low pressures whe
 No, states of matter was removed from the syllabus in 2024, recording only 1 question across all 58 papers between 2024 and 2026, and zero questions in 2025 and 2026.
 
 ### Why do past JEE Main papers have so many solid state questions?
-Solid state was an independent, high-yield chapter in senior secondary chemistry before recent syllabus rationalizations merged and subsequently removed these topics from the JEE Main syllabus.
+Solid state was an independent, major chapter in senior secondary chemistry before recent syllabus rationalizations merged and subsequently removed these topics from the JEE Main syllabus.
 
 ### Does the gaseous state topic overlap with kinetic theory of gases in physics?
 Yes, ideal gas equations, molecular speeds, and kinetic energy distributions remain fully active in the physics syllabus under kinetic theory of gases, even though removed from the chemistry section. Step-by-step solutions for each one are in the EdLoop app.

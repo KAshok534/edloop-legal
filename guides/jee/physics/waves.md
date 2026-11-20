@@ -48,7 +48,7 @@ For sound velocity in gases, apply the Laplace-corrected formula v = √(γRT / 
 
 ## Frequently asked questions
 
-### Is Waves high scoring in JEE Main 2027?
+### Is Waves regularly tested in JEE Main 2027?
 
 Yes. Waves produced 125 questions across 162 papers in our collection from 2019 to 2026, averaging 0.8 questions per paper. It ranks 22nd of 29 Physics chapters and appeared in 104 of the 162 papers in our set.
 

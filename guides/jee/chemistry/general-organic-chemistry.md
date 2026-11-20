@@ -1,10 +1,6 @@
-# JEE Main General Organic Chemistry: PYQ Trends & Preparation Guide
-
-General Organic Chemistry (GOC) underpins all of organic chemistry in JEE Main. It establishes foundational principles governing IUPAC nomenclature, structural and stereoisomerism, inductive, mesomeric, and hyperconjugation electronic effects, aromaticity rules (Hückel's criterion), and intermediate carbocation, carbanion, and free radical stabilities.
-
 ## How often it comes up
 
-Across 2019 to 2026, General Organic Chemistry yielded 232 questions across 162 exam papers, delivering 5.1% of all chemistry questions and securing rank 2 of 31 chapters. In the earlier 2002 to 2018 period, it accounted for 57 questions across 38 papers with a 4.2% share. Between 2024 and 2026, its prominence grew massively to 114 questions across 58 papers, capturing a 7.4% share. The chapter's appearance weight has trended up strongly across recent exam sessions.
+General organic chemistry establishes principles of structure, isomerism, and electronic effects under Unit 14: Some Basic Principles of Organic Chemistry in the Class 11 curriculum, securing rank 2 of 31 chapters with a 5.1% share of all chemistry questions. Across 2019 to 2026, General Organic Chemistry yielded 232 questions across 162 exam papers, delivering 5.1% of all chemistry questions and securing rank 2 of 31 chapters. In the earlier 2002 to 2018 period, it accounted for 57 questions across 38 papers with a 4.2% share. Between 2024 and 2026, its prominence grew massively to 114 questions across 58 papers, capturing a 7.4% share. The chapter's appearance weight has trended up strongly across recent exam sessions.
 
 Questions have appeared every year from 2019 to 2026. Students faced an average of 1.4 questions per paper across 2019 to 2026, climbing to 2.0 questions per paper in the 2024 to 2026 cycle. It contributed 38 numerical answer questions between 2019 and 2026, typically involving chiral center counts, hyperconjugation alpha hydrogens, or total isomers.
 

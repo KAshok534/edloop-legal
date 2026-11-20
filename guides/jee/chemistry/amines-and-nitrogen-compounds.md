@@ -1,10 +1,6 @@
-# JEE Main Amines & Nitrogen Compounds: PYQ Trends & Preparation Guide
-
-Amines & Nitrogen Compounds covers aliphatic and aromatic amines, arenediazonium salts, cyanides, isocyanides, and nitro compounds. Core conceptual areas include amine basicity trends in gas versus aqueous phase, Gabriel phthalimide synthesis, Hofmann bromamide degradation, Hinsberg test for amine classification, carbylamine reaction, and diazonium coupling transformations.
-
 ## How often it comes up
 
-In the 2019 to 2026 exam cycle, Amines & Nitrogen Compounds produced 184 questions across 162 exam papers, delivering 4.0% of the chemistry section and holding rank 9 of 31 chapters. During the 2002 to 2018 period, it accounted for 36 questions across 38 papers with a 2.7% share. Across recent 2024 to 2026 sessions, it yielded 63 questions across 58 papers, accounting for a 4.1% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, the testing share has remained about the same.
+Amines and nitrogen compounds covers basicity and diazonium transformations under Unit 18: Organic Compounds Containing Nitrogen in the Class 12 curriculum, holding rank 9 of 31 chapters with a 4.0% share of the chemistry section. In the 2019 to 2026 exam cycle, Amines & Nitrogen Compounds produced 184 questions across 162 exam papers, delivering 4.0% of the chemistry section and holding rank 9 of 31 chapters. During the 2002 to 2018 period, it accounted for 36 questions across 38 papers with a 2.7% share. Across recent 2024 to 2026 sessions, it yielded 63 questions across 58 papers, accounting for a 4.1% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, the testing share has remained about the same.
 
 The topic has appeared every year from 2019 to 2026. Across 2019 to 2026, it averaged 1.1 questions per paper, identical to the 1.1 questions per paper observed across 2024 to 2026. Examiners included 24 numerical answer questions between 2019 and 2026, frequently involving reaction yields, molar mass ratios, or nitrogen percentages.
 

@@ -1,10 +1,6 @@
-# JEE Main Aldehydes, Ketones & Carboxylic Acids: PYQ Trends & Preparation Guide
-
-Aldehydes, Ketones & Carboxylic Acids forms the most versatile and heavily examined carbonyl chemistry unit in JEE Main. Coverage spans nucleophilic addition to carbonyl groups, alpha-hydrogen reactivity (aldol condensation, Cannizzaro reaction, haloform reaction), reduction reactions (Clemmensen and Wolff-Kishner), diagnostic tests (Tollens, Fehling, 2,4-DNP), carboxylic acid derivatives, and decarboxylation.
-
 ## How often it comes up
 
-In the 2019 to 2026 test timeframe, Aldehydes, Ketones & Carboxylic Acids produced 214 questions across 162 exam papers, making up 4.7% of the chemistry section and holding rank 5 of 31 chapters. During the 2002 to 2018 period, it accounted for 51 questions across 38 papers with a 3.8% share. Over the recent 2024 to 2026 window, the chapter yielded 71 questions across 58 papers, capturing a 4.6% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
+Aldehydes, ketones and carboxylic acids forms the core carbonyl unit under Unit 17: Organic Compounds Containing Oxygen in the Class 12 curriculum, holding rank 5 of 31 chapters with a 4.7% share of the chemistry section. In the 2019 to 2026 test timeframe, Aldehydes, Ketones & Carboxylic Acids produced 214 questions across 162 exam papers, making up 4.7% of the chemistry section and holding rank 5 of 31 chapters. During the 2002 to 2018 period, it accounted for 51 questions across 38 papers with a 3.8% share. Over the recent 2024 to 2026 window, the chapter yielded 71 questions across 58 papers, capturing a 4.6% share. Comparing 2002 to 2018 against 2024 to 2026, the trend is up, whereas comparing 2019 to 2026 against 2024 to 2026, its testing share has remained about the same.
 
 The chapter has appeared every year from 2019 to 2026. Students faced an average of 1.3 questions per paper across 2019 to 2026, and 1.2 questions per paper in the 2024 to 2026 cycle. Twenty numerical answer questions were set between 2019 and 2026.
 

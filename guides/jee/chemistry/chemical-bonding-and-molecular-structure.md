@@ -1,10 +1,6 @@
-# Chemical Bonding & Molecular Structure: JEE Main PYQ Trends & Preparation Guide
-
-Chemical bonding and molecular structure underpins inorganic and organic chemistry alike, explaining how atoms assemble into stable geometric molecules through ionic, covalent, coordinate, and metallic bonds. Positioned as Unit 3: Chemical Bonding and Molecular Structure in the Class 11 curriculum, it constitutes one of the highest-yield chapters in JEE Main chemistry. Between 2019 and 2026, the question archive documents 213 questions from this chapter across 162 papers, earning it rank 6 among all 31 chemistry chapters with a 4.7 percent share of the entire chemistry section.
-
 ## How often it comes up
 
-In the computerized testing window from 2019 to 2026, chemical bonding supplied 213 questions across 162 papers, representing an average rate of 1.3 questions per sitting. The chapter appeared in 142 of those 162 papers, and questions were asked every single year throughout the cycle. During the recent 2024 to 2026 examination seasons, candidates encountered 92 questions across 58 papers, lifting the average to 1.6 questions per shift and achieving a 5.9 percent subject share. This reflects a trend that is up relative to the 4.7 percent share from the full 2019 to 2026 baseline. When compared against the earlier 2002 to 2018 era, which recorded 91 questions across 38 papers for a 6.8 percent share, the recent share is down. In 2026 alone, examiners presented 21 questions across 19 papers, showing up in 16 individual shifts. A total of 63 questions between 2019 and 2026 were formatted as numerical answer questions, requiring students to count lone pairs, bond orders, or calculate Born-Haber lattice enthalpies without options.
+Chemical bonding and molecular structure underpins inorganic and organic chemistry under Unit 3: Chemical Bonding and Molecular Structure in the Class 11 curriculum, holding rank 6 among all 31 chemistry chapters with a 4.7 percent share of the entire chemistry section. In the computerized testing window from 2019 to 2026, chemical bonding supplied 213 questions across 162 papers, representing an average rate of 1.3 questions per sitting. The chapter appeared in 142 of those 162 papers, and questions were asked every single year throughout the cycle. During the recent 2024 to 2026 examination seasons, candidates encountered 92 questions across 58 papers, lifting the average to 1.6 questions per shift and achieving a 5.9 percent subject share. This reflects a trend that is up relative to the 4.7 percent share from the full 2019 to 2026 baseline. When compared against the earlier 2002 to 2018 era, which recorded 91 questions across 38 papers for a 6.8 percent share, the recent share is down. In 2026 alone, examiners presented 21 questions across 19 papers, showing up in 16 individual shifts. A total of 63 questions between 2019 and 2026 were formatted as numerical answer questions, requiring students to count lone pairs, bond orders, or calculate Born-Haber lattice enthalpies without options.
 
 ## Most-asked topics
 
@@ -48,7 +44,7 @@ Use Fajan's rules to assess covalent character in ionic bonds: smaller cations, 
 ## Frequently asked questions
 
 ### Which concepts in chemical bonding are tested most frequently?
-VSEPR molecular geometries and Molecular Orbital Theory bond order calculations together represent more than half of all bonding questions. Mastering these two areas provides the highest score return.
+VSEPR molecular geometries and Molecular Orbital Theory bond order calculations together represent more than half of all bonding questions. Mastering these two areas provides the greatest practical benefit.
 
 ### What is the most common student pitfall in molecular geometry?
 Reporting the overall electron pair geometry instead of the molecular shape. For example, water has tetrahedral electron arrangement but a bent molecular shape, and ammonia has tetrahedral arrangement but a trigonal pyramidal shape.

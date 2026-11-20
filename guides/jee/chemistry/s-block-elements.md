@@ -1,10 +1,6 @@
-# JEE Main s-Block Elements: PYQ Trends & Preparation Guide
-
-The s-block comprises the group 1 alkali metals and group 2 alkaline earth metals, covering their physical properties, anomalous behaviors of lithium and beryllium, diagonal relationships, and industrial compounds such as baking soda, washing soda, quicklime, and plaster of Paris. The National Testing Agency removed this entire chapter from the JEE Main syllabus in 2024.
-
 ## How often it comes up
 
-During the 2019 to 2026 exam window, s-Block Elements accounted for 104 questions across 162 test papers, taking a 2.3% share of the chemistry section and ranking 20 of 31 chapters. Prior to 2019, from 2002 to 2018, it registered 26 questions across 38 papers with a 1.9% share. In the recent 2024 to 2026 seasons, the chapter saw 0 questions across 58 papers, delivering a 0.0% share. The overall trajectory has trended down following curriculum reduction.
+The s-block elements covers alkali and alkaline earth metals and was formerly in the Class 11 curriculum before being removed in 2024, ranking 20 of 31 chapters with a 2.3% share of the chemistry section. During the 2019 to 2026 exam window, s-Block Elements accounted for 104 questions across 162 test papers, taking a 2.3% share of the chemistry section and ranking 20 of 31 chapters. Prior to 2019, from 2002 to 2018, it registered 26 questions across 38 papers with a 1.9% share. In the recent 2024 to 2026 seasons, the chapter saw 0 questions across 58 papers, delivering a 0.0% share. The overall trajectory has trended down following curriculum reduction.
 
 Because the topic was formally deleted, it was not asked in 2024, 2025, or 2026. Prior to removal, the chapter averaged 0.6 questions per paper between 2019 and 2026, including 5 numerical answer questions.
 

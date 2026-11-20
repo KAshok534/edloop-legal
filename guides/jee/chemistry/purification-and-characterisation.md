@@ -1,10 +1,6 @@
-# JEE Main Purification & Characterisation: PYQ Trends & Preparation Guide
-
-Purification & Characterisation covers laboratory techniques used to isolate organic compounds and determine their empirical composition. Key areas include crystallization, fractional distillation, steam distillation, differential extraction, chromatography, qualitative detection of elements via Lassaigne's test, and quantitative estimations including Kjeldahl, Dumas, and Carius methods.
-
 ## How often it comes up
 
-In the 2019 to 2026 testing window, Purification & Characterisation accounted for 144 questions across 162 exam papers, delivering a 3.1% share of the chemistry section and standing at rank 17 of 31 chapters. During the 2002 to 2018 phase, it contributed 17 questions across 38 papers with a 1.3% share. Between 2024 and 2026, question volume expanded to 63 questions across 58 papers, capturing a 4.1% share. The chapter's appearance frequency has trended up across recent shifts.
+Purification and characterisation covers laboratory separation methods and elemental analysis under Unit 13: Purification and Characterisation of Organic Compounds in the Class 11 curriculum, holding rank 17 of 31 chapters with a 3.1% share of the chemistry section. In the 2019 to 2026 testing window, Purification & Characterisation accounted for 144 questions across 162 exam papers, delivering a 3.1% share of the chemistry section and standing at rank 17 of 31 chapters. During the 2002 to 2018 phase, it contributed 17 questions across 38 papers with a 1.3% share. Between 2024 and 2026, question volume expanded to 63 questions across 58 papers, capturing a 4.1% share. The chapter's appearance frequency has trended up across recent shifts.
 
 The chapter has appeared every year from 2019 to 2026. Across 2019 to 2026, it averaged 0.9 questions per paper, rising to 1.1 questions per paper in the 2024 to 2026 interval. It produces a remarkably large number of numerical problems: 49 numerical answer questions were set between 2019 and 2026, mostly testing percentage compositions.
 

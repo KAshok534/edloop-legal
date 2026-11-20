@@ -1,17 +1,8 @@
-# Applications of Derivatives: JEE Main Guide
-
-Applications of Derivatives bridges the computational rules of calculus with geometric optimization and curve analysis in JEE Main. Across the 162 papers administered between 2019 and 2026, this chapter supplied 176 questions, capturing 3.9 percent of the total mathematics questions and standing at rank 13 among the 29 chapters in the subject. It appeared in 123 of those 162 papers and has been represented every single year since 2019. Over the recent 2024 to 2026 test cycles, it accounted for 40 questions across 58 papers, averaging 0.7 questions per paper and holding a 2.6 percent subject share. Comparing the earlier 2002 to 2018 share of 5.0 percent with the 2024 to 2026 share of 2.6 percent, the trend is down, and comparing the 2019 to 2026 share with 2024 to 2026 also shows it is down. Across the complete historical record from 2002 to 2026 spanning 200 papers, 241 questions appeared in 160 papers, with 41 questions featured in the numerical answer format from 2019 to 2026.
-
-```
-Applications of Derivatives in JEE Main (2019-2026)
-Total questions: 176 | Rank: 13 of 29 chapters
-Average per paper: 1.1 | Subject share: 3.9%
-Shift distribution: tested in 123 of 162 papers
-```
-
 ## How often it comes up
 
-In recent exam sessions, students can anticipate roughly one question per sitting dedicated to applications of derivatives, although some shifts incorporate related concepts directly within integral calculus or coordinate geometry. In the 2024, 2025, and 2026 testing periods, 20, 11, and 9 questions were asked respectively. 
+Applications of derivatives connects calculus rules with geometric optimization under Unit 7: Limit, Continuity and Differentiability in the Class 12 curriculum, standing at rank 13 among the 29 chapters in the subject. Across the 162 papers administered between 2019 and 2026, this chapter supplied 176 questions, capturing 3.9 percent of the total mathematics questions. It appeared in 123 of those 162 papers and has been represented every single year since 2019. Over the recent 2024 to 2026 test cycles, it accounted for 40 questions across 58 papers, averaging 0.7 questions per paper and holding a 2.6 percent subject share. Comparing the earlier 2002 to 2018 share of 5.0 percent with the 2024 to 2026 share of 2.6 percent, the trend is down, and comparing the 2019 to 2026 share with 2024 to 2026 also shows it is down. Across the complete historical record from 2002 to 2026 spanning 200 papers, 241 questions appeared in 160 papers, with 41 questions featured in the numerical answer format from 2019 to 2026.
+
+In the 2024, 2025, and 2026 testing periods, 20, 11, and 9 questions were asked respectively. 
 
 The downward trajectory in question volume reflects recent NTA syllabus reductions, notably the explicit deletion of tangents and normals. As a consequence, current examination papers concentrate primarily on extreme values, local turning points, and monotonic intervals.
 

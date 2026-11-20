@@ -1,10 +1,6 @@
-# JEE Main Complex Numbers: PYQ Trends & Preparation Guide
-
-Complex Numbers unites algebraic equations with Argand plane coordinate geometry. Essential themes include modulus and conjugate properties, triangle inequalities, polar and Euler representations, cube roots of unity (omega), De Moivre's theorem, and geometric loci such as circles, straight-line perpendicular bisectors, and Apollonius circles.
-
 ## How often it comes up
 
-During the 2019 to 2026 test timeframe, Complex Numbers contributed 169 questions across 162 exam papers, making up 3.7% of the mathematics section and holding rank 14 of 29 chapters. In the earlier 2002 to 2018 testing period, it registered 46 questions across 38 papers with a 3.5% share. Over the recent 2024 to 2026 seasons, the chapter yielded 58 questions across 58 papers, accounting for a 3.7% share. Comparing both earlier time windows against 2024 to 2026, its testing share has remained about the same.
+Complex numbers unites algebra with Argand plane coordinate geometry under Unit 2: Complex Numbers and Quadratic Equations in the Class 11 curriculum, holding rank 14 of 29 chapters with a 3.7% share of the mathematics section. During the 2019 to 2026 test timeframe, Complex Numbers contributed 169 questions across 162 exam papers, making up 3.7% of the mathematics section and holding rank 14 of 29 chapters. In the earlier 2002 to 2018 testing period, it registered 46 questions across 38 papers with a 3.5% share. Over the recent 2024 to 2026 seasons, the chapter yielded 58 questions across 58 papers, accounting for a 3.7% share. Comparing both earlier time windows against 2024 to 2026, its testing share has remained about the same.
 
 The chapter has appeared every year from 2019 to 2026. Students met an average of 1.0 question per paper across 2019 to 2026, matching the 1.0 question per paper observed between 2024 and 2026. A substantial 37 numerical answer questions were set between 2019 and 2026, often requiring calculation of maximum distances or sum of squared moduli.
 

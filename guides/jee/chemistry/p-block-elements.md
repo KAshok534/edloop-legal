@@ -1,10 +1,6 @@
-# JEE Main p-Block Elements: PYQ Trends & Preparation Guide
-
-The p-block spans groups 13 through 18, representing the largest single unit of inorganic chemistry in JEE Main. Coverage includes inert pair effect, allotropy, catenation, oxoacids of phosphorus, sulfur, and halogens, interhalogen compounds, and noble gas fluorides.
-
 ## How often it comes up
 
-Across 2019 to 2026, p-Block Elements contributed 220 questions across 162 exam papers, making up 4.8% of the chemistry questions and securing rank 4 of 31 chapters. During the 2002 to 2018 period, it accounted for 71 questions across 38 papers with a 5.3% share. In the recent 2024 to 2026 window, the chapter delivered 77 questions across 58 papers, capturing a 5.0% share. Comparing both earlier windows against 2024 to 2026, its testing share has remained about the same.
+The p-block elements spans groups 13 through 18 under Unit 10: p-Block Elements in the Class 12 curriculum, holding rank 4 of 31 chapters with a 4.8% share of chemistry questions. Across 2019 to 2026, p-Block Elements contributed 220 questions across 162 exam papers, making up 4.8% of the chemistry questions and securing rank 4 of 31 chapters. During the 2002 to 2018 period, it accounted for 71 questions across 38 papers with a 5.3% share. In the recent 2024 to 2026 window, the chapter delivered 77 questions across 58 papers, capturing a 5.0% share. Comparing both earlier windows against 2024 to 2026, its testing share has remained about the same.
 
 The chapter has appeared every year from 2019 to 2026. Across 2019 to 2026, candidates faced an average of 1.4 questions per paper, and 1.3 questions per paper between 2024 and 2026. While largely descriptive, examiners included 25 numerical answer questions between 2019 and 2026, primarily concerning oxidation states, lone pairs, or bond atomicity.
 

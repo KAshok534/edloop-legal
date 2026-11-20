@@ -1,17 +1,8 @@
-# Circles: JEE Main Guide
-
-Circles forms the central pillar of conic geometry in JEE Main. Across the 162 papers conducted between 2019 and 2026, the examination contained 149 questions from this chapter, representing 3.3 percent of all mathematics questions and placing it at rank 17 among the 29 chapters in the subject. It appeared in 121 of those 162 papers and has been tested every year since 2019. Over the recent 2024 to 2026 testing period, 45 questions were asked across 58 papers, averaging 0.8 questions per paper with a 2.9 percent subject share. Comparing the earlier 2002 to 2018 share of 3.9 percent against 2024 to 2026 indicates that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2026 spanning 200 papers, 200 questions were asked in 157 papers, with 45 numerical answer questions appearing between 2019 and 2026.
-
-```
-Circles in JEE Main (2019-2026)
-Total questions: 149 | Rank: 17 of 29 chapters
-Average per paper: 0.9 | Subject share: 3.3%
-Testing breadth: included in 121 of 162 papers
-```
-
 ## How often it comes up
 
-Students can expect roughly one circle question in almost every examination session. In the 2019 to 2026 period, 121 out of 162 papers featured problems from this chapter. The annual question tallies for 2024, 2025, and 2026 were 19, 10, and 16 questions respectively.
+Circles forms the central pillar of conic geometry under Unit 10: Coordinate Geometry in the Class 11 curriculum, placing it at rank 17 among the 29 chapters in the subject. Across the 162 papers conducted between 2019 and 2026, the examination contained 149 questions from this chapter, representing 3.3 percent of all mathematics questions. It appeared in 121 of those 162 papers and has been tested every year since 2019. Over the recent 2024 to 2026 testing period, 45 questions were asked across 58 papers, averaging 0.8 questions per paper with a 2.9 percent subject share. Comparing the earlier 2002 to 2018 share of 3.9 percent against 2024 to 2026 indicates that its long-term share is down, while comparing 2019 to 2026 with 2024 to 2026 shows it is about the same. Across the complete archive from 2002 to 2026 spanning 200 papers, 200 questions were asked in 157 papers, with 45 numerical answer questions appearing between 2019 and 2026.
+
+The annual question tallies for 2024, 2025, and 2026 were 19, 10, and 16 questions respectively.
 
 Examiners frequently combine circles with lines, parabolas, and ellipses. Questions commonly ask for the locus of a moving geometric point or investigate mutual intersection properties between two circular boundaries, demanding both algebraic speed and geometric intuition.
 

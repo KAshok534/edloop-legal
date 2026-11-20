@@ -1,10 +1,6 @@
-# JEE Main Hydrogen: PYQ Trends & Preparation Guide
-
-Hydrogen covers the chemistry of dihydrogen, isotopes (protium, deuterium, and tritium), hydrides, water, heavy water, and hydrogen peroxide. Following curriculum updates by the National Testing Agency, this chapter was officially removed from the syllabus in 2024.
-
 ## How often it comes up
 
-In the 2019 to 2026 examination span, Hydrogen accounted for 83 questions across 162 papers, representing 1.8% of the chemistry section and occupying rank 28 of 31 chapters. Prior to 2019, from 2002 to 2018, it contributed 12 questions across 38 papers with a 0.9% share. Across the recent 2024 to 2026 exam seasons, it recorded 0 questions across 58 papers, registering a 0.0% share. Its testing trajectory has trended down across recent sessions.
+Hydrogen covers the chemistry of dihydrogen and was formerly in the Class 11 curriculum before being removed in 2024, holding rank 28 of 31 chapters with a 1.8% share of the chemistry section. In the 2019 to 2026 examination span, Hydrogen accounted for 83 questions across 162 papers, representing 1.8% of the chemistry section and occupying rank 28 of 31 chapters. Prior to 2019, from 2002 to 2018, it contributed 12 questions across 38 papers with a 0.9% share. Across the recent 2024 to 2026 exam seasons, it recorded 0 questions across 58 papers, registering a 0.0% share. Its testing trajectory has trended down across recent sessions.
 
 The chapter was not asked in 2024, 2025, or 2026 following its curriculum removal. Between 2019 and 2026, it averaged 0.5 questions per paper, including 5 numerical answer questions.
 

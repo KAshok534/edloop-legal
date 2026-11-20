@@ -46,7 +46,7 @@ For mean free path problems, write the formula 1 / (√2 n π d²), where n is n
 
 ## Frequently asked questions
 
-### Is Kinetic Theory of Gases high scoring in JEE Main 2027?
+### Is Kinetic Theory of Gases regularly tested in JEE Main 2027?
 
 Yes. Kinetic Theory of Gases generated 146 questions across 162 papers in our collection from 2019 to 2026, averaging 0.9 questions per paper. It ranks 16th among 29 Physics chapters and appeared in 131 of those 162 papers.
 
