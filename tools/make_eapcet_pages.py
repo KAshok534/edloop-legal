@@ -12,7 +12,8 @@ Writes:
     sitemap-eapcet-q-<subject>.xml           sitemaps per subject
     sitemap-pages.xml and sitemap.xml        updated with EAPCET pages
 """
-import argparse, base64, collections, datetime, html, json, os, re, shutil, sqlite3, sys
+import argparse, base64, collections, datetime, html, io, json, os, re, shutil, sqlite3, sys
+from PIL import Image
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import make_question_pages as base
@@ -24,6 +25,7 @@ PLAY = 'https://play.google.com/store/apps/details?id=in.edloop.eapcet'
 SUBJECT_SLUG = {'math': 'mathematics', 'phy': 'physics', 'chem': 'chemistry'}
 SUBJECT_ORDER = ['math', 'phy', 'chem']
 E = html.escape
+FIGURE_QUALITY_OVERRIDES = {}
 
 # EAPCET HEAD: social image is social-eapcet.png
 HEAD_EAPCET = '''  <meta charset="utf-8">
@@ -251,15 +253,24 @@ def run(db_path, out=None, lastmod=None):
             fig_html = ''
             if qid in assets:
                 ar = assets[qid]
-                data = base64.b64decode(ar['data_base64'])
+                raw_data = base64.b64decode(ar['data_base64'])
+                im = Image.open(io.BytesIO(raw_data))
+                w, h = im.size
+                if w > 900:
+                    new_w = 900
+                    new_h = int(round(h * 900.0 / w))
+                    im = im.resize((new_w, new_h), Image.Resampling.LANCZOS)
+                else:
+                    new_w, new_h = w, h
                 img_path = os.path.join(root, 'eapcet', 'q', 'img', qid + '.webp')
-                with open(img_path, 'wb') as fh:
-                    fh.write(data)
-                sizes['img'] += len(data)
+                qual = FIGURE_QUALITY_OVERRIDES.get(qid, 75)
+                im.save(img_path, 'WEBP', quality=qual)
+                img_size = os.path.getsize(img_path)
+                sizes['img'] += img_size
                 n_img += 1
-                fig_html = ('<figure class="q-figure"><img src="/eapcet/q/img/%s.webp" width="%s" height="%s" loading="lazy" decoding="async" '
+                fig_html = ('<figure class="q-figure"><img src="/eapcet/q/img/%s.webp" width="%d" height="%d" loading="lazy" decoding="async" '
                             'alt="%s"><figcaption>The question as printed in the paper.</figcaption></figure>'
-                            % (qid, ar['width'] or '', ar['height'] or '',
+                            % (qid, new_w, new_h,
                                E(base.clip('The question and its figure as printed in %s. %s' % (paper_short(r), ' '.join(figdesc)), 700))))
 
             qtype = 'Numerical value' if r['qtype'] == 'numerical' else 'Multiple choice, one correct option'
