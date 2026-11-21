@@ -257,6 +257,8 @@ def main():
     ap.add_argument('db')
     ap.add_argument('--out', default=os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
     ap.add_argument('--lastmod', default=None)
+    ap.add_argument('--family', choices=['jee', 'eapcet'], default='jee',
+                    help="family of questions to generate (jee or eapcet; default: jee)")
     ap.add_argument('--figures', choices=['nta-only', 'all'], default='all',
                     help="all (default since 2026-11-18): every figure question gets a page; the content build cuts MathonGo's "
                          "footer advert out of memory-based crops (IIT-APP content/figures/advert_cuts.tsv, Prod load 2026-11-17). "
@@ -264,6 +266,10 @@ def main():
     ap.add_argument('--guides', default=None, help='chapter guides folder (IIT APP marketing/chapter-guides); default: tools/guides.py guides_root()')
     ap.add_argument('--no-guides', action='store_true', help='build chapter pages without guides (they would be removed from the site)')
     a = ap.parse_args()
+    if a.family == 'eapcet':
+        import make_eapcet_pages
+        make_eapcet_pages.run(a.db, out=a.out, lastmod=a.lastmod)
+        return
     root = os.path.abspath(a.out)
     groot = None if a.no_guides else (os.path.abspath(a.guides) if a.guides else guides.guides_root(root))
     if not a.no_guides and not (groot and os.path.isdir(os.path.join(groot, 'jee'))):
